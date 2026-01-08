@@ -30,7 +30,7 @@ class TrainingConfig:
 
     # Optimization
     fp16: bool = True
-    gradient_checkpointing: bool = True
+    gradient_checkpointing: bool = False  # Disabled due to backward pass issues
     optim: str = "adamw_torch"
     weight_decay: float = 0.01
     max_grad_norm: float = 1.0
@@ -94,7 +94,7 @@ class TrainingConfig:
             "optim": self.optim,
             "weight_decay": self.weight_decay,
             "max_grad_norm": self.max_grad_norm,
-            "evaluation_strategy": self.eval_strategy,
+            "eval_strategy": self.eval_strategy,
             "load_best_model_at_end": self.load_best_model_at_end,
             "metric_for_best_model": self.metric_for_best_model,
             "greater_is_better": self.greater_is_better,

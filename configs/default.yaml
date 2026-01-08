@@ -9,6 +9,61 @@ data:
   val_split: 0.1
   test_split: 0.1
 
+  # Dataset directories
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  manifests_dir: "data/splits"
+
+# External datasets configuration
+datasets:
+  # ParlamentParla - Catalan Parliament (OpenSLR 59)
+  # License: CC BY 4.0 | 320 hours total (90h clean + 230h other)
+  parlament-clean:
+    enabled: true
+    language: "ca"
+    source: "openslr"
+    url: "https://openslr.trmal.net/resources/59/parlament_v1.0_clean.tar.gz"
+    hours: 90
+    priority: 1  # Higher priority = used first
+
+  parlament-other:
+    enabled: false  # Enable for more data (lower quality)
+    language: "ca"
+    source: "openslr"
+    url: "https://openslr.trmal.net/resources/59/parlament_v1.0_other.tar.gz"
+    hours: 230
+    priority: 3
+
+  # Google Crowdsourced Catalan (OpenSLR 69)
+  # License: CC BY-SA 4.0 | ~1.8 GB total
+  google-catalan-female:
+    enabled: true
+    language: "ca"
+    source: "openslr"
+    url: "https://openslr.trmal.net/resources/69/ca_es_female.zip"
+    index_file: "line_index_female.tsv"
+    priority: 2
+
+  google-catalan-male:
+    enabled: true
+    language: "ca"
+    source: "openslr"
+    url: "https://openslr.trmal.net/resources/69/ca_es_male.zip"
+    index_file: "line_index_male.tsv"
+    priority: 2
+
+  # Spanish Conversational Corpus (MagicHub)
+  # License: CC BY-NC-ND 4.0 | 5.56 hours
+  # Note: Requires manual download from MagicHub
+  spanish-conversational:
+    enabled: true
+    language: "es"
+    source: "magichub"
+    manual_download: true
+    download_url: "https://magichub.com/datasets/spanish-conversational-speech-corpus/"
+    hours: 5.56
+    priority: 2
+
 # Whisper model settings
 model:
   base_model: "openai/whisper-small"  # Options: whisper-tiny, whisper-base, whisper-small, whisper-medium, whisper-large-v3

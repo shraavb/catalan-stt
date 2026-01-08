@@ -39,7 +39,7 @@ class SyntheticDataGenerator:
         "mateo": "bVMeCyTHy58xNoL34h3p",  # Spanish male
         "lucia": "XB0fDUnXU5powFXDhCwa",  # Spanish female (European)
         "pablo": "TX3LPaxmHKxFdv7VOQHJ",  # Spanish male (Latin American)
-        "valentina": "YQnOo5xWpgqoVLBT5G8p",  # Spanish female (Latin American)
+        "sara": "gD1IexrzCvsXPHUuT0s3",  # Spanish female (Peninsular)
     }
 
     def __init__(
@@ -61,10 +61,8 @@ class SyntheticDataGenerator:
 
         # Try to import elevenlabs
         try:
-            from elevenlabs import generate, save, set_api_key
-            set_api_key(self.api_key)
-            self._generate = generate
-            self._save = save
+            from elevenlabs import ElevenLabs
+            self._client = ElevenLabs(api_key=self.api_key)
         except ImportError:
             raise ImportError("Please install elevenlabs: pip install elevenlabs")
 
@@ -86,15 +84,18 @@ class SyntheticDataGenerator:
         output_path = self.output_dir / output_filename
 
         try:
-            audio = self._generate(
+            audio_generator = self._client.text_to_speech.convert(
                 text=text,
-                voice=voice,
-                model="eleven_multilingual_v2",  # Best for non-English
+                voice_id=voice,
+                model_id="eleven_multilingual_v2",  # Best for non-English
             )
 
-            self._save(audio, str(output_path))
+            # Write audio to file
+            with open(output_path, "wb") as f:
+                for chunk in audio_generator:
+                    f.write(chunk)
 
-            # Get duration (rough estimate from file size for MP3)
+            # Get duration
             import librosa
             duration = librosa.get_duration(path=str(output_path))
 

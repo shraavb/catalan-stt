@@ -82,31 +82,67 @@ python -m http.server 8080 --directory demo
 
 ## Training Your Own Model
 
-### Step 1: Prepare Your Data
+### Step 1: Download Public Datasets
 
-Create a manifest file (`data/splits/train.json`):
+We provide scripts to download high-quality open-source speech datasets:
 
+| Dataset | Language | Size | Hours | License |
+|---------|----------|------|-------|---------|
+| [ParlamentParla Clean](https://openslr.org/59/) | Catalan | 7.7 GB | 90h | CC BY 4.0 |
+| [ParlamentParla Other](https://openslr.org/59/) | Catalan | 19 GB | 230h | CC BY 4.0 |
+| [Google Crowdsourced](https://openslr.org/69/) | Catalan | 1.8 GB | - | CC BY-SA 4.0 |
+| [Spanish Conversational](https://magichub.com/datasets/spanish-conversational-speech-corpus/) | Spanish | 514 MB | 5.5h | CC BY-NC-ND 4.0 |
+
+```bash
+# List available datasets
+python scripts/download_datasets.py --list
+
+# Download quick test set (Google Crowdsourced - ~2GB)
+python scripts/download_datasets.py --dataset quick
+
+# Download all Catalan datasets (~28GB)
+python scripts/download_datasets.py --dataset catalan
+
+# Download specific dataset
+python scripts/download_datasets.py --dataset parlament-clean
+```
+
+> **Note**: The Spanish Conversational Corpus requires a free MagicHub account. The script will provide instructions.
+
+### Step 2: Preprocess & Create Manifests
+
+```bash
+# Process downloaded data and create train/val/test splits
+python scripts/prepare_datasets.py \
+    --input-dir data/raw \
+    --output-dir data/processed \
+    --manifests-dir data/splits
+
+# Process with custom split ratios
+python scripts/prepare_datasets.py \
+    --train-ratio 0.85 \
+    --val-ratio 0.10 \
+    --workers 8
+```
+
+This will:
+- Resample all audio to 16kHz mono
+- Normalize audio levels
+- Trim silence
+- Create JSON manifests for training
+
+**Manifest format** (`data/splits/train.json`):
 ```json
 [
   {
-    "audio_path": "data/processed/sample_001.wav",
+    "audio_path": "data/processed/parlament-clean/sample_001.wav",
     "transcript": "Hola, ¿cómo estás, nen?",
     "duration": 2.5,
-    "language": "es"
+    "language": "ca",
+    "speaker_id": "spk_001",
+    "dataset": "parlament-clean"
   }
 ]
-```
-
-### Step 2: Preprocess Audio
-
-```python
-from src.data import AudioPreprocessor, batch_preprocess
-
-# Preprocess all audio files
-batch_preprocess(
-    input_dir="data/raw",
-    output_dir="data/processed",
-)
 ```
 
 ### Step 3: Fine-tune Whisper
@@ -262,7 +298,7 @@ Deploy as a Gradio app on Hugging Face Spaces for a public demo.
 
 ## Roadmap
 
-- [ ] Collect real Catalan-Spanish audio recordings
+- [x] Integrate open-source Catalan/Spanish speech datasets
 - [ ] Fine-tune Whisper-small on collected data
 - [ ] Benchmark against vanilla Whisper
 - [ ] Deploy to Hugging Face Spaces
