@@ -8,7 +8,7 @@ echo "=== CatalanSTT RunPod Setup ==="
 
 # Install dependencies
 echo "Installing dependencies..."
-pip install -q torch transformers datasets librosa jiwer evaluate tensorboard accelerate
+pip install -q torch transformers datasets librosa jiwer evaluate tensorboard accelerate huggingface_hub tqdm requests
 
 # Clone repo (if not already present)
 if [ ! -d "catalan-stt" ]; then
@@ -23,11 +23,49 @@ fi
 # Set PYTHONPATH so 'src' module is found
 export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 
-# Download datasets
-echo "Downloading datasets (~2GB)..."
-python scripts/download_datasets.py --dataset quick
+# Create data directories
+mkdir -p data/raw/archives
+
+# Download datasets from Hugging Face (~1.8GB)
+echo ""
+echo "Downloading datasets from Hugging Face (~1.8GB)..."
+python -c "
+from huggingface_hub import hf_hub_download
+import os
+
+os.makedirs('data/raw/archives', exist_ok=True)
+
+print('Downloading ca_es_female.zip...')
+hf_hub_download(
+    repo_id='shraavb/catalan-stt-data',
+    filename='ca_es_female.zip',
+    repo_type='dataset',
+    local_dir='data/raw/archives',
+    local_dir_use_symlinks=False
+)
+
+print('Downloading ca_es_male.zip...')
+hf_hub_download(
+    repo_id='shraavb/catalan-stt-data',
+    filename='ca_es_male.zip',
+    repo_type='dataset',
+    local_dir='data/raw/archives',
+    local_dir_use_symlinks=False
+)
+
+print('Downloads complete!')
+"
+
+# Extract datasets
+echo ""
+echo "Extracting datasets..."
+mkdir -p data/raw/google-catalan-female data/raw/google-catalan-male
+unzip -q -o data/raw/archives/ca_es_female.zip -d data/raw/google-catalan-female
+unzip -q -o data/raw/archives/ca_es_male.zip -d data/raw/google-catalan-male
+echo "Extraction complete!"
 
 # Prepare data
+echo ""
 echo "Preparing datasets..."
 python scripts/prepare_datasets.py --input-dir data/raw --output-dir data/processed
 
