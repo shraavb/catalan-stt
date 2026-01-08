@@ -53,9 +53,17 @@ data/raw/google-catalan-male/
 data/processed/**/*.wav
 !data/**/.gitkeep
 
-# Environment
+# Environment and secrets
 .env
+.env.*
 .env.local
+*.secret
+*.secrets
+**/secrets/
+.netrc
+.huggingface/
+huggingface_token.txt
+hf_token.txt
 
 # Logs
 logs/
