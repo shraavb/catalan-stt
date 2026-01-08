@@ -314,7 +314,3 @@ MIT License - see [LICENSE](LICENSE) for details.
 - [OpenAI Whisper](https://github.com/openai/whisper) for the base model
 - [ElevenLabs](https://elevenlabs.io) for TTS API
 - [faster-whisper](https://github.com/guillaumekln/faster-whisper) for optimized inference
-
----
-
-*Built as a portfolio project for ElevenLabs Forward Deployed Engineer role*
