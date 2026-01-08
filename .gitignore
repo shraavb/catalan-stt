@@ -42,11 +42,15 @@ models/*.bin
 models/*.safetensors
 !models/.gitkeep
 
-# Data (large files - use DVC or similar)
-data/raw/*.wav
-data/raw/*.mp3
-data/raw/*.m4a
-data/processed/*.wav
+# Data (large files - store on Hugging Face Datasets)
+data/raw/**/*.wav
+data/raw/**/*.mp3
+data/raw/**/*.m4a
+data/raw/**/*.zip
+data/raw/archives/
+data/raw/google-catalan-female/
+data/raw/google-catalan-male/
+data/processed/**/*.wav
 !data/**/.gitkeep
 
 # Environment
