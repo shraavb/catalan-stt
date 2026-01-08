@@ -8,17 +8,20 @@ echo "=== CatalanSTT RunPod Setup ==="
 
 # Install dependencies
 echo "Installing dependencies..."
-pip install -q torch transformers datasets librosa jiwer evaluate tensorboard elevenlabs
+pip install -q torch transformers datasets librosa jiwer evaluate tensorboard accelerate
 
 # Clone repo (if not already present)
 if [ ! -d "catalan-stt" ]; then
     echo "Cloning repository..."
-    git clone https://github.com/YOUR_USERNAME/catalan-stt.git
+    git clone https://github.com/shraavb/catalan-stt.git
     cd catalan-stt
 else
     cd catalan-stt
     git pull
 fi
+
+# Set PYTHONPATH so 'src' module is found
+export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 
 # Download datasets
 echo "Downloading datasets (~2GB)..."
@@ -37,6 +40,7 @@ echo ""
 echo "=== Ready to Train ==="
 echo "Run the following command to start training:"
 echo ""
+echo "export PYTHONPATH=\${PYTHONPATH}:\$(pwd)"
 echo "python scripts/train.py \\"
 echo "  --config configs/default.yaml \\"
 echo "  --train-manifest data/splits/train.json \\"
