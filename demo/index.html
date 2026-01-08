@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatalanSTT Demo</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --success: #10b981;
+            --error: #ef4444;
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--primary), #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .record-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .record-btn {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: none;
+            background: var(--primary);
+            color: white;
+            font-size: 2.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .record-btn:hover {
+            background: var(--primary-dark);
+            transform: scale(1.05);
+        }
+
+        .record-btn.recording {
+            background: var(--error);
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .status {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .upload-section {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .file-input-wrapper {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .file-label {
+            display: block;
+            padding: 1rem;
+            border: 2px dashed #475569;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .file-label:hover {
+            border-color: var(--primary);
+            background: rgba(99, 102, 241, 0.1);
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .results {
+            display: none;
+        }
+
+        .results.visible {
+            display: block;
+        }
+
+        .transcript {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            border-radius: 8px;
+            font-size: 1.25rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .metric {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .metric-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        .word-timestamps {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .word {
+            padding: 0.25rem 0.5rem;
+            background: rgba(99, 102, 241, 0.2);
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        .word:hover {
+            background: rgba(99, 102, 241, 0.4);
+        }
+
+        .settings {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        select {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            border: 1px solid #475569;
+            background: var(--surface);
+            color: var(--text);
+            font-size: 0.9rem;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .loading.visible {
+            display: block;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #475569;
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CatalanSTT</h1>
+            <p class="subtitle">Speech-to-Text for Catalan-accented Spanish</p>
+        </header>
+
+        <div class="card">
+            <h2>🎤 Record Audio</h2>
+            <div class="settings">
+                <select id="language">
+                    <option value="es">Spanish (es)</option>
+                    <option value="ca">Catalan (ca)</option>
+                </select>
+                <label>
+                    <input type="checkbox" id="wordTimestamps" checked>
+                    Word timestamps
+                </label>
+            </div>
+            <div class="record-section">
+                <button class="record-btn" id="recordBtn">🎙️</button>
+                <p class="status" id="recordStatus">Click to start recording</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📁 Upload Audio</h2>
+            <div class="upload-section">
+                <div class="file-input-wrapper">
+                    <input type="file" id="audioFile" class="file-input" accept="audio/*">
+                    <label for="audioFile" class="file-label" id="fileLabel">
+                        Drop audio file here or click to browse
+                    </label>
+                </div>
+                <button class="btn btn-primary" id="uploadBtn" disabled>Transcribe</button>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Transcribing audio...</p>
+        </div>
+
+        <div class="card results" id="results">
+            <h2>📝 Transcription</h2>
+            <div class="transcript" id="transcript"></div>
+            <div class="metrics">
+                <div class="metric">
+                    <div class="metric-value" id="confidence">--</div>
+                    <div class="metric-label">Confidence</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value" id="duration">--</div>
+                    <div class="metric-label">Duration</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value" id="processingTime">--</div>
+                    <div class="metric-label">Processing</div>
+                </div>
+            </div>
+            <div class="word-timestamps" id="wordTimestampsDisplay"></div>
+        </div>
+
+        <footer>
+            <p>Built for <a href="https://elevenlabs.io" target="_blank">ElevenLabs</a> FDE application</p>
+            <p>Model: Whisper fine-tuned on Catalan-Spanish data</p>
+        </footer>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:8000';
+
+        let mediaRecorder = null;
+        let audioChunks = [];
+        let isRecording = false;
+
+        const recordBtn = document.getElementById('recordBtn');
+        const recordStatus = document.getElementById('recordStatus');
+        const audioFile = document.getElementById('audioFile');
+        const fileLabel = document.getElementById('fileLabel');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const loading = document.getElementById('loading');
+        const results = document.getElementById('results');
+
+        // Recording
+        recordBtn.addEventListener('click', toggleRecording);
+
+        async function toggleRecording() {
+            if (isRecording) {
+                stopRecording();
+            } else {
+                await startRecording();
+            }
+        }
+
+        async function startRecording() {
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                mediaRecorder = new MediaRecorder(stream);
+                audioChunks = [];
+
+                mediaRecorder.ondataavailable = (e) => {
+                    audioChunks.push(e.data);
+                };
+
+                mediaRecorder.onstop = async () => {
+                    const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                    await transcribeBlob(audioBlob);
+                };
+
+                mediaRecorder.start();
+                isRecording = true;
+                recordBtn.classList.add('recording');
+                recordBtn.textContent = '⏹️';
+                recordStatus.textContent = 'Recording... Click to stop';
+            } catch (err) {
+                console.error('Failed to start recording:', err);
+                recordStatus.textContent = 'Error: Could not access microphone';
+            }
+        }
+
+        function stopRecording() {
+            if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+                mediaRecorder.stop();
+                mediaRecorder.stream.getTracks().forEach(track => track.stop());
+            }
+            isRecording = false;
+            recordBtn.classList.remove('recording');
+            recordBtn.textContent = '🎙️';
+            recordStatus.textContent = 'Click to start recording';
+        }
+
+        // File upload
+        audioFile.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                fileLabel.textContent = file.name;
+                uploadBtn.disabled = false;
+            }
+        });
+
+        uploadBtn.addEventListener('click', async () => {
+            const file = audioFile.files[0];
+            if (file) {
+                await transcribeFile(file);
+            }
+        });
+
+        // Transcription
+        async function transcribeBlob(blob) {
+            const reader = new FileReader();
+            reader.onloadend = async () => {
+                const base64 = reader.result.split(',')[1];
+                await transcribe({ audio_base64: base64 });
+            };
+            reader.readAsDataURL(blob);
+        }
+
+        async function transcribeFile(file) {
+            const formData = new FormData();
+            formData.append('file', file);
+            formData.append('language', document.getElementById('language').value);
+            formData.append('word_timestamps', document.getElementById('wordTimestamps').checked);
+
+            showLoading();
+
+            try {
+                const response = await fetch(`${API_URL}/transcribe/upload`, {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                if (!response.ok) throw new Error('Transcription failed');
+
+                const data = await response.json();
+                showResults(data);
+            } catch (err) {
+                console.error('Transcription error:', err);
+                alert('Transcription failed. Make sure the API server is running.');
+            } finally {
+                hideLoading();
+            }
+        }
+
+        async function transcribe(payload) {
+            payload.language = document.getElementById('language').value;
+            payload.word_timestamps = document.getElementById('wordTimestamps').checked;
+
+            showLoading();
+
+            try {
+                const response = await fetch(`${API_URL}/transcribe`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                });
+
+                if (!response.ok) throw new Error('Transcription failed');
+
+                const data = await response.json();
+                showResults(data);
+            } catch (err) {
+                console.error('Transcription error:', err);
+                alert('Transcription failed. Make sure the API server is running.');
+            } finally {
+                hideLoading();
+            }
+        }
+
+        function showLoading() {
+            loading.classList.add('visible');
+            results.classList.remove('visible');
+        }
+
+        function hideLoading() {
+            loading.classList.remove('visible');
+        }
+
+        function showResults(data) {
+            document.getElementById('transcript').textContent = data.text || 'No transcription';
+            document.getElementById('confidence').textContent =
+                data.confidence ? `${(data.confidence * 100).toFixed(1)}%` : '--';
+            document.getElementById('duration').textContent =
+                data.duration_seconds ? `${data.duration_seconds.toFixed(1)}s` : '--';
+            document.getElementById('processingTime').textContent =
+                data.processing_time_ms ? `${data.processing_time_ms.toFixed(0)}ms` : '--';
+
+            // Word timestamps
+            const wordsContainer = document.getElementById('wordTimestampsDisplay');
+            wordsContainer.innerHTML = '';
+
+            if (data.words && data.words.length > 0) {
+                data.words.forEach(word => {
+                    const wordEl = document.createElement('span');
+                    wordEl.className = 'word';
+                    wordEl.textContent = word.word;
+                    wordEl.title = `${word.start.toFixed(2)}s - ${word.end.toFixed(2)}s (${(word.confidence * 100).toFixed(0)}%)`;
+                    wordsContainer.appendChild(wordEl);
+                });
+            }
+
+            results.classList.add('visible');
+        }
+    </script>
+</body>
+</html>

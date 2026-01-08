@@ -1,0 +1,74 @@
+# CatalanSTT Configuration
+
+# Data settings
+data:
+  sample_rate: 16000
+  max_duration_seconds: 30
+  min_duration_seconds: 0.5
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
+
+# Whisper model settings
+model:
+  base_model: "openai/whisper-small"  # Options: whisper-tiny, whisper-base, whisper-small, whisper-medium, whisper-large-v3
+  language: "es"  # Spanish
+  task: "transcribe"
+
+# Training settings
+training:
+  output_dir: "./models/catalan-whisper"
+  num_train_epochs: 3
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 8
+  gradient_accumulation_steps: 2
+  learning_rate: 1.0e-5
+  warmup_steps: 500
+  max_steps: -1  # -1 means use num_train_epochs
+  save_steps: 500
+  eval_steps: 500
+  logging_steps: 100
+  fp16: true
+  push_to_hub: false
+
+# Audio preprocessing
+preprocessing:
+  normalize_audio: true
+  target_db: -20
+  trim_silence: true
+  silence_threshold_db: -40
+
+# Evaluation
+evaluation:
+  metrics:
+    - wer  # Word Error Rate
+    - cer  # Character Error Rate
+  num_beams: 5
+
+# Catalan-specific vocabulary
+catalan_markers:
+  lexical:
+    - "nen"
+    - "nena"
+    - "home"
+    - "ostras"
+    - "apa"
+    - "vale"
+    - "bueno"
+  phonetic_patterns:
+    - pattern: "pues"
+      catalan: "pos"
+    - pattern: "muy"
+      catalan: "moi"
+
+# API settings
+api:
+  host: "0.0.0.0"
+  port: 8000
+  max_audio_size_mb: 25
+  supported_formats:
+    - "wav"
+    - "mp3"
+    - "m4a"
+    - "ogg"
+    - "flac"
