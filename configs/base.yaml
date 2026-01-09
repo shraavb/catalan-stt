@@ -37,6 +37,20 @@ training:
   fp16: true
   push_to_hub: false
 
+# Fine-tuning settings (for Approach 2: base + regional fine-tuning)
+fine_tuning:
+  # Use unified model as starting point for regional fine-tuning
+  base_model_hub: "shraavb/spanish-slang-whisper"
+  # Reduced epochs for fine-tuning (model already knows Spanish)
+  num_epochs: 2
+  # Lower learning rate for fine-tuning to avoid catastrophic forgetting
+  learning_rate: 5.0e-6
+  # Warmup is shorter since model is pre-adapted
+  warmup_steps: 100
+  # Save more frequently during fine-tuning
+  save_steps: 250
+  eval_steps: 250
+
 # Audio preprocessing
 preprocessing:
   normalize_audio: true
