@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.6 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19382087203695242 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.19382087203695242 
+            xmax = 0.5432061824272879 
+            text = "nO" 
+        intervals [3]:
+            xmin = 0.5432061824272879 
+            xmax = 0.8081089792396324 
+            text = "Es" 
+        intervals [4]:
+            xmin = 0.8081089792396324 
+            xmax = 1.2434087102177553 
+            text = "tambiEn" 
+        intervals [5]:
+            xmin = 1.2434087102177553 
+            xmax = 1.64705882353 
+            text = "pArte" 
+        intervals [6]:
+            xmin = 1.64705882353 
+            xmax = 1.7934280780085885 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.7934280780085885 
+            xmax = 2.180042970653632 
+            text = "lA" 
+        intervals [8]:
+            xmin = 2.180042970653632 
+            xmax = 2.5023077357758896 
+            text = "fAlta" 
+        intervals [9]:
+            xmin = 2.5023077357758896 
+            xmax = 2.612564575530217 
+            text = "dE" 
+        intervals [10]:
+            xmin = 2.612564575530217 
+            xmax = 2.9377316988239777 
+            text = "cultUra" 
+        intervals [11]:
+            xmin = 2.9377316988239777 
+            xmax = 3.398805755978436 
+            text = "cIvica" 
+        intervals [12]:
+            xmin = 3.398805755978436 
+            xmax = 3.588832639881103 
+            text = "dE" 
+        intervals [13]:
+            xmin = 3.588832639881103 
+            xmax = 4.034155719927801 
+            text = "Un" 
+        intervals [14]:
+            xmin = 4.034155719927801 
+            xmax = 4.139124413092554 
+            text = "dEl" 
+        intervals [15]:
+            xmin = 4.139124413092554 
+            xmax = 4.80352926563811 
+            text = "ciudadAno" 
+        intervals [16]:
+            xmin = 4.80352926563811 
+            xmax = 5.483502106492057 
+            text = "porquEe" 
+        intervals [17]:
+            xmin = 5.483502106492057 
+            xmax = 5.6 
+            text = "<sil>" 

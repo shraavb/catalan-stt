@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.2 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.2 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15565478574289143 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.15565478574289143 
+            xmax = 0.4607328794553464 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.4607328794553464 
+            xmax = 0.6914016820184221 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.6914016820184221 
+            xmax = 1.279235082098518 
+            text = "proyEcta" 
+        intervals [5]:
+            xmin = 1.279235082098518 
+            xmax = 1.4206127352823388 
+            text = "lAs" 
+        intervals [6]:
+            xmin = 1.4206127352823388 
+            xmax = 1.7554545454545454 
+            text = "lEyes" 
+        intervals [7]:
+            xmin = 1.7554545454545454 
+            xmax = 2.395374449339207 
+            text = "pAra" 
+        intervals [8]:
+            xmin = 2.395374449339207 
+            xmax = 2.7823027633159794 
+            text = "lA" 
+        intervals [9]:
+            xmin = 2.7823027633159794 
+            xmax = 3.117144573488186 
+            text = "cAmara" 
+        intervals [10]:
+            xmin = 3.117144573488186 
+            xmax = 3.295726872246696 
+            text = "dE" 
+        intervals [11]:
+            xmin = 3.295726872246696 
+            xmax = 3.67521425710853 
+            text = "diputAdos" 
+        intervals [12]:
+            xmin = 3.67521425710853 
+            xmax = 3.8314737685222267 
+            text = "O" 
+        intervals [13]:
+            xmin = 3.8314737685222267 
+            xmax = 4.1737565078093715 
+            text = "cAmara" 
+        intervals [14]:
+            xmin = 4.1737565078093715 
+            xmax = 4.330016019223067 
+            text = "dE" 
+        intervals [15]:
+            xmin = 4.330016019223067 
+            xmax = 4.875 
+            text = "senadOres" 
+        intervals [16]:
+            xmin = 4.875 
+            xmax = 5.2 
+            text = "<sil>" 

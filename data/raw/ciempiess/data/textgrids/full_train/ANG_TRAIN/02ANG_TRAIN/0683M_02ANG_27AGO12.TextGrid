@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.28 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.28 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12596248684718017 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12596248684718017 
+            xmax = 0.9372583514858508 
+            text = "encontrAndose" 
+        intervals [3]:
+            xmin = 0.9372583514858508 
+            xmax = 0.9795352777888693 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.9795352777888693 
+            xmax = 1.6068334545552792 
+            text = "narcotIco" 
+        intervals [5]:
+            xmin = 1.6068334545552792 
+            xmax = 1.9343496041779262 
+            text = "dEntro" 
+        intervals [6]:
+            xmin = 1.9343496041779262 
+            xmax = 2.0451837082696236 
+            text = "dE" 
+        intervals [7]:
+            xmin = 2.0451837082696236 
+            xmax = 2.2405716649673577 
+            text = "lA" 
+        intervals [8]:
+            xmin = 2.2405716649673577 
+            xmax = 2.627564777689246 
+            text = "tAbla" 
+        intervals [9]:
+            xmin = 2.627564777689246 
+            xmax = 2.7806758080839615 
+            text = "En" 
+        intervals [10]:
+            xmin = 2.7806758080839615 
+            xmax = 3.3047694214005645 
+            text = "lA" 
+        intervals [11]:
+            xmin = 3.3047694214005645 
+            xmax = 3.5473821016915115 
+            text = "En" 
+        intervals [12]:
+            xmin = 3.5473821016915115 
+            xmax = 3.715347187273774 
+            text = "lA" 
+        intervals [13]:
+            xmin = 3.715347187273774 
+            xmax = 4.097902305088114 
+            text = "dOsis" 
+        intervals [14]:
+            xmin = 4.097902305088114 
+            xmax = 4.928 
+            text = "establecIda" 
+        intervals [15]:
+            xmin = 4.928 
+            xmax = 5.28 
+            text = "<sil>" 

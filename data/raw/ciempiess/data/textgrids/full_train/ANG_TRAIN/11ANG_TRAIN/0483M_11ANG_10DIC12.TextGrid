@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.78 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.78 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08219396524285441 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08219396524285441 
+            xmax = 0.20325970874695284 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.20325970874695284 
+            xmax = 0.5141041853115299 
+            text = "podrIa" 
+        intervals [4]:
+            xmin = 0.5141041853115299 
+            xmax = 0.7006108712502761 
+            text = "sEr" 
+        intervals [5]:
+            xmin = 0.7006108712502761 
+            xmax = 0.8445809446065012 
+            text = "El" 
+        intervals [6]:
+            xmin = 0.8445809446065012 
+            xmax = 0.9983671593279235 
+            text = "quE" 
+        intervals [7]:
+            xmin = 0.9983671593279235 
+            xmax = 1.4139171437879372 
+            text = "requiEre" 
+        intervals [8]:
+            xmin = 1.4139171437879372 
+            xmax = 1.548071075778965 
+            text = "dE" 
+        intervals [9]:
+            xmin = 1.548071075778965 
+            xmax = 1.8229230340044857 
+            text = "mAyor" 
+        intervals [10]:
+            xmin = 1.8229230340044857 
+            xmax = 2.150127746177725 
+            text = "nUmero" 
+        intervals [11]:
+            xmin = 2.150127746177725 
+            xmax = 2.310458055142612 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.310458055142612 
+            xmax = 2.856889924471921 
+            text = "consUltas" 
+        intervals [13]:
+            xmin = 2.856889924471921 
+            xmax = 2.9550513381238925 
+            text = "y" 
+        intervals [14]:
+            xmin = 2.9550513381238925 
+            xmax = 3.0564847988975967 
+            text = "dE" 
+        intervals [15]:
+            xmin = 3.0564847988975967 
+            xmax = 3.528 
+            text = "cItas" 
+        intervals [16]:
+            xmin = 3.528 
+            xmax = 3.78 
+            text = "<sil>" 

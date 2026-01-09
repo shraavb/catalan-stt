@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.11 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.11 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.059548950333204766 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.059548950333204766 
+            xmax = 0.2614550326464534 
+            text = "sI" 
+        intervals [3]:
+            xmin = 0.2614550326464534 
+            xmax = 0.4256719795945623 
+            text = "tOm" 
+        intervals [4]:
+            xmin = 0.4256719795945623 
+            xmax = 0.5521997911775315 
+            text = "sI" 
+        intervals [5]:
+            xmin = 0.5521997911775315 
+            xmax = 0.8537128740986495 
+            text = "hacEmos" 
+        intervals [6]:
+            xmin = 0.8537128740986495 
+            xmax = 1.384052850308116 
+            text = "cuEntas" 
+        intervals [7]:
+            xmin = 1.384052850308116 
+            xmax = 1.4675073643309253 
+            text = "vA" 
+        intervals [8]:
+            xmin = 1.4675073643309253 
+            xmax = 1.6694134466441741 
+            text = "llegAr" 
+        intervals [9]:
+            xmin = 1.6694134466441741 
+            xmax = 1.8740116100549327 
+            text = "Un" 
+        intervals [10]:
+            xmin = 1.8740116100549327 
+            xmax = 2.124375152123361 
+            text = "pUnto" 
+        intervals [11]:
+            xmin = 2.124375152123361 
+            xmax = 2.2401346393162904 
+            text = "En" 
+        intervals [12]:
+            xmin = 2.2401346393162904 
+            xmax = 2.37823529412 
+            text = "quE" 
+        intervals [13]:
+            xmin = 2.37823529412 
+            xmax = 2.4985744246772486 
+            text = "El" 
+        intervals [14]:
+            xmin = 2.4985744246772486 
+            xmax = 2.6116418307726676 
+            text = "quE" 
+        intervals [15]:
+            xmin = 2.6116418307726676 
+            xmax = 2.9535361301564356 
+            text = "gAna" 
+        intervals [16]:
+            xmin = 2.9535361301564356 
+            xmax = 3.11 
+            text = "<sil>" 

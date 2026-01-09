@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.65 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.65 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1099897761902024 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1099897761902024 
+            xmax = 0.29087642666168356 
+            text = "cOmo" 
+        intervals [3]:
+            xmin = 0.29087642666168356 
+            xmax = 0.37620031839351425 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.37620031839351425 
+            xmax = 0.5912165255577278 
+            text = "nuEvo" 
+        intervals [5]:
+            xmin = 0.5912165255577278 
+            xmax = 1.2260262800425483 
+            text = "dirigEnte" 
+        intervals [6]:
+            xmin = 1.2260262800425483 
+            xmax = 1.325001994451472 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.325001994451472 
+            xmax = 1.458107265553128 
+            text = "dEl" 
+        intervals [8]:
+            xmin = 1.458107265553128 
+            xmax = 1.9393340149206533 
+            text = "partIdo" 
+        intervals [9]:
+            xmin = 1.9393340149206533 
+            xmax = 2.0929170200379486 
+            text = "dE" 
+        intervals [10]:
+            xmin = 2.0929170200379486 
+            xmax = 2.2669777591708833 
+            text = "lA" 
+        intervals [11]:
+            xmin = 2.2669777591708833 
+            xmax = 2.727726774522769 
+            text = "revolucIon" 
+        intervals [12]:
+            xmin = 2.727726774522769 
+            xmax = 3.4478604207394206 
+            text = "democrAtica" 
+        intervals [13]:
+            xmin = 3.4478604207394206 
+            xmax = 3.65 
+            text = "<sil>" 

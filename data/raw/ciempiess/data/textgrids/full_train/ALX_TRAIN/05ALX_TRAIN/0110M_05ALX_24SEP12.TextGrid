@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.6 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13836208136234623 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13836208136234623 
+            xmax = 0.31093911069063385 
+            text = "yO" 
+        intervals [3]:
+            xmin = 0.31093911069063385 
+            xmax = 0.36846478713339637 
+            text = "mE" 
+        intervals [4]:
+            xmin = 0.36846478713339637 
+            xmax = 0.9260213434247869 
+            text = "inclinarIa" 
+        intervals [5]:
+            xmin = 0.9260213434247869 
+            xmax = 1.209224673604541 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.209224673604541 
+            xmax = 1.390651807000946 
+            text = "pOr" 
+        intervals [7]:
+            xmin = 1.390651807000946 
+            xmax = 1.7402309176915798 
+            text = "sI" 
+        intervals [8]:
+            xmin = 1.7402309176915798 
+            xmax = 2.2314116934720905 
+            text = "yA" 
+        intervals [9]:
+            xmin = 2.2314116934720905 
+            xmax = 2.5190400756859033 
+            text = "Eh" 
+        intervals [10]:
+            xmin = 2.5190400756859033 
+            xmax = 2.9526951750236514 
+            text = "creAr" 
+        intervals [11]:
+            xmin = 2.9526951750236514 
+            xmax = 3.7492045411542096 
+            text = "juzgAdos" 
+        intervals [12]:
+            xmin = 3.7492045411542096 
+            xmax = 4.377561929990539 
+            text = "laborAles" 
+        intervals [13]:
+            xmin = 4.377561929990539 
+            xmax = 4.6 
+            text = "<sil>" 

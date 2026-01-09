@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.49 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.49 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07331289389177958 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07331289389177958 
+            xmax = 0.2820488511668642 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.2820488511668642 
+            xmax = 0.4439991628458091 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.4439991628458091 
+            xmax = 1.2105639714594818 
+            text = "promoviO" 
+        intervals [5]:
+            xmin = 1.2105639714594818 
+            xmax = 1.4228988245496539 
+            text = "El" 
+        intervals [6]:
+            xmin = 1.4228988245496539 
+            xmax = 1.595645823673862 
+            text = "El" 
+        intervals [7]:
+            xmin = 1.595645823673862 
+            xmax = 2.0023210507787677 
+            text = "juIcio" 
+        intervals [8]:
+            xmin = 2.0023210507787677 
+            xmax = 2.516963152336304 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.516963152336304 
+            xmax = 2.6285289226040214 
+            text = "Y" 
+        intervals [10]:
+            xmin = 2.6285289226040214 
+            xmax = 2.7364957970566515 
+            text = "El" 
+        intervals [11]:
+            xmin = 2.7364957970566515 
+            xmax = 3.2871268567650644 
+            text = "demandAdo" 
+        intervals [12]:
+            xmin = 3.2871268567650644 
+            xmax = 3.366302564696993 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 3.366302564696993 
+            xmax = 3.49 
+            text = "quE" 

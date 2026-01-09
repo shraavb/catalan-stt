@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.35 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.35 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12950772134158642 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12950772134158642 
+            xmax = 0.6038247714652765 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.6038247714652765 
+            xmax = 0.6859181070636075 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 0.6859181070636075 
+            xmax = 0.9771226893111775 
+            text = "cAda" 
+        intervals [5]:
+            xmin = 0.9771226893111775 
+            xmax = 1.2740498325379483 
+            text = "unO" 
+        intervals [6]:
+            xmin = 1.2740498325379483 
+            xmax = 1.4204796565949862 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.4204796565949862 
+            xmax = 1.766216741174103 
+            text = "lOs" 
+        intervals [8]:
+            xmin = 1.766216741174103 
+            xmax = 2.4332859396561637 
+            text = "municipIos" 
+        intervals [9]:
+            xmin = 2.4332859396561637 
+            xmax = 2.632593200178243 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 2.632593200178243 
+            xmax = 3.0718826723493557 
+            text = "dEl" 
+        intervals [11]:
+            xmin = 3.0718826723493557 
+            xmax = 3.5071046494077733 
+            text = "estAdo" 
+        intervals [12]:
+            xmin = 3.5071046494077733 
+            xmax = 3.625 
+            text = "dE" 
+        intervals [13]:
+            xmin = 3.625 
+            xmax = 4.125363906537488 
+            text = "mEJico" 
+        intervals [14]:
+            xmin = 4.125363906537488 
+            xmax = 4.35 
+            text = "<sil>" 

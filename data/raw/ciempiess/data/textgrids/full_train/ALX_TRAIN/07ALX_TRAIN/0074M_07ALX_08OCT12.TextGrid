@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.15 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.15 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19837439542836016 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.19837439542836016 
+            xmax = 0.3310232663811959 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.3310232663811959 
+            xmax = 0.6626454437632852 
+            text = "seguImos" 
+        intervals [4]:
+            xmin = 0.6626454437632852 
+            xmax = 0.7952943147161209 
+            text = "cOn" 
+        intervals [5]:
+            xmin = 0.7952943147161209 
+            xmax = 1.0311145297433844 
+            text = "Esta" 
+        intervals [6]:
+            xmin = 1.0311145297433844 
+            xmax = 1.5764487769939313 
+            text = "interesAnte" 
+        intervals [7]:
+            xmin = 1.5764487769939313 
+            xmax = 2.12058823529 
+            text = "entrevIsta" 
+        intervals [8]:
+            xmin = 2.12058823529 
+            xmax = 2.4976214919441793 
+            text = "sIn" 
+        intervals [9]:
+            xmin = 2.4976214919441793 
+            xmax = 3.087172029512338 
+            text = "Antes" 
+        intervals [10]:
+            xmin = 3.087172029512338 
+            xmax = 3.5440736961276613 
+            text = "dejAr" 
+        intervals [11]:
+            xmin = 3.5440736961276613 
+            xmax = 3.639875658482487 
+            text = "dE" 
+        intervals [12]:
+            xmin = 3.639875658482487 
+            xmax = 3.7356776208373126 
+            text = "Ir" 
+        intervals [13]:
+            xmin = 3.7356776208373126 
+            xmax = 3.8462183466313427 
+            text = "A" 
+        intervals [14]:
+            xmin = 3.8462183466313427 
+            xmax = 3.9788672175841784 
+            text = "Un" 
+        intervals [15]:
+            xmin = 3.9788672175841784 
+            xmax = 4.2957506315270635 
+            text = "cOrte" 
+        intervals [16]:
+            xmin = 4.2957506315270635 
+            xmax = 4.922148077693232 
+            text = "comerciAl" 
+        intervals [17]:
+            xmin = 4.922148077693232 
+            xmax = 5.15 
+            text = "<sil>" 

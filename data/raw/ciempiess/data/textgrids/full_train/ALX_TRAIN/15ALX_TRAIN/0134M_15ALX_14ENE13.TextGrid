@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.34 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.34 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09724992999053925 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09724992999053925 
+            xmax = 0.4860196102175969 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.4860196102175969 
+            xmax = 1.1992995193945126 
+            text = "discontEntos" 
+        intervals [4]:
+            xmin = 1.1992995193945126 
+            xmax = 1.314966531693472 
+            text = "cOn" 
+        intervals [5]:
+            xmin = 1.314966531693472 
+            xmax = 1.4113557086092714 
+            text = "lA" 
+        intervals [6]:
+            xmin = 1.4113557086092714 
+            xmax = 1.9254313188268684 
+            text = "democrAcia" 
+        intervals [7]:
+            xmin = 1.9254313188268684 
+            xmax = 1.9961167152317878 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.9961167152317878 
+            xmax = 2.2660064105960265 
+            text = "pOrque" 
+        intervals [9]:
+            xmin = 2.2660064105960265 
+            xmax = 2.3848863954588455 
+            text = "nO" 
+        intervals [10]:
+            xmin = 2.3848863954588455 
+            xmax = 2.6162204200567643 
+            text = "nOs" 
+        intervals [11]:
+            xmin = 2.6162204200567643 
+            xmax = 2.7383133774834434 
+            text = "dA" 
+        intervals [12]:
+            xmin = 2.7383133774834434 
+            xmax = 3.2427500700094605 
+            text = "mejOres" 
+        intervals [13]:
+            xmin = 3.2427500700094605 
+            xmax = 3.34 
+            text = "<sil>" 

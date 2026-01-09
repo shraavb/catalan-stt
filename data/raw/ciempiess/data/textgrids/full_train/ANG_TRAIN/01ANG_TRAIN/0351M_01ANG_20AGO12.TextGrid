@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.99 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.99 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13074288921655833 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13074288921655833 
+            xmax = 0.32346906128042185 
+            text = "cuAndo" 
+        intervals [3]:
+            xmin = 0.32346906128042185 
+            xmax = 0.5341232493502262 
+            text = "mEnos" 
+        intervals [4]:
+            xmin = 0.5341232493502262 
+            xmax = 0.6641013653932969 
+            text = "A" 
+        intervals [5]:
+            xmin = 0.6641013653932969 
+            xmax = 0.8792375574645863 
+            text = "nivEl" 
+        intervals [6]:
+            xmin = 0.8792375574645863 
+            xmax = 1.435006053648751 
+            text = "constitucionAl" 
+        intervals [7]:
+            xmin = 1.435006053648751 
+            xmax = 1.7442643297512295 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.7442643297512295 
+            xmax = 1.9504365138195487 
+            text = "yA" 
+        intervals [9]:
+            xmin = 1.9504365138195487 
+            xmax = 2.09834264586856 
+            text = "sE" 
+        intervals [10]:
+            xmin = 2.09834264586856 
+            xmax = 2.340370861948761 
+            text = "pUso" 
+        intervals [11]:
+            xmin = 2.340370861948761 
+            xmax = 2.456902965987376 
+            text = "sObre" 
+        intervals [12]:
+            xmin = 2.456902965987376 
+            xmax = 2.586881082030447 
+            text = "lA" 
+        intervals [13]:
+            xmin = 2.586881082030447 
+            xmax = 3.0843835261953036 
+            text = "mEsa" 
+        intervals [14]:
+            xmin = 3.0843835261953036 
+            xmax = 3.250217674250256 
+            text = "<sil>" 
+        intervals [15]:
+            xmin = 3.250217674250256 
+            xmax = 3.519137914339368 
+            text = "Esta" 
+        intervals [16]:
+            xmin = 3.519137914339368 
+            xmax = 3.958374306484917 
+            text = "iniciatIva" 
+        intervals [17]:
+            xmin = 3.958374306484917 
+            xmax = 4.678125 
+            text = "ciudadAna" 
+        intervals [18]:
+            xmin = 4.678125 
+            xmax = 4.99 
+            text = "<sil>" 

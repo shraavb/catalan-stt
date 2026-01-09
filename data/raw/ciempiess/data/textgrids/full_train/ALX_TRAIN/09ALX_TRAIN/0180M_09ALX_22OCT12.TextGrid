@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.89 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.89 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10474870387890255 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10474870387890255 
+            xmax = 0.40580615704824974 
+            text = "ahOra" 
+        intervals [3]:
+            xmin = 0.40580615704824974 
+            xmax = 0.4857745430463576 
+            text = "pOr" 
+        intervals [4]:
+            xmin = 0.4857745430463576 
+            xmax = 0.6410072923368022 
+            text = "Otro" 
+        intervals [5]:
+            xmin = 0.6410072923368022 
+            xmax = 1.0361451996215705 
+            text = "lAdo" 
+        intervals [6]:
+            xmin = 1.0361451996215705 
+            xmax = 1.3560187436140019 
+            text = "En" 
+        intervals [7]:
+            xmin = 1.3560187436140019 
+            xmax = 1.6805963103122044 
+            text = "dAdo" 
+        intervals [8]:
+            xmin = 1.6805963103122044 
+            xmax = 2.033398013245033 
+            text = "cAso" 
+        intervals [9]:
+            xmin = 2.033398013245033 
+            xmax = 2.136886512771996 
+            text = "dE" 
+        intervals [10]:
+            xmin = 2.136886512771996 
+            xmax = 2.2403750122989594 
+            text = "quE" 
+        intervals [11]:
+            xmin = 2.2403750122989594 
+            xmax = 3.0400588722800377 
+            text = "falleciEra" 
+        intervals [12]:
+            xmin = 3.0400588722800377 
+            xmax = 3.5386852790917693 
+            text = "algUno" 
+        intervals [13]:
+            xmin = 3.5386852790917693 
+            xmax = 3.6892140056764426 
+            text = "dE" 
+        intervals [14]:
+            xmin = 3.6892140056764426 
+            xmax = 4.1408001854304635 
+            text = "Ellos" 
+        intervals [15]:
+            xmin = 4.1408001854304635 
+            xmax = 4.216064548722801 
+            text = "O" 
+        intervals [16]:
+            xmin = 4.216064548722801 
+            xmax = 4.738211069063387 
+            text = "Ambos" 
+        intervals [17]:
+            xmin = 4.738211069063387 
+            xmax = 4.89 
+            text = "<sil>" 

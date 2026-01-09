@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.91 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.91 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06494964995269631 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.06494964995269631 
+            xmax = 0.23420789025543992 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.23420789025543992 
+            xmax = 0.7231761400189215 
+            text = "brasIl" 
+        intervals [4]:
+            xmin = 0.7231761400189215 
+            xmax = 0.8510601438032166 
+            text = "sE" 
+        intervals [5]:
+            xmin = 0.8510601438032166 
+            xmax = 1.221875 
+            text = "inviErte" 
+        intervals [6]:
+            xmin = 1.221875 
+            xmax = 1.2685638032166509 
+            text = "El" 
+        intervals [7]:
+            xmin = 1.2685638032166509 
+            xmax = 1.5882738126773888 
+            text = "sesEnta" 
+        intervals [8]:
+            xmin = 1.5882738126773888 
+            xmax = 1.6597384030274362 
+            text = "y" 
+        intervals [9]:
+            xmin = 1.6597384030274362 
+            xmax = 1.8929386452223274 
+            text = "dOs" 
+        intervals [10]:
+            xmin = 1.8929386452223274 
+            xmax = 2.427042425733207 
+            text = "porciEnto" 
+        intervals [11]:
+            xmin = 2.427042425733207 
+            xmax = 2.6414361967833493 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.6414361967833493 
+            xmax = 2.7956492601702934 
+            text = "tOdo" 
+        intervals [13]:
+            xmin = 2.7956492601702934 
+            xmax = 2.934817146641438 
+            text = "El" 
+        intervals [14]:
+            xmin = 2.934817146641438 
+            xmax = 3.168017388836329 
+            text = "gAsto" 
+        intervals [15]:
+            xmin = 3.168017388836329 
+            xmax = 3.665625 
+            text = "regionAl" 
+        intervals [16]:
+            xmin = 3.665625 
+            xmax = 3.91 
+            text = "<sil>" 

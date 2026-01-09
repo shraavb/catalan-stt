@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.05 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.05 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.40665698572974085 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.40665698572974085 
+            xmax = 0.6064906444898203 
+            text = "sI" 
+        intervals [3]:
+            xmin = 0.6064906444898203 
+            xmax = 0.8771655538937218 
+            text = "tiEne" 
+        intervals [4]:
+            xmin = 0.8771655538937218 
+            xmax = 0.9240825381903981 
+            text = "O" 
+        intervals [5]:
+            xmin = 0.9240825381903981 
+            xmax = 1.111750475377103 
+            text = "nO" 
+        intervals [6]:
+            xmin = 1.111750475377103 
+            xmax = 1.3246814041081723 
+            text = "tiEne" 
+        intervals [7]:
+            xmin = 1.3246814041081723 
+            xmax = 1.458214359414097 
+            text = "lA" 
+        intervals [8]:
+            xmin = 1.458214359414097 
+            xmax = 1.8804672180841833 
+            text = "persOna" 
+        intervals [9]:
+            xmin = 1.8804672180841833 
+            xmax = 2.504824009109183 
+            text = "obviAmente" 
+        intervals [10]:
+            xmin = 2.504824009109183 
+            xmax = 2.580612983742275 
+            text = "A" 
+        intervals [11]:
+            xmin = 2.580612983742275 
+            xmax = 3.0100838399964656 
+            text = "momEnto" 
+        intervals [12]:
+            xmin = 3.0100838399964656 
+            xmax = 3.0533918255010897 
+            text = "dE" 
+        intervals [13]:
+            xmin = 3.0533918255010897 
+            xmax = 3.1363987977182863 
+            text = "lA" 
+        intervals [14]:
+            xmin = 3.1363987977182863 
+            xmax = 3.847985098655401 
+            text = "afiliaciOn" 
+        intervals [15]:
+            xmin = 3.847985098655401 
+            xmax = 4.05 
+            text = "<sil>" 

@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.67 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.67 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05946585808893092 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05946585808893092 
+            xmax = 0.3866984560075685 
+            text = "sI" 
+        intervals [3]:
+            xmin = 0.3866984560075685 
+            xmax = 0.9770003973509933 
+            text = "hE" 
+        intervals [4]:
+            xmin = 0.9770003973509933 
+            xmax = 1.560886013245033 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.560886013245033 
+            xmax = 2.670910315988647 
+            text = "inductIvas" 
+        intervals [6]:
+            xmin = 2.670910315988647 
+            xmax = 2.933979659413434 
+            text = "A" 
+        intervals [7]:
+            xmin = 2.933979659413434 
+            xmax = 3.087971470198675 
+            text = "A" 
+        intervals [8]:
+            xmin = 3.087971470198675 
+            xmax = 3.5820285298013244 
+            text = "manEra" 
+        intervals [9]:
+            xmin = 3.5820285298013244 
+            xmax = 3.7873509441816458 
+            text = "dE" 
+        intervals [10]:
+            xmin = 3.7873509441816458 
+            xmax = 4.249326376537369 
+            text = "quE" 
+        intervals [11]:
+            xmin = 4.249326376537369 
+            xmax = 5.032118081362346 
+            text = "nO" 
+        intervals [12]:
+            xmin = 5.032118081362346 
+            xmax = 5.385015981078523 
+            text = "nO" 
+        intervals [13]:
+            xmin = 5.385015981078523 
+            xmax = 5.577505744560075 
+            text = "nO" 
+        intervals [14]:
+            xmin = 5.577505744560075 
+            xmax = 5.827742437086092 
+            text = "sE" 
+        intervals [15]:
+            xmin = 5.827742437086092 
+            xmax = 6.501456609271523 
+            text = "piErda" 
+        intervals [16]:
+            xmin = 6.501456609271523 
+            xmax = 6.67 
+            text = "<sil>" 

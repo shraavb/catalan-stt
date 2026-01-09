@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.87 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 2.87 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14430370860927152 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.14430370860927152 
+            xmax = 0.2630201589403973 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.2630201589403973 
+            xmax = 0.4231493245033112 
+            text = "lA" 
+        intervals [4]:
+            xmin = 0.4231493245033112 
+            xmax = 0.674386463576159 
+            text = "vEnta" 
+        intervals [5]:
+            xmin = 0.674386463576159 
+            xmax = 0.8179505430463576 
+            text = "En" 
+        intervals [6]:
+            xmin = 0.8179505430463576 
+            xmax = 0.944949536423841 
+            text = "lOs" 
+        intervals [7]:
+            xmin = 0.944949536423841 
+            xmax = 1.1630565033112583 
+            text = "En" 
+        intervals [8]:
+            xmin = 1.1630565033112583 
+            xmax = 1.2983380397350992 
+            text = "dE" 
+        intervals [9]:
+            xmin = 1.2983380397350992 
+            xmax = 1.4584672052980132 
+            text = "lOs" 
+        intervals [10]:
+            xmin = 1.4584672052980132 
+            xmax = 1.803573165562914 
+            text = "diArios" 
+        intervals [11]:
+            xmin = 1.803573165562914 
+            xmax = 1.941615549668874 
+            text = "A" 
+        intervals [12]:
+            xmin = 1.941615549668874 
+            xmax = 2.706370357615894 
+            text = "disminuIdo" 
+        intervals [13]:
+            xmin = 2.706370357615894 
+            xmax = 2.87 
+            text = "<sil>" 

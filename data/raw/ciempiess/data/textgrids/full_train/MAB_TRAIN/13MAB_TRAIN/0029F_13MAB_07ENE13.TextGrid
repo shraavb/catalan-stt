@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.56 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.56 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.034962883102437496 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.034962883102437496 
+            xmax = 0.3388196328598921 
+            text = "tOdos" 
+        intervals [3]:
+            xmin = 0.3388196328598921 
+            xmax = 0.8142084187707485 
+            text = "lAdos" 
+        intervals [4]:
+            xmin = 0.8142084187707485 
+            xmax = 0.9563349630121385 
+            text = "El" 
+        intervals [5]:
+            xmin = 0.9563349630121385 
+            xmax = 1.640177572135581 
+            text = "desOrden" 
+        intervals [6]:
+            xmin = 1.640177572135581 
+            xmax = 2.0932418043225876 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 2.0932418043225876 
+            xmax = 2.9129476116898303 
+            text = "vEmos" 
+        intervals [8]:
+            xmin = 2.9129476116898303 
+            xmax = 3.02817782103219 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 3.02817782103219 
+            xmax = 3.462909974460185 
+            text = "rIos" 
+        intervals [10]:
+            xmin = 3.462909974460185 
+            xmax = 4.5958297218543045 
+            text = "contaminAdos" 
+        intervals [11]:
+            xmin = 4.5958297218543045 
+            xmax = 5.082546966887417 
+            text = "vEmos" 
+        intervals [12]:
+            xmin = 5.082546966887417 
+            xmax = 5.505081718070009 
+            text = "mAres" 
+        intervals [13]:
+            xmin = 5.505081718070009 
+            xmax = 5.56 
+            text = "<sil>" 

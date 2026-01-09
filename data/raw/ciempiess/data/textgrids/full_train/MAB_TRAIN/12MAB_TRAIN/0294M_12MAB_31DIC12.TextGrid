@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.81 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.81 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17850397347829317 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.17850397347829317 
+            xmax = 0.4054401483219552 
+            text = "Al" 
+        intervals [3]:
+            xmin = 0.4054401483219552 
+            xmax = 1.0912916989605783 
+            text = "grAdo" 
+        intervals [4]:
+            xmin = 1.0912916989605783 
+            xmax = 1.2088037826345464 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.2088037826345464 
+            xmax = 1.3727021311327468 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.3727021311327468 
+            xmax = 1.5441650187924025 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.5441650187924025 
+            xmax = 1.9493673788580168 
+            text = "quE" 
+        intervals [8]:
+            xmin = 1.9493673788580168 
+            xmax = 2.7209503733264677 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.7209503733264677 
+            xmax = 3.0933730636924412 
+            text = "hAy" 
+        intervals [10]:
+            xmin = 3.0933730636924412 
+            xmax = 3.1599314329472215 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 3.1599314329472215 
+            xmax = 3.7625730528098353 
+            text = "algUnos" 
+        intervals [12]:
+            xmin = 3.7625730528098353 
+            xmax = 4.574500256139381 
+            text = "lugAres" 
+        intervals [13]:
+            xmin = 4.574500256139381 
+            xmax = 4.81 
+            text = "<sil>" 

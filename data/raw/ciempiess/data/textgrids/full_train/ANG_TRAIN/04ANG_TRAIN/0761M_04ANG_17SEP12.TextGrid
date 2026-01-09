@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.8 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.8 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13525860659369737 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13525860659369737 
+            xmax = 0.4031439764141698 
+            text = "puEs" 
+        intervals [3]:
+            xmin = 0.4031439764141698 
+            xmax = 0.6547799812521608 
+            text = "nAda" 
+        intervals [4]:
+            xmin = 0.6547799812521608 
+            xmax = 0.8751670704566756 
+            text = "mAs" 
+        intervals [5]:
+            xmin = 0.8751670704566756 
+            xmax = 1.0626605642575315 
+            text = "nOs" 
+        intervals [6]:
+            xmin = 1.0626605642575315 
+            xmax = 1.5671315250575315 
+            text = "quEda" 
+        intervals [7]:
+            xmin = 1.5671315250575315 
+            xmax = 1.7480462997776558 
+            text = "y" 
+        intervals [8]:
+            xmin = 1.7480462997776558 
+            xmax = 1.8533058050693643 
+            text = "nOs" 
+        intervals [9]:
+            xmin = 1.8533058050693643 
+            xmax = 2.244861852341494 
+            text = "rEsta" 
+        intervals [10]:
+            xmin = 2.244861852341494 
+            xmax = 2.4899191380987533 
+            text = "mAs" 
+        intervals [11]:
+            xmin = 2.4899191380987533 
+            xmax = 2.7602549107676517 
+            text = "quE" 
+        intervals [12]:
+            xmin = 2.7602549107676517 
+            xmax = 3.521741644362356 
+            text = "despedIrnos" 
+        intervals [13]:
+            xmin = 3.521741644362356 
+            xmax = 3.8 
+            text = "<sil>" 

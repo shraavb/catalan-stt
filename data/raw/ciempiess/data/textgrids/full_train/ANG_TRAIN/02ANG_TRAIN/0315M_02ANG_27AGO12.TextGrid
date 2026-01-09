@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.2 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.2 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08903435522786367 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08903435522786367 
+            xmax = 0.43450366905945026 
+            text = "dEntro" 
+        intervals [3]:
+            xmin = 0.43450366905945026 
+            xmax = 0.6393095814938111 
+            text = "Esta" 
+        intervals [4]:
+            xmin = 0.6393095814938111 
+            xmax = 0.8631698100686003 
+            text = "lEy" 
+        intervals [5]:
+            xmin = 0.8631698100686003 
+            xmax = 1.0150862835776042 
+            text = "sE" 
+        intervals [6]:
+            xmin = 1.0150862835776042 
+            xmax = 1.8038098047876625 
+            text = "estableciO" 
+        intervals [7]:
+            xmin = 1.8038098047876625 
+            xmax = 2.0973665535848074 
+            text = "Un" 
+        intervals [8]:
+            xmin = 2.0973665535848074 
+            xmax = 2.6464132838726564 
+            text = "mEdio" 
+        intervals [9]:
+            xmin = 2.6464132838726564 
+            xmax = 2.828713052083461 
+            text = "Un" 
+        intervals [10]:
+            xmin = 2.828713052083461 
+            xmax = 3.0702465865947848 
+            text = "mEdio" 
+        intervals [11]:
+            xmin = 3.0702465865947848 
+            xmax = 3.300934564886235 
+            text = "pAra" 
+        intervals [12]:
+            xmin = 3.300934564886235 
+            xmax = 3.5695197794207423 
+            text = "prevenIr" 
+        intervals [13]:
+            xmin = 3.5695197794207423 
+            xmax = 3.759853524312939 
+            text = "El" 
+        intervals [14]:
+            xmin = 3.759853524312939 
+            xmax = 4.04708993485865 
+            text = "nArco" 
+        intervals [15]:
+            xmin = 4.04708993485865 
+            xmax = 4.741681442577686 
+            text = "menudEo" 
+        intervals [16]:
+            xmin = 4.741681442577686 
+            xmax = 5.2 
+            text = "<sil>" 

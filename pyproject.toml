@@ -3,16 +3,16 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "catalan-stt"
+name = "spanish-slang-stt"
 version = "0.1.0"
-description = "Fine-tuned Speech-to-Text pipeline for Catalan-accented Spanish"
+description = "Fine-tuned Speech-to-Text pipeline for regional Spanish slang and informal speech"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
     {name = "Your Name", email = "your.email@example.com"}
 ]
-keywords = ["speech-to-text", "whisper", "catalan", "spanish", "asr"]
+keywords = ["speech-to-text", "whisper", "spanish", "slang", "asr", "informal-speech"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",

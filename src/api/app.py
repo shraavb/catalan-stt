@@ -1,15 +1,21 @@
-"""FastAPI application for CatalanSTT."""
+"""FastAPI application for SpanishSlangSTT.
+
+Supports:
+- Multi-region transcription (spain, mexico, argentina)
+- Region auto-detection (experimental)
+- Per-region model loading
+"""
 
 import os
 import base64
 import tempfile
 import time
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Dict, Literal
 from datetime import datetime
 import logging
 
-from fastapi import FastAPI, HTTPException, UploadFile, File, Form
+from fastapi import FastAPI, HTTPException, UploadFile, File, Form, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import numpy as np
@@ -30,18 +36,37 @@ from ..evaluation.metrics import compute_wer, compute_cer
 logger = logging.getLogger(__name__)
 
 # Version
-VERSION = "0.1.0"
+VERSION = "0.2.0"
+
+# Supported regions
+SUPPORTED_REGIONS = ["spain", "mexico", "argentina", "general"]
+
+# Region to model path mapping (can be configured)
+REGION_MODEL_PATHS: Dict[str, Optional[str]] = {
+    "spain": None,  # Will use environment variable or default
+    "mexico": None,
+    "argentina": None,
+    "general": None,
+}
 
 
 def create_app(
     model_path: Optional[str] = None,
+    region_models: Optional[Dict[str, str]] = None,
     debug: bool = False,
 ) -> FastAPI:
-    """Create FastAPI application."""
+    """Create FastAPI application.
+
+    Args:
+        model_path: Default model path for general transcription
+        region_models: Optional dict mapping region -> model_path for region-specific models
+        debug: Enable debug mode
+    """
 
     app = FastAPI(
-        title="CatalanSTT API",
-        description="Speech-to-Text API optimized for Catalan-accented Spanish",
+        title="SpanishSlangSTT API",
+        description="Speech-to-Text API optimized for regional Spanish slang and informal speech. "
+                    "Supports Spain, Mexico, and Argentina regional variants.",
         version=VERSION,
         docs_url="/docs",
         redoc_url="/redoc",
@@ -56,27 +81,54 @@ def create_app(
         allow_headers=["*"],
     )
 
-    # Store model path
+    # Store model paths
     app.state.model_path = model_path
+    app.state.region_models = region_models or {}
+    app.state.transcribers: Dict[str, Transcriber] = {}
 
     @app.on_event("startup")
     async def startup():
-        """Load model on startup."""
-        logger.info("Loading transcription model...")
+        """Load default model on startup."""
+        logger.info("Loading default transcription model...")
         try:
-            get_transcriber(model_path=app.state.model_path)
-            logger.info("Model loaded successfully")
+            transcriber = get_transcriber(model_path=app.state.model_path)
+            app.state.transcribers["general"] = transcriber
+            logger.info("Default model loaded successfully")
         except Exception as e:
             logger.error(f"Failed to load model: {e}")
+
+    def get_transcriber_for_region(region: str) -> Transcriber:
+        """Get or load transcriber for a specific region."""
+        # Check if already loaded
+        if region in app.state.transcribers:
+            return app.state.transcribers[region]
+
+        # Check if we have a region-specific model path
+        if region in app.state.region_models:
+            model_path = app.state.region_models[region]
+            logger.info(f"Loading model for region {region}: {model_path}")
+            transcriber = get_transcriber(model_path=model_path)
+            app.state.transcribers[region] = transcriber
+            return transcriber
+
+        # Fall back to general model
+        if "general" in app.state.transcribers:
+            return app.state.transcribers["general"]
+
+        # Load general model
+        return get_transcriber(model_path=app.state.model_path)
 
     @app.get("/health", response_model=HealthResponse)
     async def health_check():
         """Check API health and model status."""
         try:
-            transcriber = get_transcriber()
+            transcriber = get_transcriber_for_region("general")
             model_loaded = transcriber._model is not None
         except Exception:
             model_loaded = False
+
+        # Check loaded regions
+        loaded_regions = list(app.state.transcribers.keys())
 
         return HealthResponse(
             status="healthy" if model_loaded else "degraded",
@@ -84,19 +136,55 @@ def create_app(
             model_name=app.state.model_path or "openai/whisper-small",
             timestamp=datetime.now(),
             version=VERSION,
+            supported_regions=SUPPORTED_REGIONS,
+            loaded_regions=loaded_regions,
         )
 
+    @app.get("/regions")
+    async def list_regions():
+        """List supported regions and their model status."""
+        regions_status = {}
+        for region in SUPPORTED_REGIONS:
+            regions_status[region] = {
+                "loaded": region in app.state.transcribers,
+                "model_path": app.state.region_models.get(region) or app.state.model_path,
+            }
+        return {
+            "supported_regions": SUPPORTED_REGIONS,
+            "regions": regions_status,
+        }
+
     @app.post("/transcribe", response_model=TranscriptionResponse)
-    async def transcribe(request: TranscriptionRequest):
-        """Transcribe audio from URL or base64."""
+    async def transcribe(
+        request: TranscriptionRequest,
+        region: Optional[str] = Query(
+            default=None,
+            description="Region for transcription (spain, mexico, argentina, general). "
+                        "If not specified, uses general model.",
+        ),
+    ):
+        """Transcribe audio from URL or base64.
+
+        Optionally specify a region to use region-specific model for better
+        accuracy with regional slang and informal speech.
+        """
         start_time = time.time()
+
+        # Validate region
+        if region and region not in SUPPORTED_REGIONS:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Invalid region: {region}. Supported: {SUPPORTED_REGIONS}"
+            )
+
+        effective_region = region or "general"
 
         try:
             # Get audio data
             audio = await _get_audio_from_request(request)
 
-            # Transcribe
-            transcriber = get_transcriber()
+            # Get transcriber for region
+            transcriber = get_transcriber_for_region(effective_region)
             result = transcriber.transcribe(
                 audio=audio,
                 language=request.language,
@@ -126,6 +214,7 @@ def create_app(
                 words=words,
                 processing_time_ms=processing_time,
                 model=app.state.model_path or "openai/whisper-small",
+                region=effective_region,
             )
 
         except Exception as e:
@@ -137,9 +226,22 @@ def create_app(
         file: UploadFile = File(...),
         language: str = Form("es"),
         word_timestamps: bool = Form(False),
+        region: str = Form(None, description="Region (spain, mexico, argentina, general)"),
     ):
-        """Transcribe uploaded audio file."""
+        """Transcribe uploaded audio file.
+
+        Optionally specify a region to use region-specific model.
+        """
         start_time = time.time()
+
+        # Validate region
+        if region and region not in SUPPORTED_REGIONS:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Invalid region: {region}. Supported: {SUPPORTED_REGIONS}"
+            )
+
+        effective_region = region or "general"
 
         try:
             # Save uploaded file temporarily
@@ -155,8 +257,8 @@ def create_app(
             # Clean up
             os.unlink(tmp_path)
 
-            # Transcribe
-            transcriber = get_transcriber()
+            # Get transcriber for region
+            transcriber = get_transcriber_for_region(effective_region)
             result = transcriber.transcribe(
                 audio=audio,
                 language=language,
@@ -185,6 +287,7 @@ def create_app(
                 words=words,
                 processing_time_ms=processing_time,
                 model=app.state.model_path or "openai/whisper-small",
+                region=effective_region,
             )
 
         except Exception as e:

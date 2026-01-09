@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.33 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.33 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05684796010425021 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05684796010425021 
+            xmax = 0.22680490677626305 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.22680490677626305 
+            xmax = 0.42766311647955096 
+            text = "lAs" 
+        intervals [4]:
+            xmin = 0.42766311647955096 
+            xmax = 1.1692934292301524 
+            text = "cAmaras" 
+        intervals [5]:
+            xmin = 1.1692934292301524 
+            xmax = 1.4268039544907778 
+            text = "dEba" 
+        intervals [6]:
+            xmin = 1.4268039544907778 
+            xmax = 1.5813102696471533 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.5813102696471533 
+            xmax = 2.2920393193664794 
+            text = "dE" 
+        intervals [8]:
+            xmin = 2.2920393193664794 
+            xmax = 3.152124473736969 
+            text = "obligArse" 
+        intervals [9]:
+            xmin = 3.152124473736969 
+            xmax = 3.2602788943464316 
+            text = "A" 
+        intervals [10]:
+            xmin = 3.2602788943464316 
+            xmax = 3.4508366830392943 
+            text = "sU" 
+        intervals [11]:
+            xmin = 3.4508366830392943 
+            xmax = 4.470578363071372 
+            text = "dictaminaciOn" 
+        intervals [12]:
+            xmin = 4.470578363071372 
+            xmax = 4.630234888732959 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 4.630234888732959 
+            xmax = 4.748689730352847 
+            text = "En" 
+        intervals [14]:
+            xmin = 4.748689730352847 
+            xmax = 5.114354676222935 
+            text = "sentIdo" 
+        intervals [15]:
+            xmin = 5.114354676222935 
+            xmax = 5.583023832197274 
+            text = "positIvo" 
+        intervals [16]:
+            xmin = 5.583023832197274 
+            xmax = 6.082594251202887 
+            text = "negatIvo" 
+        intervals [17]:
+            xmin = 6.082594251202887 
+            xmax = 6.33 
+            text = "<sil>" 

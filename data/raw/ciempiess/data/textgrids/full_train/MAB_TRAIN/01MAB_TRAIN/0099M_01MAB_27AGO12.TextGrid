@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.71 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.71 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08043613292659183 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08043613292659183 
+            xmax = 0.21280648406568445 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.21280648406568445 
+            xmax = 0.29664103978710976 
+            text = "En" 
+        intervals [4]:
+            xmin = 0.29664103978710976 
+            xmax = 0.4378360810021419 
+            text = "El" 
+        intervals [5]:
+            xmin = 0.4378360810021419 
+            xmax = 1.01144093593821 
+            text = "ANo" 
+        intervals [6]:
+            xmin = 1.01144093593821 
+            xmax = 1.3423668137859415 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.3423668137859415 
+            xmax = 1.4835618550009735 
+            text = "En" 
+        intervals [8]:
+            xmin = 1.4835618550009735 
+            xmax = 1.580633445836308 
+            text = "El" 
+        intervals [9]:
+            xmin = 1.580633445836308 
+            xmax = 1.7659519374310377 
+            text = "ANo" 
+        intervals [10]:
+            xmin = 1.7659519374310377 
+            xmax = 2.026280294671253 
+            text = "dOs" 
+        intervals [11]:
+            xmin = 2.026280294671253 
+            xmax = 2.8072653663919 
+            text = "mIl" 
+        intervals [12]:
+            xmin = 2.8072653663919 
+            xmax = 3.1779023495813594 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 3.1779023495813594 
+            xmax = 3.3367467709482703 
+            text = "dOs" 
+        intervals [14]:
+            xmin = 3.3367467709482703 
+            xmax = 3.6367862335302137 
+            text = "mIl" 
+        intervals [15]:
+            xmin = 3.6367862335302137 
+            xmax = 4.22804046861816 
+            text = "cuAtro" 
+        intervals [16]:
+            xmin = 4.22804046861816 
+            xmax = 4.71 
+            text = "<sil>" 

@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.85 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 7.85 
+        intervals: size = 23 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.341304347826 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.341304347826 
+            xmax = 0.682608695652 
+            text = "el" 
+        intervals [3]:
+            xmin = 0.682608695652 
+            xmax = 1.02391304348 
+            text = "banco" 
+        intervals [4]:
+            xmin = 1.02391304348 
+            xmax = 1.3652173913 
+            text = "para" 
+        intervals [5]:
+            xmin = 1.3652173913 
+            xmax = 1.70652173913 
+            text = "concluir" 
+        intervals [6]:
+            xmin = 1.70652173913 
+            xmax = 2.04782608696 
+            text = "realiza" 
+        intervals [7]:
+            xmin = 2.04782608696 
+            xmax = 2.38913043478 
+            text = "una" 
+        intervals [8]:
+            xmin = 2.38913043478 
+            xmax = 2.73043478261 
+            text = "tercera" 
+        intervals [9]:
+            xmin = 2.73043478261 
+            xmax = 3.07173913043 
+            text = "operacion" 
+        intervals [10]:
+            xmin = 3.07173913043 
+            xmax = 3.41304347826 
+            text = "que" 
+        intervals [11]:
+            xmin = 3.41304347826 
+            xmax = 3.75434782609 
+            text = "son" 
+        intervals [12]:
+            xmin = 3.75434782609 
+            xmax = 4.09565217391 
+            text = "las" 
+        intervals [13]:
+            xmin = 4.09565217391 
+            xmax = 4.43695652174 
+            text = "de" 
+        intervals [14]:
+            xmin = 4.43695652174 
+            xmax = 4.77826086957 
+            text = "servicio" 
+        intervals [15]:
+            xmin = 4.77826086957 
+            xmax = 5.11956521739 
+            text = "aqui" 
+        intervals [16]:
+            xmin = 5.11956521739 
+            xmax = 5.46086956522 
+            text = "no" 
+        intervals [17]:
+            xmin = 5.46086956522 
+            xmax = 5.80217391304 
+            text = "hay" 
+        intervals [18]:
+            xmin = 5.80217391304 
+            xmax = 6.14347826087 
+            text = "un" 
+        intervals [19]:
+            xmin = 6.14347826087 
+            xmax = 6.4847826087 
+            text = "haber" 
+        intervals [20]:
+            xmin = 6.4847826087 
+            xmax = 6.82608695652 
+            text = "ni" 
+        intervals [21]:
+            xmin = 6.82608695652 
+            xmax = 7.16739130435 
+            text = "un" 
+        intervals [22]:
+            xmin = 7.16739130435 
+            xmax = 7.50869565217 
+            text = "deber" 
+        intervals [23]:
+            xmin = 7.50869565217 
+            xmax = 7.85 
+            text = "<sil>" 

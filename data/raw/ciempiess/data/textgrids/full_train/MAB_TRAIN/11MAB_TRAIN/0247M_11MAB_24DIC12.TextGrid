@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.35 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.35 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12647280582853265 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12647280582853265 
+            xmax = 0.2809436323588306 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.2809436323588306 
+            xmax = 0.5171931317581097 
+            text = "aquI" 
+        intervals [4]:
+            xmin = 0.5171931317581097 
+            xmax = 0.8079617464033763 
+            text = "tenEmos" 
+        intervals [5]:
+            xmin = 0.8079617464033763 
+            xmax = 1.0351247265949908 
+            text = "Un" 
+        intervals [6]:
+            xmin = 1.0351247265949908 
+            xmax = 1.3894989756939096 
+            text = "primEr" 
+        intervals [7]:
+            xmin = 1.3894989756939096 
+            xmax = 1.8710844937001323 
+            text = "problEm" 
+        intervals [8]:
+            xmin = 1.8710844937001323 
+            xmax = 2.9160342025815593 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.9160342025815593 
+            xmax = 3.506657951079757 
+            text = "seguImos" 
+        intervals [10]:
+            xmin = 3.506657951079757 
+            xmax = 4.079108661162626 
+            text = "sIgue" 
+        intervals [11]:
+            xmin = 4.079108661162626 
+            xmax = 4.833289755398786 
+            text = "siEndo" 
+        intervals [12]:
+            xmin = 4.833289755398786 
+            xmax = 5.233096600536028 
+            text = "El" 
+        intervals [13]:
+            xmin = 5.233096600536028 
+            xmax = 5.796460791411231 
+            text = "regIstro" 
+        intervals [14]:
+            xmin = 5.796460791411231 
+            xmax = 5.869152945072548 
+            text = "dE" 
+        intervals [15]:
+            xmin = 5.869152945072548 
+            xmax = 5.987277694772188 
+            text = "lOs" 
+        intervals [16]:
+            xmin = 5.987277694772188 
+            xmax = 6.35 
+            text = "sindicA" 

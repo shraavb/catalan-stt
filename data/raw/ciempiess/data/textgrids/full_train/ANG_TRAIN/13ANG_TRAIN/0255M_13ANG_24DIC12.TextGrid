@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.74 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.74 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09587507926442612 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09587507926442612 
+            xmax = 0.4023684210526316 
+            text = "Ea" 
+        intervals [3]:
+            xmin = 0.4023684210526316 
+            xmax = 0.5752621010357218 
+            text = "A" 
+        intervals [4]:
+            xmin = 0.5752621010357218 
+            xmax = 0.7953086028323823 
+            text = "mI" 
+        intervals [5]:
+            xmin = 0.7953086028323823 
+            xmax = 0.9092612555485099 
+            text = "A" 
+        intervals [6]:
+            xmin = 0.9092612555485099 
+            xmax = 1.3807894736842106 
+            text = "mI" 
+        intervals [7]:
+            xmin = 1.3807894736842106 
+            xmax = 1.4426775523145214 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.4426775523145214 
+            xmax = 1.5527008032128515 
+            text = "A" 
+        intervals [9]:
+            xmin = 1.5527008032128515 
+            xmax = 1.7255944831959418 
+            text = "mI" 
+        intervals [10]:
+            xmin = 1.7255944831959418 
+            xmax = 1.9937761572606216 
+            text = "pUnto" 
+        intervals [11]:
+            xmin = 1.9937761572606216 
+            xmax = 2.0802229972521666 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.0802229972521666 
+            xmax = 2.3395635172268023 
+            text = "vIsta" 
+        intervals [13]:
+            xmin = 2.3395635172268023 
+            xmax = 2.5438924117522723 
+            text = "Es" 
+        intervals [14]:
+            xmin = 2.5438924117522723 
+            xmax = 3.247255337138026 
+            text = "Una" 
+        intervals [15]:
+            xmin = 3.247255337138026 
+            xmax = 3.74 
+            text = "<sil>" 

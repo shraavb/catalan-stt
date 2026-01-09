@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.15 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.15 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13493504598502512 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13493504598502512 
+            xmax = 0.4356065569063016 
+            text = "hEmos" 
+        intervals [3]:
+            xmin = 0.4356065569063016 
+            xmax = 0.8241666633276437 
+            text = "vIsto" 
+        intervals [4]:
+            xmin = 0.8241666633276437 
+            xmax = 0.9583124143540593 
+            text = "quE" 
+        intervals [5]:
+            xmin = 0.9583124143540593 
+            xmax = 1.481018271801817 
+            text = "a" 
+        intervals [6]:
+            xmin = 1.481018271801817 
+            xmax = 1.7076783338809332 
+            text = "hA" 
+        intervals [7]:
+            xmin = 1.7076783338809332 
+            xmax = 2.526429986697332 
+            text = "sIdo" 
+        intervals [8]:
+            xmin = 2.526429986697332 
+            xmax = 2.739212902118543 
+            text = "Es" 
+        intervals [9]:
+            xmin = 2.739212902118543 
+            xmax = 3.5394616927244025 
+            text = "enunciatIvo" 
+        intervals [10]:
+            xmin = 3.5394616927244025 
+            xmax = 3.641227434882373 
+            text = "lAs" 
+        intervals [11]:
+            xmin = 3.641227434882373 
+            xmax = 4.182436154540671 
+            text = "contituciOnes" 
+        intervals [12]:
+            xmin = 4.182436154540671 
+            xmax = 4.834662047462209 
+            text = "locAles" 
+        intervals [13]:
+            xmin = 4.834662047462209 
+            xmax = 5.15 
+            text = "<sil>" 

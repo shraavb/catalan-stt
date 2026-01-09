@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.05 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.05 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3025 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.3025 
+            xmax = 0.605 
+            text = "usted" 
+        intervals [3]:
+            xmin = 0.605 
+            xmax = 0.9075 
+            text = "dice" 
+        intervals [4]:
+            xmin = 0.9075 
+            xmax = 1.21 
+            text = "muchos" 
+        intervals [5]:
+            xmin = 1.21 
+            xmax = 1.5125 
+            text = "temas" 
+        intervals [6]:
+            xmin = 1.5125 
+            xmax = 1.815 
+            text = "para" 
+        intervals [7]:
+            xmin = 1.815 
+            xmax = 2.1175 
+            text = "reflexionar" 
+        intervals [8]:
+            xmin = 2.1175 
+            xmax = 2.42 
+            text = "vamos" 
+        intervals [9]:
+            xmin = 2.42 
+            xmax = 2.7225 
+            text = "a" 
+        intervals [10]:
+            xmin = 2.7225 
+            xmax = 3.025 
+            text = "ir" 
+        intervals [11]:
+            xmin = 3.025 
+            xmax = 3.3275 
+            text = "apuntalando" 
+        intervals [12]:
+            xmin = 3.3275 
+            xmax = 3.63 
+            text = "poco" 
+        intervals [13]:
+            xmin = 3.63 
+            xmax = 3.9325 
+            text = "a" 
+        intervals [14]:
+            xmin = 3.9325 
+            xmax = 4.235 
+            text = "poco" 
+        intervals [15]:
+            xmin = 4.235 
+            xmax = 4.5375 
+            text = "uno" 
+        intervals [16]:
+            xmin = 4.5375 
+            xmax = 4.84 
+            text = "a" 
+        intervals [17]:
+            xmin = 4.84 
+            xmax = 5.1425 
+            text = "uno" 
+        intervals [18]:
+            xmin = 5.1425 
+            xmax = 5.445 
+            text = "creo" 
+        intervals [19]:
+            xmin = 5.445 
+            xmax = 5.7475 
+            text = "que" 
+        intervals [20]:
+            xmin = 5.7475 
+            xmax = 6.05 
+            text = "<sil>" 

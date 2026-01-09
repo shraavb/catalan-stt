@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.16 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.16 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10675440691927507 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10675440691927507 
+            xmax = 0.47316116144975284 
+            text = "tiEne" 
+        intervals [3]:
+            xmin = 0.47316116144975284 
+            xmax = 0.8308439456342669 
+            text = "sUs" 
+        intervals [4]:
+            xmin = 0.8308439456342669 
+            xmax = 1.7381368616144977 
+            text = "peculiaridAdes" 
+        intervals [5]:
+            xmin = 1.7381368616144977 
+            xmax = 2.043475823723229 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 2.043475823723229 
+            xmax = 2.479674341021417 
+            text = "cAda" 
+        intervals [7]:
+            xmin = 2.479674341021417 
+            xmax = 2.7413934514003295 
+            text = "cAso" 
+        intervals [8]:
+            xmin = 2.7413934514003295 
+            xmax = 2.8722530065897858 
+            text = "quE" 
+        intervals [9]:
+            xmin = 2.8722530065897858 
+            xmax = 3.003112561779242 
+            text = "nOs" 
+        intervals [10]:
+            xmin = 3.003112561779242 
+            xmax = 3.3084515238879737 
+            text = "llEvan" 
+        intervals [11]:
+            xmin = 3.3084515238879737 
+            xmax = 3.657410337726524 
+            text = "Es" 
+        intervals [12]:
+            xmin = 3.657410337726524 
+            xmax = 4.145952677100494 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 4.145952677100494 
+            xmax = 4.268088261943987 
+            text = "A" 
+        intervals [14]:
+            xmin = 4.268088261943987 
+            xmax = 4.590875164744646 
+            text = "vEces" 
+        intervals [15]:
+            xmin = 4.590875164744646 
+            xmax = 5.16 
+            text = "<sil>" 

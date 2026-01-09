@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.12 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.12 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16752068117313149 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.16752068117313149 
+            xmax = 0.3141630577105014 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.3141630577105014 
+            xmax = 0.46080543424787135 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.46080543424787135 
+            xmax = 0.5202550463576159 
+            text = "nO" 
+        intervals [5]:
+            xmin = 0.5202550463576159 
+            xmax = 0.6272643481551561 
+            text = "sE" 
+        intervals [6]:
+            xmin = 0.6272643481551561 
+            xmax = 0.7104938051087985 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 0.7104938051087985 
+            xmax = 1.0315217105014192 
+            text = "puEden" 
+        intervals [8]:
+            xmin = 1.0315217105014192 
+            xmax = 1.3010266187322612 
+            text = "abrIr" 
+        intervals [9]:
+            xmin = 1.3010266187322612 
+            xmax = 1.8122932828760643 
+            text = "candidatUras" 
+        intervals [10]:
+            xmin = 1.8122932828760643 
+            xmax = 2.5891015477767265 
+            text = "independiEntes" 
+        intervals [11]:
+            xmin = 2.5891015477767265 
+            xmax = 2.9814689877010405 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 2.9814689877010405 
+            xmax = 3.1162214418164615 
+            text = "A" 
+        intervals [13]:
+            xmin = 3.1162214418164615 
+            xmax = 3.4491392696310315 
+            text = "diEstra" 
+        intervals [14]:
+            xmin = 3.4491392696310315 
+            xmax = 3.5165154966887417 
+            text = "y" 
+        intervals [15]:
+            xmin = 3.5165154966887417 
+            xmax = 4.111011617786187 
+            text = "siniEstra" 
+        intervals [16]:
+            xmin = 4.111011617786187 
+            xmax = 4.12 
+            text = "<sil>" 

@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.28 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.28 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17299676575436984 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.17299676575436984 
+            xmax = 0.28105187729990805 
+            text = "lA" 
+        intervals [3]:
+            xmin = 0.28105187729990805 
+            xmax = 0.7332825293238271 
+            text = "segUnda" 
+        intervals [4]:
+            xmin = 0.7332825293238271 
+            xmax = 0.9654009170883166 
+            text = "vuElta" 
+        intervals [5]:
+            xmin = 0.9654009170883166 
+            xmax = 1.1534968520009201 
+            text = "lO" 
+        intervals [6]:
+            xmin = 1.1534968520009201 
+            xmax = 1.3135784987350507 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.3135784987350507 
+            xmax = 1.5857172981830727 
+            text = "bUsca" 
+        intervals [8]:
+            xmin = 1.5857172981830727 
+            xmax = 1.7017764920653176 
+            text = "Es" 
+        intervals [9]:
+            xmin = 1.7017764920653176 
+            xmax = 2.0939765265639374 
+            text = "evitAr" 
+        intervals [10]:
+            xmin = 2.0939765265639374 
+            xmax = 2.3621132848436064 
+            text = "Estos" 
+        intervals [11]:
+            xmin = 2.3621132848436064 
+            xmax = 2.8743745543928245 
+            text = "problEmas" 
+        intervals [12]:
+            xmin = 2.8743745543928245 
+            xmax = 2.970423542433303 
+            text = "quE" 
+        intervals [13]:
+            xmin = 2.970423542433303 
+            xmax = 3.4466664414673414 
+            text = "presEnta" 
+        intervals [14]:
+            xmin = 3.4466664414673414 
+            xmax = 3.7148031997470103 
+            text = "mayoria" 
+        intervals [15]:
+            xmin = 3.7148031997470103 
+            xmax = 4.235068551632935 
+            text = "relatIva" 
+        intervals [16]:
+            xmin = 4.235068551632935 
+            xmax = 4.28 
+            text = "<sil>" 

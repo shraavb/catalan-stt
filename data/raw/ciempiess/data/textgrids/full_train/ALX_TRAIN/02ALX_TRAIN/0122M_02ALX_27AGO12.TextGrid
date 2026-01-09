@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.75 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.75 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09220167672709163 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09220167672709163 
+            xmax = 0.16962064880379552 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.16962064880379552 
+            xmax = 0.26602918006912485 
+            text = "Un" 
+        intervals [4]:
+            xmin = 0.26602918006912485 
+            xmax = 1.1182320950777014 
+            text = "sistEma" 
+        intervals [5]:
+            xmin = 1.1182320950777014 
+            xmax = 2.2910851071096996 
+            text = "acusatOrio" 
+        intervals [6]:
+            xmin = 2.2910851071096996 
+            xmax = 2.5452530531728406 
+            text = "Es" 
+        intervals [7]:
+            xmin = 2.5452530531728406 
+            xmax = 2.6328971725049586 
+            text = "quE" 
+        intervals [8]:
+            xmin = 2.6328971725049586 
+            xmax = 2.6986302620040465 
+            text = "En" 
+        intervals [9]:
+            xmin = 2.6986302620040465 
+            xmax = 2.789195851980568 
+            text = "El" 
+        intervals [10]:
+            xmin = 2.789195851980568 
+            xmax = 3.272768865772596 
+            text = "sistEma" 
+        intervals [11]:
+            xmin = 3.272768865772596 
+            xmax = 3.9483567605017975 
+            text = "inquisitIvo" 
+        intervals [12]:
+            xmin = 3.9483567605017975 
+            xmax = 4.046226027089329 
+            text = "El" 
+        intervals [13]:
+            xmin = 4.046226027089329 
+            xmax = 4.579223837739574 
+            text = "ministErio" 
+        intervals [14]:
+            xmin = 4.579223837739574 
+            xmax = 5.020307180883977 
+            text = "pUblico" 
+        intervals [15]:
+            xmin = 5.020307180883977 
+            xmax = 5.378165238909278 
+            text = "tiEne" 
+        intervals [16]:
+            xmin = 5.378165238909278 
+            xmax = 5.584128919339755 
+            text = "++dis++" 
+        intervals [17]:
+            xmin = 5.584128919339755 
+            xmax = 5.741811897641214 
+            text = "lA" 
+        intervals [18]:
+            xmin = 5.741811897641214 
+            xmax = 5.982833225804537 
+            text = "verdAd" 
+        intervals [19]:
+            xmin = 5.982833225804537 
+            xmax = 6.626116785516584 
+            text = "absolUta" 
+        intervals [20]:
+            xmin = 6.626116785516584 
+            xmax = 6.75 
+            text = "<sil>" 

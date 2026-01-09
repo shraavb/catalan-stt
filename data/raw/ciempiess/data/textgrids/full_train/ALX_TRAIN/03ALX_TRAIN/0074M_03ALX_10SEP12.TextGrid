@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.83 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.83 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05849489864061692 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05849489864061692 
+            xmax = 0.1318057536709219 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.1318057536709219 
+            xmax = 0.3255558705367279 
+            text = "los" 
+        intervals [4]:
+            xmin = 0.3255558705367279 
+            xmax = 0.9644076072293855 
+            text = "estudiAntes" 
+        intervals [5]:
+            xmin = 0.9644076072293855 
+            xmax = 1.048191441549734 
+            text = "de" 
+        intervals [6]:
+            xmin = 1.048191441549734 
+            xmax = 1.1581577240951915 
+            text = "un" 
+        intervals [7]:
+            xmin = 1.1581577240951915 
+            xmax = 1.5456579578268035 
+            text = "sistEma" 
+        intervals [8]:
+            xmin = 1.5456579578268035 
+            xmax = 2.0326514948138295 
+            text = "abiErto" 
+        intervals [9]:
+            xmin = 2.0326514948138295 
+            xmax = 2.1688002255843957 
+            text = "que" 
+        intervals [10]:
+            xmin = 2.1688002255843957 
+            xmax = 2.4358611974805067 
+            text = "eran" 
+        intervals [11]:
+            xmin = 2.4358611974805067 
+            xmax = 3.0642399548831207 
+            text = "persOnas" 
+        intervals [12]:
+            xmin = 3.0642399548831207 
+            xmax = 3.2160981545887526 
+            text = "con" 
+        intervals [13]:
+            xmin = 3.2160981545887526 
+            xmax = 3.5617064711601905 
+            text = "Otros" 
+        intervals [14]:
+            xmin = 3.5617064711601905 
+            xmax = 4.425727262588785 
+            text = "requerimiEntos" 
+        intervals [15]:
+            xmin = 4.425727262588785 
+            xmax = 4.61947737945459 
+            text = "con" 
+        intervals [16]:
+            xmin = 4.61947737945459 
+            xmax = 4.965085696026028 
+            text = "otras" 
+        intervals [17]:
+            xmin = 4.965085696026028 
+            xmax = 5.698194246329078 
+            text = "condiciOnes" 
+        intervals [18]:
+            xmin = 5.698194246329078 
+            xmax = 5.83 
+            text = "<sil>" 

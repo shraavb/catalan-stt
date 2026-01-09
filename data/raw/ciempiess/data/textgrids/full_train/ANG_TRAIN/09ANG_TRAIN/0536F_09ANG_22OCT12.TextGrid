@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.73 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 2.73 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0893468136563628 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.0893468136563628 
+            xmax = 0.2402124992949007 
+            text = "como" 
+        intervals [3]:
+            xmin = 0.2402124992949007 
+            xmax = 0.33743705226195847 
+            text = "la" 
+        intervals [4]:
+            xmin = 0.33743705226195847 
+            xmax = 0.4279564636450812 
+            text = "de" 
+        intervals [5]:
+            xmin = 0.4279564636450812 
+            xmax = 0.9241369408562725 
+            text = "ganadEro" 
+        intervals [6]:
+            xmin = 0.9241369408562725 
+            xmax = 1.0615923433269403 
+            text = "como" 
+        intervals [7]:
+            xmin = 1.0615923433269403 
+            xmax = 1.1521117547100632 
+            text = "la" 
+        intervals [8]:
+            xmin = 1.1521117547100632 
+            xmax = 1.2593940200530234 
+            text = "de" 
+        intervals [9]:
+            xmin = 1.2593940200530234 
+            xmax = 1.7186962185525723 
+            text = "productOres" 
+        intervals [10]:
+            xmin = 1.7186962185525723 
+            xmax = 1.8326836254794674 
+            text = "de" 
+        intervals [11]:
+            xmin = 1.8326836254794674 
+            xmax = 2.0874790056689982 
+            text = "tOdo" 
+        intervals [12]:
+            xmin = 2.0874790056689982 
+            xmax = 2.4193835140737816 
+            text = "tIpo" 
+        intervals [13]:
+            xmin = 2.4193835140737816 
+            xmax = 2.73 
+            text = "<sil>" 

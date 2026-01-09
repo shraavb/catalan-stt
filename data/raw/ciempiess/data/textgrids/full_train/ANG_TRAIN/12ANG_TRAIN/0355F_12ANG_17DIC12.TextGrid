@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.03 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.03 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1410503103724469 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1410503103724469 
+            xmax = 0.37171911293552257 
+            text = "cuAndo" 
+        intervals [3]:
+            xmin = 0.37171911293552257 
+            xmax = 0.5158871145374449 
+            text = "sE" 
+        intervals [4]:
+            xmin = 0.5158871145374449 
+            xmax = 1.196360082098518 
+            text = "requiEren" 
+        intervals [5]:
+            xmin = 1.196360082098518 
+            xmax = 1.4558624849819781 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.4558624849819781 
+            xmax = 2.0952496445557487 
+            text = "esquEmas" 
+        intervals [7]:
+            xmin = 2.0952496445557487 
+            xmax = 2.2221174859654402 
+            text = "dE" 
+        intervals [8]:
+            xmin = 2.2221174859654402 
+            xmax = 2.855517838822018 
+            text = "valOres" 
+        intervals [9]:
+            xmin = 2.855517838822018 
+            xmax = 3.054469681032671 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 3.054469681032671 
+            xmax = 3.1525039221219777 
+            text = "y" 
+        intervals [11]:
+            xmin = 3.1525039221219777 
+            xmax = 3.2534215232433232 
+            text = "A" 
+        intervals [12]:
+            xmin = 3.2534215232433232 
+            xmax = 3.871649529593673 
+            text = "vEces" 
+        intervals [13]:
+            xmin = 3.871649529593673 
+            xmax = 4.03 
+            text = "<sil>" 

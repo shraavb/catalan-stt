@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.69 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.69 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03839659697256385 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.03839659697256385 
+            xmax = 0.23983987606433296 
+            text = "puEs" 
+        intervals [3]:
+            xmin = 0.23983987606433296 
+            xmax = 0.31970725543992423 
+            text = "++dis++" 
+        intervals [4]:
+            xmin = 0.31970725543992423 
+            xmax = 0.7843880477767266 
+            text = "acOrde" 
+        intervals [5]:
+            xmin = 0.7843880477767266 
+            xmax = 0.8421045032965657 
+            text = "A" 
+        intervals [6]:
+            xmin = 0.8421045032965657 
+            xmax = 1.1844854711690918 
+            text = "nuEstras" 
+        intervals [7]:
+            xmin = 1.1844854711690918 
+            xmax = 1.7728418325692812 
+            text = "realidAdes" 
+        intervals [8]:
+            xmin = 1.7728418325692812 
+            xmax = 2.0656888902797825 
+            text = "++dis++" 
+        intervals [9]:
+            xmin = 2.0656888902797825 
+            xmax = 2.3240926184559227 
+            text = "habrA" 
+        intervals [10]:
+            xmin = 2.3240926184559227 
+            xmax = 2.6515488738958473 
+            text = "algUn" 
+        intervals [11]:
+            xmin = 2.6515488738958473 
+            xmax = 2.9927302577064236 
+            text = "++dis++" 
+        intervals [12]:
+            xmin = 2.9927302577064236 
+            xmax = 3.594397849002545 
+            text = "esquEma" 
+        intervals [13]:
+            xmin = 3.594397849002545 
+            xmax = 3.69 
+            text = "<sil>" 

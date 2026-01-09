@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.5 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11483347874766434 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11483347874766434 
+            xmax = 0.7385133600196716 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.7385133600196716 
+            xmax = 1.3621932412916788 
+            text = "actIvos" 
+        intervals [4]:
+            xmin = 1.3621932412916788 
+            xmax = 1.8668502444583412 
+            text = "y" 
+        intervals [5]:
+            xmin = 1.8668502444583412 
+            xmax = 2.1905924729048794 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 2.1905924729048794 
+            xmax = 2.561943852593555 
+            text = "Oro" 
+        intervals [7]:
+            xmin = 2.561943852593555 
+            xmax = 3.014230789393866 
+            text = "plAta" 
+        intervals [8]:
+            xmin = 3.014230789393866 
+            xmax = 3.490322301815245 
+            text = "monEdas" 
+        intervals [9]:
+            xmin = 3.490322301815245 
+            xmax = 3.666476161411156 
+            text = "tOdo" 
+        intervals [10]:
+            xmin = 3.666476161411156 
+            xmax = 3.8759564268765625 
+            text = "lO" 
+        intervals [11]:
+            xmin = 3.8759564268765625 
+            xmax = 4.064298332166274 
+            text = "quE" 
+        intervals [12]:
+            xmin = 4.064298332166274 
+            xmax = 4.418700751036935 
+            text = "implIca" 
+        intervals [13]:
+            xmin = 4.418700751036935 
+            xmax = 4.71428571429 
+            text = "lA" 
+        intervals [14]:
+            xmin = 4.71428571429 
+            xmax = 5.085228868426867 
+            text = "lA" 
+        intervals [15]:
+            xmin = 5.085228868426867 
+            xmax = 5.5 
+            text = "<sil>" 

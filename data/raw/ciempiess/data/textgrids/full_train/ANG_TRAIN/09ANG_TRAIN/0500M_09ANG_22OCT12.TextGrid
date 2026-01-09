@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.55 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.55 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.21596277193328817 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.21596277193328817 
+            xmax = 0.33330274965215095 
+            text = "que" 
+        intervals [3]:
+            xmin = 0.33330274965215095 
+            xmax = 0.45161989214331366 
+            text = "por" 
+        intervals [4]:
+            xmin = 0.45161989214331366 
+            xmax = 0.7840831623467582 
+            text = "algUnas" 
+        intervals [5]:
+            xmin = 0.7840831623467582 
+            xmax = 1.3204944890615595 
+            text = "situaciOnes" 
+        intervals [6]:
+            xmin = 1.3204944890615595 
+            xmax = 1.3763706689276847 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.3763706689276847 
+            xmax = 2.1744796398789026 
+            text = "particulAres" 
+        intervals [8]:
+            xmin = 2.1744796398789026 
+            xmax = 2.3029948535709908 
+            text = "y" 
+        intervals [9]:
+            xmin = 2.3029948535709908 
+            xmax = 2.613107651827985 
+            text = "porque" 
+        intervals [10]:
+            xmin = 2.613107651827985 
+            xmax = 2.7667671464598294 
+            text = "las" 
+        intervals [11]:
+            xmin = 2.7667671464598294 
+            xmax = 3.3298910592402593 
+            text = "condiciOnes" 
+        intervals [12]:
+            xmin = 3.3298910592402593 
+            xmax = 3.455612463939041 
+            text = "nO" 
+        intervals [13]:
+            xmin = 3.455612463939041 
+            xmax = 3.6260348125307225 
+            text = "se" 
+        intervals [14]:
+            xmin = 3.6260348125307225 
+            xmax = 3.8635085769617543 
+            text = "dAban" 
+        intervals [15]:
+            xmin = 3.8635085769617543 
+            xmax = 4.15984390609958 
+            text = "como" 
+        intervals [16]:
+            xmin = 4.15984390609958 
+            xmax = 4.349822917454426 
+            text = "hOy" 
+        intervals [17]:
+            xmin = 4.349822917454426 
+            xmax = 4.55 
+            text = "<sil>" 

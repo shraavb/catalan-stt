@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.48 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.48 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10204935152952772 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10204935152952772 
+            xmax = 0.38411780290194386 
+            text = "GIl" 
+        intervals [3]:
+            xmin = 0.38411780290194386 
+            xmax = 0.8649162995594715 
+            text = "RendOn" 
+        intervals [4]:
+            xmin = 0.8649162995594715 
+            xmax = 1.2367338036412927 
+            text = "tOdo" 
+        intervals [5]:
+            xmin = 1.2367338036412927 
+            xmax = 1.5123916083916085 
+            text = "lA" 
+        intervals [6]:
+            xmin = 1.5123916083916085 
+            xmax = 1.7880494131419242 
+            text = "lA" 
+        intervals [7]:
+            xmin = 1.7880494131419242 
+            xmax = 2.134224330735344 
+            text = "palAbra" 
+        intervals [8]:
+            xmin = 2.134224330735344 
+            xmax = 2.75692307692 
+            text = "complEta" 
+        intervals [9]:
+            xmin = 2.75692307692 
+            xmax = 2.897091278765288 
+            text = "cOn" 
+        intervals [10]:
+            xmin = 2.897091278765288 
+            xmax = 3.576619820707927 
+            text = "minUsculas" 
+        intervals [11]:
+            xmin = 3.576619820707927 
+            xmax = 3.7945818058593392 
+            text = "Y" 
+        intervals [12]:
+            xmin = 3.7945818058593392 
+            xmax = 4.2048631896737625 
+            text = "pegAdo" 
+        intervals [13]:
+            xmin = 4.2048631896737625 
+            xmax = 4.48 
+            text = "<sil>" 

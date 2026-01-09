@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.75 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.75 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06395655555897845 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.06395655555897845 
+            xmax = 0.45031249037306303 
+            text = "verdAd" 
+        intervals [3]:
+            xmin = 0.45031249037306303 
+            xmax = 0.7722757693848003 
+            text = "empezAr" 
+        intervals [4]:
+            xmin = 0.7722757693848003 
+            xmax = 0.8903289716891039 
+            text = "A" 
+        intervals [5]:
+            xmin = 0.8903289716891039 
+            xmax = 1.2015601414004498 
+            text = "cambiAr" 
+        intervals [6]:
+            xmin = 1.2015601414004498 
+            xmax = 1.5288894750623825 
+            text = "dEsde" 
+        intervals [7]:
+            xmin = 1.5288894750623825 
+            xmax = 1.8240224808231416 
+            text = "ahI" 
+        intervals [8]:
+            xmin = 1.8240224808231416 
+            xmax = 2.017200448230184 
+            text = "yO" 
+        intervals [9]:
+            xmin = 2.017200448230184 
+            xmax = 2.2425747435384 
+            text = "dIgo" 
+        intervals [10]:
+            xmin = 2.2425747435384 
+            xmax = 2.34375 
+            text = "quE" 
+        intervals [11]:
+            xmin = 2.34375 
+            xmax = 2.467949038846616 
+            text = "sI" 
+        intervals [12]:
+            xmin = 2.467949038846616 
+            xmax = 2.8811352469116787 
+            text = "empezAmos" 
+        intervals [13]:
+            xmin = 2.8811352469116787 
+            xmax = 2.972358175965004 
+            text = "A" 
+        intervals [14]:
+            xmin = 2.972358175965004 
+            xmax = 3.213830635223807 
+            text = "hacEr" 
+        intervals [15]:
+            xmin = 3.213830635223807 
+            xmax = 3.515625 
+            text = "Eso" 
+        intervals [16]:
+            xmin = 3.515625 
+            xmax = 3.75 
+            text = "<sil>" 

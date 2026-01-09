@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.52 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.52 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.031608861267040905 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.031608861267040905 
+            xmax = 0.3280266639935846 
+            text = "Un" 
+        intervals [3]:
+            xmin = 0.3280266639935846 
+            xmax = 0.6379180032076984 
+            text = "Una" 
+        intervals [4]:
+            xmin = 0.6379180032076984 
+            xmax = 0.9478093424218123 
+            text = "mayOr" 
+        intervals [5]:
+            xmin = 0.9478093424218123 
+            xmax = 1.9313775060144345 
+            text = "consistEncia" 
+        intervals [6]:
+            xmin = 1.9313775060144345 
+            xmax = 2.133480553327987 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 2.133480553327987 
+            xmax = 2.3535483159582995 
+            text = "En" 
+        intervals [8]:
+            xmin = 2.3535483159582995 
+            xmax = 2.771227947072975 
+            text = "tenEr" 
+        intervals [9]:
+            xmin = 2.771227947072975 
+            xmax = 2.9823133520449074 
+            text = "Un" 
+        intervals [10]:
+            xmin = 2.9823133520449074 
+            xmax = 3.5437107056936643 
+            text = "mozAico" 
+        intervals [11]:
+            xmin = 3.5437107056936643 
+            xmax = 4.311702285485164 
+            text = "pluripartidIsta" 
+        intervals [12]:
+            xmin = 4.311702285485164 
+            xmax = 4.477875902165196 
+            text = "En" 
+        intervals [13]:
+            xmin = 4.477875902165196 
+            xmax = 4.590155372894947 
+            text = "El" 
+        intervals [14]:
+            xmin = 4.590155372894947 
+            xmax = 5.156043905372894 
+            text = "senAdo" 
+        intervals [15]:
+            xmin = 5.156043905372894 
+            xmax = 5.52 
+            text = "<sil>" 

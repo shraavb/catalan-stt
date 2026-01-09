@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.56 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.56 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05578587246000515 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05578587246000515 
+            xmax = 0.19561721172878582 
+            text = "car" 
+        intervals [3]:
+            xmin = 0.19561721172878582 
+            xmax = 0.32046662179019714 
+            text = "la" 
+        intervals [4]:
+            xmin = 0.32046662179019714 
+            xmax = 0.7899004036211036 
+            text = "informaciOn" 
+        intervals [5]:
+            xmin = 0.7899004036211036 
+            xmax = 0.8997678844751456 
+            text = "que" 
+        intervals [6]:
+            xmin = 0.8997678844751456 
+            xmax = 1.0296112709390133 
+            text = "tu" 
+        intervals [7]:
+            xmin = 1.0296112709390133 
+            xmax = 1.6388763920387006 
+            text = "quiEras" 
+        intervals [8]:
+            xmin = 1.6388763920387006 
+            xmax = 2.2131836783211924 
+            text = "ponEr" 
+        intervals [9]:
+            xmin = 2.2131836783211924 
+            xmax = 2.507828286066123 
+            text = "las" 
+        intervals [10]:
+            xmin = 2.507828286066123 
+            xmax = 2.9223283274700087 
+            text = "palAbras" 
+        intervals [11]:
+            xmin = 2.9223283274700087 
+            xmax = 3.0971175015559846 
+            text = "que" 
+        intervals [12]:
+            xmin = 3.0971175015559846 
+            xmax = 3.2269608880198524 
+            text = "tu" 
+        intervals [13]:
+            xmin = 3.2269608880198524 
+            xmax = 3.7812922686925186 
+            text = "quiEras" 
+        intervals [14]:
+            xmin = 3.7812922686925186 
+            xmax = 4.635262233512572 
+            text = "inclUso" 
+        intervals [15]:
+            xmin = 4.635262233512572 
+            xmax = 4.9598706996722415 
+            text = "puEdes" 
+        intervals [16]:
+            xmin = 4.9598706996722415 
+            xmax = 5.2145634961975205 
+            text = "en" 
+        intervals [17]:
+            xmin = 5.2145634961975205 
+            xmax = 5.514202080344908 
+            text = "en" 
+        intervals [18]:
+            xmin = 5.514202080344908 
+            xmax = 5.56 
+            text = "<sil>" 

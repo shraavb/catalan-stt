@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.58 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.58 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.255714285714 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.255714285714 
+            xmax = 0.5700338180803004 
+            text = "pOrque" 
+        intervals [3]:
+            xmin = 0.5700338180803004 
+            xmax = 0.8779064668133351 
+            text = "pOrque" 
+        intervals [4]:
+            xmin = 0.8779064668133351 
+            xmax = 1.1177406630470286 
+            text = "sOn" 
+        intervals [5]:
+            xmin = 1.1177406630470286 
+            xmax = 1.6367424216879238 
+            text = "cuOtas" 
+        intervals [6]:
+            xmin = 1.6367424216879238 
+            xmax = 1.7246206004605749 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.7246206004605749 
+            xmax = 1.873342753197137 
+            text = "Y" 
+        intervals [8]:
+            xmin = 1.873342753197137 
+            xmax = 2.0168156729460947 
+            text = "tOdo" 
+        intervals [9]:
+            xmin = 2.0168156729460947 
+            xmax = 2.1925720304913967 
+            text = "mUndo" 
+        intervals [10]:
+            xmin = 2.1925720304913967 
+            xmax = 2.3683283880366988 
+            text = "estA" 
+        intervals [11]:
+            xmin = 2.3683283880366988 
+            xmax = 2.8608123482417636 
+            text = "peleAndo" 
+        intervals [12]:
+            xmin = 2.8608123482417636 
+            xmax = 2.9806734562614756 
+            text = "pOr" 
+        intervals [13]:
+            xmin = 2.9806734562614756 
+            xmax = 3.1647243831638483 
+            text = "Esa" 
+        intervals [14]:
+            xmin = 3.1647243831638483 
+            xmax = 3.496957756034517 
+            text = "cuOta" 
+        intervals [15]:
+            xmin = 3.496957756034517 
+            xmax = 3.58 
+            text = "<sil>" 

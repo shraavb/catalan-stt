@@ -1,22 +1,24 @@
-# CatalanSTT
+# SpanishSlangSTT
 
-**Fine-tuned Speech-to-Text for Catalan-accented Spanish**
+**Fine-tuned Speech-to-Text for Regional Spanish Slang and Informal Speech**
 
-A custom STT pipeline optimized for recognizing Catalan-accented Spanish speech, featuring Whisper fine-tuning, a production-ready API, and comprehensive evaluation tools.
+A custom STT pipeline optimized for recognizing regional Spanish slang and informal speech, featuring Whisper fine-tuning, a production-ready API, and comprehensive evaluation tools.
 
 ## Why This Project?
 
-Standard STT models often struggle with regional accents and dialects. Catalan-accented Spanish has distinct characteristics:
+Standard STT models often struggle with informal speech, slang, and regional variations. This project addresses:
 
-- **Lexical borrowings**: "nen/nena" (kid), "home" (interjection), "ostras", "apa"
-- **Phonetic patterns**: "pues" → "pos", "muy" → "moi"
-- **Unique intonation patterns** from Catalan influence
+- **Regional slang**: Mexican ("chido", "padre", "neta"), Argentinian ("che", "boludo", "pibe"), Spanish ("mola", "guay", "
 
-This project fine-tunes Whisper on Catalan-Spanish data to improve recognition accuracy for this underserved dialect.
+")
+- **Informal expressions**: Everyday colloquialisms and casual speech patterns
+- **Code-switching**: Natural mixing of formal and informal registers
+
+This project fine-tunes Whisper on Spanish slang data to improve recognition accuracy for informal speech.
 
 ## Features
 
-- **Whisper Fine-tuning Pipeline**: Train on your own Catalan-Spanish audio data
+- **Whisper Fine-tuning Pipeline**: Train on your own Spanish audio data
 - **FastAPI Transcription Service**: Production-ready REST API with word-level timestamps
 - **Evaluation Suite**: WER/CER metrics, model comparison benchmarks
 - **Synthetic Data Generation**: Bootstrap training data using ElevenLabs TTS
@@ -25,7 +27,7 @@ This project fine-tunes Whisper on Catalan-Spanish data to improve recognition a
 ## Project Structure
 
 ```
-catalan-stt/
+spanish-slang-stt/
 ├── src/
 │   ├── data/           # Data loading, preprocessing, synthetic generation
 │   ├── training/       # Whisper fine-tuning pipeline
@@ -48,8 +50,8 @@ catalan-stt/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/catalan-stt.git
-cd catalan-stt
+git clone https://github.com/yourusername/spanish-slang-stt.git
+cd spanish-slang-stt
 
 # Create virtual environment
 python -m venv venv
@@ -82,29 +84,21 @@ python -m http.server 8080 --directory demo
 
 ## Training Your Own Model
 
-### Step 1: Download Public Datasets
+### Step 1: Prepare Your Data
 
-We provide scripts to download high-quality open-source speech datasets:
+Place your Spanish audio data in `data/raw/` with corresponding transcriptions.
 
 | Dataset | Language | Size | Hours | License |
 |---------|----------|------|-------|---------|
-| [ParlamentParla Clean](https://openslr.org/59/) | Catalan | 7.7 GB | 90h | CC BY 4.0 |
-| [ParlamentParla Other](https://openslr.org/59/) | Catalan | 19 GB | 230h | CC BY 4.0 |
-| [Google Crowdsourced](https://openslr.org/69/) | Catalan | 1.8 GB | - | CC BY-SA 4.0 |
 | [Spanish Conversational](https://magichub.com/datasets/spanish-conversational-speech-corpus/) | Spanish | 514 MB | 5.5h | CC BY-NC-ND 4.0 |
+| Your custom data | Spanish | - | - | - |
 
 ```bash
 # List available datasets
 python scripts/download_datasets.py --list
 
-# Download quick test set (Google Crowdsourced - ~2GB)
-python scripts/download_datasets.py --dataset quick
-
-# Download all Catalan datasets (~28GB)
-python scripts/download_datasets.py --dataset catalan
-
-# Download specific dataset
-python scripts/download_datasets.py --dataset parlament-clean
+# Download Spanish conversational corpus (requires MagicHub account)
+python scripts/download_datasets.py --dataset spanish
 ```
 
 > **Note**: The Spanish Conversational Corpus requires a free MagicHub account. The script will provide instructions.
@@ -135,12 +129,12 @@ This will:
 ```json
 [
   {
-    "audio_path": "data/processed/parlament-clean/sample_001.wav",
-    "transcript": "Hola, ¿cómo estás, nen?",
+    "audio_path": "data/processed/spanish-conversational/sample_001.wav",
+    "transcript": "Oye, ¿qué onda?",
     "duration": 2.5,
-    "language": "ca",
+    "language": "es",
     "speaker_id": "spk_001",
-    "dataset": "parlament-clean"
+    "dataset": "spanish-conversational"
   }
 ]
 ```
@@ -174,7 +168,7 @@ report = run_comparison(
     references=[...],
     models={
         "whisper-small": vanilla_transcribe_fn,
-        "catalan-whisper": finetuned_transcribe_fn,
+        "spanish-slang-whisper": finetuned_transcribe_fn,
     }
 )
 print(report)
@@ -195,9 +189,9 @@ generator = SyntheticDataGenerator(
 
 # Generate audio from text
 texts = [
-    "Hola, ¿cómo estás?",
-    "Apa, vamos a tomar algo",
-    "Ostras, qué bien, nen!",
+    "Hola, ¿qué onda?",
+    "¡Está chido, güey!",
+    "Che, ¿cómo andás?",
 ]
 
 results = generator.synthesize_batch(texts, alternate_voices=True)
@@ -236,7 +230,7 @@ Transcribe and compare against expected text.
 ```json
 {
   "audio_base64": "...",
-  "expected_text": "Hola, ¿cómo estás?",
+  "expected_text": "¿Qué onda, güey?",
   "language": "es"
 }
 ```
@@ -268,12 +262,21 @@ training:
   learning_rate: 1.0e-5
   per_device_train_batch_size: 8
 
-catalan_markers:
+slang_markers:
   lexical:
-    - "nen"
-    - "nena"
-    - "home"
-    - "ostras"
+    - "tio"
+    - "mola"
+    - "guay"
+    - "chido"
+  regional:
+    mexico:
+      - "chido"
+      - "padre"
+      - "neta"
+    argentina:
+      - "che"
+      - "boludo"
+      - "pibe"
 ```
 
 ## Deployment
@@ -298,8 +301,8 @@ Deploy as a Gradio app on Hugging Face Spaces for a public demo.
 
 ## Roadmap
 
-- [x] Integrate open-source Catalan/Spanish speech datasets
-- [ ] Fine-tune Whisper-small on collected data
+- [x] Set up training pipeline
+- [ ] Fine-tune Whisper-small on Spanish slang data
 - [ ] Benchmark against vanilla Whisper
 - [ ] Deploy to Hugging Face Spaces
 - [ ] Add streaming transcription support

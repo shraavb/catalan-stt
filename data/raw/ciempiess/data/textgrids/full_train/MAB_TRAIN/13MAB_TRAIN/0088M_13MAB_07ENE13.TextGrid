@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.65 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.65 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13733402081362348 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13733402081362348 
+            xmax = 0.4211923132611629 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.4211923132611629 
+            xmax = 0.7025863197729424 
+            text = "Esta" 
+        intervals [4]:
+            xmin = 0.7025863197729424 
+            xmax = 1.2787088552507098 
+            text = "difusiOn" 
+        intervals [5]:
+            xmin = 1.2787088552507098 
+            xmax = 2.305946206244087 
+            text = "implementaciOn" 
+        intervals [6]:
+            xmin = 2.305946206244087 
+            xmax = 2.5505265279091773 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 2.5505265279091773 
+            xmax = 2.6415965651013096 
+            text = "dE" 
+        intervals [8]:
+            xmin = 2.6415965651013096 
+            xmax = 2.860328268684958 
+            text = "lAs" 
+        intervals [9]:
+            xmin = 2.860328268684958 
+            xmax = 3.2462216650898776 
+            text = "lEyes" 
+        intervals [10]:
+            xmin = 3.2462216650898776 
+            xmax = 3.3005728476821194 
+            text = "quE" 
+        intervals [11]:
+            xmin = 3.3005728476821194 
+            xmax = 3.441885922421949 
+            text = "sE" 
+        intervals [12]:
+            xmin = 3.441885922421949 
+            xmax = 3.9196298646536327 
+            text = "reAlmente" 
+        intervals [13]:
+            xmin = 3.9196298646536327 
+            xmax = 4.0312937875695996 
+            text = "sE" 
+        intervals [14]:
+            xmin = 4.0312937875695996 
+            xmax = 4.6973982403027446 
+            text = "aplIquen" 
+        intervals [15]:
+            xmin = 4.6973982403027446 
+            xmax = 5.184790862363152 
+            text = "serIa" 
+        intervals [16]:
+            xmin = 5.184790862363152 
+            xmax = 5.65 
+            text = "<sil>" 

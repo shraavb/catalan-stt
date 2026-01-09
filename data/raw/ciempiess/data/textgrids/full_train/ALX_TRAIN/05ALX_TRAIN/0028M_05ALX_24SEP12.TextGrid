@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.06 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.06 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12736432166508987 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12736432166508987 
+            xmax = 0.4364445865657521 
+            text = "decIa" 
+        intervals [3]:
+            xmin = 0.4364445865657521 
+            xmax = 0.565963935666982 
+            text = "Al" 
+        intervals [4]:
+            xmin = 0.565963935666982 
+            xmax = 1.02 
+            text = "prIncipio" 
+        intervals [5]:
+            xmin = 1.02 
+            xmax = 1.1900117086092714 
+            text = "quE" 
+        intervals [6]:
+            xmin = 1.1900117086092714 
+            xmax = 1.3077565714285715 
+            text = "nO" 
+        intervals [7]:
+            xmin = 1.3077565714285715 
+            xmax = 1.5255845676442763 
+            text = "sOn" 
+        intervals [8]:
+            xmin = 1.5255845676442763 
+            xmax = 1.7022018618732262 
+            text = "lOs" 
+        intervals [9]:
+            xmin = 1.7022018618732262 
+            xmax = 2.1290269895931884 
+            text = "Unicos" 
+        intervals [10]:
+            xmin = 2.1290269895931884 
+            xmax = 2.4410508760643332 
+            text = "porquE" 
+        intervals [11]:
+            xmin = 2.4410508760643332 
+            xmax = 2.805 
+            text = "buEno" 
+        intervals [12]:
+            xmin = 2.805 
+            xmax = 3.06 
+            text = "<sil>" 

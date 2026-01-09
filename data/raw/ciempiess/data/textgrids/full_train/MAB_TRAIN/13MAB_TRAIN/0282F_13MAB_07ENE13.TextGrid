@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.12 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.12 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.030333871349796773 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.030333871349796773 
+            xmax = 0.5671934024865427 
+            text = "podrIan" 
+        intervals [3]:
+            xmin = 0.5671934024865427 
+            xmax = 1.2665908777219785 
+            text = "cambiAr" 
+        intervals [4]:
+            xmin = 1.2665908777219785 
+            xmax = 1.6323308418359221 
+            text = "lA" 
+        intervals [5]:
+            xmin = 1.6323308418359221 
+            xmax = 2.440808657245692 
+            text = "perspectIva" 
+        intervals [6]:
+            xmin = 2.440808657245692 
+            xmax = 2.5883879410109674 
+            text = "quE" 
+        intervals [7]:
+            xmin = 2.5883879410109674 
+            xmax = 3.0247093017083038 
+            text = "tenEmos" 
+        intervals [8]:
+            xmin = 3.0247093017083038 
+            xmax = 3.0952906982916963 
+            text = "dE" 
+        intervals [9]:
+            xmin = 3.0952906982916963 
+            xmax = 3.3519503222313056 
+            text = "lOs" 
+        intervals [10]:
+            xmin = 3.3519503222313056 
+            xmax = 4.192510590633527 
+            text = "polIticos" 
+        intervals [11]:
+            xmin = 4.192510590633527 
+            xmax = 4.506918629959548 
+            text = "sI" 
+        intervals [12]:
+            xmin = 4.506918629959548 
+            xmax = 4.911157537664433 
+            text = "Ellos" 
+        intervals [13]:
+            xmin = 4.911157537664433 
+            xmax = 5.398810823149692 
+            text = "tomAran" 
+        intervals [14]:
+            xmin = 5.398810823149692 
+            xmax = 5.604138522301379 
+            text = "En" 
+        intervals [15]:
+            xmin = 5.604138522301379 
+            xmax = 6.034043392400225 
+            text = "cuEnta" 
+        intervals [16]:
+            xmin = 6.034043392400225 
+            xmax = 6.12 
+            text = "<sil>" 

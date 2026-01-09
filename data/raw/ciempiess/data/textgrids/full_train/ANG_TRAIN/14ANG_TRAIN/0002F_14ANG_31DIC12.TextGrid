@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.9 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.9 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13906387665198236 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13906387665198236 
+            xmax = 0.7027142571085302 
+            text = "brEvemente" 
+        intervals [3]:
+            xmin = 0.7027142571085302 
+            xmax = 0.825489587505006 
+            text = "tE" 
+        intervals [4]:
+            xmin = 0.825489587505006 
+            xmax = 1.02639467360833 
+            text = "darE" 
+        intervals [5]:
+            xmin = 1.02639467360833 
+            xmax = 1.1603313976772127 
+            text = "Una" 
+        intervals [6]:
+            xmin = 1.1603313976772127 
+            xmax = 1.67142857143 
+            text = "referEncia" 
+        intervals [7]:
+            xmin = 1.67142857143 
+            xmax = 1.95 
+            text = "dE" 
+        intervals [8]:
+            xmin = 1.95 
+            xmax = 2.1146305566680015 
+            text = "quiEn" 
+        intervals [9]:
+            xmin = 2.1146305566680015 
+            xmax = 2.2374058870644773 
+            text = "Es" 
+        intervals [10]:
+            xmin = 2.2374058870644773 
+            xmax = 2.343439126952343 
+            text = "El" 
+        intervals [11]:
+            xmin = 2.343439126952343 
+            xmax = 2.639216059271125 
+            text = "doctOr" 
+        intervals [12]:
+            xmin = 2.639216059271125 
+            xmax = 3.0800911093311973 
+            text = "RegIl" 
+        intervals [13]:
+            xmin = 3.0800911093311973 
+            xmax = 3.62142857143 
+            text = "RendOn" 
+        intervals [14]:
+            xmin = 3.62142857143 
+            xmax = 3.9 
+            text = "<sil>" 

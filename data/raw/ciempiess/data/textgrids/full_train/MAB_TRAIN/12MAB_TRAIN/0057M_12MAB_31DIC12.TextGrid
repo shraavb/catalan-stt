@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.99 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.99 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22703792720863816 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.22703792720863816 
+            xmax = 0.831666666667 
+            text = "porquE" 
+        intervals [3]:
+            xmin = 0.831666666667 
+            xmax = 1.1373618041767972 
+            text = "dE" 
+        intervals [4]:
+            xmin = 1.1373618041767972 
+            xmax = 1.524511039209233 
+            text = "hAcer" 
+        intervals [5]:
+            xmin = 1.524511039209233 
+            xmax = 1.575520566797966 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.575520566797966 
+            xmax = 2.07916666667 
+            text = "cAso" 
+        intervals [7]:
+            xmin = 2.07916666667 
+            xmax = 2.281806333411193 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 2.281806333411193 
+            xmax = 2.8808412984275966 
+            text = "omIso" 
+        intervals [9]:
+            xmin = 2.8808412984275966 
+            xmax = 3.272590496830773 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 3.272590496830773 
+            xmax = 3.411592038975655 
+            text = "A" 
+        intervals [11]:
+            xmin = 3.411592038975655 
+            xmax = 3.555104803476064 
+            text = "lO" 
+        intervals [12]:
+            xmin = 3.555104803476064 
+            xmax = 3.6627158671048026 
+            text = "quE" 
+        intervals [13]:
+            xmin = 3.6627158671048026 
+            xmax = 3.91383969523395 
+            text = "EstA" 
+        intervals [14]:
+            xmin = 3.91383969523395 
+            xmax = 4.727376263444 
+            text = "sucediEndo" 
+        intervals [15]:
+            xmin = 4.727376263444 
+            xmax = 4.99 
+            text = "<sil>" 

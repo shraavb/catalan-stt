@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.88 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.88 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14235374757401184 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.14235374757401184 
+            xmax = 0.3358751424786667 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.3358751424786667 
+            xmax = 0.7060899849049628 
+            text = "tErmino" 
+        intervals [4]:
+            xmin = 0.7060899849049628 
+            xmax = 1.2445843011613935 
+            text = "relaciOnes" 
+        intervals [5]:
+            xmin = 1.2445843011613935 
+            xmax = 1.8375 
+            text = "laborAles" 
+        intervals [6]:
+            xmin = 1.8375 
+            xmax = 2.043911801854533 
+            text = "hAce" 
+        intervals [7]:
+            xmin = 2.043911801854533 
+            xmax = 2.7843414867071252 
+            text = "referEncia" 
+        intervals [8]:
+            xmin = 2.7843414867071252 
+            xmax = 2.95262096053726 
+            text = "Al" 
+        intervals [9]:
+            xmin = 2.95262096053726 
+            xmax = 3.4995292504851974 
+            text = "sistEma" 
+        intervals [10]:
+            xmin = 3.4995292504851974 
+            xmax = 3.675 
+            text = "En" 
+        intervals [11]:
+            xmin = 3.675 
+            xmax = 3.80243230337944 
+            text = "quE" 
+        intervals [12]:
+            xmin = 3.80243230337944 
+            xmax = 4.012781645667108 
+            text = "lAs" 
+        intervals [13]:
+            xmin = 4.012781645667108 
+            xmax = 4.7775 
+            text = "emprEsas" 
+        intervals [14]:
+            xmin = 4.7775 
+            xmax = 4.946732725424355 
+            text = "lOs" 
+        intervals [15]:
+            xmin = 4.946732725424355 
+            xmax = 5.796544068266535 
+            text = "trabajadOres" 
+        intervals [16]:
+            xmin = 5.796544068266535 
+            xmax = 5.88 
+            text = "<sil>" 

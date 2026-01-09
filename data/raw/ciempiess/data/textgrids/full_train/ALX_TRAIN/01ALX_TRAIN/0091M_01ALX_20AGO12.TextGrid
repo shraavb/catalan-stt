@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.5 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0829545454545454 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.0829545454545454 
+            xmax = 0.32478474169002797 
+            text = "porquE" 
+        intervals [3]:
+            xmin = 0.32478474169002797 
+            xmax = 0.6596265518622346 
+            text = "tenEmos" 
+        intervals [4]:
+            xmin = 0.6596265518622346 
+            xmax = 0.7991439727673207 
+            text = "Una" 
+        intervals [5]:
+            xmin = 0.7991439727673207 
+            xmax = 1.4130206247496995 
+            text = "procuradurIa" 
+        intervals [6]:
+            xmin = 1.4130206247496995 
+            xmax = 1.6734531437725269 
+            text = "generAl" 
+        intervals [7]:
+            xmin = 1.6734531437725269 
+            xmax = 1.747862434921906 
+            text = "dE" 
+        intervals [8]:
+            xmin = 1.747862434921906 
+            xmax = 1.8873798558269923 
+            text = "lA" 
+        intervals [9]:
+            xmin = 1.8873798558269923 
+            xmax = 2.6872797356828193 
+            text = "repUblica" 
+        intervals [10]:
+            xmin = 2.6872797356828193 
+            xmax = 3.0128203844613535 
+            text = "Al" 
+        intervals [11]:
+            xmin = 3.0128203844613535 
+            xmax = 3.97222222222 
+            text = "servIcio" 
+        intervals [12]:
+            xmin = 3.97222222222 
+            xmax = 4.33333333333 
+            text = "dEl" 
+        intervals [13]:
+            xmin = 4.33333333333 
+            xmax = 5.217195634761714 
+            text = "ejecutIvo" 
+        intervals [14]:
+            xmin = 5.217195634761714 
+            xmax = 5.477628153784541 
+            text = "Y" 
+        intervals [15]:
+            xmin = 5.477628153784541 
+            xmax = 5.635747897476972 
+            text = "Eso" 
+        intervals [16]:
+            xmin = 5.635747897476972 
+            xmax = 5.78456647977573 
+            text = "lO" 
+        intervals [17]:
+            xmin = 5.78456647977573 
+            xmax = 6.2868291950340405 
+            text = "vImos" 
+        intervals [18]:
+            xmin = 6.2868291950340405 
+            xmax = 6.5 
+            text = "<sil>" 

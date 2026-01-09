@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.04 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.04 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09099818243430577 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09099818243430577 
+            xmax = 0.41525603031329905 
+            text = "pEro" 
+        intervals [3]:
+            xmin = 0.41525603031329905 
+            xmax = 0.7306369489541297 
+            text = "nO" 
+        intervals [4]:
+            xmin = 0.7306369489541297 
+            xmax = 1.0394927451403224 
+            text = "hAy" 
+        intervals [5]:
+            xmin = 1.0394927451403224 
+            xmax = 1.2002689997227443 
+            text = "++dis++" 
+        intervals [6]:
+            xmin = 1.2002689997227443 
+            xmax = 1.30467095899695 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.30467095899695 
+            xmax = 2.022434429007116 
+            text = "responsabilizAr" 
+        intervals [8]:
+            xmin = 2.022434429007116 
+            xmax = 2.1137861433720464 
+            text = "A" 
+        intervals [9]:
+            xmin = 2.1137861433720464 
+            xmax = 2.196437694464126 
+            text = "lAs" 
+        intervals [10]:
+            xmin = 2.196437694464126 
+            xmax = 2.631445858106651 
+            text = "prisiOnes" 
+        intervals [11]:
+            xmin = 2.631445858106651 
+            xmax = 2.809799205200086 
+            text = "sObre" 
+        intervals [12]:
+            xmin = 2.809799205200086 
+            xmax = 3.0162513169649734 
+            text = "Esto" 
+        intervals [13]:
+            xmin = 3.0162513169649734 
+            xmax = 3.04 
+            text = "<sil>" 

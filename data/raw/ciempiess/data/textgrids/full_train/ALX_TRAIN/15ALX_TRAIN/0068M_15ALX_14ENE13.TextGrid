@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.56 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.56 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.21666759508041625 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.21666759508041625 
+            xmax = 0.39132247492904443 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.39132247492904443 
+            xmax = 0.6550170974456007 
+            text = "crEo" 
+        intervals [4]:
+            xmin = 0.6550170974456007 
+            xmax = 0.7235092071901607 
+            text = "quE" 
+        intervals [5]:
+            xmin = 0.7235092071901607 
+            xmax = 0.9563823803216649 
+            text = "ahI" 
+        intervals [6]:
+            xmin = 0.9563823803216649 
+            xmax = 1.1070650217596971 
+            text = "Esta" 
+        intervals [7]:
+            xmin = 1.1070650217596971 
+            xmax = 1.2372000302743613 
+            text = "El" 
+        intervals [8]:
+            xmin = 1.2372000302743613 
+            xmax = 1.7817123027436137 
+            text = "riEsgo" 
+        intervals [9]:
+            xmin = 1.7817123027436137 
+            xmax = 2.3501968136234623 
+            text = "precisamEnte" 
+        intervals [10]:
+            xmin = 2.3501968136234623 
+            xmax = 2.5145778770104066 
+            text = "dE" 
+        intervals [11]:
+            xmin = 2.5145778770104066 
+            xmax = 2.7440264446546827 
+            text = "lAs" 
+        intervals [12]:
+            xmin = 2.7440264446546827 
+            xmax = 3.3947014872280032 
+            text = "encuEstas" 
+        intervals [13]:
+            xmin = 3.3947014872280032 
+            xmax = 3.56 
+            text = "<sil>" 

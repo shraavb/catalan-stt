@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.63 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.63 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13013738883632922 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13013738883632922 
+            xmax = 0.2977506641438032 
+            text = "sI" 
+        intervals [3]:
+            xmin = 0.2977506641438032 
+            xmax = 0.4863155988647114 
+            text = "Es" 
+        intervals [4]:
+            xmin = 0.4863155988647114 
+            xmax = 0.5596464068117313 
+            text = "El" 
+        intervals [5]:
+            xmin = 0.5596464068117313 
+            xmax = 0.9193165600756859 
+            text = "vOto" 
+        intervals [6]:
+            xmin = 0.9193165600756859 
+            xmax = 1.069470119205298 
+            text = "dEl" 
+        intervals [7]:
+            xmin = 1.069470119205298 
+            xmax = 1.8970606660359508 
+            text = "representAnte" 
+        intervals [8]:
+            xmin = 1.8970606660359508 
+            xmax = 2.225303330179754 
+            text = "dEl" 
+        intervals [9]:
+            xmin = 2.225303330179754 
+            xmax = 2.4068843784295173 
+            text = "dEl" 
+        intervals [10]:
+            xmin = 2.4068843784295173 
+            xmax = 2.839885339640492 
+            text = "patrOn" 
+        intervals [11]:
+            xmin = 2.839885339640492 
+            xmax = 2.9655952961210974 
+            text = "Y" 
+        intervals [12]:
+            xmin = 2.9655952961210974 
+            xmax = 3.4789109517502363 
+            text = "condEna" 
+        intervals [13]:
+            xmin = 3.4789109517502363 
+            xmax = 3.63 
+            text = "<sil>" 

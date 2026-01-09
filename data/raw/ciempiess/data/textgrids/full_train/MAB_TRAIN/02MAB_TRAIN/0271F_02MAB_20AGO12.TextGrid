@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.9 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.9 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17860288103564978 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.17860288103564978 
+            xmax = 0.6423137715290312 
+            text = "cOmo" 
+        intervals [3]:
+            xmin = 0.6423137715290312 
+            xmax = 0.7509960114884176 
+            text = "++dis++" 
+        intervals [4]:
+            xmin = 0.7509960114884176 
+            xmax = 1.6711723098112214 
+            text = "polItica" 
+        intervals [5]:
+            xmin = 1.6711723098112214 
+            xmax = 2.5584017196824766 
+            text = "monetAria" 
+        intervals [6]:
+            xmin = 2.5584017196824766 
+            xmax = 2.9351668182083492 
+            text = "++dis++" 
+        intervals [7]:
+            xmin = 2.9351668182083492 
+            xmax = 3.1235493674712855 
+            text = "vA" 
+        intervals [8]:
+            xmin = 3.1235493674712855 
+            xmax = 3.4604643113453832 
+            text = "mUy" 
+        intervals [9]:
+            xmin = 3.4604643113453832 
+            xmax = 3.5546555859768514 
+            text = "de" 
+        intervals [10]:
+            xmin = 3.5546555859768514 
+            xmax = 3.729584174515719 
+            text = "la" 
+        intervals [11]:
+            xmin = 3.729584174515719 
+            xmax = 4.218654254332958 
+            text = "mAno" 
+        intervals [12]:
+            xmin = 4.218654254332958 
+            xmax = 4.378054872940058 
+            text = "++dis++" 
+        intervals [13]:
+            xmin = 4.378054872940058 
+            xmax = 4.825312917183739 
+            text = "tambiEn" 
+        intervals [14]:
+            xmin = 4.825312917183739 
+            xmax = 4.970222570462921 
+            text = "con" 
+        intervals [15]:
+            xmin = 4.970222570462921 
+            xmax = 5.173096085053776 
+            text = "el" 
+        intervals [16]:
+            xmin = 5.173096085053776 
+            xmax = 5.571597631571525 
+            text = "tEma" 
+        intervals [17]:
+            xmin = 5.571597631571525 
+            xmax = 5.9 
+            text = "++dis++" 

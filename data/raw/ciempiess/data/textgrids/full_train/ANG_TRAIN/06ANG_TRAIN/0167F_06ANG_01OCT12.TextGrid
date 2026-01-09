@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.3 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.3 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.26875 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.26875 
+            xmax = 0.5375 
+            text = "mAs" 
+        intervals [3]:
+            xmin = 0.5375 
+            xmax = 0.8466704961928214 
+            text = "lejos" 
+        intervals [4]:
+            xmin = 0.8466704961928214 
+            xmax = 1.0379132023030553 
+            text = "quE" 
+        intervals [5]:
+            xmin = 1.0379132023030553 
+            xmax = 1.1701844058916362 
+            text = "lOs" 
+        intervals [6]:
+            xmin = 1.1701844058916362 
+            xmax = 1.453574668490067 
+            text = "hOmbres" 
+        intervals [7]:
+            xmin = 1.453574668490067 
+            xmax = 1.5965996284679635 
+            text = "En" 
+        intervals [8]:
+            xmin = 1.5965996284679635 
+            xmax = 2.134196619242437 
+            text = "mundiAles" 
+        intervals [9]:
+            xmin = 2.134196619242437 
+            xmax = 2.1999114742396157 
+            text = "Y" 
+        intervals [10]:
+            xmin = 2.1999114742396157 
+            xmax = 2.321886673637379 
+            text = "En" 
+        intervals [11]:
+            xmin = 2.321886673637379 
+            xmax = 2.8149519561899994 
+            text = "dis++" 
+        intervals [12]:
+            xmin = 2.8149519561899994 
+            xmax = 2.956901540528964 
+            text = "Y" 
+        intervals [13]:
+            xmin = 2.956901540528964 
+            xmax = 3.183890568468598 
+            text = "nO" 
+        intervals [14]:
+            xmin = 3.183890568468598 
+            xmax = 3.332292406641152 
+            text = "Es" 
+        intervals [15]:
+            xmin = 3.332292406641152 
+            xmax = 3.868904850467997 
+            text = "reconocIdo" 
+        intervals [16]:
+            xmin = 3.868904850467997 
+            xmax = 4.3 
+            text = "<sil>" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.1 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.1 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11776611952817267 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11776611952817267 
+            xmax = 0.4455835657198712 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.4455835657198712 
+            xmax = 0.5720966895699172 
+            text = "dos" 
+        intervals [4]:
+            xmin = 0.5720966895699172 
+            xmax = 1.1548238054852806 
+            text = "ocasiOnes" 
+        intervals [5]:
+            xmin = 1.1548238054852806 
+            xmax = 1.2545008121550139 
+            text = "hA" 
+        intervals [6]:
+            xmin = 1.2545008121550139 
+            xmax = 1.5151945219066236 
+            text = "sIdo" 
+        intervals [7]:
+            xmin = 1.5151945219066236 
+            xmax = 1.848729121147654 
+            text = "electO" 
+        intervals [8]:
+            xmin = 1.848729121147654 
+            xmax = 2.18666666667 
+            text = "diputAdo" 
+        intervals [9]:
+            xmin = 2.18666666667 
+            xmax = 2.46 
+            text = "del" 
+        intervals [10]:
+            xmin = 2.46 
+            xmax = 2.73333333333 
+            text = "congrEso" 
+        intervals [11]:
+            xmin = 2.73333333333 
+            xmax = 2.9375087324632014 
+            text = "del" 
+        intervals [12]:
+            xmin = 2.9375087324632014 
+            xmax = 3.1560314009314627 
+            text = "estAdo" 
+        intervals [13]:
+            xmin = 3.1560314009314627 
+            xmax = 3.2825445247815086 
+            text = "de" 
+        intervals [14]:
+            xmin = 3.2825445247815086 
+            xmax = 3.82666666667 
+            text = "mEJico" 
+        intervals [15]:
+            xmin = 3.82666666667 
+            xmax = 4.1 
+            text = "<sil>" 

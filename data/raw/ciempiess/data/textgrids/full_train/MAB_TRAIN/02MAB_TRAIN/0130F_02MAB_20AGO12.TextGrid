@@ -1,0 +1,114 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.99 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 9.99 
+        intervals: size = 25 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3996 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.3996 
+            xmax = 0.7992 
+            text = "por" 
+        intervals [3]:
+            xmin = 0.7992 
+            xmax = 1.1988 
+            text = "seÑalar" 
+        intervals [4]:
+            xmin = 1.1988 
+            xmax = 1.5984 
+            text = "algunos" 
+        intervals [5]:
+            xmin = 1.5984 
+            xmax = 1.998 
+            text = "casos" 
+        intervals [6]:
+            xmin = 1.998 
+            xmax = 2.3976 
+            text = "a" 
+        intervals [7]:
+            xmin = 2.3976 
+            xmax = 2.7972 
+            text = "la" 
+        intervals [8]:
+            xmin = 2.7972 
+            xmax = 3.1968 
+            text = "tecnologia" 
+        intervals [9]:
+            xmin = 3.1968 
+            xmax = 3.5964 
+            text = "otras" 
+        intervals [10]:
+            xmin = 3.5964 
+            xmax = 3.996 
+            text = "al" 
+        intervals [11]:
+            xmin = 3.996 
+            xmax = 4.3956 
+            text = "sector" 
+        intervals [12]:
+            xmin = 4.3956 
+            xmax = 4.7952 
+            text = "agricola" 
+        intervals [13]:
+            xmin = 4.7952 
+            xmax = 5.1948 
+            text = "otras" 
+        intervals [14]:
+            xmin = 5.1948 
+            xmax = 5.5944 
+            text = "a" 
+        intervals [15]:
+            xmin = 5.5944 
+            xmax = 5.994 
+            text = "la" 
+        intervals [16]:
+            xmin = 5.994 
+            xmax = 6.3936 
+            text = "industria" 
+        intervals [17]:
+            xmin = 6.3936 
+            xmax = 6.7932 
+            text = "del" 
+        intervals [18]:
+            xmin = 6.7932 
+            xmax = 7.1928 
+            text = "calzado" 
+        intervals [19]:
+            xmin = 7.1928 
+            xmax = 7.5924 
+            text = "otras" 
+        intervals [20]:
+            xmin = 7.5924 
+            xmax = 7.992 
+            text = "a" 
+        intervals [21]:
+            xmin = 7.992 
+            xmax = 8.3916 
+            text = "la" 
+        intervals [22]:
+            xmin = 8.3916 
+            xmax = 8.7912 
+            text = "industria" 
+        intervals [23]:
+            xmin = 8.7912 
+            xmax = 9.1908 
+            text = "del" 
+        intervals [24]:
+            xmin = 9.1908 
+            xmax = 9.5904 
+            text = "vestido" 
+        intervals [25]:
+            xmin = 9.5904 
+            xmax = 9.99 
+            text = "<sil>" 

@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.83 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.83 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04076035950804162 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.04076035950804162 
+            xmax = 0.36604016272469253 
+            text = "mOda" 
+        intervals [3]:
+            xmin = 0.36604016272469253 
+            xmax = 0.753010963103122 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.753010963103122 
+            xmax = 1.2241058505203406 
+            text = "creAr" 
+        intervals [5]:
+            xmin = 1.2241058505203406 
+            xmax = 1.8241910047303689 
+            text = "Un" 
+        intervals [6]:
+            xmin = 1.8241910047303689 
+            xmax = 2.446709248817408 
+            text = "diplomAdo" 
+        intervals [7]:
+            xmin = 2.446709248817408 
+            xmax = 2.586916060548723 
+            text = "Una" 
+        intervals [8]:
+            xmin = 2.586916060548723 
+            xmax = 3.4225486584673606 
+            text = "especialidAd" 
+        intervals [9]:
+            xmin = 3.4225486584673606 
+            xmax = 4.375954978240303 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 4.375954978240303 
+            xmax = 4.690018236518449 
+            text = "nOs" 
+        intervals [11]:
+            xmin = 4.690018236518449 
+            xmax = 4.942390497634816 
+            text = "fAlta" 
+        intervals [12]:
+            xmin = 4.942390497634816 
+            xmax = 5.1779379413434246 
+            text = "mUcho" 
+        intervals [13]:
+            xmin = 5.1779379413434246 
+            xmax = 5.407877112582781 
+            text = "pAra" 
+        intervals [14]:
+            xmin = 5.407877112582781 
+            xmax = 5.592950104068117 
+            text = "tenEr" 
+        intervals [15]:
+            xmin = 5.592950104068117 
+            xmax = 5.778023095553453 
+            text = "Un" 
+        intervals [16]:
+            xmin = 5.778023095553453 
+            xmax = 5.83 
+            text = "<sil>" 

@@ -1,4 +1,4 @@
-# CatalanSTT Configuration
+# SpanishSlangSTT Configuration
 
 # Data settings
 data:
@@ -16,42 +16,6 @@ data:
 
 # External datasets configuration
 datasets:
-  # ParlamentParla - Catalan Parliament (OpenSLR 59)
-  # License: CC BY 4.0 | 320 hours total (90h clean + 230h other)
-  parlament-clean:
-    enabled: true
-    language: "ca"
-    source: "openslr"
-    url: "https://openslr.trmal.net/resources/59/parlament_v1.0_clean.tar.gz"
-    hours: 90
-    priority: 1  # Higher priority = used first
-
-  parlament-other:
-    enabled: false  # Enable for more data (lower quality)
-    language: "ca"
-    source: "openslr"
-    url: "https://openslr.trmal.net/resources/59/parlament_v1.0_other.tar.gz"
-    hours: 230
-    priority: 3
-
-  # Google Crowdsourced Catalan (OpenSLR 69)
-  # License: CC BY-SA 4.0 | ~1.8 GB total
-  google-catalan-female:
-    enabled: true
-    language: "ca"
-    source: "openslr"
-    url: "https://openslr.trmal.net/resources/69/ca_es_female.zip"
-    index_file: "line_index_female.tsv"
-    priority: 2
-
-  google-catalan-male:
-    enabled: true
-    language: "ca"
-    source: "openslr"
-    url: "https://openslr.trmal.net/resources/69/ca_es_male.zip"
-    index_file: "line_index_male.tsv"
-    priority: 2
-
   # Spanish Conversational Corpus (MagicHub)
   # License: CC BY-NC-ND 4.0 | 5.56 hours
   # Note: Requires manual download from MagicHub
@@ -62,24 +26,24 @@ datasets:
     manual_download: true
     download_url: "https://magichub.com/datasets/spanish-conversational-speech-corpus/"
     hours: 5.56
-    priority: 2
+    priority: 1
 
 # Whisper model settings
 model:
-  base_model: "openai/whisper-small"  # Options: whisper-tiny, whisper-base, whisper-small, whisper-medium, whisper-large-v3
-  language: "es"  # Spanish
+  base_model: "openai/whisper-small"
+  language: "es"
   task: "transcribe"
 
 # Training settings
 training:
-  output_dir: "./models/catalan-whisper"
+  output_dir: "./models/spanish-slang-whisper"
   num_train_epochs: 3
   per_device_train_batch_size: 8
   per_device_eval_batch_size: 8
   gradient_accumulation_steps: 2
   learning_rate: 1.0e-5
   warmup_steps: 500
-  max_steps: -1  # -1 means use num_train_epochs
+  max_steps: -1
   save_steps: 500
   eval_steps: 500
   logging_steps: 100
@@ -96,25 +60,48 @@ preprocessing:
 # Evaluation
 evaluation:
   metrics:
-    - wer  # Word Error Rate
-    - cer  # Character Error Rate
+    - wer
+    - cer
   num_beams: 5
 
-# Catalan-specific vocabulary
-catalan_markers:
+# Spanish slang vocabulary markers
+slang_markers:
   lexical:
-    - "nen"
-    - "nena"
-    - "home"
-    - "ostras"
-    - "apa"
-    - "vale"
-    - "bueno"
-  phonetic_patterns:
-    - pattern: "pues"
-      catalan: "pos"
-    - pattern: "muy"
-      catalan: "moi"
+    - "tio"
+    - "tia"
+    - "mola"
+    - "guay"
+    - "currar"
+    - "pasta"
+    - "flipar"
+    - "molar"
+    - "rollo"
+    - "chaval"
+    - "chavala"
+  regional:
+    mexico:
+      - "chido"
+      - "padre"
+      - "neta"
+      - "chale"
+      - "onda"
+    argentina:
+      - "che"
+      - "boludo"
+      - "pibe"
+      - "mina"
+      - "laburo"
+    spain:
+      - "tio"
+      - "tia"
+      - "mola"
+      - "guay"
+      - "currar"
+      - "pasta"
+      - "flipar"
+      - "quedarse"
+      - "chaval"
+      - "colega"
 
 # API settings
 api:

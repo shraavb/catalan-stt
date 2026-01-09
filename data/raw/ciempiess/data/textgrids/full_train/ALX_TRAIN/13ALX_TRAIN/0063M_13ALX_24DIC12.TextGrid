@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.89 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.89 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11347607556635236 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11347607556635236 
+            xmax = 0.25199064763971946 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.25199064763971946 
+            xmax = 0.5490790629312328 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.5490790629312328 
+            xmax = 0.9671123918324518 
+            text = "tEma" 
+        intervals [5]:
+            xmin = 0.9671123918324518 
+            xmax = 1.1539460006755982 
+            text = "O" 
+        intervals [6]:
+            xmin = 1.1539460006755982 
+            xmax = 1.279575496277024 
+            text = "En" 
+        intervals [7]:
+            xmin = 1.279575496277024 
+            xmax = 1.5179494110079348 
+            text = "lA" 
+        intervals [8]:
+            xmin = 1.5179494110079348 
+            xmax = 2.4753979954864307 
+            text = "semAntica" 
+        intervals [9]:
+            xmin = 2.4753979954864307 
+            xmax = 2.8081409832186295 
+            text = "dE" 
+        intervals [10]:
+            xmin = 2.8081409832186295 
+            xmax = 3.030408552359614 
+            text = "lA" 
+        intervals [11]:
+            xmin = 3.030408552359614 
+            xmax = 4.434881887801196 
+            text = "determinaciOn" 
+        intervals [12]:
+            xmin = 4.434881887801196 
+            xmax = 5.078915099255405 
+            text = "dE" 
+        intervals [13]:
+            xmin = 5.078915099255405 
+            xmax = 5.768266690504255 
+            text = "nINos" 
+        intervals [14]:
+            xmin = 5.768266690504255 
+            xmax = 5.987312990527254 
+            text = "y" 
+        intervals [15]:
+            xmin = 5.987312990527254 
+            xmax = 6.553524698855796 
+            text = "nINas" 
+        intervals [16]:
+            xmin = 6.553524698855796 
+            xmax = 6.89 
+            text = "<sil>" 

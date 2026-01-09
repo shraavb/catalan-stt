@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.8 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.8 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.44779720131228296 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.44779720131228296 
+            xmax = 0.7107475023092358 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.7107475023092358 
+            xmax = 0.9896341851847919 
+            text = "Agua" 
+        intervals [4]:
+            xmin = 0.9896341851847919 
+            xmax = 1.089236571926062 
+            text = "y" 
+        intervals [5]:
+            xmin = 1.089236571926062 
+            xmax = 1.2167276269548875 
+            text = "El" 
+        intervals [6]:
+            xmin = 1.2167276269548875 
+            xmax = 1.6948190833129837 
+            text = "aIre" 
+        intervals [7]:
+            xmin = 1.6948190833129837 
+            xmax = 1.7824691836453013 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.7824691836453013 
+            xmax = 1.9776898616581904 
+            text = "Es" 
+        intervals [9]:
+            xmin = 1.9776898616581904 
+            xmax = 2.3243061675178103 
+            text = "vitAl" 
+        intervals [10]:
+            xmin = 2.3243061675178103 
+            xmax = 2.4199244587894295 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 2.4199244587894295 
+            xmax = 2.587256468514763 
+            text = "pAra" 
+        intervals [12]:
+            xmin = 2.587256468514763 
+            xmax = 2.794429432936605 
+            text = "lA" 
+        intervals [13]:
+            xmin = 2.794429432936605 
+            xmax = 3.3362664168091136 
+            text = "humanidAd" 
+        intervals [14]:
+            xmin = 3.3362664168091136 
+            xmax = 3.46774156730759 
+            text = "<sil>" 
+        intervals [15]:
+            xmin = 3.46774156730759 
+            xmax = 3.6948350090776856 
+            text = "++dis++" 
+        intervals [16]:
+            xmin = 3.6948350090776856 
+            xmax = 3.8 
+            text = "<sil>" 

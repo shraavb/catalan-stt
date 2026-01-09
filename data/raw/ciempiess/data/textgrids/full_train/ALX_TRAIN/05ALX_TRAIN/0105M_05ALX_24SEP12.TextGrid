@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.24 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.24 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09082505203405865 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09082505203405865 
+            xmax = 0.6292192090823084 
+            text = "aumentAr" 
+        intervals [3]:
+            xmin = 0.6292192090823084 
+            xmax = 0.7638177483443709 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.7638177483443709 
+            xmax = 1.102353468306528 
+            text = "nUmero" 
+        intervals [5]:
+            xmin = 1.102353468306528 
+            xmax = 1.2206370331125829 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.2206370331125829 
+            xmax = 1.6040389328287608 
+            text = "Organos" 
+        intervals [7]:
+            xmin = 1.6040389328287608 
+            xmax = 2.158748064333018 
+            text = "jurisdiccionAles" 
+        intervals [8]:
+            xmin = 2.158748064333018 
+            xmax = 2.3749214758751185 
+            text = "pEro" 
+        intervals [9]:
+            xmin = 2.3749214758751185 
+            xmax = 2.93538461538 
+            text = "realmEnte" 
+        intervals [10]:
+            xmin = 2.93538461538 
+            xmax = 3.109095326395459 
+            text = "nO" 
+        intervals [11]:
+            xmin = 3.109095326395459 
+            xmax = 3.292638789025544 
+            text = "hAn" 
+        intervals [12]:
+            xmin = 3.292638789025544 
+            xmax = 4.1083875118259225 
+            text = "aumentAdo" 
+        intervals [13]:
+            xmin = 4.1083875118259225 
+            xmax = 4.24 
+            text = "<sil>" 

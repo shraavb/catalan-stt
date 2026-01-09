@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.57 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.57 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.20004569823434998 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.20004569823434998 
+            xmax = 0.41306784911717503 
+            text = "tiEne" 
+        intervals [3]:
+            xmin = 0.41306784911717503 
+            xmax = 0.5568578009630819 
+            text = "sU" 
+        intervals [4]:
+            xmin = 0.5568578009630819 
+            xmax = 0.897693242375602 
+            text = "prOpio" 
+        intervals [5]:
+            xmin = 0.897693242375602 
+            xmax = 1.4036208507223116 
+            text = "partIdo" 
+        intervals [6]:
+            xmin = 1.4036208507223116 
+            xmax = 2.005408426966292 
+            text = "polItico" 
+        intervals [7]:
+            xmin = 2.005408426966292 
+            xmax = 2.292988330658106 
+            text = "tiEne" 
+        intervals [8]:
+            xmin = 2.292988330658106 
+            xmax = 2.506010481540931 
+            text = "Un" 
+        intervals [9]:
+            xmin = 2.506010481540931 
+            xmax = 3.1024725040128414 
+            text = "senadOr" 
+        intervals [10]:
+            xmin = 3.1024725040128414 
+            xmax = 3.3208202086677368 
+            text = "tiEne" 
+        intervals [11]:
+            xmin = 3.3208202086677368 
+            xmax = 3.60307455858748 
+            text = "dOce" 
+        intervals [12]:
+            xmin = 3.60307455858748 
+            xmax = 4.3113732102728735 
+            text = "diputAdos" 
+        intervals [13]:
+            xmin = 4.3113732102728735 
+            xmax = 4.57 
+            text = "<sil>" 

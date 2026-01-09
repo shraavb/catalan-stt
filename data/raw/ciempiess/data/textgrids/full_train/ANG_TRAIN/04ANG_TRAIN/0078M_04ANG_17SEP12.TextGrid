@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.88 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.88 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.375384615385 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.375384615385 
+            xmax = 0.5101256332320162 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.5101256332320162 
+            xmax = 0.8623843181701096 
+            text = "segUro" 
+        intervals [4]:
+            xmin = 0.8623843181701096 
+            xmax = 1.0133523260007211 
+            text = "++dis++" 
+        intervals [5]:
+            xmin = 1.0133523260007211 
+            xmax = 1.5719339549739837 
+            text = "El" 
+        intervals [6]:
+            xmin = 1.5719339549739837 
+            xmax = 1.9745153091889476 
+            text = "institUto" 
+        intervals [7]:
+            xmin = 1.9745153091889476 
+            xmax = 2.417354798825408 
+            text = "meJicAno" 
+        intervals [8]:
+            xmin = 2.417354798825408 
+            xmax = 2.53309693816221 
+            text = "dEl" 
+        intervals [9]:
+            xmin = 2.53309693816221 
+            xmax = 2.8048393522573107 
+            text = "segUro" 
+        intervals [10]:
+            xmin = 2.8048393522573107 
+            xmax = 3.37846153846 
+            text = "sociAl" 
+        intervals [11]:
+            xmin = 3.37846153846 
+            xmax = 3.7106473992409796 
+            text = "En" 
+        intervals [12]:
+            xmin = 3.7106473992409796 
+            xmax = 3.952196211769958 
+            text = "sU" 
+        intervals [13]:
+            xmin = 3.952196211769958 
+            xmax = 4.50461538462 
+            text = "tiEmpo" 
+        intervals [14]:
+            xmin = 4.50461538462 
+            xmax = 4.88 
+            text = "<sil>" 

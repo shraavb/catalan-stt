@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.57 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.57 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.015975543992431406 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.015975543992431406 
+            xmax = 0.16764420245979186 
+            text = "cAbe" 
+        intervals [3]:
+            xmin = 0.16764420245979186 
+            xmax = 0.5984711163670766 
+            text = "menciOnar" 
+        intervals [4]:
+            xmin = 0.5984711163670766 
+            xmax = 0.7699226433301797 
+            text = "quE" 
+        intervals [5]:
+            xmin = 0.7699226433301797 
+            xmax = 1.057873284768212 
+            text = "sOn" 
+        intervals [6]:
+            xmin = 1.057873284768212 
+            xmax = 1.3553333515534955 
+            text = "quInce" 
+        intervals [7]:
+            xmin = 1.3553333515534955 
+            xmax = 1.8169336164541579 
+            text = "jugadOres" 
+        intervals [8]:
+            xmin = 1.8169336164541579 
+            xmax = 2.979726664703921 
+            text = "desafortunadamEnte" 
+        intervals [9]:
+            xmin = 2.979726664703921 
+            xmax = 3.1767054771962524 
+            text = "nO" 
+        intervals [10]:
+            xmin = 3.1767054771962524 
+            xmax = 3.5833533296087405 
+            text = "pudierOn" 
+        intervals [11]:
+            xmin = 3.5833533296087405 
+            xmax = 3.9614259275273778 
+            text = "asistIr" 
+        intervals [12]:
+            xmin = 3.9614259275273778 
+            xmax = 4.348290911444123 
+            text = "tOdos" 
+        intervals [13]:
+            xmin = 4.348290911444123 
+            xmax = 4.57 
+            text = "<sil>" 

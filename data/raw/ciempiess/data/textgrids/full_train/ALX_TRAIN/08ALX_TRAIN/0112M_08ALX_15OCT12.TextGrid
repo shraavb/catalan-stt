@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.89 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.89 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07094964007771774 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07094964007771774 
+            xmax = 0.303421610731842 
+            text = "pOr" 
+        intervals [3]:
+            xmin = 0.303421610731842 
+            xmax = 0.4176183682461486 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.4176183682461486 
+            xmax = 0.5766781376410758 
+            text = "sE" 
+        intervals [5]:
+            xmin = 0.5766781376410758 
+            xmax = 1.0946420020809666 
+            text = "cuestiOna" 
+        intervals [6]:
+            xmin = 1.0946420020809666 
+            xmax = 1.1762111145911858 
+            text = "lA" 
+        intervals [7]:
+            xmin = 1.1762111145911858 
+            xmax = 1.6248412333973903 
+            text = "elecciOn" 
+        intervals [8]:
+            xmin = 1.6248412333973903 
+            xmax = 2.2937079559811866 
+            text = "presidenciAl" 
+        intervals [9]:
+            xmin = 2.2937079559811866 
+            xmax = 2.497630737256734 
+            text = "ob" 
+        intervals [10]:
+            xmin = 2.497630737256734 
+            xmax = 2.615905950396552 
+            text = "lA" 
+        intervals [11]:
+            xmin = 2.615905950396552 
+            xmax = 2.929947033560895 
+            text = "elecciOn" 
+        intervals [12]:
+            xmin = 2.929947033560895 
+            xmax = 3.007437690445603 
+            text = "dE" 
+        intervals [13]:
+            xmin = 3.007437690445603 
+            xmax = 3.354106418614034 
+            text = "felipE" 
+        intervals [14]:
+            xmin = 3.354106418614034 
+            xmax = 3.786422714918195 
+            text = "calderOn" 
+        intervals [15]:
+            xmin = 3.786422714918195 
+            xmax = 3.89 
+            text = "<sil>" 

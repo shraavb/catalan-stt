@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.63 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.63 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11346722730235978 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11346722730235978 
+            xmax = 0.5700643156456229 
+            text = "finAlmente" 
+        intervals [3]:
+            xmin = 0.5700643156456229 
+            xmax = 0.8627547568913044 
+            text = "quedO" 
+        intervals [4]:
+            xmin = 0.8627547568913044 
+            xmax = 1.32470588235 
+            text = "aprobAdo" 
+        intervals [5]:
+            xmin = 1.32470588235 
+            xmax = 1.389597551133531 
+            text = "pOr" 
+        intervals [6]:
+            xmin = 1.389597551133531 
+            xmax = 1.4656970658574082 
+            text = "El" 
+        intervals [7]:
+            xmin = 1.4656970658574082 
+            xmax = 2.1447388895473893 
+            text = "senAdo" 
+        intervals [8]:
+            xmin = 2.1447388895473893 
+            xmax = 2.3730374337190208 
+            text = "En" 
+        intervals [9]:
+            xmin = 2.3730374337190208 
+            xmax = 2.5662131249411706 
+            text = "dOnde" 
+        intervals [10]:
+            xmin = 2.5662131249411706 
+            xmax = 3.6081910957757968 
+            text = "solAmente" 
+        intervals [11]:
+            xmin = 3.6081910957757968 
+            xmax = 4.076495801768887 
+            text = "hablAmos" 
+        intervals [12]:
+            xmin = 4.076495801768887 
+            xmax = 4.4043090959640505 
+            text = "dE" 
+        intervals [13]:
+            xmin = 4.4043090959640505 
+            xmax = 4.7262685813343 
+            text = "diEz" 
+        intervals [14]:
+            xmin = 4.7262685813343 
+            xmax = 5.182865669677563 
+            text = "tEmas" 
+        intervals [15]:
+            xmin = 5.182865669677563 
+            xmax = 5.63 
+            text = "<sil>" 

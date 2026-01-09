@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.03 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.03 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15129592809839165 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.15129592809839165 
+            xmax = 0.5916174645222327 
+            text = "debEmos" 
+        intervals [3]:
+            xmin = 0.5916174645222327 
+            xmax = 0.6835527303689688 
+            text = "dE" 
+        intervals [4]:
+            xmin = 0.6835527303689688 
+            xmax = 1.1964547398297067 
+            text = "recordAr" 
+        intervals [5]:
+            xmin = 1.1964547398297067 
+            xmax = 1.2932287038789025 
+            text = "quE" 
+        intervals [6]:
+            xmin = 1.2932287038789025 
+            xmax = 1.3658091769157994 
+            text = "El" 
+        intervals [7]:
+            xmin = 1.3658091769157994 
+            xmax = 1.675485861873226 
+            text = "alcOhol" 
+        intervals [8]:
+            xmin = 1.675485861873226 
+            xmax = 1.7577437313150426 
+            text = "Es" 
+        intervals [9]:
+            xmin = 1.7577437313150426 
+            xmax = 1.9706464522232734 
+            text = "Una" 
+        intervals [10]:
+            xmin = 1.9706464522232734 
+            xmax = 2.8851604124881742 
+            text = "sustAncia" 
+        intervals [11]:
+            xmin = 2.8851604124881742 
+            xmax = 3.1174179262062442 
+            text = "quE" 
+        intervals [12]:
+            xmin = 3.1174179262062442 
+            xmax = 3.8045130709555344 
+            text = "desinhIbe" 
+        intervals [13]:
+            xmin = 3.8045130709555344 
+            xmax = 3.91580312961211 
+            text = "Al" 
+        intervals [14]:
+            xmin = 3.91580312961211 
+            xmax = 4.578704783349101 
+            text = "indivIduo" 
+        intervals [15]:
+            xmin = 4.578704783349101 
+            xmax = 5.03 
+            text = "<sil>" 

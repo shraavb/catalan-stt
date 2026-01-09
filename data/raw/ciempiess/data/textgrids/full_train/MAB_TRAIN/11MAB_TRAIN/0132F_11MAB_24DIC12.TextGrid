@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.27 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.27 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.32365423893287326 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.32365423893287326 
+            xmax = 0.44431176642740516 
+            text = "sIn" 
+        intervals [3]:
+            xmin = 0.44431176642740516 
+            xmax = 0.7912021579741844 
+            text = "embArgo" 
+        intervals [4]:
+            xmin = 0.7912021579741844 
+            xmax = 0.9194007809371245 
+            text = "mE" 
+        intervals [5]:
+            xmin = 0.9194007809371245 
+            xmax = 1.3492432226363944 
+            text = "gustarIa" 
+        intervals [6]:
+            xmin = 1.3492432226363944 
+            xmax = 1.7338390915252149 
+            text = "hacErle" 
+        intervals [7]:
+            xmin = 1.7338390915252149 
+            xmax = 2.487948638366039 
+            text = "maEstro" 
+        intervals [8]:
+            xmin = 2.487948638366039 
+            xmax = 2.7217225978866946 
+            text = "SAnchez" 
+        intervals [9]:
+            xmin = 2.7217225978866946 
+            xmax = 3.415503380980253 
+            text = "AlvarAdo" 
+        intervals [10]:
+            xmin = 3.415503380980253 
+            xmax = 3.7020650087797664 
+            text = "Una" 
+        intervals [11]:
+            xmin = 3.7020650087797664 
+            xmax = 4.1620718323526695 
+            text = "siguIente" 
+        intervals [12]:
+            xmin = 4.1620718323526695 
+            xmax = 4.86461538462 
+            text = "pregUnta" 
+        intervals [13]:
+            xmin = 4.86461538462 
+            xmax = 5.27 
+            text = "<sil>" 

@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.99 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.99 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01613455939726954 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.01613455939726954 
+            xmax = 0.08039146321618905 
+            text = "tO" 
+        intervals [3]:
+            xmin = 0.08039146321618905 
+            xmax = 0.1920716375252786 
+            text = "nO" 
+        intervals [4]:
+            xmin = 0.1920716375252786 
+            xmax = 0.6719945487454202 
+            text = "funciOna" 
+        intervals [5]:
+            xmin = 0.6719945487454202 
+            xmax = 0.7644749295461191 
+            text = "O" 
+        intervals [6]:
+            xmin = 0.7644749295461191 
+            xmax = 0.9234936575212867 
+            text = "Es" 
+        intervals [7]:
+            xmin = 0.9234936575212867 
+            xmax = 1.3729442686849573 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.3729442686849573 
+            xmax = 1.7647730066225165 
+            text = "sIno" 
+        intervals [9]:
+            xmin = 1.7647730066225165 
+            xmax = 2.02983362346263 
+            text = "quE" 
+        intervals [10]:
+            xmin = 2.02983362346263 
+            xmax = 2.3986136121097443 
+            text = "E" 
+        intervals [11]:
+            xmin = 2.3986136121097443 
+            xmax = 2.6922051592386342 
+            text = "Es" 
+        intervals [12]:
+            xmin = 2.6922051592386342 
+            xmax = 2.83218906248032 
+            text = "lA" 
+        intervals [13]:
+            xmin = 2.83218906248032 
+            xmax = 3.262941710501419 
+            text = "mIsma" 
+        intervals [14]:
+            xmin = 3.262941710501419 
+            xmax = 4.09842105263 
+            text = "sociedAd" 
+        intervals [15]:
+            xmin = 4.09842105263 
+            xmax = 4.265562304635761 
+            text = "quE" 
+        intervals [16]:
+            xmin = 4.265562304635761 
+            xmax = 4.599769169347209 
+            text = "vA" 
+        intervals [17]:
+            xmin = 4.599769169347209 
+            xmax = 5.089555091769158 
+            text = "E" 
+        intervals [18]:
+            xmin = 5.089555091769158 
+            xmax = 5.452572893093661 
+            text = "cOmo" 
+        intervals [19]:
+            xmin = 5.452572893093661 
+            xmax = 5.930834440870388 
+            text = "quE" 
+        intervals [20]:
+            xmin = 5.930834440870388 
+            xmax = 5.99 
+            text = "<sil>" 

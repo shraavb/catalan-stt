@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.84 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.84 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13766599810785238 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13766599810785238 
+            xmax = 0.9281726849574266 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.9281726849574266 
+            xmax = 1.1756677691579942 
+            text = "lOs" 
+        intervals [4]:
+            xmin = 1.1756677691579942 
+            xmax = 1.5893908949858087 
+            text = "valOres" 
+        intervals [5]:
+            xmin = 1.5893908949858087 
+            xmax = 1.7223733282876061 
+            text = "pOr" 
+        intervals [6]:
+            xmin = 1.7223733282876061 
+            xmax = 1.8073343273415323 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.8073343273415323 
+            xmax = 1.925540934720908 
+            text = "yO" 
+        intervals [8]:
+            xmin = 1.925540934720908 
+            xmax = 2.0659112809839164 
+            text = "crEo" 
+        intervals [9]:
+            xmin = 2.0659112809839164 
+            xmax = 2.1582601929990535 
+            text = "que" 
+        intervals [10]:
+            xmin = 2.1582601929990535 
+            xmax = 2.4981041892147586 
+            text = "tambiEn" 
+        intervals [11]:
+            xmin = 2.4981041892147586 
+            xmax = 2.58675914474929 
+            text = "quE" 
+        intervals [12]:
+            xmin = 2.58675914474929 
+            xmax = 3.6432306982024594 
+            text = "filosOficamente" 
+        intervals [13]:
+            xmin = 3.6432306982024594 
+            xmax = 3.84 
+            text = "<sil>" 

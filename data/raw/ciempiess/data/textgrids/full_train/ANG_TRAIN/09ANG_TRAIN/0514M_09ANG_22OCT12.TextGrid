@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.47 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.47 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2541891299544976 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.2541891299544976 
+            xmax = 0.343676981093938 
+            text = "que" 
+        intervals [3]:
+            xmin = 0.343676981093938 
+            xmax = 0.4502101372123195 
+            text = "nO" 
+        intervals [4]:
+            xmin = 0.4502101372123195 
+            xmax = 0.5908339032885831 
+            text = "los" 
+        intervals [5]:
+            xmin = 0.5908339032885831 
+            xmax = 0.9360013291121391 
+            text = "habIamos" 
+        intervals [6]:
+            xmin = 0.9360013291121391 
+            xmax = 1.4260538472566937 
+            text = "vivIdo" 
+        intervals [7]:
+            xmin = 1.4260538472566937 
+            xmax = 1.5666776133329574 
+            text = "y" 
+        intervals [8]:
+            xmin = 1.5666776133329574 
+            xmax = 1.7712212730802497 
+            text = "que" 
+        intervals [9]:
+            xmin = 1.7712212730802497 
+            xmax = 2.001332890295954 
+            text = "hOy" 
+        intervals [10]:
+            xmin = 2.001332890295954 
+            xmax = 2.2442284862458637 
+            text = "nos" 
+        intervals [11]:
+            xmin = 2.2442284862458637 
+            xmax = 2.67888376320886 
+            text = "afEctan" 
+        intervals [12]:
+            xmin = 2.67888376320886 
+            xmax = 2.789678245571977 
+            text = "y" 
+        intervals [13]:
+            xmin = 2.789678245571977 
+            xmax = 2.9856992528297988 
+            text = "nos" 
+        intervals [14]:
+            xmin = 2.9856992528297988 
+            xmax = 3.34365065738756 
+            text = "pEgan" 
+        intervals [15]:
+            xmin = 3.34365065738756 
+            xmax = 3.47 
+            text = "<sil>" 

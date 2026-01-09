@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.16 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.16 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0983993345890141 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.0983993345890141 
+            xmax = 0.13971542165787307 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.13971542165787307 
+            xmax = 0.45796095718827323 
+            text = "vAmos" 
+        intervals [4]:
+            xmin = 0.45796095718827323 
+            xmax = 0.4909140211787657 
+            text = "A" 
+        intervals [5]:
+            xmin = 0.4909140211787657 
+            xmax = 1.1100663955640286 
+            text = "encontrAr" 
+        intervals [6]:
+            xmin = 1.1100663955640286 
+            xmax = 1.3040346112874057 
+            text = "lA" 
+        intervals [7]:
+            xmin = 1.3040346112874057 
+            xmax = 1.7801111493273554 
+            text = "pArte" 
+        intervals [8]:
+            xmin = 1.7801111493273554 
+            xmax = 2.3062930419277263 
+            text = "escEncial" 
+        intervals [9]:
+            xmin = 2.3062930419277263 
+            xmax = 2.7551867446758695 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 2.7551867446758695 
+            xmax = 2.9414940232339575 
+            text = "lA" 
+        intervals [11]:
+            xmin = 2.9414940232339575 
+            xmax = 3.320336417623659 
+            text = "cultUra" 
+        intervals [12]:
+            xmin = 3.320336417623659 
+            xmax = 3.970182406768478 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 3.970182406768478 
+            xmax = 4.168946285099746 
+            text = "lA" 
+        intervals [14]:
+            xmin = 4.168946285099746 
+            xmax = 4.524425442744831 
+            text = "cultUra" 
+        intervals [15]:
+            xmin = 4.524425442744831 
+            xmax = 4.9528454749207125 
+            text = "legAl" 
+        intervals [16]:
+            xmin = 4.9528454749207125 
+            xmax = 5.16 
+            text = "<sil>" 

@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.67 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.67 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09884837709183925 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09884837709183925 
+            xmax = 0.1626897816485205 
+            text = "A" 
+        intervals [3]:
+            xmin = 0.1626897816485205 
+            xmax = 0.3817818745589493 
+            text = "lAs" 
+        intervals [4]:
+            xmin = 0.3817818745589493 
+            xmax = 0.9070225211389178 
+            text = "emprEsas" 
+        intervals [5]:
+            xmin = 0.9070225211389178 
+            xmax = 1.0375943473897633 
+            text = "quE" 
+        intervals [6]:
+            xmin = 1.0375943473897633 
+            xmax = 1.1591506949194534 
+            text = "sE" 
+        intervals [7]:
+            xmin = 1.1591506949194534 
+            xmax = 1.9796578375740728 
+            text = "establEzcan" 
+        intervals [8]:
+            xmin = 1.9796578375740728 
+            xmax = 2.113144410738043 
+            text = "En" 
+        intervals [9]:
+            xmin = 2.113144410738043 
+            xmax = 2.376320052798042 
+            text = "Esta" 
+        intervals [10]:
+            xmin = 2.376320052798042 
+            xmax = 2.787991209036361 
+            text = "zOna" 
+        intervals [11]:
+            xmin = 2.787991209036361 
+            xmax = 3.115178407389352 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 3.115178407389352 
+            xmax = 3.23903216377508 
+            text = "El" 
+        intervals [13]:
+            xmin = 3.23903216377508 
+            xmax = 3.764744930398953 
+            text = "propOsito" 
+        intervals [14]:
+            xmin = 3.764744930398953 
+            xmax = 4.292887459004225 
+            text = "Es" 
+        intervals [15]:
+            xmin = 4.292887459004225 
+            xmax = 4.6788377683696165 
+            text = "<sil>" 
+        intervals [16]:
+            xmin = 4.6788377683696165 
+            xmax = 4.950069712786285 
+            text = "generAr" 
+        intervals [17]:
+            xmin = 4.950069712786285 
+            xmax = 5.446291539113217 
+            text = "emplEo" 
+        intervals [18]:
+            xmin = 5.446291539113217 
+            xmax = 5.883757854105017 
+            text = "generAr" 
+        intervals [19]:
+            xmin = 5.883757854105017 
+            xmax = 6.309797852759517 
+            text = "riquEza" 
+        intervals [20]:
+            xmin = 6.309797852759517 
+            xmax = 6.67 
+            text = "<sil>" 

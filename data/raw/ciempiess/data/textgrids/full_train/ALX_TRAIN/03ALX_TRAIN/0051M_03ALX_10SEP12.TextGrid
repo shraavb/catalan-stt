@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.22 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.22 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04476558740978349 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.04476558740978349 
+            xmax = 0.16150369219460037 
+            text = "al" 
+        intervals [3]:
+            xmin = 0.16150369219460037 
+            xmax = 0.3537782177225341 
+            text = "ser" 
+        intervals [4]:
+            xmin = 0.3537782177225341 
+            xmax = 0.7348937951082598 
+            text = "ustEd" 
+        intervals [5]:
+            xmin = 0.7348937951082598 
+            xmax = 0.9203013732959101 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 0.9203013732959101 
+            xmax = 1.0404729517508686 
+            text = "un" 
+        intervals [7]:
+            xmin = 1.0404729517508686 
+            xmax = 1.8301718958834536 
+            text = "catedrAtico" 
+        intervals [8]:
+            xmin = 1.8301718958834536 
+            xmax = 2.4790984195402297 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.4790984195402297 
+            xmax = 2.606136945335472 
+            text = "de" 
+        intervals [10]:
+            xmin = 2.606136945335472 
+            xmax = 2.812145365543972 
+            text = "Esta" 
+        intervals [11]:
+            xmin = 2.812145365543972 
+            xmax = 3.261930416332531 
+            text = "facultAd" 
+        intervals [12]:
+            xmin = 3.261930416332531 
+            xmax = 3.36150115276664 
+            text = "de" 
+        intervals [13]:
+            xmin = 3.36150115276664 
+            xmax = 3.622445151697407 
+            text = "nuEstra" 
+        intervals [14]:
+            xmin = 3.622445151697407 
+            xmax = 3.8181531508954825 
+            text = "Alma" 
+        intervals [15]:
+            xmin = 3.8181531508954825 
+            xmax = 4.144333149558942 
+            text = "mAter" 
+        intervals [16]:
+            xmin = 4.144333149558942 
+            xmax = 4.22 
+            text = "<sil>" 

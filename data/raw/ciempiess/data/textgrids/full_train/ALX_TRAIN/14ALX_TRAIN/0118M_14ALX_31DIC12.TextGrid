@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.99 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.99 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.038156152972631106 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.038156152972631106 
+            xmax = 0.14262064814282432 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.14262064814282432 
+            xmax = 0.2955865160706072 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.2955865160706072 
+            xmax = 0.6201726260637075 
+            text = "mAnda" 
+        intervals [5]:
+            xmin = 0.6201726260637075 
+            xmax = 0.8402942408866146 
+            text = "lAs" 
+        intervals [6]:
+            xmin = 0.8402942408866146 
+            xmax = 1.3738093412201013 
+            text = "remEsas" 
+        intervals [7]:
+            xmin = 1.3738093412201013 
+            xmax = 1.5118517098378568 
+            text = "nO" 
+        intervals [8]:
+            xmin = 1.5118517098378568 
+            xmax = 1.728242449833257 
+            text = "pAra" 
+        intervals [9]:
+            xmin = 1.728242449833257 
+            xmax = 1.9259788156911226 
+            text = "apoyAr" 
+        intervals [10]:
+            xmin = 1.9259788156911226 
+            xmax = 2.030443310861316 
+            text = "A" 
+        intervals [11]:
+            xmin = 2.030443310861316 
+            xmax = 2.1647548046515643 
+            text = "sU" 
+        intervals [12]:
+            xmin = 2.1647548046515643 
+            xmax = 2.6460376573999542 
+            text = "famIlia" 
+        intervals [13]:
+            xmin = 2.6460376573999542 
+            xmax = 3.0191251401506443 
+            text = "<sil>" 
+        intervals [14]:
+            xmin = 3.0191251401506443 
+            xmax = 3.142244009458372 
+            text = "nO" 
+        intervals [15]:
+            xmin = 3.142244009458372 
+            xmax = 3.28588235294 
+            text = "Es" 
+        intervals [16]:
+            xmin = 3.28588235294 
+            xmax = 3.4481757453139377 
+            text = "El" 
+        intervals [17]:
+            xmin = 3.4481757453139377 
+            xmax = 3.75529411765 
+            text = "cAso" 
+        intervals [18]:
+            xmin = 3.75529411765 
+            xmax = 3.99 
+            text = "<sil>" 

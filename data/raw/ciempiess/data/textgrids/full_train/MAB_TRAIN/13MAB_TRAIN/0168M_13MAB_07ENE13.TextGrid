@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.12 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.12 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0604496196783349 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.0604496196783349 
+            xmax = 0.47255663954588456 
+            text = "tendiEndo" 
+        intervals [3]:
+            xmin = 0.47255663954588456 
+            xmax = 0.6256249612109744 
+            text = "hacEr" 
+        intervals [4]:
+            xmin = 0.6256249612109744 
+            xmax = 0.7551443103122043 
+            text = "lA" 
+        intervals [5]:
+            xmin = 0.7551443103122043 
+            xmax = 1.3733048401135288 
+            text = "universidAd" 
+        intervals [6]:
+            xmin = 1.3733048401135288 
+            xmax = 1.7088776991485337 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.7088776991485337 
+            xmax = 2.427121362346263 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 2.427121362346263 
+            xmax = 2.7980176802270575 
+            text = "dEsde" 
+        intervals [9]:
+            xmin = 2.7980176802270575 
+            xmax = 3.0923798372753075 
+            text = "hAce" 
+        intervals [10]:
+            xmin = 3.0923798372753075 
+            xmax = 3.369080264900662 
+            text = "vArios" 
+        intervals [11]:
+            xmin = 3.369080264900662 
+            xmax = 4.08 
+            text = "ANos" 
+        intervals [12]:
+            xmin = 4.08 
+            xmax = 4.334588140018922 
+            text = "dE" 
+        intervals [13]:
+            xmin = 4.334588140018922 
+            xmax = 4.896 
+            text = "dAr" 
+        intervals [14]:
+            xmin = 4.896 
+            xmax = 5.382517419110691 
+            text = "Este" 
+        intervals [15]:
+            xmin = 5.382517419110691 
+            xmax = 5.9476927606433305 
+            text = "cUrsos" 
+        intervals [16]:
+            xmin = 5.9476927606433305 
+            xmax = 6.12 
+            text = "<sil>" 

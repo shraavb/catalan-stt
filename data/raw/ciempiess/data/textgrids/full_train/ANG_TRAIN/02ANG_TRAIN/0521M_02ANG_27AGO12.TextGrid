@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.19 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.19 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12716100518124374 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12716100518124374 
+            xmax = 0.31213554207092487 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.31213554207092487 
+            xmax = 0.3937419554046077 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.3937419554046077 
+            xmax = 0.5152448374792022 
+            text = "lAs" 
+        intervals [5]:
+            xmin = 0.5152448374792022 
+            xmax = 0.9269038558513357 
+            text = "lEyes" 
+        intervals [6]:
+            xmin = 0.9269038558513357 
+            xmax = 1.3276820191123115 
+            text = "federAles" 
+        intervals [7]:
+            xmin = 1.3276820191123115 
+            xmax = 1.6482232176579268 
+            text = "estAn" 
+        intervals [8]:
+            xmin = 1.6482232176579268 
+            xmax = 1.7407104861027674 
+            text = "pOr" 
+        intervals [9]:
+            xmin = 1.7407104861027674 
+            xmax = 2.257862740338519 
+            text = "encIma" 
+        intervals [10]:
+            xmin = 2.257862740338519 
+            xmax = 2.3793641156271885 
+            text = "dE" 
+        intervals [11]:
+            xmin = 2.3793641156271885 
+            xmax = 2.595167741998483 
+            text = "lAs" 
+        intervals [12]:
+            xmin = 2.595167741998483 
+            xmax = 2.904339624523889 
+            text = "lEyes" 
+        intervals [13]:
+            xmin = 2.904339624523889 
+            xmax = 3.553074011794654 
+            text = "locAles" 
+        intervals [14]:
+            xmin = 3.553074011794654 
+            xmax = 3.66625 
+            text = "dE" 
+        intervals [15]:
+            xmin = 3.66625 
+            xmax = 3.928125 
+            text = "lAs" 
+        intervals [16]:
+            xmin = 3.928125 
+            xmax = 4.19 
+            text = "<sil>" 

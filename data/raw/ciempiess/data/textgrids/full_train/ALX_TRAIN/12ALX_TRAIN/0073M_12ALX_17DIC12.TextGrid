@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15510296211410907 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.15510296211410907 
+            xmax = 0.370670288838848 
+            text = "Esta" 
+        intervals [3]:
+            xmin = 0.370670288838848 
+            xmax = 0.7515058993858867 
+            text = "lEy" 
+        intervals [4]:
+            xmin = 0.7515058993858867 
+            xmax = 0.8305472525182911 
+            text = "En" 
+        intervals [5]:
+            xmin = 0.8305472525182911 
+            xmax = 0.985037170004354 
+            text = "El" 
+        intervals [6]:
+            xmin = 0.985037170004354 
+            xmax = 1.4125790346750862 
+            text = "artIculo" 
+        intervals [7]:
+            xmin = 1.4125790346750862 
+            xmax = 1.9299406188144599 
+            text = "octAvo" 
+        intervals [8]:
+            xmin = 1.9299406188144599 
+            xmax = 2.4904156682987812 
+            text = "establEce" 
+        intervals [9]:
+            xmin = 2.4904156682987812 
+            xmax = 2.824545024722126 
+            text = "cuales" 
+        intervals [10]:
+            xmin = 2.824545024722126 
+            xmax = 2.9431070544207327 
+            text = "sOn" 
+        intervals [11]:
+            xmin = 2.9431070544207327 
+            xmax = 3.0975969719067957 
+            text = "lAs" 
+        intervals [12]:
+            xmin = 3.0975969719067957 
+            xmax = 3.8772321368946017 
+            text = "obligaciOnes" 
+        intervals [13]:
+            xmin = 3.8772321368946017 
+            xmax = 4 
+            text = "<sil>" 

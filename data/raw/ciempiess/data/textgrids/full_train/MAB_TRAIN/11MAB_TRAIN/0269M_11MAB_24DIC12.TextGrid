@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.02 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.02 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2060432673053818 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.2060432673053818 
+            xmax = 0.4817010720556975 
+            text = "quiEnes" 
+        intervals [3]:
+            xmin = 0.4817010720556975 
+            xmax = 0.6023013616339606 
+            text = "sOn" 
+        intervals [4]:
+            xmin = 0.6023013616339606 
+            xmax = 0.8176590215951448 
+            text = "lOs" 
+        intervals [5]:
+            xmin = 0.8176590215951448 
+            xmax = 1.2828315671113026 
+            text = "asociAdos" 
+        intervals [6]:
+            xmin = 1.2828315671113026 
+            xmax = 1.3948175502911184 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.3948175502911184 
+            xmax = 1.5154178398693816 
+            text = "Un" 
+        intervals [8]:
+            xmin = 1.5154178398693816 
+            xmax = 1.9805903853855393 
+            text = "sindicAto" 
+        intervals [9]:
+            xmin = 1.9805903853855393 
+            xmax = 2.480220156495487 
+            text = "buEno" 
+        intervals [10]:
+            xmin = 2.480220156495487 
+            xmax = 3.0918359107852496 
+            text = "tendrIamos" 
+        intervals [11]:
+            xmin = 3.0918359107852496 
+            xmax = 3.2124362003635127 
+            text = "quE" 
+        intervals [12]:
+            xmin = 3.2124362003635127 
+            xmax = 3.3674937155355655 
+            text = "vEr" 
+        intervals [13]:
+            xmin = 3.3674937155355655 
+            xmax = 3.9101950186377494 
+            text = "detAlles" 
+        intervals [14]:
+            xmin = 3.9101950186377494 
+            xmax = 5.142040833615723 
+            text = "<sil>" 
+        intervals [15]:
+            xmin = 5.142040833615723 
+            xmax = 5.61866666667 
+            text = "pEro" 
+        intervals [16]:
+            xmin = 5.61866666667 
+            xmax = 6.02 
+            text = "<sil>" 

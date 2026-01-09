@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.48 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.48 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10027570860927151 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10027570860927151 
+            xmax = 0.3933295894039735 
+            text = "Esto" 
+        intervals [3]:
+            xmin = 0.3933295894039735 
+            xmax = 0.4598707111622924 
+            text = "hA" 
+        intervals [4]:
+            xmin = 0.4598707111622924 
+            xmax = 0.5915719205298012 
+            text = "Ido" 
+        intervals [5]:
+            xmin = 0.5915719205298012 
+            xmax = 1.3242066225165563 
+            text = "evolucionAndo" 
+        intervals [6]:
+            xmin = 1.3242066225165563 
+            xmax = 1.505210490066225 
+            text = "hAy" 
+        intervals [7]:
+            xmin = 1.505210490066225 
+            xmax = 1.6905239735099338 
+            text = "mUcha" 
+        intervals [8]:
+            xmin = 1.6905239735099338 
+            xmax = 2.6386394701986755 
+            text = "jurisprudEncia" 
+        intervals [9]:
+            xmin = 2.6386394701986755 
+            xmax = 2.7636183311258278 
+            text = "hAy" 
+        intervals [10]:
+            xmin = 2.7636183311258278 
+            xmax = 3.2247472317880796 
+            text = "tEsis" 
+        intervals [11]:
+            xmin = 3.2247472317880796 
+            xmax = 3.526420344370861 
+            text = "dE" 
+        intervals [12]:
+            xmin = 3.526420344370861 
+            xmax = 4.3021512052980135 
+            text = "jurisprudEncia" 
+        intervals [13]:
+            xmin = 4.3021512052980135 
+            xmax = 4.48 
+            text = "<sil>" 

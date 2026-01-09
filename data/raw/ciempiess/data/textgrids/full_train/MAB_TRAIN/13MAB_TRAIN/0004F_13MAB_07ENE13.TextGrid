@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.95 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.95 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01328585377101656 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.01328585377101656 
+            xmax = 0.3426218490606552 
+            text = "tAdos" 
+        intervals [3]:
+            xmin = 0.3426218490606552 
+            xmax = 1.107103581988359 
+            text = "especiales" 
+        intervals [4]:
+            xmin = 1.107103581988359 
+            xmax = 1.4570058738633769 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.4570058738633769 
+            xmax = 1.8085985149745063 
+            text = "Este" 
+        intervals [6]:
+            xmin = 1.8085985149745063 
+            xmax = 2.004831390728477 
+            text = "y" 
+        intervals [7]:
+            xmin = 2.004831390728477 
+            xmax = 3.0126075173765803 
+            text = "especIalizados" 
+        intervals [8]:
+            xmin = 3.0126075173765803 
+            xmax = 3.3704012373032373 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 3.3704012373032373 
+            xmax = 3.527337880794702 
+            text = "En" 
+        intervals [10]:
+            xmin = 3.527337880794702 
+            xmax = 3.7431390235265374 
+            text = "El" 
+        intervals [11]:
+            xmin = 3.7431390235265374 
+            xmax = 4.214182913907284 
+            text = "tEma" 
+        intervals [12]:
+            xmin = 4.214182913907284 
+            xmax = 4.46030238410596 
+            text = "cOmo" 
+        intervals [13]:
+            xmin = 4.46030238410596 
+            xmax = 4.614842516556291 
+            text = "lO" 
+        intervals [14]:
+            xmin = 4.614842516556291 
+            xmax = 5.021225827814569 
+            text = "Es" 
+        intervals [15]:
+            xmin = 5.021225827814569 
+            xmax = 5.1585948344370856 
+            text = "En" 
+        intervals [16]:
+            xmin = 5.1585948344370856 
+            xmax = 5.439056556291391 
+            text = "primEr" 
+        intervals [17]:
+            xmin = 5.439056556291391 
+            xmax = 5.6565574834437085 
+            text = "lugAr" 
+        intervals [18]:
+            xmin = 5.6565574834437085 
+            xmax = 5.794377605897235 
+            text = "lA" 
+        intervals [19]:
+            xmin = 5.794377605897235 
+            xmax = 5.883731901471441 
+            text = "++dis++" 
+        intervals [20]:
+            xmin = 5.883731901471441 
+            xmax = 5.95 
+            text = "<sil>" 

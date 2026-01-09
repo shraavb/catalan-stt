@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.64 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.64 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.051243860892486344 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.051243860892486344 
+            xmax = 0.19656868961915774 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.19656868961915774 
+            xmax = 0.47192099668021936 
+            text = "dO" 
+        intervals [4]:
+            xmin = 0.47192099668021936 
+            xmax = 0.8849494572718117 
+            text = "cuarEnta" 
+        intervals [5]:
+            xmin = 0.8849494572718117 
+            xmax = 1.3 
+            text = "cInco" 
+        intervals [6]:
+            xmin = 1.3 
+            xmax = 1.4968434729630598 
+            text = "mIl" 
+        intervals [7]:
+            xmin = 1.4968434729630598 
+            xmax = 1.88310157036816 
+            text = "pEsos" 
+        intervals [8]:
+            xmin = 1.88310157036816 
+            xmax = 2.1546295398311512 
+            text = "buEno" 
+        intervals [9]:
+            xmin = 2.1546295398311512 
+            xmax = 2.2999543685578225 
+            text = "Es" 
+        intervals [10]:
+            xmin = 2.2999543685578225 
+            xmax = 2.5141172740497595 
+            text = "Una" 
+        intervals [11]:
+            xmin = 2.5141172740497595 
+            xmax = 2.697685478757134 
+            text = "Es" 
+        intervals [12]:
+            xmin = 2.697685478757134 
+            xmax = 2.8353616322876647 
+            text = "Una" 
+        intervals [13]:
+            xmin = 2.8353616322876647 
+            xmax = 3.015105499396969 
+            text = "grAn" 
+        intervals [14]:
+            xmin = 3.015105499396969 
+            xmax = 3.397539259203999 
+            text = "cantidAd" 
+        intervals [15]:
+            xmin = 3.397539259203999 
+            xmax = 3.64 
+            text = "<sil>" 

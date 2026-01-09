@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.83 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.83 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13704224331594367 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13704224331594367 
+            xmax = 0.29937342231161895 
+            text = "de" 
+        intervals [3]:
+            xmin = 0.29937342231161895 
+            xmax = 0.6187992906579478 
+            text = "cInco" 
+        intervals [4]:
+            xmin = 0.6187992906579478 
+            xmax = 1.2262320894804748 
+            text = "cArgos" 
+        intervals [5]:
+            xmin = 1.2262320894804748 
+            xmax = 1.435691675281346 
+            text = "de" 
+        intervals [6]:
+            xmin = 1.435691675281346 
+            xmax = 2.0378879844588513 
+            text = "incitaciOn" 
+        intervals [7]:
+            xmin = 2.0378879844588513 
+            xmax = 2.2002191634545265 
+            text = "de" 
+        intervals [8]:
+            xmin = 2.2002191634545265 
+            xmax = 3.231807623523818 
+            text = "menOres" 
+        intervals [9]:
+            xmin = 3.231807623523818 
+            xmax = 3.420321250744602 
+            text = "dos" 
+        intervals [10]:
+            xmin = 3.420321250744602 
+            xmax = 3.493632105774907 
+            text = "de" 
+        intervals [11]:
+            xmin = 3.493632105774907 
+            xmax = 3.907314787731628 
+            text = "agresiOn" 
+        intervals [12]:
+            xmin = 3.907314787731628 
+            xmax = 4.268632573238131 
+            text = "sexuAl" 
+        intervals [13]:
+            xmin = 4.268632573238131 
+            xmax = 4.3838353454286105 
+            text = "de" 
+        intervals [14]:
+            xmin = 4.3838353454286105 
+            xmax = 5.279275074727336 
+            text = "menOres" 
+        intervals [15]:
+            xmin = 5.279275074727336 
+            xmax = 5.781978080649426 
+            text = "tenEncia" 
+        intervals [16]:
+            xmin = 5.781978080649426 
+            xmax = 5.83 
+            text = "<sil>" 

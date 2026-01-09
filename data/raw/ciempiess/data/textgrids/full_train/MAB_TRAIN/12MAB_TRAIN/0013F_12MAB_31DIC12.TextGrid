@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.2 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.2 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06318567052777986 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.06318567052777986 
+            xmax = 0.211802916007517 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.211802916007517 
+            xmax = 0.3042758687504646 
+            text = "lA" 
+        intervals [4]:
+            xmin = 0.3042758687504646 
+            xmax = 0.9729849129922389 
+            text = "bUsqueda" 
+        intervals [5]:
+            xmin = 0.9729849129922389 
+            xmax = 1.1984427787274252 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.1984427787274252 
+            xmax = 1.4486554417034951 
+            text = "Un" 
+        intervals [7]:
+            xmin = 1.4486554417034951 
+            xmax = 1.984857305211958 
+            text = "dEsarrollo" 
+        intervals [8]:
+            xmin = 1.984857305211958 
+            xmax = 2.0746881735908214 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.0746881735908214 
+            xmax = 2.5104457212950733 
+            text = "forestAl" 
+        intervals [10]:
+            xmin = 2.5104457212950733 
+            xmax = 3.16421876788518 
+            text = "sustentAble" 
+        intervals [11]:
+            xmin = 3.16421876788518 
+            xmax = 3.225914219740334 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 3.225914219740334 
+            xmax = 3.350532532090533 
+            text = "pAra" 
+        intervals [13]:
+            xmin = 3.350532532090533 
+            xmax = 3.428291598615254 
+            text = "El" 
+        intervals [14]:
+            xmin = 3.428291598615254 
+            xmax = 3.990487876141906 
+            text = "futUro" 
+        intervals [15]:
+            xmin = 3.990487876141906 
+            xmax = 4.2 
+            text = "<sil>" 

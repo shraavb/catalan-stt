@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.55 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 7.55 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05112217018876958 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05112217018876958 
+            xmax = 0.9084390554904479 
+            text = "utilizAmos" 
+        intervals [3]:
+            xmin = 0.9084390554904479 
+            xmax = 1.1301589396201923 
+            text = "quE" 
+        intervals [4]:
+            xmin = 1.1301589396201923 
+            xmax = 1.4549210095621186 
+            text = "Es" 
+        intervals [5]:
+            xmin = 1.4549210095621186 
+            xmax = 1.6010918961365426 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.6010918961365426 
+            xmax = 1.977196302444027 
+            text = "++di++" 
+        intervals [7]:
+            xmin = 1.977196302444027 
+            xmax = 2.148002731699534 
+            text = "lA" 
+        intervals [8]:
+            xmin = 2.148002731699534 
+            xmax = 2.6078661950797444 
+            text = "relaciOn" 
+        intervals [9]:
+            xmin = 2.6078661950797444 
+            xmax = 3.1345331506384864 
+            text = "pEso" 
+        intervals [10]:
+            xmin = 3.1345331506384864 
+            xmax = 3.7225014359603272 
+            text = "dolAr" 
+        intervals [11]:
+            xmin = 3.7225014359603272 
+            xmax = 4.379449240789199 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 4.379449240789199 
+            xmax = 4.54437003426081 
+            text = "lA" 
+        intervals [13]:
+            xmin = 4.54437003426081 
+            xmax = 5.127202402136105 
+            text = "economIa" 
+        intervals [14]:
+            xmin = 5.127202402136105 
+            xmax = 5.560787953323161 
+            text = "mundiAl" 
+        intervals [15]:
+            xmin = 5.560787953323161 
+            xmax = 6.3210901755698545 
+            text = "estA" 
+        intervals [16]:
+            xmin = 6.3210901755698545 
+            xmax = 7.55 
+            text = "<sil>" 

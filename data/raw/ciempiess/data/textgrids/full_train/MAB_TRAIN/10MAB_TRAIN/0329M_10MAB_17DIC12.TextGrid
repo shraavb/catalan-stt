@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.9 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.9 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4552138720310527 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.4552138720310527 
+            xmax = 0.59 
+            text = "A" 
+        intervals [3]:
+            xmin = 0.59 
+            xmax = 0.9870972089584426 
+            text = "nuEstra" 
+        intervals [4]:
+            xmin = 0.9870972089584426 
+            xmax = 1.9242249930686055 
+            text = "sociedAd" 
+        intervals [5]:
+            xmin = 1.9242249930686055 
+            xmax = 2.4476657373463544 
+            text = "Y" 
+        intervals [6]:
+            xmin = 2.4476657373463544 
+            xmax = 2.650287960937741 
+            text = "Es" 
+        intervals [7]:
+            xmin = 2.650287960937741 
+            xmax = 2.743156480083793 
+            text = "pOr" 
+        intervals [8]:
+            xmin = 2.743156480083793 
+            xmax = 3.0048768522226674 
+            text = "Eso" 
+        intervals [9]:
+            xmin = 3.0048768522226674 
+            xmax = 3.106187964018361 
+            text = "quE" 
+        intervals [10]:
+            xmin = 3.106187964018361 
+            xmax = 3.258154631711901 
+            text = "sE" 
+        intervals [11]:
+            xmin = 3.258154631711901 
+            xmax = 3.47766204060257 
+            text = "dEbe" 
+        intervals [12]:
+            xmin = 3.47766204060257 
+            xmax = 3.663399078894674 
+            text = "dE" 
+        intervals [13]:
+            xmin = 3.663399078894674 
+            xmax = 4.0179879701796 
+            text = "discutIr" 
+        intervals [14]:
+            xmin = 4.0179879701796 
+            xmax = 4.102413896676012 
+            text = "En" 
+        intervals [15]:
+            xmin = 4.102413896676012 
+            xmax = 4.24593797171991 
+            text = "El" 
+        intervals [16]:
+            xmin = 4.24593797171991 
+            xmax = 4.938230568990481 
+            text = "congrEso" 
+        intervals [17]:
+            xmin = 4.938230568990481 
+            xmax = 5.3181472382243316 
+            text = "dEben" 
+        intervals [18]:
+            xmin = 5.3181472382243316 
+            xmax = 5.419458350020024 
+            text = "dE" 
+        intervals [19]:
+            xmin = 5.419458350020024 
+            xmax = 5.9 
+            text = "acudIr" 

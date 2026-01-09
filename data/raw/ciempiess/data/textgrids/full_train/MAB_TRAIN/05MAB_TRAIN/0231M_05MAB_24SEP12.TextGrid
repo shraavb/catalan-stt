@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.37 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.37 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.34010833275019386 
+            text = "++dis++" 
+        intervals [2]:
+            xmin = 0.34010833275019386 
+            xmax = 0.4007507596514082 
+            text = "<sil>" 
+        intervals [3]:
+            xmin = 0.4007507596514082 
+            xmax = 0.5635278002809836 
+            text = "A" 
+        intervals [4]:
+            xmin = 0.5635278002809836 
+            xmax = 0.731092400929076 
+            text = "tOda" 
+        intervals [5]:
+            xmin = 0.731092400929076 
+            xmax = 1.1249167774618696 
+            text = "lA" 
+        intervals [6]:
+            xmin = 1.1249167774618696 
+            xmax = 1.3625153817629876 
+            text = "++dis++" 
+        intervals [7]:
+            xmin = 1.3625153817629876 
+            xmax = 1.6753026363060932 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.6753026363060932 
+            xmax = 1.9896857441887046 
+            text = "lA" 
+        intervals [9]:
+            xmin = 1.9896857441887046 
+            xmax = 2.5829628186766307 
+            text = "comunidAd" 
+        intervals [10]:
+            xmin = 2.5829628186766307 
+            xmax = 3.0361851670962325 
+            text = "++dis++" 
+        intervals [11]:
+            xmin = 3.0361851670962325 
+            xmax = 3.1750244076332237 
+            text = "yO" 
+        intervals [12]:
+            xmin = 3.1750244076332237 
+            xmax = 3.2657007207335784 
+            text = "crEo" 
+        intervals [13]:
+            xmin = 3.2657007207335784 
+            xmax = 3.391773134554524 
+            text = "quE" 
+        intervals [14]:
+            xmin = 3.391773134554524 
+            xmax = 3.571356214097433 
+            text = "lOs" 
+        intervals [15]:
+            xmin = 3.571356214097433 
+            xmax = 4.280440641658337 
+            text = "candidAtos" 
+        intervals [16]:
+            xmin = 4.280440641658337 
+            xmax = 4.37 
+            text = "<++dis++" 

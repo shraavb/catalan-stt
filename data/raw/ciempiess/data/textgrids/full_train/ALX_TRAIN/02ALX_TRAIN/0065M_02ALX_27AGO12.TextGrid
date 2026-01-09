@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.84 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.84 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07352667822492165 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07352667822492165 
+            xmax = 0.20784877908130603 
+            text = "sI" 
+        intervals [3]:
+            xmin = 0.20784877908130603 
+            xmax = 0.76654249374422 
+            text = "nosOtros" 
+        intervals [4]:
+            xmin = 0.76654249374422 
+            xmax = 0.8371771617689193 
+            text = "++dis++" 
+        intervals [5]:
+            xmin = 0.8371771617689193 
+            xmax = 1.5677889129480618 
+            text = "adentrAmos" 
+        intervals [6]:
+            xmin = 1.5677889129480618 
+            xmax = 1.68579035835403 
+            text = "A" 
+        intervals [7]:
+            xmin = 1.68579035835403 
+            xmax = 1.896565555661955 
+            text = "lO" 
+        intervals [8]:
+            xmin = 1.896565555661955 
+            xmax = 2.009350630926793 
+            text = "quE" 
+        intervals [9]:
+            xmin = 2.009350630926793 
+            xmax = 2.129014068521578 
+            text = "Es" 
+        intervals [10]:
+            xmin = 2.129014068521578 
+            xmax = 2.2761450176616136 
+            text = "En" 
+        intervals [11]:
+            xmin = 2.2761450176616136 
+            xmax = 2.472260095941955 
+            text = "sI" 
+        intervals [12]:
+            xmin = 2.472260095941955 
+            xmax = 2.588330644788338 
+            text = "lA" 
+        intervals [13]:
+            xmin = 2.588330644788338 
+            xmax = 3.082773320961234 
+            text = "audiEncia" 
+        intervals [14]:
+            xmin = 3.082773320961234 
+            xmax = 3.2844573049340653 
+            text = "dE" 
+        intervals [15]:
+            xmin = 3.2844573049340653 
+            xmax = 3.683335430250015 
+            text = "juIcio" 
+        intervals [16]:
+            xmin = 3.683335430250015 
+            xmax = 3.84 
+            text = "<sil>" 

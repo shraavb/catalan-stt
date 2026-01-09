@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.05 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.05 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3048068090305982 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.3048068090305982 
+            xmax = 0.49009077574456067 
+            text = "pAra" 
+        intervals [3]:
+            xmin = 0.49009077574456067 
+            xmax = 0.6332647500235317 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.6332647500235317 
+            xmax = 0.9322456963119712 
+            text = "cAso" 
+        intervals [5]:
+            xmin = 0.9322456963119712 
+            xmax = 1.0038326834514566 
+            text = "quE" 
+        intervals [6]:
+            xmin = 1.0038326834514566 
+            xmax = 1.1933276494089182 
+            text = "nOs" 
+        intervals [7]:
+            xmin = 1.1933276494089182 
+            xmax = 1.6102165745153338 
+            text = "ocUpa" 
+        intervals [8]:
+            xmin = 1.6102165745153338 
+            xmax = 2.216600465579211 
+            text = "sOlamente" 
+        intervals [9]:
+            xmin = 2.216600465579211 
+            xmax = 2.2881874527186965 
+            text = "El" 
+        intervals [10]:
+            xmin = 2.2881874527186965 
+            xmax = 2.894571343782574 
+            text = "notArio" 
+        intervals [11]:
+            xmin = 2.894571343782574 
+            xmax = 3.1388092999055246 
+            text = "Esta" 
+        intervals [12]:
+            xmin = 3.1388092999055246 
+            xmax = 3.892578164491872 
+            text = "facultAdo" 
+        intervals [13]:
+            xmin = 3.892578164491872 
+            xmax = 4.05 
+            text = "<sil>" 

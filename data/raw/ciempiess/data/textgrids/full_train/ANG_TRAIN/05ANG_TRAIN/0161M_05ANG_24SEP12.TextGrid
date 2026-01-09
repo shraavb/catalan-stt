@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.03 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.03 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19718410462776664 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.19718410462776664 
+            xmax = 0.48410831656606307 
+            text = "cuAles" 
+        intervals [3]:
+            xmin = 0.48410831656606307 
+            xmax = 0.5973678739101275 
+            text = "sOn" 
+        intervals [4]:
+            xmin = 0.5973678739101275 
+            xmax = 0.6842002012072435 
+            text = "lA" 
+        intervals [5]:
+            xmin = 0.6842002012072435 
+            xmax = 1.1221371562709592 
+            text = "rEglas" 
+        intervals [6]:
+            xmin = 1.1221371562709592 
+            xmax = 1.6695583501006037 
+            text = "mInimas" 
+        intervals [7]:
+            xmin = 1.6695583501006037 
+            xmax = 1.726188128772636 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.726188128772636 
+            xmax = 1.8243464118041584 
+            text = "pAra" 
+        intervals [9]:
+            xmin = 1.8243464118041584 
+            xmax = 2.2396314553990613 
+            text = "utilizAr" 
+        intervals [10]:
+            xmin = 2.2396314553990613 
+            xmax = 2.3528910127431257 
+            text = "lA" 
+        intervals [11]:
+            xmin = 2.3528910127431257 
+            xmax = 2.930514755197854 
+            text = "dogmAtica" 
+        intervals [12]:
+            xmin = 2.930514755197854 
+            xmax = 3.76108484238766 
+            text = "jurIdica" 
+        intervals [13]:
+            xmin = 3.76108484238766 
+            xmax = 4.03 
+            text = "<sil>" 

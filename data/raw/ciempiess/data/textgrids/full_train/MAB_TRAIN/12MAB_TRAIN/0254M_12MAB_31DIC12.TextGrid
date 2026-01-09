@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.34 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.34 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10767118869907737 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10767118869907737 
+            xmax = 0.6892967049592831 
+            text = "prOpia" 
+        intervals [3]:
+            xmin = 0.6892967049592831 
+            xmax = 0.9033380502351706 
+            text = "dE" 
+        intervals [4]:
+            xmin = 0.9033380502351706 
+            xmax = 1.5157849859189698 
+            text = "Un" 
+        intervals [5]:
+            xmin = 1.5157849859189698 
+            xmax = 1.7289091929486022 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.7289091929486022 
+            xmax = 2.35780545533752 
+            text = "clIma" 
+        intervals [7]:
+            xmin = 2.35780545533752 
+            xmax = 3.457077681069309 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 3.457077681069309 
+            xmax = 3.984279666879453 
+            text = "mIcro" 
+        intervals [9]:
+            xmin = 3.984279666879453 
+            xmax = 4.0391147000116785 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 4.0391147000116785 
+            xmax = 4.648990598490237 
+            text = "clIma" 
+        intervals [11]:
+            xmin = 4.648990598490237 
+            xmax = 5.386824110546041 
+            text = "<siL>" 
+        intervals [12]:
+            xmin = 5.386824110546041 
+            xmax = 6.1578933663881426 
+            text = "regionAl" 
+        intervals [13]:
+            xmin = 6.1578933663881426 
+            xmax = 6.34 
+            text = "<sil>" 

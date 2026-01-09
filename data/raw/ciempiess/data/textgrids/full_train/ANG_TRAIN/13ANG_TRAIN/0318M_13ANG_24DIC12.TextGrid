@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.95 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.95 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15105887948077137 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.15105887948077137 
+            xmax = 0.29631016325363374 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.29631016325363374 
+            xmax = 0.5204121439317642 
+            text = "lEs" 
+        intervals [4]:
+            xmin = 0.5204121439317642 
+            xmax = 0.7154638678553222 
+            text = "hAgo" 
+        intervals [5]:
+            xmin = 0.7154638678553222 
+            xmax = 0.9146656284581048 
+            text = "lA" 
+        intervals [6]:
+            xmin = 0.9146656284581048 
+            xmax = 1.48125 
+            text = "consUlta" 
+        intervals [7]:
+            xmin = 1.48125 
+            xmax = 1.5631088595869547 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.5631088595869547 
+            xmax = 1.6730848315864078 
+            text = "A" 
+        intervals [9]:
+            xmin = 1.6730848315864078 
+            xmax = 1.888886738906089 
+            text = "sUs" 
+        intervals [10]:
+            xmin = 1.888886738906089 
+            xmax = 2.59646799271389 
+            text = "subAlternos" 
+        intervals [11]:
+            xmin = 2.59646799271389 
+            xmax = 2.654568506223035 
+            text = "O" 
+        intervals [12]:
+            xmin = 2.654568506223035 
+            xmax = 2.7292691664490785 
+            text = "quE" 
+        intervals [13]:
+            xmin = 2.7292691664490785 
+            xmax = 2.9625 
+            text = "lEs" 
+        intervals [14]:
+            xmin = 2.9625 
+            xmax = 3.085963591206933 
+            text = "hAgo" 
+        intervals [15]:
+            xmin = 3.085963591206933 
+            xmax = 3.266490186753205 
+            text = "Una" 
+        intervals [16]:
+            xmin = 3.266490186753205 
+            xmax = 3.762419569920549 
+            text = "consUlta" 
+        intervals [17]:
+            xmin = 3.762419569920549 
+            xmax = 3.95 
+            text = "<sil>" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.1 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.1 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.28590947230370034 
+            text = "++dis++" 
+        intervals [2]:
+            xmin = 0.28590947230370034 
+            xmax = 0.962318260661101 
+            text = "tambiEn" 
+        intervals [3]:
+            xmin = 0.962318260661101 
+            xmax = 1.2065769897901624 
+            text = "++dis++" 
+        intervals [4]:
+            xmin = 1.2065769897901624 
+            xmax = 1.6888314037116425 
+            text = "Es" 
+        intervals [5]:
+            xmin = 1.6888314037116425 
+            xmax = 1.9518792658506317 
+            text = "++dis++" 
+        intervals [6]:
+            xmin = 1.9518792658506317 
+            xmax = 2.4591858571186824 
+            text = "pues" 
+        intervals [7]:
+            xmin = 2.4591858571186824 
+            xmax = 2.6533402315546026 
+            text = "++dis++" 
+        intervals [8]:
+            xmin = 2.6533402315546026 
+            xmax = 3.0792272464462997 
+            text = "Es" 
+        intervals [9]:
+            xmin = 3.0792272464462997 
+            xmax = 3.242066399199007 
+            text = "el" 
+        intervals [10]:
+            xmin = 3.242066399199007 
+            xmax = 3.7744251678136282 
+            text = "titulAr" 
+        intervals [11]:
+            xmin = 3.7744251678136282 
+            xmax = 3.943527364902978 
+            text = "del" 
+        intervals [12]:
+            xmin = 3.943527364902978 
+            xmax = 4.21283827137861 
+            text = "bAnco" 
+        intervals [13]:
+            xmin = 4.21283827137861 
+            xmax = 4.294257847754964 
+            text = "de" 
+        intervals [14]:
+            xmin = 4.294257847754964 
+            xmax = 4.83914270504287 
+            text = "mEJico" 
+        intervals [15]:
+            xmin = 4.83914270504287 
+            xmax = 5.1 
+            text = "++dis++" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.25 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.25 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06210657961165824 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.06210657961165824 
+            xmax = 0.1894260319584572 
+            text = "es" 
+        intervals [3]:
+            xmin = 0.1894260319584572 
+            xmax = 0.4582115424683661 
+            text = "decIr" 
+        intervals [4]:
+            xmin = 0.4582115424683661 
+            xmax = 0.6091086711756834 
+            text = "una" 
+        intervals [5]:
+            xmin = 0.6091086711756834 
+            xmax = 1.2834302150865073 
+            text = "anEcdota" 
+        intervals [6]:
+            xmin = 1.2834302150865073 
+            xmax = 1.4673360906985504 
+            text = "que" 
+        intervals [7]:
+            xmin = 1.4673360906985504 
+            xmax = 1.9813294353578499 
+            text = "hAya" 
+        intervals [8]:
+            xmin = 1.9813294353578499 
+            xmax = 2.3067013691330027 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.3067013691330027 
+            xmax = 2.9385830955948937 
+            text = "trastocAdo" 
+        intervals [10]:
+            xmin = 2.9385830955948937 
+            xmax = 3.131920041751144 
+            text = "su" 
+        intervals [11]:
+            xmin = 3.131920041751144 
+            xmax = 3.6270512453220287 
+            text = "vIda" 
+        intervals [12]:
+            xmin = 3.6270512453220287 
+            xmax = 4.108035843076602 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 4.108035843076602 
+            xmax = 4.3532436772259935 
+            text = "como" 
+        intervals [14]:
+            xmin = 4.3532436772259935 
+            xmax = 5.1501691382115125 
+            text = "catedrAtico" 
+        intervals [15]:
+            xmin = 5.1501691382115125 
+            xmax = 5.25 
+            text = "<sil>" 

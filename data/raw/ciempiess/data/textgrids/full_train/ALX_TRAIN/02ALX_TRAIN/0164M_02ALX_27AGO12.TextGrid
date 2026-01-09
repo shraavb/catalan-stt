@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.83 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.83 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07858633445002801 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07858633445002801 
+            xmax = 0.3826926996091572 
+            text = "pAra" 
+        intervals [3]:
+            xmin = 0.3826926996091572 
+            xmax = 0.6152446259073148 
+            text = "lAs" 
+        intervals [4]:
+            xmin = 0.6152446259073148 
+            xmax = 1.1310328726968182 
+            text = "persOnas" 
+        intervals [5]:
+            xmin = 1.1310328726968182 
+            xmax = 1.500730806811838 
+            text = "quE" 
+        intervals [6]:
+            xmin = 1.500730806811838 
+            xmax = 1.734423872488772 
+            text = "sE" 
+        intervals [7]:
+            xmin = 1.734423872488772 
+            xmax = 1.8626255754480125 
+            text = "hAn" 
+        intervals [8]:
+            xmin = 1.8626255754480125 
+            xmax = 2.211453464895249 
+            text = "vIsto" 
+        intervals [9]:
+            xmin = 2.211453464895249 
+            xmax = 3.355267678681463 
+            text = "involucrAdos" 
+        intervals [10]:
+            xmin = 3.355267678681463 
+            xmax = 3.807518076493579 
+            text = "En" 
+        intervals [11]:
+            xmin = 3.807518076493579 
+            xmax = 4.93307692308 
+            text = "delincuEncia" 
+        intervals [12]:
+            xmin = 4.93307692308 
+            xmax = 5.629174832495813 
+            text = "organizAda" 
+        intervals [13]:
+            xmin = 5.629174832495813 
+            xmax = 5.83 
+            text = "<sil>" 

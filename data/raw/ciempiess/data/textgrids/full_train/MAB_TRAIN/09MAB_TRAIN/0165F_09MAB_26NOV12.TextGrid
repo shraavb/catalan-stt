@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.68 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.68 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1463219934102141 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1463219934102141 
+            xmax = 0.5592565897858319 
+            text = "Eso" 
+        intervals [3]:
+            xmin = 0.5592565897858319 
+            xmax = 1.0106037067545304 
+            text = "caUsa" 
+        intervals [4]:
+            xmin = 1.0106037067545304 
+            xmax = 1.2794913509060954 
+            text = "mUchos" 
+        intervals [5]:
+            xmin = 1.2794913509060954 
+            xmax = 1.7692509884678747 
+            text = "problEmas" 
+        intervals [6]:
+            xmin = 1.7692509884678747 
+            xmax = 2.18461538462 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 2.18461538462 
+            xmax = 2.4414700988467875 
+            text = "Al" 
+        intervals [8]:
+            xmin = 2.4414700988467875 
+            xmax = 2.7295640032948927 
+            text = "Al" 
+        intervals [9]:
+            xmin = 2.7295640032948927 
+            xmax = 3.2577361614497526 
+            text = "tenEmos" 
+        intervals [10]:
+            xmin = 3.2577361614497526 
+            xmax = 3.728289538714992 
+            text = "tambiEn" 
+        intervals [11]:
+            xmin = 3.728289538714992 
+            xmax = 4.006780313014827 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 4.006780313014827 
+            xmax = 4.256461696869851 
+            text = "En" 
+        intervals [13]:
+            xmin = 4.256461696869851 
+            xmax = 4.458127429983525 
+            text = "algUn" 
+        intervals [14]:
+            xmin = 4.458127429983525 
+            xmax = 5.034315238879737 
+            text = "cAso" 
+        intervals [15]:
+            xmin = 5.034315238879737 
+            xmax = 5.68 
+            text = "<sil>" 

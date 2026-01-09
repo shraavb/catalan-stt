@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.62 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.62 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3965361210974456 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.3965361210974456 
+            xmax = 0.6066876140018922 
+            text = "lA" 
+        intervals [3]:
+            xmin = 0.6066876140018922 
+            xmax = 1.4791347209082308 
+            text = "colaboraciOn" 
+        intervals [4]:
+            xmin = 1.4791347209082308 
+            xmax = 1.644708624408704 
+            text = "y" 
+        intervals [5]:
+            xmin = 1.644708624408704 
+            xmax = 1.7975460737937559 
+            text = "lA" 
+        intervals [6]:
+            xmin = 1.7975460737937559 
+            xmax = 2.593574456007569 
+            text = "coordinaciOn" 
+        intervals [7]:
+            xmin = 2.593574456007569 
+            xmax = 4.00095263576159 
+            text = "intergUbernamental" 
+        intervals [8]:
+            xmin = 4.00095263576159 
+            xmax = 4.2302088098391675 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 4.2302088098391675 
+            xmax = 4.51041080037843 
+            text = "En" 
+        intervals [10]:
+            xmin = 4.51041080037843 
+            xmax = 4.89887265089877 
+            text = "nuEstro" 
+        intervals [11]:
+            xmin = 4.89887265089877 
+            xmax = 5.351016771996216 
+            text = "rEgimen" 
+        intervals [12]:
+            xmin = 5.351016771996216 
+            xmax = 5.6949010331125836 
+            text = "fEderal" 
+        intervals [13]:
+            xmin = 5.6949010331125836 
+            xmax = 5.7840562119205305 
+            text = "dE" 
+        intervals [14]:
+            xmin = 5.7840562119205305 
+            xmax = 6.516402323557238 
+            text = "gobiErno" 
+        intervals [15]:
+            xmin = 6.516402323557238 
+            xmax = 6.62 
+            text = "<sil>" 

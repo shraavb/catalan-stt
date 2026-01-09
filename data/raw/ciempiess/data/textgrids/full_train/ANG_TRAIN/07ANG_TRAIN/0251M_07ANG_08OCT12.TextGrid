@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.85 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.85 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04261484389782402 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.04261484389782402 
+            xmax = 0.20824165562913904 
+            text = "Uno" 
+        intervals [3]:
+            xmin = 0.20824165562913904 
+            xmax = 0.2625701714949858 
+            text = "dE" 
+        intervals [4]:
+            xmin = 0.2625701714949858 
+            xmax = 0.4273599568919523 
+            text = "lOs" 
+        intervals [5]:
+            xmin = 0.4273599568919523 
+            xmax = 0.8623149350388201 
+            text = "factOres" 
+        intervals [6]:
+            xmin = 0.8623149350388201 
+            xmax = 1.0631054301171474 
+            text = "sObre" 
+        intervals [7]:
+            xmin = 1.0631054301171474 
+            xmax = 1.2749434058656572 
+            text = "lAs" 
+        intervals [8]:
+            xmin = 1.2749434058656572 
+            xmax = 1.5638654049578218 
+            text = "++dis++" 
+        intervals [9]:
+            xmin = 1.5638654049578218 
+            xmax = 1.8013455270694383 
+            text = "sObre" 
+        intervals [10]:
+            xmin = 1.8013455270694383 
+            xmax = 1.9083088662966035 
+            text = "lA" 
+        intervals [11]:
+            xmin = 1.9083088662966035 
+            xmax = 2.633988058055461 
+            text = "++dis++" 
+        intervals [12]:
+            xmin = 2.633988058055461 
+            xmax = 3.1013564097589637 
+            text = "familiAr" 
+        intervals [13]:
+            xmin = 3.1013564097589637 
+            xmax = 3.1795042716321897 
+            text = "++dis++" 
+        intervals [14]:
+            xmin = 3.1795042716321897 
+            xmax = 3.578780648717172 
+            text = "actuAl" 
+        intervals [15]:
+            xmin = 3.578780648717172 
+            xmax = 3.9281308176872516 
+            text = "++dis++" 
+        intervals [16]:
+            xmin = 3.9281308176872516 
+            xmax = 4.250633735663221 
+            text = "nuEstro" 
+        intervals [17]:
+            xmin = 4.250633735663221 
+            xmax = 4.6620181729403 
+            text = "paIs" 
+        intervals [18]:
+            xmin = 4.6620181729403 
+            xmax = 4.85 
+            text = "<sil>" 

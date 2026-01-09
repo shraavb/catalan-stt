@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.85 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.85 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.46222896630027044 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.46222896630027044 
+            xmax = 0.5255719514634506 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.5255719514634506 
+            xmax = 0.6384877076239022 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 0.6384877076239022 
+            xmax = 1.051594132601164 
+            text = "pudiEran" 
+        intervals [5]:
+            xmin = 1.051594132601164 
+            xmax = 1.4151277865811545 
+            text = "tenEr" 
+        intervals [6]:
+            xmin = 1.4151277865811545 
+            xmax = 1.5666001424061506 
+            text = "lA" 
+        intervals [7]:
+            xmin = 1.5666001424061506 
+            xmax = 2.1614733943734077 
+            text = "certidUmbre" 
+        intervals [8]:
+            xmin = 2.1614733943734077 
+            xmax = 2.4451398061911274 
+            text = "quIban" 
+        intervals [9]:
+            xmin = 2.4451398061911274 
+            xmax = 2.77142857143 
+            text = "A" 
+        intervals [10]:
+            xmin = 2.77142857143 
+            xmax = 3.11785714286 
+            text = "A" 
+        intervals [11]:
+            xmin = 3.11785714286 
+            xmax = 3.46428571429 
+            text = "recibIr" 
+        intervals [12]:
+            xmin = 3.46428571429 
+            xmax = 3.81071428571 
+            text = "lA" 
+        intervals [13]:
+            xmin = 3.81071428571 
+            xmax = 4.15714285714 
+            text = "atenciOn" 
+        intervals [14]:
+            xmin = 4.15714285714 
+            xmax = 4.50357142857 
+            text = "mEdica" 
+        intervals [15]:
+            xmin = 4.50357142857 
+            xmax = 4.85 
+            text = "<sil>" 

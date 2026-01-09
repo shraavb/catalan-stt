@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.72 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.72 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10313894167984967 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10313894167984967 
+            xmax = 0.8048010606559293 
+            text = "mEdio" 
+        intervals [3]:
+            xmin = 0.8048010606559293 
+            xmax = 1.041686989711956 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 1.041686989711956 
+            xmax = 1.524454516016011 
+            text = "rUral" 
+        intervals [5]:
+            xmin = 1.524454516016011 
+            xmax = 1.69237365560003 
+            text = "sE" 
+        intervals [6]:
+            xmin = 1.69237365560003 
+            xmax = 1.7733346693280392 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.7733346693280392 
+            xmax = 2.4360155594721142 
+            text = "conOce" 
+        intervals [8]:
+            xmin = 2.4360155594721142 
+            xmax = 3.010833063480099 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 3.010833063480099 
+            xmax = 3.1817507591281182 
+            text = "hAy" 
+        intervals [10]:
+            xmin = 3.1817507591281182 
+            xmax = 3.2852009433361298 
+            text = "++dis++" 
+        intervals [11]:
+            xmin = 3.2852009433361298 
+            xmax = 3.654023339208172 
+            text = "hAy" 
+        intervals [12]:
+            xmin = 3.654023339208172 
+            xmax = 3.725677442216017 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 3.725677442216017 
+            xmax = 4.301400206504082 
+            text = "todavIa" 
+        intervals [14]:
+            xmin = 4.301400206504082 
+            xmax = 4.3913568884240926 
+            text = "<sil>" 
+        intervals [15]:
+            xmin = 4.3913568884240926 
+            xmax = 5.3673868872562025 
+            text = "indicatIvos" 
+        intervals [16]:
+            xmin = 5.3673868872562025 
+            xmax = 5.72 
+            text = "<sil>" 

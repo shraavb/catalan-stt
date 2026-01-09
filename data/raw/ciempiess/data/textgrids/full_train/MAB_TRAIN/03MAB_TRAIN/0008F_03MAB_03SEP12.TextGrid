@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.07 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.07 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04899310957704395 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.04899310957704395 
+            xmax = 0.3208592679408583 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.3208592679408583 
+            xmax = 0.7861686543712328 
+            text = "respEcto" 
+        intervals [4]:
+            xmin = 0.7861686543712328 
+            xmax = 0.8855043660810881 
+            text = "dE" 
+        intervals [5]:
+            xmin = 0.8855043660810881 
+            xmax = 1.1260013523260008 
+            text = "sU" 
+        intervals [6]:
+            xmin = 1.1260013523260008 
+            xmax = 1.9625126088300449 
+            text = "tratamiEnto" 
+        intervals [7]:
+            xmin = 1.9625126088300449 
+            xmax = 2.0357073437741486 
+            text = "En" 
+        intervals [8]:
+            xmin = 2.0357073437741486 
+            xmax = 2.2971171114316626 
+            text = "nuEstra" 
+        intervals [9]:
+            xmin = 2.2971171114316626 
+            xmax = 2.6578625907990316 
+            text = "sociedAd" 
+        intervals [10]:
+            xmin = 2.6578625907990316 
+            xmax = 3.290474228530215 
+            text = "mexicAna" 
+        intervals [11]:
+            xmin = 3.290474228530215 
+            xmax = 3.7244144428416877 
+            text = "++dis++" 
+        intervals [12]:
+            xmin = 3.7244144428416877 
+            xmax = 4.508643745814229 
+            text = "comenzAmos" 
+        intervals [13]:
+            xmin = 4.508643745814229 
+            xmax = 5.07 
+            text = "<sil>" 

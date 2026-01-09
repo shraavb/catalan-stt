@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.51 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.51 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06023326748779918 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.06023326748779918 
+            xmax = 0.23345059648307379 
+            text = "pAra" 
+        intervals [3]:
+            xmin = 0.23345059648307379 
+            xmax = 0.842185781237896 
+            text = "comenzAr" 
+        intervals [4]:
+            xmin = 0.842185781237896 
+            xmax = 1.18071428571 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.18071428571 
+            xmax = 1.57428571429 
+            text = "quisiEra" 
+        intervals [6]:
+            xmin = 1.57428571429 
+            xmax = 2.3566001433108683 
+            text = "preguntArles" 
+        intervals [7]:
+            xmin = 2.3566001433108683 
+            xmax = 2.5446646719343096 
+            text = "a" 
+        intervals [8]:
+            xmin = 2.5446646719343096 
+            xmax = 2.755 
+            text = "a" 
+        intervals [9]:
+            xmin = 2.755 
+            xmax = 2.9702843946084125 
+            text = "mis" 
+        intervals [10]:
+            xmin = 2.9702843946084125 
+            xmax = 3.6483065109613446 
+            text = "compaNEros" 
+        intervals [11]:
+            xmin = 3.6483065109613446 
+            xmax = 4.05412996746456 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 4.05412996746456 
+            xmax = 4.118467832519947 
+            text = "a" 
+        intervals [13]:
+            xmin = 4.118467832519947 
+            xmax = 4.291685161515222 
+            text = "ver" 
+        intervals [14]:
+            xmin = 4.291685161515222 
+            xmax = 4.925165678983655 
+            text = "PAbel" 
+        intervals [15]:
+            xmin = 4.925165678983655 
+            xmax = 5.296345669687815 
+            text = "tu" 
+        intervals [16]:
+            xmin = 5.296345669687815 
+            xmax = 5.484410198311256 
+            text = "tu" 
+        intervals [17]:
+            xmin = 5.484410198311256 
+            xmax = 5.51 
+            text = "<sil>" 

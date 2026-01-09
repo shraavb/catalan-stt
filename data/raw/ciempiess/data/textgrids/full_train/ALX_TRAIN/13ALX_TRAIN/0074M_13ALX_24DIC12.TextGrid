@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.04 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.04 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12777811864861754 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12777811864861754 
+            xmax = 0.6061150960211593 
+            text = "tiEne" 
+        intervals [3]:
+            xmin = 0.6061150960211593 
+            xmax = 1.3271557468951243 
+            text = "obedEce" 
+        intervals [4]:
+            xmin = 1.3271557468951243 
+            xmax = 1.6527213113611086 
+            text = "A" 
+        intervals [5]:
+            xmin = 1.6527213113611086 
+            xmax = 1.9347590505484087 
+            text = "cOmo" 
+        intervals [6]:
+            xmin = 1.9347590505484087 
+            xmax = 1.95832247051161 
+            text = "lO" 
+        intervals [7]:
+            xmin = 1.95832247051161 
+            xmax = 2.6615934301326956 
+            text = "dIjo" 
+        intervals [8]:
+            xmin = 2.6615934301326956 
+            xmax = 2.7534907679891814 
+            text = "El" 
+        intervals [9]:
+            xmin = 2.7534907679891814 
+            xmax = 3.48923076923 
+            text = "piscOlogo" 
+        intervals [10]:
+            xmin = 3.48923076923 
+            xmax = 3.6253373066276353 
+            text = "A" 
+        intervals [11]:
+            xmin = 3.6253373066276353 
+            xmax = 3.8942825879672447 
+            text = "Una" 
+        intervals [12]:
+            xmin = 3.8942825879672447 
+            xmax = 4.838856916753531 
+            text = "patologIa" 
+        intervals [13]:
+            xmin = 4.838856916753531 
+            xmax = 5.04 
+            text = "<sil>" 

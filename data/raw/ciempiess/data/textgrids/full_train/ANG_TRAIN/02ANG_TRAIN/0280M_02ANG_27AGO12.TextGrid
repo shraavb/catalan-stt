@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.52 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.52 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.8661971406424938 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.8661971406424938 
+            xmax = 1.3134318830488085 
+            text = "dEntro" 
+        intervals [3]:
+            xmin = 1.3134318830488085 
+            xmax = 1.4615569368770749 
+            text = "dE" 
+        intervals [4]:
+            xmin = 1.4615569368770749 
+            xmax = 1.8115621043906396 
+            text = "Este" 
+        intervals [5]:
+            xmin = 1.8115621043906396 
+            xmax = 2.5042014921850995 
+            text = "catAlogo" 
+        intervals [6]:
+            xmin = 2.5042014921850995 
+            xmax = 2.838505370511397 
+            text = "dE" 
+        intervals [7]:
+            xmin = 2.838505370511397 
+            xmax = 3.1924886810662705 
+            text = "posesiOn" 
+        intervals [8]:
+            xmin = 3.1924886810662705 
+            xmax = 3.7407902916079974 
+            text = "sImple" 
+        intervals [9]:
+            xmin = 3.7407902916079974 
+            xmax = 4.1796631385743295 
+            text = "++dis++" 
+        intervals [10]:
+            xmin = 4.1796631385743295 
+            xmax = 4.615676401859145 
+            text = "posesiOn" 
+        intervals [11]:
+            xmin = 4.615676401859145 
+            xmax = 4.820893131539438 
+            text = "pAra" 
+        intervals [12]:
+            xmin = 4.820893131539438 
+            xmax = 5.42070838018308 
+            text = "consUmo" 
+        intervals [13]:
+            xmin = 5.42070838018308 
+            xmax = 5.52 
+            text = "<sil>" 

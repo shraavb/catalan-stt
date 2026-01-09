@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.71 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.71 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12877624221274755 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12877624221274755 
+            xmax = 0.379512653958382 
+            text = "lA" 
+        intervals [3]:
+            xmin = 0.379512653958382 
+            xmax = 0.6996837643412691 
+            text = "posibilidAd" 
+        intervals [4]:
+            xmin = 0.6996837643412691 
+            xmax = 0.8694130276767754 
+            text = "dE" 
+        intervals [5]:
+            xmin = 0.8694130276767754 
+            xmax = 0.9658501091174041 
+            text = "quE" 
+        intervals [6]:
+            xmin = 0.9658501091174041 
+            xmax = 1.1548667887410362 
+            text = "El" 
+        intervals [7]:
+            xmin = 1.1548667887410362 
+            xmax = 1.3670283679104192 
+            text = "puEblo" 
+        intervals [8]:
+            xmin = 1.3670283679104192 
+            xmax = 1.8607862248864377 
+            text = "organizAdo" 
+        intervals [9]:
+            xmin = 1.8607862248864377 
+            xmax = 2.0652328375405706 
+            text = "puES" 
+        intervals [10]:
+            xmin = 2.0652328375405706 
+            xmax = 2.3275416990590805 
+            text = "tambiEn" 
+        intervals [11]:
+            xmin = 2.3275416990590805 
+            xmax = 2.58213559406234 
+            text = "puEda" 
+        intervals [12]:
+            xmin = 2.58213559406234 
+            xmax = 3.42461538462 
+            text = "participAr" 
+        intervals [13]:
+            xmin = 3.42461538462 
+            xmax = 3.71 
+            text = "<sil>" 

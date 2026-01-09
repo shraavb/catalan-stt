@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.75 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.75 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09806671852376696 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09806671852376696 
+            xmax = 0.361361133360032 
+            text = "cOmo" 
+        intervals [3]:
+            xmin = 0.361361133360032 
+            xmax = 0.6987071023689967 
+            text = "podEmos" 
+        intervals [4]:
+            xmin = 0.6987071023689967 
+            xmax = 1.3240313376051263 
+            text = "regulAr" 
+        intervals [5]:
+            xmin = 1.3240313376051263 
+            xmax = 1.957583523304889 
+            text = "Aaa" 
+        intervals [6]:
+            xmin = 1.957583523304889 
+            xmax = 2.1221425325775547 
+            text = "A" 
+        intervals [7]:
+            xmin = 2.1221425325775547 
+            xmax = 2.31138539324112 
+            text = "lO" 
+        intervals [8]:
+            xmin = 2.31138539324112 
+            xmax = 2.451260551122886 
+            text = "quE" 
+        intervals [9]:
+            xmin = 2.451260551122886 
+            xmax = 2.6240475108591848 
+            text = "estA" 
+        intervals [10]:
+            xmin = 2.6240475108591848 
+            xmax = 2.6980990650318843 
+            text = "En" 
+        intervals [11]:
+            xmin = 2.6980990650318843 
+            xmax = 2.821518321986384 
+            text = "El" 
+        intervals [12]:
+            xmin = 2.821518321986384 
+            xmax = 3.545577962786113 
+            text = "internEt" 
+        intervals [13]:
+            xmin = 3.545577962786113 
+            xmax = 4.031027040140477 
+            text = "cOmo" 
+        intervals [14]:
+            xmin = 4.031027040140477 
+            xmax = 4.351917108222175 
+            text = "podEmos" 
+        intervals [15]:
+            xmin = 4.351917108222175 
+            xmax = 5.001925194849204 
+            text = "regulAr" 
+        intervals [16]:
+            xmin = 5.001925194849204 
+            xmax = 5.3639550152490685 
+            text = "E" 
+        intervals [17]:
+            xmin = 5.3639550152490685 
+            xmax = 5.75 
+            text = "Eso" 

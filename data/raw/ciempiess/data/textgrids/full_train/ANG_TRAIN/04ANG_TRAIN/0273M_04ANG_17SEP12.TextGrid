@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.82 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.82 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.052670710765373586 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.052670710765373586 
+            xmax = 0.4859818917108856 
+            text = "Uno" 
+        intervals [3]:
+            xmin = 0.4859818917108856 
+            xmax = 0.6002184757783388 
+            text = "sA" 
+        intervals [4]:
+            xmin = 0.6002184757783388 
+            xmax = 0.8286916439132451 
+            text = "Una" 
+        intervals [5]:
+            xmin = 0.8286916439132451 
+            xmax = 1.4550232600072124 
+            text = "parcelIta" 
+        intervals [6]:
+            xmin = 1.4550232600072124 
+            xmax = 1.5771382291827658 
+            text = "lE" 
+        intervals [7]:
+            xmin = 1.5771382291827658 
+            xmax = 1.758341086669071 
+            text = "dA" 
+        intervals [8]:
+            xmin = 1.758341086669071 
+            xmax = 1.943483136709426 
+            text = "pAra" 
+        intervals [9]:
+            xmin = 1.943483136709426 
+            xmax = 2.4358822059656893 
+            text = "alimentAr" 
+        intervals [10]:
+            xmin = 2.4358822059656893 
+            xmax = 2.5383012123709925 
+            text = "A" 
+        intervals [11]:
+            xmin = 2.5383012123709925 
+            xmax = 2.9085853124517027 
+            text = "cInco" 
+        intervals [12]:
+            xmin = 2.9085853124517027 
+            xmax = 3.460072270018718 
+            text = "famIlias" 
+        intervals [13]:
+            xmin = 3.460072270018718 
+            xmax = 3.82 
+            text = "<sil>" 

@@ -56,7 +56,7 @@ class DataCollatorSpeechSeq2SeqWithPadding:
 
 
 class WhisperTrainer:
-    """Fine-tune Whisper for Catalan-accented Spanish."""
+    """Fine-tune Whisper for regional Spanish slang and informal speech."""
 
     def __init__(self, config: TrainingConfig):
         self.config = config

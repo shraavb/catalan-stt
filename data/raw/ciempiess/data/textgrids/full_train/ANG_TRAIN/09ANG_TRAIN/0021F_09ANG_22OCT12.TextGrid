@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.02 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.02 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4304579326019103 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.4304579326019103 
+            xmax = 1.1856459943310016 
+            text = "normAlmente" 
+        intervals [3]:
+            xmin = 1.1856459943310016 
+            xmax = 1.265788400881844 
+            text = "en" 
+        intervals [4]:
+            xmin = 1.265788400881844 
+            xmax = 1.8082908452260076 
+            text = "nuestro" 
+        intervals [5]:
+            xmin = 1.8082908452260076 
+            xmax = 2.3779920607268985 
+            text = "estAdo" 
+        intervals [6]:
+            xmin = 2.3779920607268985 
+            xmax = 2.6251341375366457 
+            text = "de" 
+        intervals [7]:
+            xmin = 2.6251341375366457 
+            xmax = 3.250861388683607 
+            text = "derEcho" 
+        intervals [8]:
+            xmin = 3.250861388683607 
+            xmax = 3.4882062080841787 
+            text = "y" 
+        intervals [9]:
+            xmin = 3.4882062080841787 
+            xmax = 3.8967044581844976 
+            text = "en" 
+        intervals [10]:
+            xmin = 3.8967044581844976 
+            xmax = 4.035412469522494 
+            text = "en" 
+        intervals [11]:
+            xmin = 4.035412469522494 
+            xmax = 4.285086889930888 
+            text = "Esta" 
+        intervals [12]:
+            xmin = 4.285086889930888 
+            xmax = 4.894699692341681 
+            text = "realidAd" 
+        intervals [13]:
+            xmin = 4.894699692341681 
+            xmax = 5.02 
+            text = "<sil>" 

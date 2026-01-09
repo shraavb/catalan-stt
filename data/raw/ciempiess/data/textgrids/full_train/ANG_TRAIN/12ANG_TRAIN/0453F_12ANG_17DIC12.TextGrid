@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.76 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.76 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09640929114937923 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09640929114937923 
+            xmax = 0.3065918846237391 
+            text = "yA" 
+        intervals [3]:
+            xmin = 0.3065918846237391 
+            xmax = 0.49993660084408975 
+            text = "Es" 
+        intervals [4]:
+            xmin = 0.49993660084408975 
+            xmax = 0.8388995409876466 
+            text = "Algo" 
+        intervals [5]:
+            xmin = 0.8388995409876466 
+            xmax = 1.0379730137703704 
+            text = "quE" 
+        intervals [6]:
+            xmin = 1.0379730137703704 
+            xmax = 1.2451798470909652 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.2451798470909652 
+            xmax = 1.3769359539139274 
+            text = "lO" 
+        intervals [8]:
+            xmin = 1.3769359539139274 
+            xmax = 1.8163360878171455 
+            text = "estA" 
+        intervals [9]:
+            xmin = 1.8163360878171455 
+            xmax = 2.132836679811908 
+            text = "++dis++" 
+        intervals [10]:
+            xmin = 2.132836679811908 
+            xmax = 2.5148201529090346 
+            text = "teniEndo" 
+        intervals [11]:
+            xmin = 2.5148201529090346 
+            xmax = 2.6566997286308247 
+            text = "Esa" 
+        intervals [12]:
+            xmin = 2.6566997286308247 
+            xmax = 3.467959866732342 
+            text = "sensibilidAd" 
+        intervals [13]:
+            xmin = 3.467959866732342 
+            xmax = 3.76 
+            text = "<sil>" 

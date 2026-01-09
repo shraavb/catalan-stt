@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.9 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.9 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.029898543046357605 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.029898543046357605 
+            xmax = 0.359083935666982 
+            text = "problEma" 
+        intervals [3]:
+            xmin = 0.359083935666982 
+            xmax = 0.44989369914853355 
+            text = "y" 
+        intervals [4]:
+            xmin = 0.44989369914853355 
+            xmax = 0.5236766319772942 
+            text = "nO" 
+        intervals [5]:
+            xmin = 0.5236766319772942 
+            xmax = 0.6315132261116367 
+            text = "sE" 
+        intervals [6]:
+            xmin = 0.6315132261116367 
+            xmax = 1.3523157237464523 
+            text = "resuElve" 
+        intervals [7]:
+            xmin = 1.3523157237464523 
+            xmax = 1.5282596404919584 
+            text = "El" 
+        intervals [8]:
+            xmin = 1.5282596404919584 
+            xmax = 2.1014962724692525 
+            text = "problEma" 
+        intervals [9]:
+            xmin = 2.1014962724692525 
+            xmax = 2.3852767833491013 
+            text = "yO" 
+        intervals [10]:
+            xmin = 2.3852767833491013 
+            xmax = 2.606625581835383 
+            text = "crEo" 
+        intervals [11]:
+            xmin = 2.606625581835383 
+            xmax = 2.9244597540208135 
+            text = "quE" 
+        intervals [12]:
+            xmin = 2.9244597540208135 
+            xmax = 3.123106111636708 
+            text = "Es" 
+        intervals [13]:
+            xmin = 3.123106111636708 
+            xmax = 3.2536451466414382 
+            text = "cOmo" 
+        intervals [14]:
+            xmin = 3.2536451466414382 
+            xmax = 3.3671573509933777 
+            text = "Una" 
+        intervals [15]:
+            xmin = 3.3671573509933777 
+            xmax = 4.3433623084200566 
+            text = "responsabilidAd" 
+        intervals [16]:
+            xmin = 4.3433623084200566 
+            xmax = 4.598764768211921 
+            text = "cOmo" 
+        intervals [17]:
+            xmin = 4.598764768211921 
+            xmax = 4.996057483443709 
+            text = "sEres" 
+        intervals [18]:
+            xmin = 4.996057483443709 
+            xmax = 5.8417234058656575 
+            text = "humAnos" 
+        intervals [19]:
+            xmin = 5.8417234058656575 
+            xmax = 5.9 
+            text = "<sil>" 

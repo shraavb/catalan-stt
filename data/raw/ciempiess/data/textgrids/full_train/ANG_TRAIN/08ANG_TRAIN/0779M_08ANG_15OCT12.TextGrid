@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.66 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.66 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06234728792701335 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.06234728792701335 
+            xmax = 0.19553963436954194 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.19553963436954194 
+            xmax = 0.40103639745230035 
+            text = "pOr" 
+        intervals [4]:
+            xmin = 0.40103639745230035 
+            xmax = 0.7435310025902311 
+            text = "tAnto" 
+        intervals [5]:
+            xmin = 0.7435310025902311 
+            xmax = 0.930000287609771 
+            text = "puEs" 
+        intervals [6]:
+            xmin = 0.930000287609771 
+            xmax = 1.6949049057511496 
+            text = "tambiEn" 
+        intervals [7]:
+            xmin = 1.6949049057511496 
+            xmax = 2.014566537213218 
+            text = "<dis>" 
+        intervals [8]:
+            xmin = 2.014566537213218 
+            xmax = 2.2010358222327584 
+            text = "nO" 
+        intervals [9]:
+            xmin = 2.2010358222327584 
+            xmax = 2.729999712390229 
+            text = "impOrta" 
+        intervals [10]:
+            xmin = 2.729999712390229 
+            xmax = 2.9088580061844818 
+            text = "sI" 
+        intervals [11]:
+            xmin = 2.9088580061844818 
+            xmax = 3.1219657604925275 
+            text = "Es" 
+        intervals [12]:
+            xmin = 3.1219657604925275 
+            xmax = 3.578625234009768 
+            text = "Un" 
+        intervals [13]:
+            xmin = 3.578625234009768 
+            xmax = 3.66 
+            text = "hos" 

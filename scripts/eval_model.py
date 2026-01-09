@@ -85,7 +85,7 @@ def main():
         finetuned_transcriber = Transcriber(model_path=args.model_path)
 
         benchmark.run(
-            model_name=f"catalan-whisper ({args.model_path})",
+            model_name=f"spanish-slang-whisper ({args.model_path})",
             transcribe_fn=lambda p: finetuned_transcriber.transcribe_file(p).text,
         )
     else:

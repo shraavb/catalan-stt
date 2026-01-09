@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.37 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.37 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10864086904285139 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10864086904285139 
+            xmax = 0.31828904685622744 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.31828904685622744 
+            xmax = 0.6464340208249899 
+            text = "nO" 
+        intervals [4]:
+            xmin = 0.6464340208249899 
+            xmax = 1.047500100120144 
+            text = "pagAr" 
+        intervals [5]:
+            xmin = 1.047500100120144 
+            xmax = 1.9134382258710452 
+            text = "salArioss" 
+        intervals [6]:
+            xmin = 1.9134382258710452 
+            xmax = 2.9161034241089308 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 2.9161034241089308 
+            xmax = 3.253363536243492 
+            text = "cuAndo" 
+        intervals [8]:
+            xmin = 3.253363536243492 
+            xmax = 3.3445149179014817 
+            text = "El" 
+        intervals [9]:
+            xmin = 3.3445149179014817 
+            xmax = 4.228683319983981 
+            text = "asUnto" 
+        intervals [10]:
+            xmin = 4.228683319983981 
+            xmax = 4.5294828794553466 
+            text = "cuAndo" 
+        intervals [11]:
+            xmin = 4.5294828794553466 
+            xmax = 4.684440228273929 
+            text = "El" 
+        intervals [12]:
+            xmin = 4.684440228273929 
+            xmax = 5.4227664197036445 
+            text = "contrAto" 
+        intervals [13]:
+            xmin = 5.4227664197036445 
+            xmax = 5.915 
+            text = "estA" 
+        intervals [14]:
+            xmin = 5.915 
+            xmax = 6.37 
+            text = "vigEnte" 

@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.45 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.45 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13769411755645233 
+            text = "quE" 
+        intervals [2]:
+            xmin = 0.13769411755645233 
+            xmax = 0.5807155894766026 
+            text = "sucEda" 
+        intervals [3]:
+            xmin = 0.5807155894766026 
+            xmax = 0.9775889914050707 
+            text = "Esto" 
+        intervals [4]:
+            xmin = 0.9775889914050707 
+            xmax = 1.6421211992852962 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.6421211992852962 
+            xmax = 1.835943093250362 
+            text = "pEro" 
+        intervals [6]:
+            xmin = 1.835943093250362 
+            xmax = 2.1036018992021193 
+            text = "sI" 
+        intervals [7]:
+            xmin = 2.1036018992021193 
+            xmax = 2.315883021163858 
+            text = "tU" 
+        intervals [8]:
+            xmin = 2.315883021163858 
+            xmax = 2.6850675810973166 
+            text = "cAso" 
+        intervals [9]:
+            xmin = 2.6850675810973166 
+            xmax = 3.718784348911001 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 3.718784348911001 
+            xmax = 3.9864431548627586 
+            text = "Una" 
+        intervals [11]:
+            xmin = 3.9864431548627586 
+            xmax = 4.577138450756292 
+            text = "directIva" 
+        intervals [12]:
+            xmin = 4.577138450756292 
+            xmax = 4.854026870706386 
+            text = "nO" 
+        intervals [13]:
+            xmin = 4.854026870706386 
+            xmax = 5.047848764671452 
+            text = "nO" 
+        intervals [14]:
+            xmin = 5.047848764671452 
+            xmax = 5.472411008594929 
+            text = "Es" 
+        intervals [15]:
+            xmin = 5.472411008594929 
+            xmax = 5.924662094513416 
+            text = "nO" 
+        intervals [16]:
+            xmin = 5.924662094513416 
+            xmax = 6.081565532485136 
+            text = "Es" 
+        intervals [17]:
+            xmin = 6.081565532485136 
+            xmax = 6.45 
+            text = "afIn" 

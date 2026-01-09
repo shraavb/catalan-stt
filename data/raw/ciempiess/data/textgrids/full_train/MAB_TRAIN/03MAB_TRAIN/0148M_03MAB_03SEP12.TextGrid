@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.21811988709030855 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.21811988709030855 
+            xmax = 0.34074580924579123 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.34074580924579123 
+            xmax = 0.6866137948125373 
+            text = "asUnto" 
+        intervals [4]:
+            xmin = 0.6866137948125373 
+            xmax = 0.853259278767424 
+            text = "Es" 
+        intervals [5]:
+            xmin = 0.853259278767424 
+            xmax = 1.173973229020225 
+            text = "quE" 
+        intervals [6]:
+            xmin = 1.173973229020225 
+            xmax = 1.5 
+            text = "cuAndo" 
+        intervals [7]:
+            xmin = 1.5 
+            xmax = 1.75 
+            text = "tU" 
+        intervals [8]:
+            xmin = 1.75 
+            xmax = 1.9851908678949564 
+            text = "Usas" 
+        intervals [9]:
+            xmin = 1.9851908678949564 
+            xmax = 2.048075956179819 
+            text = "A" 
+        intervals [10]:
+            xmin = 2.048075956179819 
+            xmax = 2.2430197298628944 
+            text = "lOs" 
+        intervals [11]:
+            xmin = 2.2430197298628944 
+            xmax = 2.535435390387507 
+            text = "nINos" 
+        intervals [12]:
+            xmin = 2.535435390387507 
+            xmax = 2.8709478223891236 
+            text = "cOmo" 
+        intervals [13]:
+            xmin = 2.8709478223891236 
+            xmax = 3.0473565712059827 
+            text = "Un" 
+        intervals [14]:
+            xmin = 3.0473565712059827 
+            xmax = 3.5 
+            text = "ariEte" 
+        intervals [15]:
+            xmin = 3.5 
+            xmax = 3.6557405895615602 
+            text = "pAra" 
+        intervals [16]:
+            xmin = 3.6557405895615602 
+            xmax = 4.033436244079707 
+            text = "lastimAr" 
+        intervals [17]:
+            xmin = 4.033436244079707 
+            xmax = 4.275432861046424 
+            text = "Al" 
+        intervals [18]:
+            xmin = 4.275432861046424 
+            xmax = 4.5 
+            text = "Otro" 
+        intervals [19]:
+            xmin = 4.5 
+            xmax = 5 
+            text = "++dis++" 

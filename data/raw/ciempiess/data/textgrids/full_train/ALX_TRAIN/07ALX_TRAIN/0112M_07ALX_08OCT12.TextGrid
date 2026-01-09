@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.38 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.38 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15617943070145712 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.15617943070145712 
+            xmax = 0.4382192631157389 
+            text = "sI" 
+        intervals [3]:
+            xmin = 0.4382192631157389 
+            xmax = 0.6951888882043067 
+            text = "dE" 
+        intervals [4]:
+            xmin = 0.6951888882043067 
+            xmax = 1.190325482887157 
+            text = "aquI" 
+        intervals [5]:
+            xmin = 1.190325482887157 
+            xmax = 1.5099706262900097 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.5099706262900097 
+            xmax = 1.6729269739071502 
+            text = "aquI" 
+        intervals [7]:
+            xmin = 1.6729269739071502 
+            xmax = 1.8045455623671482 
+            text = "lA" 
+        intervals [8]:
+            xmin = 1.8045455623671482 
+            xmax = 2.437568297341425 
+            text = "importAncia" 
+        intervals [9]:
+            xmin = 2.437568297341425 
+            xmax = 2.8261565108899913 
+            text = "Yy" 
+        intervals [10]:
+            xmin = 2.8261565108899913 
+            xmax = 3.1144638951357013 
+            text = "Yy" 
+        intervals [11]:
+            xmin = 3.1144638951357013 
+            xmax = 3.2084771726071284 
+            text = "El" 
+        intervals [12]:
+            xmin = 3.2084771726071284 
+            xmax = 4.154877499152829 
+            text = "recalcAr" 
+        intervals [13]:
+            xmin = 4.154877499152829 
+            xmax = 4.38 
+            text = "<sil>" 

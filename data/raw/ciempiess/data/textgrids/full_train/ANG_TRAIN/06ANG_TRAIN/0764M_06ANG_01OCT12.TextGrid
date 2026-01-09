@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.35 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.35 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.740137140380374 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.740137140380374 
+            xmax = 0.9208787909141633 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.9208787909141633 
+            xmax = 1.0639659309200797 
+            text = "pOr" 
+        intervals [4]:
+            xmin = 1.0639659309200797 
+            xmax = 1.321899328036008 
+            text = "ejEmplo" 
+        intervals [5]:
+            xmin = 1.321899328036008 
+            xmax = 1.404739251197328 
+            text = "En" 
+        intervals [6]:
+            xmin = 1.404739251197328 
+            xmax = 1.5007582530434036 
+            text = "mI" 
+        intervals [7]:
+            xmin = 1.5007582530434036 
+            xmax = 1.7346828392241753 
+            text = "cAso" 
+        intervals [8]:
+            xmin = 1.7346828392241753 
+            xmax = 1.8495290963341873 
+            text = "mUy" 
+        intervals [9]:
+            xmin = 1.8495290963341873 
+            xmax = 2.4971866774135987 
+            text = "particulAr" 
+        intervals [10]:
+            xmin = 2.4971866774135987 
+            xmax = 2.718788790624773 
+            text = "yO" 
+        intervals [11]:
+            xmin = 2.718788790624773 
+            xmax = 2.969191285635127 
+            text = "siEmpre" 
+        intervals [12]:
+            xmin = 2.969191285635127 
+            xmax = 3.0501484832700534 
+            text = "hE" 
+        intervals [13]:
+            xmin = 3.0501484832700534 
+            xmax = 3.2360773274556043 
+            text = "sIdo" 
+        intervals [14]:
+            xmin = 3.2360773274556043 
+            xmax = 3.4262326056213617 
+            text = "dE" 
+        intervals [15]:
+            xmin = 3.4262326056213617 
+            xmax = 3.728474567782425 
+            text = "quE" 
+        intervals [16]:
+            xmin = 3.728474567782425 
+            xmax = 4.35 
+            text = "<sil>" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.7 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.7 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09163621570482497 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09163621570482497 
+            xmax = 0.4985486092715232 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.4985486092715232 
+            xmax = 1.1812571807000947 
+            text = "dEsde" 
+        intervals [4]:
+            xmin = 1.1812571807000947 
+            xmax = 1.44615384615 
+            text = "mI" 
+        intervals [5]:
+            xmin = 1.44615384615 
+            xmax = 1.8504020056764428 
+            text = "mUy" 
+        intervals [6]:
+            xmin = 1.8504020056764428 
+            xmax = 1.9136994891201515 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.9136994891201515 
+            xmax = 2.429121854304636 
+            text = "partIcular" 
+        intervals [8]:
+            xmin = 2.429121854304636 
+            xmax = 2.6642267928098393 
+            text = "pUnto" 
+        intervals [9]:
+            xmin = 2.6642267928098393 
+            xmax = 2.8269917502365187 
+            text = "dE" 
+        intervals [10]:
+            xmin = 2.8269917502365187 
+            xmax = 3.2158191485335856 
+            text = "vIsta" 
+        intervals [11]:
+            xmin = 3.2158191485335856 
+            xmax = 3.4961365752128666 
+            text = "dEsde" 
+        intervals [12]:
+            xmin = 3.4961365752128666 
+            xmax = 3.658901532639546 
+            text = "mI" 
+        intervals [13]:
+            xmin = 3.658901532639546 
+            xmax = 3.717677767265847 
+            text = "<sil>" 
+        intervals [14]:
+            xmin = 3.717677767265847 
+            xmax = 4.459162573320719 
+            text = "perspectiva" 
+        intervals [15]:
+            xmin = 4.459162573320719 
+            xmax = 4.7 
+            text = "<sil>" 

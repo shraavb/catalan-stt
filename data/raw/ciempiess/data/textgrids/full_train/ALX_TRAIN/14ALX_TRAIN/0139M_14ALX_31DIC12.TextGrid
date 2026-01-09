@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.98 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.98 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08953269462971483 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08953269462971483 
+            xmax = 0.7461105608900644 
+            text = "algUna" 
+        intervals [3]:
+            xmin = 0.7461105608900644 
+            xmax = 1.2071120414558418 
+            text = "mUlta" 
+        intervals [4]:
+            xmin = 1.2071120414558418 
+            xmax = 1.6541437801862926 
+            text = "algUn" 
+        intervals [5]:
+            xmin = 1.6541437801862926 
+            xmax = 1.9055991332221711 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.9055991332221711 
+            xmax = 2.2036202923758053 
+            text = "porquE" 
+        intervals [7]:
+            xmin = 2.2036202923758053 
+            xmax = 2.4550756454116835 
+            text = "hAy" 
+        intervals [8]:
+            xmin = 2.4550756454116835 
+            xmax = 2.836915255577277 
+            text = "paIses" 
+        intervals [9]:
+            xmin = 2.836915255577277 
+            xmax = 3.2001285432957682 
+            text = "dOnde" 
+        intervals [10]:
+            xmin = 3.2001285432957682 
+            xmax = 3.4888365412258513 
+            text = "inclUso" 
+        intervals [11]:
+            xmin = 3.4888365412258513 
+            xmax = 3.6564734432497703 
+            text = "sE" 
+        intervals [12]:
+            xmin = 3.6564734432497703 
+            xmax = 3.847393248332567 
+            text = "lEs" 
+        intervals [13]:
+            xmin = 3.847393248332567 
+            xmax = 4.126788085039099 
+            text = "aplIca" 
+        intervals [14]:
+            xmin = 4.126788085039099 
+            xmax = 4.3922131799103035 
+            text = "Una" 
+        intervals [15]:
+            xmin = 4.3922131799103035 
+            xmax = 4.815962015581877 
+            text = "mUlta" 
+        intervals [16]:
+            xmin = 4.815962015581877 
+            xmax = 4.98 
+            text = "<sil>" 

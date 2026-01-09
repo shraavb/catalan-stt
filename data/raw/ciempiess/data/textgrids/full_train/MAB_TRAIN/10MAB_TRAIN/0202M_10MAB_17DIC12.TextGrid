@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.4 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.4 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6252686300483658 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.6252686300483658 
+            xmax = 0.8107194787591264 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.8107194787591264 
+            xmax = 0.9575347339884786 
+            text = "sE" 
+        intervals [4]:
+            xmin = 0.9575347339884786 
+            xmax = 1.1043499892178308 
+            text = "hAn" 
+        intervals [5]:
+            xmin = 1.1043499892178308 
+            xmax = 1.5 
+            text = "vuElto" 
+        intervals [6]:
+            xmin = 1.5 
+            xmax = 2.1861466066972675 
+            text = "necesArios" 
+        intervals [7]:
+            xmin = 2.1861466066972675 
+            xmax = 2.325234743230338 
+            text = "sE" 
+        intervals [8]:
+            xmin = 2.325234743230338 
+            xmax = 2.402505930193155 
+            text = "hAn" 
+        intervals [9]:
+            xmin = 2.402505930193155 
+            xmax = 2.9434042389328736 
+            text = "vuElto" 
+        intervals [10]:
+            xmin = 2.9434042389328736 
+            xmax = 3.1752177998213242 
+            text = "lA" 
+        intervals [11]:
+            xmin = 3.1752177998213242 
+            xmax = 3.4765754289763104 
+            text = "gEnte" 
+        intervals [12]:
+            xmin = 3.4765754289763104 
+            xmax = 3.5924822094205355 
+            text = "sE" 
+        intervals [13]:
+            xmin = 3.5924822094205355 
+            xmax = 3.7006618711684793 
+            text = "hA" 
+        intervals [14]:
+            xmin = 3.7006618711684793 
+            xmax = 4.025200856412311 
+            text = "vuElto" 
+        intervals [15]:
+            xmin = 4.025200856412311 
+            xmax = 4.7670042512553525 
+            text = "dependiEnte" 
+        intervals [16]:
+            xmin = 4.7670042512553525 
+            xmax = 4.913819506484705 
+            text = "dE" 
+        intervals [17]:
+            xmin = 4.913819506484705 
+            xmax = 5.246085610424818 
+            text = "Esos" 
+        intervals [18]:
+            xmin = 5.246085610424818 
+            xmax = 5.4 
+            text = "<sil>" 

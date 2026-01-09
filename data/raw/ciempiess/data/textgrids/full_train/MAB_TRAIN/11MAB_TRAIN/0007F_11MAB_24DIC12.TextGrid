@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.56 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.56 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07095804195804192 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07095804195804192 
+            xmax = 0.19029909737839248 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.19029909737839248 
+            xmax = 0.45284941930316375 
+            text = "Otras" 
+        intervals [4]:
+            xmin = 0.45284941930316375 
+            xmax = 1.009774344598133 
+            text = "entidAdes" 
+        intervals [5]:
+            xmin = 1.009774344598133 
+            xmax = 1.5110067773636056 
+            text = "encargAdas" 
+        intervals [6]:
+            xmin = 1.5110067773636056 
+            xmax = 1.606479621699886 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.606479621699886 
+            xmax = 1.76560102892702 
+            text = "sU" 
+        intervals [8]:
+            xmin = 1.76560102892702 
+            xmax = 2.577120205785404 
+            text = "representaciOn" 
+        intervals [9]:
+            xmin = 2.577120205785404 
+            xmax = 3.14200120144173 
+            text = "++dis++" 
+        intervals [10]:
+            xmin = 3.14200120144173 
+            xmax = 3.301122608668864 
+            text = "El" 
+        intervals [11]:
+            xmin = 3.301122608668864 
+            xmax = 3.7784868303502663 
+            text = "desarrOllo" 
+        intervals [12]:
+            xmin = 3.7784868303502663 
+            xmax = 4.61387421829272 
+            text = "tecnolOgico" 
+        intervals [13]:
+            xmin = 4.61387421829272 
+            xmax = 4.8684684698561345 
+            text = "hA" 
+        intervals [14]:
+            xmin = 4.8684684698561345 
+            xmax = 5.481085887680601 
+            text = "provocAdo" 
+        intervals [15]:
+            xmin = 5.481085887680601 
+            xmax = 5.56 
+            text = "<sil>" 

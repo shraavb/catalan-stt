@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.4 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.4 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.28992085216542535 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.28992085216542535 
+            xmax = 0.7257920712367956 
+            text = "sabEmos" 
+        intervals [3]:
+            xmin = 0.7257920712367956 
+            xmax = 0.8952806496588067 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.8952806496588067 
+            xmax = 0.9943076842424536 
+            text = "El" 
+        intervals [5]:
+            xmin = 0.9943076842424536 
+            xmax = 1.4998400021619513 
+            text = "cronogrAma" 
+        intervals [6]:
+            xmin = 1.4998400021619513 
+            xmax = 1.5779190101990577 
+            text = "sE" 
+        intervals [7]:
+            xmin = 1.5779190101990577 
+            xmax = 2.0235406658254687 
+            text = "establEce" 
+        intervals [8]:
+            xmin = 2.0235406658254687 
+            xmax = 2.101619673862575 
+            text = "dE" 
+        intervals [9]:
+            xmin = 2.101619673862575 
+            xmax = 2.475 
+            text = "acuErdo" 
+        intervals [10]:
+            xmin = 2.475 
+            xmax = 2.5344441225984258 
+            text = "A" 
+        intervals [11]:
+            xmin = 2.5344441225984258 
+            xmax = 2.6734628442254684 
+            text = "lAs" 
+        intervals [12]:
+            xmin = 2.6734628442254684 
+            xmax = 3.2172534660864756 
+            text = "actividAdes" 
+        intervals [13]:
+            xmin = 3.2172534660864756 
+            xmax = 3.3562721877135187 
+            text = "dE" 
+        intervals [14]:
+            xmin = 3.3562721877135187 
+            xmax = 3.704677786253495 
+            text = "cAda" 
+        intervals [15]:
+            xmin = 3.704677786253495 
+            xmax = 4.125 
+            text = "persOna" 
+        intervals [16]:
+            xmin = 4.125 
+            xmax = 4.4 
+            text = "<sil>" 

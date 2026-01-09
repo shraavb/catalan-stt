@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.58 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.58 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04821930790267602 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.04821930790267602 
+            xmax = 0.1814729941247618 
+            text = "pOr" 
+        intervals [3]:
+            xmin = 0.1814729941247618 
+            xmax = 0.39065029226408254 
+            text = "++dis++" 
+        intervals [4]:
+            xmin = 0.39065029226408254 
+            xmax = 0.6292673582896781 
+            text = "pAse" 
+        intervals [5]:
+            xmin = 0.6292673582896781 
+            xmax = 0.728432892222393 
+            text = "Un" 
+        intervals [6]:
+            xmin = 0.728432892222393 
+            xmax = 1.0662154921807037 
+            text = "Alto" 
+        intervals [7]:
+            xmin = 1.0662154921807037 
+            xmax = 1.1715788719842133 
+            text = "pOr" 
+        intervals [8]:
+            xmin = 1.1715788719842133 
+            xmax = 1.2339021021039824 
+            text = "quE" 
+        intervals [9]:
+            xmin = 1.2339021021039824 
+            xmax = 1.297430022279628 
+            text = "mE" 
+        intervals [10]:
+            xmin = 1.297430022279628 
+            xmax = 1.6594556459927243 
+            text = "estaciOne" 
+        intervals [11]:
+            xmin = 1.6594556459927243 
+            xmax = 1.7539727955223434 
+            text = "En" 
+        intervals [12]:
+            xmin = 1.7539727955223434 
+            xmax = 2.192636793907029 
+            text = "lugAr" 
+        intervals [13]:
+            xmin = 2.192636793907029 
+            xmax = 2.555619967447161 
+            text = "prohibIdo" 
+        intervals [14]:
+            xmin = 2.555619967447161 
+            xmax = 2.8794574141961835 
+            text = "etcEtera" 
+        intervals [15]:
+            xmin = 2.8794574141961835 
+            xmax = 3.36941176471 
+            text = "etcEtera" 
+        intervals [16]:
+            xmin = 3.36941176471 
+            xmax = 3.58 
+            text = "<sil>" 

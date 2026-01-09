@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.1 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.1 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25162701010443295 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.25162701010443295 
+            xmax = 0.3501477734820245 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.3501477734820245 
+            xmax = 0.8482249661131819 
+            text = "futbOl" 
+        intervals [4]:
+            xmin = 0.8482249661131819 
+            xmax = 1.3914671895321153 
+            text = "europEo" 
+        intervals [5]:
+            xmin = 1.3914671895321153 
+            xmax = 1.5556684618281011 
+            text = "pOr" 
+        intervals [6]:
+            xmin = 1.5556684618281011 
+            xmax = 1.937337200634512 
+            text = "ejEmplo" 
+        intervals [7]:
+            xmin = 1.937337200634512 
+            xmax = 2.088907790131875 
+            text = "Es" 
+        intervals [8]:
+            xmin = 2.088907790131875 
+            xmax = 2.2987205269545234 
+            text = "mUy" 
+        intervals [9]:
+            xmin = 2.2987205269545234 
+            xmax = 2.846532170232505 
+            text = "llamatIvo" 
+        intervals [10]:
+            xmin = 2.846532170232505 
+            xmax = 2.990664398136759 
+            text = "++dis++" 
+        intervals [11]:
+            xmin = 2.990664398136759 
+            xmax = 3.0631797633777698 
+            text = "A" 
+        intervals [12]:
+            xmin = 3.0631797633777698 
+            xmax = 3.3331996333756133 
+            text = "algUno" 
+        intervals [13]:
+            xmin = 3.3331996333756133 
+            xmax = 3.386108932226542 
+            text = "dE" 
+        intervals [14]:
+            xmin = 3.386108932226542 
+            xmax = 3.684930150532414 
+            text = "ustEdes" 
+        intervals [15]:
+            xmin = 3.684930150532414 
+            xmax = 3.836360212760934 
+            text = "lEs" 
+        intervals [16]:
+            xmin = 3.836360212760934 
+            xmax = 4.301580606670131 
+            text = "gustarIa" 
+        intervals [17]:
+            xmin = 4.301580606670131 
+            xmax = 4.536935763627711 
+            text = "++dis++" 
+        intervals [18]:
+            xmin = 4.536935763627711 
+            xmax = 5.1 
+            text = "<sil>" 

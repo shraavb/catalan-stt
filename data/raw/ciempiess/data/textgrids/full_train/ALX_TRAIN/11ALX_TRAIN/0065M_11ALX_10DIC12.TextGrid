@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.24 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.24 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1979381494796594 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1979381494796594 
+            xmax = 0.4902994134342479 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.4902994134342479 
+            xmax = 1.04981838410596 
+            text = "avIso" 
+        intervals [4]:
+            xmin = 1.04981838410596 
+            xmax = 1.1707954588457898 
+            text = "dE" 
+        intervals [5]:
+            xmin = 1.1707954588457898 
+            xmax = 1.8311286584673603 
+            text = "testamEnto" 
+        intervals [6]:
+            xmin = 1.8311286584673603 
+            xmax = 1.9873907133396405 
+            text = "y" 
+        intervals [7]:
+            xmin = 1.9873907133396405 
+            xmax = 2.269670554399243 
+            text = "sE" 
+        intervals [8]:
+            xmin = 2.269670554399243 
+            xmax = 2.5721132412488172 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.5721132412488172 
+            xmax = 3.1265915004730367 
+            text = "redUce" 
+        intervals [10]:
+            xmin = 3.1265915004730367 
+            xmax = 3.2626907095553452 
+            text = "O" 
+        intervals [11]:
+            xmin = 3.2626907095553452 
+            xmax = 3.902861063386944 
+            text = "eKSEnta" 
+        intervals [12]:
+            xmin = 3.902861063386944 
+            xmax = 4.270832999053926 
+            text = "El" 
+        intervals [13]:
+            xmin = 4.270832999053926 
+            xmax = 4.316199402081362 
+            text = "<sil>" 
+        intervals [14]:
+            xmin = 4.316199402081362 
+            xmax = 4.613601377483444 
+            text = "pAgo" 
+        intervals [15]:
+            xmin = 4.613601377483444 
+            xmax = 4.774904143803217 
+            text = "dE" 
+        intervals [16]:
+            xmin = 4.774904143803217 
+            xmax = 5.142876079470199 
+            text = "derEchos" 
+        intervals [17]:
+            xmin = 5.142876079470199 
+            xmax = 5.24 
+            text = "<sil>" 

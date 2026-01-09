@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.96 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.96 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0696641787083143 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.0696641787083143 
+            xmax = 0.26727531400299404 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.26727531400299404 
+            xmax = 0.5168893796383789 
+            text = "bAse" 
+        intervals [4]:
+            xmin = 0.5168893796383789 
+            xmax = 0.6156949472857187 
+            text = "A" 
+        intervals [5]:
+            xmin = 0.6156949472857187 
+            xmax = 0.7509025661715523 
+            text = "Un" 
+        intervals [6]:
+            xmin = 0.7509025661715523 
+            xmax = 1.7129567774745984 
+            text = "diagnOstico" 
+        intervals [7]:
+            xmin = 1.7129567774745984 
+            xmax = 1.7753602938834445 
+            text = "y" 
+        intervals [8]:
+            xmin = 1.7753602938834445 
+            xmax = 1.8845664475989254 
+            text = "prO" 
+        intervals [9]:
+            xmin = 1.8845664475989254 
+            xmax = 2.0145737734506883 
+            text = "y" 
+        intervals [10]:
+            xmin = 2.0145737734506883 
+            xmax = 2.6854115748457854 
+            text = "pronOstico" 
+        intervals [11]:
+            xmin = 2.6854115748457854 
+            xmax = 2.7790168494590546 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.7790168494590546 
+            xmax = 2.919424761378959 
+            text = "Una" 
+        intervals [13]:
+            xmin = 2.919424761378959 
+            xmax = 3.5902625627740554 
+            text = "enfermedAd" 
+        intervals [14]:
+            xmin = 3.5902625627740554 
+            xmax = 4.063489228874473 
+            text = "conocIda" 
+        intervals [15]:
+            xmin = 4.063489228874473 
+            xmax = 4.151894210453672 
+            text = "y" 
+        intervals [16]:
+            xmin = 4.151894210453672 
+            xmax = 4.791530253644345 
+            text = "padecIda" 
+        intervals [17]:
+            xmin = 4.791530253644345 
+            xmax = 4.96 
+            text = "<sil>" 

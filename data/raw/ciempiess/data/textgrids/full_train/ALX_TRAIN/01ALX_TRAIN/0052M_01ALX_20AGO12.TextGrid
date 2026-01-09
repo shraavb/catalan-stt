@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.19 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.19 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22734825636918146 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.22734825636918146 
+            xmax = 0.43719676688949816 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.43719676688949816 
+            xmax = 0.8389067727426758 
+            text = "pensAr" 
+        intervals [4]:
+            xmin = 0.8389067727426758 
+            xmax = 1.0007899094297772 
+            text = "pOr" 
+        intervals [5]:
+            xmin = 1.0007899094297772 
+            xmax = 1.138690359200271 
+            text = "quE" 
+        intervals [6]:
+            xmin = 1.138690359200271 
+            xmax = 1.4804436477619296 
+            text = "nO" 
+        intervals [7]:
+            xmin = 1.4804436477619296 
+            xmax = 1.780227234219525 
+            text = "quE" 
+        intervals [8]:
+            xmin = 1.780227234219525 
+            xmax = 2.014058431656449 
+            text = "aquI" 
+        intervals [9]:
+            xmin = 2.014058431656449 
+            xmax = 2.211915598718462 
+            text = "fuEra" 
+        intervals [10]:
+            xmin = 2.211915598718462 
+            xmax = 2.3138420181140447 
+            text = "Un" 
+        intervals [11]:
+            xmin = 2.3138420181140447 
+            xmax = 2.781504412987893 
+            text = "rEgimen" 
+        intervals [12]:
+            xmin = 2.781504412987893 
+            xmax = 3.86769230769 
+            text = "parlamentarIsta" 
+        intervals [13]:
+            xmin = 3.86769230769 
+            xmax = 4.19 
+            text = "<sil>" 

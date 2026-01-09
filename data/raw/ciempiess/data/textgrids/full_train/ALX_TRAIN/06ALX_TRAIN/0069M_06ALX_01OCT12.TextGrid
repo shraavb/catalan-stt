@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.74 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.74 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1380133736991485 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1380133736991485 
+            xmax = 0.34320111258278146 
+            text = "no" 
+        intervals [3]:
+            xmin = 0.34320111258278146 
+            xmax = 0.5301499413434248 
+            text = "se" 
+        intervals [4]:
+            xmin = 0.5301499413434248 
+            xmax = 1.0864367000946074 
+            text = "trAta" 
+        intervals [5]:
+            xmin = 1.0864367000946074 
+            xmax = 1.6883207341532638 
+            text = "eee" 
+        intervals [6]:
+            xmin = 1.6883207341532638 
+            xmax = 1.770395829706717 
+            text = "de" 
+        intervals [7]:
+            xmin = 1.770395829706717 
+            xmax = 2.0758975742667927 
+            text = "hacEr" 
+        intervals [8]:
+            xmin = 2.0758975742667927 
+            xmax = 2.6002662403027434 
+            text = "polItica" 
+        intervals [9]:
+            xmin = 2.6002662403027434 
+            xmax = 2.844 
+            text = "sino" 
+        intervals [10]:
+            xmin = 2.844 
+            xmax = 3.033440355723746 
+            text = "se" 
+        intervals [11]:
+            xmin = 3.033440355723746 
+            xmax = 3.334382372753075 
+            text = "trAta" 
+        intervals [12]:
+            xmin = 3.334382372753075 
+            xmax = 3.8815496764427624 
+            text = "deee" 
+        intervals [13]:
+            xmin = 3.8815496764427624 
+            xmax = 4.068498505203406 
+            text = "hacEr" 
+        intervals [14]:
+            xmin = 4.068498505203406 
+            xmax = 4.574628261116367 
+            text = "servIcio" 
+        intervals [15]:
+            xmin = 4.574628261116367 
+            xmax = 4.74 
+            text = "<sil>" 

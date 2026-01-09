@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.78 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.78 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1499674845937477 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1499674845937477 
+            xmax = 0.2993556420139918 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.2993556420139918 
+            xmax = 0.5743656590830775 
+            text = "grAn" 
+        intervals [4]:
+            xmin = 0.5743656590830775 
+            xmax = 1.16307692308 
+            text = "problEma" 
+        intervals [5]:
+            xmin = 1.16307692308 
+            xmax = 1.4265571934576518 
+            text = "aquI" 
+        intervals [6]:
+            xmin = 1.4265571934576518 
+            xmax = 1.7694709184450303 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.7694709184450303 
+            xmax = 1.932439817448933 
+            text = "nO" 
+        intervals [8]:
+            xmin = 1.932439817448933 
+            xmax = 2.1701027951629577 
+            text = "Es" 
+        intervals [9]:
+            xmin = 2.1701027951629577 
+            xmax = 2.326281323375031 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 2.326281323375031 
+            xmax = 2.3975802166892386 
+            text = "lA" 
+        intervals [11]:
+            xmin = 2.3975802166892386 
+            xmax = 2.7676554248439342 
+            text = "emisiOn" 
+        intervals [12]:
+            xmin = 2.7676554248439342 
+            xmax = 2.90769230769 
+            text = "dEl" 
+        intervals [13]:
+            xmin = 2.90769230769 
+            xmax = 3.19846153846 
+            text = "vOto" 
+        intervals [14]:
+            xmin = 3.19846153846 
+            xmax = 3.5757095490716178 
+            text = "nO" 
+        intervals [15]:
+            xmin = 3.5757095490716178 
+            xmax = 3.78 
+            text = "<sil>" 

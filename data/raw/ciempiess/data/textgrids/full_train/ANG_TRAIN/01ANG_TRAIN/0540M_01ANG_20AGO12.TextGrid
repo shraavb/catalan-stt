@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.84 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.84 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4627648713407646 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.4627648713407646 
+            xmax = 0.5558899564858518 
+            text = "lA" 
+        intervals [3]:
+            xmin = 0.5558899564858518 
+            xmax = 0.8766541386522634 
+            text = "cOsa" 
+        intervals [4]:
+            xmin = 0.8766541386522634 
+            xmax = 0.9697792237973506 
+            text = "Es" 
+        intervals [5]:
+            xmin = 0.9697792237973506 
+            xmax = 1.1284367762667584 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.1284367762667584 
+            xmax = 1.3629740277432745 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.3629740277432745 
+            xmax = 1.4940389623919157 
+            text = "En" 
+        intervals [8]:
+            xmin = 1.4940389623919157 
+            xmax = 2.073483936628014 
+            text = "efEcto" 
+        intervals [9]:
+            xmin = 2.073483936628014 
+            xmax = 2.5873964435397916 
+            text = "vEnga" 
+        intervals [10]:
+            xmin = 2.5873964435397916 
+            xmax = 2.8253827722439033 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 2.8253827722439033 
+            xmax = 2.897813394023416 
+            text = "A" 
+        intervals [12]:
+            xmin = 2.897813394023416 
+            xmax = 3.7152446969636257 
+            text = "oCSigenArlo" 
+        intervals [13]:
+            xmin = 3.7152446969636257 
+            xmax = 3.84 
+            text = "<sil>" 

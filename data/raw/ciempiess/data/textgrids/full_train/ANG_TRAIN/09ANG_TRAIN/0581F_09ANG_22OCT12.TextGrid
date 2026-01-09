@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.27 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.27 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.160722638622518 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.160722638622518 
+            xmax = 0.774243093552572 
+            text = "++dis" 
+        intervals [3]:
+            xmin = 0.774243093552572 
+            xmax = 0.9158247369979692 
+            text = "se" 
+        intervals [4]:
+            xmin = 0.9158247369979692 
+            xmax = 1.2409381404651774 
+            text = "quEda" 
+        intervals [5]:
+            xmin = 1.2409381404651774 
+            xmax = 1.4506887233472472 
+            text = "en" 
+        intervals [6]:
+            xmin = 1.4506887233472472 
+            xmax = 1.7548270685262484 
+            text = "en" 
+        intervals [7]:
+            xmin = 1.7548270685262484 
+            xmax = 1.8072647142467657 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.8072647142467657 
+            xmax = 2.4260289337488716 
+            text = "pErdida" 
+        intervals [9]:
+            xmin = 2.4260289337488716 
+            xmax = 2.703948456067614 
+            text = "cOmo" 
+        intervals [10]:
+            xmin = 2.703948456067614 
+            xmax = 2.8350425703689077 
+            text = "lo" 
+        intervals [11]:
+            xmin = 2.8350425703689077 
+            xmax = 3.280762558993306 
+            text = "percIben" 
+        intervals [12]:
+            xmin = 3.280762558993306 
+            xmax = 3.715995018473601 
+            text = "ustEdes" 
+        intervals [13]:
+            xmin = 3.715995018473601 
+            xmax = 4.27 
+            text = "<sil>" 

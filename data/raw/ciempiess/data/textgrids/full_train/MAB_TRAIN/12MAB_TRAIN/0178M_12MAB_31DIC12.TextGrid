@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.94 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.94 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09166420259696136 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09166420259696136 
+            xmax = 0.76 
+            text = "plenamEnte" 
+        intervals [3]:
+            xmin = 0.76 
+            xmax = 1.4408781333942051 
+            text = "relacionAdos" 
+        intervals [4]:
+            xmin = 1.4408781333942051 
+            xmax = 1.5366956294393068 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.5366956294393068 
+            xmax = 1.681716704534596 
+            text = "cOn" 
+        intervals [6]:
+            xmin = 1.681716704534596 
+            xmax = 1.7723548764691517 
+            text = "El" 
+        intervals [7]:
+            xmin = 1.7723548764691517 
+            xmax = 2.2151870879208384 
+            text = "nOmbre" 
+        intervals [8]:
+            xmin = 2.2151870879208384 
+            xmax = 2.5963804253771747 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.5963804253771747 
+            xmax = 2.7401066694448275 
+            text = "quE" 
+        intervals [10]:
+            xmin = 2.7401066694448275 
+            xmax = 3.13244047081869 
+            text = "quiEre" 
+        intervals [11]:
+            xmin = 3.13244047081869 
+            xmax = 3.5170052860267336 
+            text = "dEcir" 
+        intervals [12]:
+            xmin = 3.5170052860267336 
+            xmax = 3.6216177997789822 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 3.6216177997789822 
+            xmax = 3.8274959330359355 
+            text = "En" 
+        intervals [14]:
+            xmin = 3.8274959330359355 
+            xmax = 3.955684204686491 
+            text = "El" 
+        intervals [15]:
+            xmin = 3.955684204686491 
+            xmax = 4.56 
+            text = "lAbio" 
+        intervals [16]:
+            xmin = 4.56 
+            xmax = 4.94 
+            text = "<sil>" 

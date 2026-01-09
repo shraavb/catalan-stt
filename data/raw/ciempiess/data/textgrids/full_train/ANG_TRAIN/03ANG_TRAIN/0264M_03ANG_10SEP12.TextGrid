@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.9 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.9 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.265140128410915 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.265140128410915 
+            xmax = 0.4232752808988765 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.4232752808988765 
+            xmax = 0.983333333333 
+            text = "siEmpre" 
+        intervals [4]:
+            xmin = 0.983333333333 
+            xmax = 1.31111111111 
+            text = "lE" 
+        intervals [5]:
+            xmin = 1.31111111111 
+            xmax = 1.63888888889 
+            text = "pegAn" 
+        intervals [6]:
+            xmin = 1.63888888889 
+            xmax = 1.8121144462279297 
+            text = "A" 
+        intervals [7]:
+            xmin = 1.8121144462279297 
+            xmax = 1.9977513643659714 
+            text = "Esa" 
+        intervals [8]:
+            xmin = 1.9977513643659714 
+            xmax = 2.300270786516854 
+            text = "pArte" 
+        intervals [9]:
+            xmin = 2.300270786516854 
+            xmax = 2.582163884430177 
+            text = "pEro" 
+        intervals [10]:
+            xmin = 2.582163884430177 
+            xmax = 3.008441252006421 
+            text = "ahorIta" 
+        intervals [11]:
+            xmin = 3.008441252006421 
+            xmax = 3.60555555556 
+            text = "buEno" 
+        intervals [12]:
+            xmin = 3.60555555556 
+            xmax = 3.6684836276083472 
+            text = "vOy" 
+        intervals [13]:
+            xmin = 3.6684836276083472 
+            xmax = 3.9847539325842702 
+            text = "A" 
+        intervals [14]:
+            xmin = 3.9847539325842702 
+            xmax = 4.328526003210273 
+            text = "seguIr" 
+        intervals [15]:
+            xmin = 4.328526003210273 
+            xmax = 4.706675280898877 
+            text = "escuchAndo" 
+        intervals [16]:
+            xmin = 4.706675280898877 
+            xmax = 4.926689406099519 
+            text = "sUs" 
+        intervals [17]:
+            xmin = 4.926689406099519 
+            xmax = 5.504226484751205 
+            text = "comentArios" 
+        intervals [18]:
+            xmin = 5.504226484751205 
+            xmax = 5.9 
+            text = "<sil>" 

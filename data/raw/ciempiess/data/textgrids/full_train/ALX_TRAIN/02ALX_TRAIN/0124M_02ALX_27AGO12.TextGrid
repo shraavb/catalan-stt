@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.03 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.03 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10824671429142028 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10824671429142028 
+            xmax = 0.20592338022165385 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.20592338022165385 
+            xmax = 0.32293183939450365 
+            text = "lO" 
+        intervals [4]:
+            xmin = 0.32293183939450365 
+            xmax = 0.4859377382888639 
+            text = "quE" 
+        intervals [5]:
+            xmin = 0.4859377382888639 
+            xmax = 0.6080328460778756 
+            text = "Es" 
+        intervals [6]:
+            xmin = 0.6080328460778756 
+            xmax = 0.7558996168224097 
+            text = "sU" 
+        intervals [7]:
+            xmin = 0.7558996168224097 
+            xmax = 1.6031177675676986 
+            text = "funciOn" 
+        intervals [8]:
+            xmin = 1.6031177675676986 
+            xmax = 1.7076147353859552 
+            text = "dE" 
+        intervals [9]:
+            xmin = 1.7076147353859552 
+            xmax = 2.6800722465397357 
+            text = "representAnte" 
+        intervals [10]:
+            xmin = 2.6800722465397357 
+            xmax = 3.0428712914234595 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 3.0428712914234595 
+            xmax = 3.2388887388678302 
+            text = "dEl" 
+        intervals [12]:
+            xmin = 3.2388887388678302 
+            xmax = 3.826692959450949 
+            text = "imputAdo" 
+        intervals [13]:
+            xmin = 3.826692959450949 
+            xmax = 4.03 
+            text = "<sil>" 

@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.11 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.11 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25241345768768675 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.25241345768768675 
+            xmax = 0.49354248944887713 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.49354248944887713 
+            xmax = 0.6817407581405379 
+            text = "Esta" 
+        intervals [4]:
+            xmin = 0.6817407581405379 
+            xmax = 0.8170082637626691 
+            text = "Es" 
+        intervals [5]:
+            xmin = 0.8170082637626691 
+            xmax = 0.9758005529712579 
+            text = "Una" 
+        intervals [6]:
+            xmin = 0.9758005529712579 
+            xmax = 1.54125 
+            text = "consideraciOn" 
+        intervals [7]:
+            xmin = 1.54125 
+            xmax = 1.7050688441514434 
+            text = "quE" 
+        intervals [8]:
+            xmin = 1.7050688441514434 
+            xmax = 1.8050491743938881 
+            text = "nO" 
+        intervals [9]:
+            xmin = 1.8050491743938881 
+            xmax = 1.9226730923261761 
+            text = "mE" 
+        intervals [10]:
+            xmin = 1.9226730923261761 
+            xmax = 2.1226337528110655 
+            text = "habIa" 
+        intervals [11]:
+            xmin = 2.1226337528110655 
+            xmax = 2.381406372262099 
+            text = "tocAdo" 
+        intervals [12]:
+            xmin = 2.381406372262099 
+            xmax = 2.775446497335264 
+            text = "escuchAr" 
+        intervals [13]:
+            xmin = 2.775446497335264 
+            xmax = 3.087149879855827 
+            text = "Antes" 
+        intervals [14]:
+            xmin = 3.087149879855827 
+            xmax = 3.404734458273005 
+            text = "asI" 
+        intervals [15]:
+            xmin = 3.404734458273005 
+            xmax = 3.8987549135886144 
+            text = "cOmo" 
+        intervals [16]:
+            xmin = 3.8987549135886144 
+            xmax = 4.11 
+            text = "<sil>" 

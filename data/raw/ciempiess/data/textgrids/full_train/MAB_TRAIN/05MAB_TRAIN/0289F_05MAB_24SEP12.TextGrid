@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.6 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05037743490352168 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05037743490352168 
+            xmax = 0.4914458106507385 
+            text = "supEr" 
+        intervals [3]:
+            xmin = 0.4914458106507385 
+            xmax = 1.270672533031529 
+            text = "interesAnte" 
+        intervals [4]:
+            xmin = 1.270672533031529 
+            xmax = 1.6521292683587478 
+            text = "pEro" 
+        intervals [5]:
+            xmin = 1.6521292683587478 
+            xmax = 1.8896583186195977 
+            text = "++dis++" 
+        intervals [6]:
+            xmin = 1.8896583186195977 
+            xmax = 1.9662079651491606 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.9662079651491606 
+            xmax = 2.2048627455060337 
+            text = "tambiEn" 
+        intervals [8]:
+            xmin = 2.2048627455060337 
+            xmax = 2.4309622400514135 
+            text = "tEngo" 
+        intervals [9]:
+            xmin = 2.4309622400514135 
+            xmax = 2.9063932783910476 
+            text = "Otra" 
+        intervals [10]:
+            xmin = 2.9063932783910476 
+            xmax = 3.5181459140642977 
+            text = "Otra" 
+        intervals [11]:
+            xmin = 3.5181459140642977 
+            xmax = 4.048551303805511 
+            text = "pregUnta" 
+        intervals [12]:
+            xmin = 4.048551303805511 
+            xmax = 4.286507805195124 
+            text = "pAra" 
+        intervals [13]:
+            xmin = 4.286507805195124 
+            xmax = 4.480396967054235 
+            text = "El" 
+        intervals [14]:
+            xmin = 4.480396967054235 
+            xmax = 4.6 
+            text = "++dis++" 

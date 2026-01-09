@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.09 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.09 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05027590917691579 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05027590917691579 
+            xmax = 0.38323221570482496 
+            text = "pAra" 
+        intervals [3]:
+            xmin = 0.38323221570482496 
+            xmax = 0.7259813547776727 
+            text = "pAra" 
+        intervals [4]:
+            xmin = 0.7259813547776727 
+            xmax = 1.196037316934721 
+            text = "podEr" 
+        intervals [5]:
+            xmin = 1.196037316934721 
+            xmax = 1.602439867549669 
+            text = "hacEr" 
+        intervals [6]:
+            xmin = 1.602439867549669 
+            xmax = 2.028428083254494 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 2.028428083254494 
+            xmax = 2.704133528855251 
+            text = "Una" 
+        intervals [8]:
+            xmin = 2.704133528855251 
+            xmax = 3.2890847002459935 
+            text = "gestiOn" 
+        intervals [9]:
+            xmin = 3.2890847002459935 
+            xmax = 3.9478232620624407 
+            text = "ambientAl" 
+        intervals [10]:
+            xmin = 3.9478232620624407 
+            xmax = 4.662700037842952 
+            text = "reAl" 
+        intervals [11]:
+            xmin = 4.662700037842952 
+            xmax = 4.790006860927153 
+            text = "quE" 
+        intervals [12]:
+            xmin = 4.790006860927153 
+            xmax = 5.034827674550614 
+            text = "hAya" 
+        intervals [13]:
+            xmin = 5.034827674550614 
+            xmax = 5.09 
+            text = "<sil>" 

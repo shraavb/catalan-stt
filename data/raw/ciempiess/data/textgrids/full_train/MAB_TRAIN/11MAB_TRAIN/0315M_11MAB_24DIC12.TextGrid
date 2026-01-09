@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.22 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.22 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9694307168602322 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.9694307168602322 
+            xmax = 1.6102664274051939 
+            text = "Y" 
+        intervals [3]:
+            xmin = 1.6102664274051939 
+            xmax = 2.295604617849111 
+            text = "yA" 
+        intervals [4]:
+            xmin = 2.295604617849111 
+            xmax = 2.4380125535257693 
+            text = "hAy" 
+        intervals [5]:
+            xmin = 2.4380125535257693 
+            xmax = 2.8741368565355345 
+            text = "Unn" 
+        intervals [6]:
+            xmin = 2.8741368565355345 
+            xmax = 3.8798929022519326 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 3.8798929022519326 
+            xmax = 4.5385296047564765 
+            text = "En" 
+        intervals [8]:
+            xmin = 4.5385296047564765 
+            xmax = 4.689838036412926 
+            text = "Una" 
+        intervals [9]:
+            xmin = 4.689838036412926 
+            xmax = 5.303972259018514 
+            text = "resoluciOn" 
+        intervals [10]:
+            xmin = 5.303972259018514 
+            xmax = 5.455280690674964 
+            text = "dE" 
+        intervals [11]:
+            xmin = 5.455280690674964 
+            xmax = 5.57988763439204 
+            text = "lA" 
+        intervals [12]:
+            xmin = 5.57988763439204 
+            xmax = 5.98040995348264 
+            text = "suprEma" 
+        intervals [13]:
+            xmin = 5.98040995348264 
+            xmax = 6.22 
+            text = "cOrte" 

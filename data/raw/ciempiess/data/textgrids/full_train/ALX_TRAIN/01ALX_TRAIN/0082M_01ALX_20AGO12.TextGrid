@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.51 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.51 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10918629278210773 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10918629278210773 
+            xmax = 0.6319258725855642 
+            text = "podriAmos" 
+        intervals [3]:
+            xmin = 0.6319258725855642 
+            xmax = 0.7609973737716028 
+            text = "yA" 
+        intervals [4]:
+            xmin = 0.7609973737716028 
+            xmax = 1.0707689766180954 
+            text = "estAr" 
+        intervals [5]:
+            xmin = 1.0707689766180954 
+            xmax = 1.1546654523890205 
+            text = "En" 
+        intervals [6]:
+            xmin = 1.1546654523890205 
+            xmax = 1.690312182311081 
+            text = "Aras" 
+        intervals [7]:
+            xmin = 1.690312182311081 
+            xmax = 2.0581659606912908 
+            text = "dE" 
+        intervals [8]:
+            xmin = 2.0581659606912908 
+            xmax = 2.348576838359878 
+            text = "podEr" 
+        intervals [9]:
+            xmin = 2.348576838359878 
+            xmax = 2.800327092511013 
+            text = "prosperAr" 
+        intervals [10]:
+            xmin = 2.800327092511013 
+            xmax = 3.716734750931887 
+            text = "polIticamente" 
+        intervals [11]:
+            xmin = 3.716734750931887 
+            xmax = 4.097495679430701 
+            text = "asI" 
+        intervals [12]:
+            xmin = 4.097495679430701 
+            xmax = 4.336277956624873 
+            text = "Es" 
+        intervals [13]:
+            xmin = 4.336277956624873 
+            xmax = 4.51 
+            text = "<sil>" 

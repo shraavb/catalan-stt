@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.67 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.67 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17467539310095875 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.17467539310095875 
+            xmax = 0.3247394943038848 
+            text = "lA" 
+        intervals [3]:
+            xmin = 0.3247394943038848 
+            xmax = 0.9480826839160395 
+            text = "oportunidAd" 
+        intervals [4]:
+            xmin = 0.9480826839160395 
+            xmax = 1.2982322533895336 
+            text = "dE" 
+        intervals [5]:
+            xmin = 1.2982322533895336 
+            xmax = 1.759967949398537 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.759967949398537 
+            xmax = 1.9292710379351716 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.9292710379351716 
+            xmax = 2.098574126471806 
+            text = "++dis++" 
+        intervals [8]:
+            xmin = 2.098574126471806 
+            xmax = 2.302507392209116 
+            text = "dE" 
+        intervals [9]:
+            xmin = 2.302507392209116 
+            xmax = 2.42563691114485 
+            text = "++dis++" 
+        intervals [10]:
+            xmin = 2.42563691114485 
+            xmax = 2.594939999681485 
+            text = "dE" 
+        intervals [11]:
+            xmin = 2.594939999681485 
+            xmax = 2.7911776704853115 
+            text = "sEr" 
+        intervals [12]:
+            xmin = 2.7911776704853115 
+            xmax = 3.472237822098591 
+            text = "elegIdo" 
+        intervals [13]:
+            xmin = 3.472237822098591 
+            xmax = 3.67 
+            text = "<sil>" 

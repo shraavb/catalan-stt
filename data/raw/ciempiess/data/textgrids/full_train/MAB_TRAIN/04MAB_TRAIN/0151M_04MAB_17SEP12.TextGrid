@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.97 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.97 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04446396696532084 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.04446396696532084 
+            xmax = 0.23474389538913237 
+            text = "cOn" 
+        intervals [3]:
+            xmin = 0.23474389538913237 
+            xmax = 0.42069927998513007 
+            text = "sU" 
+        intervals [4]:
+            xmin = 0.42069927998513007 
+            xmax = 1.189236785014057 
+            text = "anAlisis" 
+        intervals [5]:
+            xmin = 1.189236785014057 
+            xmax = 1.6322925045105057 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.6322925045105057 
+            xmax = 2.0431241681528265 
+            text = "++dis++" 
+        intervals [7]:
+            xmin = 2.0431241681528265 
+            xmax = 2.5121794080849114 
+            text = "sobretOdo" 
+        intervals [8]:
+            xmin = 2.5121794080849114 
+            xmax = 2.683616319641109 
+            text = "dEsde" 
+        intervals [9]:
+            xmin = 2.683616319641109 
+            xmax = 2.875567204887737 
+            text = "lA" 
+        intervals [10]:
+            xmin = 2.875567204887737 
+            xmax = 3.9601878505217756 
+            text = "perspectIva" 
+        intervals [11]:
+            xmin = 3.9601878505217756 
+            xmax = 4.046678727078054 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 4.046678727078054 
+            xmax = 4.600119774081029 
+            text = "econOmica" 
+        intervals [13]:
+            xmin = 4.600119774081029 
+            xmax = 4.97 
+            text = "<sil>" 

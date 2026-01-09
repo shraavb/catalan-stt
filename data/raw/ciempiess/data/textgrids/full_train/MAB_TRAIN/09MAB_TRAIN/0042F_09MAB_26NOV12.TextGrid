@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.75 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.75 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1675682145799011 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1675682145799011 
+            xmax = 0.30366891474464575 
+            text = "sI" 
+        intervals [3]:
+            xmin = 0.30366891474464575 
+            xmax = 0.4494910934925864 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.4494910934925864 
+            xmax = 1.2563738158978583 
+            text = "animalIto" 
+        intervals [5]:
+            xmin = 1.2563738158978583 
+            xmax = 1.7132833093080724 
+            text = "hacE" 
+        intervals [6]:
+            xmin = 1.7132833093080724 
+            xmax = 2.15625 
+            text = "Eso" 
+        intervals [7]:
+            xmin = 2.15625 
+            xmax = 2.6465452532948928 
+            text = "tenEmos" 
+        intervals [8]:
+            xmin = 2.6465452532948928 
+            xmax = 2.714595603377265 
+            text = "lA" 
+        intervals [9]:
+            xmin = 2.714595603377265 
+            xmax = 3.2784413612026357 
+            text = "obligaciOn" 
+        intervals [10]:
+            xmin = 3.2784413612026357 
+            xmax = 3.3950991042009884 
+            text = "dE" 
+        intervals [11]:
+            xmin = 3.3950991042009884 
+            xmax = 3.6478575473640857 
+            text = "llevAr" 
+        intervals [12]:
+            xmin = 3.6478575473640857 
+            xmax = 3.8520085976112024 
+            text = "Una" 
+        intervals [13]:
+            xmin = 3.8520085976112024 
+            xmax = 4.671875 
+            text = "bolsIta" 
+        intervals [14]:
+            xmin = 4.671875 
+            xmax = 4.863042370263591 
+            text = "y" 
+        intervals [15]:
+            xmin = 4.863042370263591 
+            xmax = 5.582431785420098 
+            text = "recogEr" 
+        intervals [16]:
+            xmin = 5.582431785420098 
+            xmax = 5.75 
+            text = "<sil>" 

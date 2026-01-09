@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.72 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.72 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06616723962565485 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.06616723962565485 
+            xmax = 0.5778175646840235 
+            text = "ningUna" 
+        intervals [3]:
+            xmin = 0.5778175646840235 
+            xmax = 1.362232852138113 
+            text = "constituciOn" 
+        intervals [4]:
+            xmin = 1.362232852138113 
+            xmax = 1.4856467869689856 
+            text = "dEl" 
+        intervals [5]:
+            xmin = 1.4856467869689856 
+            xmax = 1.5814584391260509 
+            text = "++dis++" 
+        intervals [6]:
+            xmin = 1.5814584391260509 
+            xmax = 2.097978861428484 
+            text = "paIs" 
+        intervals [7]:
+            xmin = 2.097978861428484 
+            xmax = 2.2288876545646117 
+            text = "++dis++" 
+        intervals [8]:
+            xmin = 2.2288876545646117 
+            xmax = 2.3212645563406635 
+            text = "En" 
+        intervals [9]:
+            xmin = 2.3212645563406635 
+            xmax = 2.4950094151760625 
+            text = "lAs" 
+        intervals [10]:
+            xmin = 2.4950094151760625 
+            xmax = 2.8436773610276105 
+            text = "entidAdes" 
+        intervals [11]:
+            xmin = 2.8436773610276105 
+            xmax = 3.529350332465606 
+            text = "federatIvas" 
+        intervals [12]:
+            xmin = 3.529350332465606 
+            xmax = 3.709888837609014 
+            text = "++dis++" 
+        intervals [13]:
+            xmin = 3.709888837609014 
+            xmax = 3.72 
+            text = "<sil>" 

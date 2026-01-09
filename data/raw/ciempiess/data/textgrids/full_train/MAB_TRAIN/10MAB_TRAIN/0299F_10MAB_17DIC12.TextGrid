@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.1 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.1 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05572492193364156 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05572492193364156 
+            xmax = 0.18722099123573233 
+            text = "puEs" 
+        intervals [3]:
+            xmin = 0.18722099123573233 
+            xmax = 0.35159107786334576 
+            text = "si" 
+        intervals [4]:
+            xmin = 0.35159107786334576 
+            xmax = 0.6419782309054629 
+            text = "empiEzas" 
+        intervals [5]:
+            xmin = 0.6419782309054629 
+            xmax = 0.7296422771068567 
+            text = "a" 
+        intervals [6]:
+            xmin = 0.7296422771068567 
+            xmax = 0.9542813954979285 
+            text = "hacEr" 
+        intervals [7]:
+            xmin = 0.9542813954979285 
+            xmax = 1.1186514821255418 
+            text = "tu" 
+        intervals [8]:
+            xmin = 1.1186514821255418 
+            xmax = 1.4309546467180074 
+            text = "vIda" 
+        intervals [9]:
+            xmin = 1.4309546467180074 
+            xmax = 2.504839212685082 
+            text = "pUblica" 
+        intervals [10]:
+            xmin = 2.504839212685082 
+            xmax = 3.4801017266755885 
+            text = "Este" 
+        intervals [11]:
+            xmin = 3.4801017266755885 
+            xmax = 3.6773458306287248 
+            text = "es" 
+        intervals [12]:
+            xmin = 3.6773458306287248 
+            xmax = 4.104708055860519 
+            text = "cOmo" 
+        intervals [13]:
+            xmin = 4.104708055860519 
+            xmax = 4.4224902233405725 
+            text = "tambiEn" 
+        intervals [14]:
+            xmin = 4.4224902233405725 
+            xmax = 4.723835382157864 
+            text = "Otra" 
+        intervals [15]:
+            xmin = 4.723835382157864 
+            xmax = 5.079970569851026 
+            text = "ironIa" 
+        intervals [16]:
+            xmin = 5.079970569851026 
+            xmax = 5.266256668028988 
+            text = "no" 
+        intervals [17]:
+            xmin = 5.266256668028988 
+            xmax = 5.408710743106253 
+            text = "es" 
+        intervals [18]:
+            xmin = 5.408710743106253 
+            xmax = 5.611433849946976 
+            text = "de" 
+        intervals [19]:
+            xmin = 5.611433849946976 
+            xmax = 6.0607120867291195 
+            text = "no" 
+        intervals [20]:
+            xmin = 6.0607120867291195 
+            xmax = 6.1 
+            text = "<sil>" 

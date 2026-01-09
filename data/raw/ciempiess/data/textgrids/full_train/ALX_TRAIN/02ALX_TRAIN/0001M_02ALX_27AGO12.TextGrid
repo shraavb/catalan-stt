@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.42 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.42 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1691494945613343 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1691494945613343 
+            xmax = 0.2207152262663584 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.2207152262663584 
+            xmax = 0.44967505357862786 
+            text = "Esta" 
+        intervals [4]:
+            xmin = 0.44967505357862786 
+            xmax = 0.9987138252374868 
+            text = "ocasiOn" 
+        intervals [5]:
+            xmin = 0.9987138252374868 
+            xmax = 1.2708784899516714 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.2708784899516714 
+            xmax = 1.3981745507318215 
+            text = "nOs" 
+        intervals [7]:
+            xmin = 1.3981745507318215 
+            xmax = 1.8908416898992615 
+            text = "encontrAmos" 
+        intervals [8]:
+            xmin = 1.8908416898992615 
+            xmax = 2.0443659292496026 
+            text = "cOn" 
+        intervals [9]:
+            xmin = 2.0443659292496026 
+            xmax = 2.1084521749261786 
+            text = "El" 
+        intervals [10]:
+            xmin = 2.1084521749261786 
+            xmax = 2.591838822527832 
+            text = "licenciAdo" 
+        intervals [11]:
+            xmin = 2.591838822527832 
+            xmax = 2.7128371989836473 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 2.7128371989836473 
+            xmax = 2.9136721540453197 
+            text = "juan" 
+        intervals [13]:
+            xmin = 2.9136721540453197 
+            xmax = 2.9967554783782293 
+            text = "<sil>" 
+        intervals [14]:
+            xmin = 2.9967554783782293 
+            xmax = 3.525982724824529 
+            text = "arroyo" 
+        intervals [15]:
+            xmin = 3.525982724824529 
+            xmax = 4.100224289781963 
+            text = "lopez" 
+        intervals [16]:
+            xmin = 4.100224289781963 
+            xmax = 4.42 
+            text = "<sil>" 

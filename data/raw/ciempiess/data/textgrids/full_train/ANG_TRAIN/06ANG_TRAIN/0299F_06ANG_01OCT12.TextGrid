@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 2.6 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05414486921529176 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05414486921529176 
+            xmax = 0.18810778650397006 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.18810778650397006 
+            xmax = 0.29527812033491274 
+            text = "En" 
+        intervals [4]:
+            xmin = 0.29527812033491274 
+            xmax = 0.404884143571104 
+            text = "El" 
+        intervals [5]:
+            xmin = 0.404884143571104 
+            xmax = 0.7970301378161442 
+            text = "terrEno" 
+        intervals [6]:
+            xmin = 0.7970301378161442 
+            xmax = 0.9407358127258173 
+            text = "nO" 
+        intervals [7]:
+            xmin = 0.9407358127258173 
+            xmax = 1.0357276995305165 
+            text = "En" 
+        intervals [8]:
+            xmin = 1.0357276995305165 
+            xmax = 1.1331552757404644 
+            text = "El" 
+        intervals [9]:
+            xmin = 1.1331552757404644 
+            xmax = 1.4 
+            text = "cAmpo" 
+        intervals [10]:
+            xmin = 1.4 
+            xmax = 1.6 
+            text = "puEs" 
+        intervals [11]:
+            xmin = 1.6 
+            xmax = 1.7079779753791569 
+            text = "tU" 
+        intervals [12]:
+            xmin = 1.7079779753791569 
+            xmax = 1.8054055515891048 
+            text = "tE" 
+        intervals [13]:
+            xmin = 1.8054055515891048 
+            xmax = 2.0392317344929793 
+            text = "++dis++" 
+        intervals [14]:
+            xmin = 2.0392317344929793 
+            xmax = 2.1926801670236475 
+            text = "asI" 
+        intervals [15]:
+            xmin = 2.1926801670236475 
+            xmax = 2.4167635923065274 
+            text = "++dis++" 
+        intervals [16]:
+            xmin = 2.4167635923065274 
+            xmax = 2.6 
+            text = "<sil>" 

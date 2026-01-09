@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.45 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.45 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13467484201309585 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13467484201309585 
+            xmax = 0.4373441862088221 
+            text = "tenEmos" 
+        intervals [3]:
+            xmin = 0.4373441862088221 
+            xmax = 1.0515951145190765 
+            text = "desconocimiEnto" 
+        intervals [4]:
+            xmin = 1.0515951145190765 
+            xmax = 1.1505884714552725 
+            text = "dE" 
+        intervals [5]:
+            xmin = 1.1505884714552725 
+            xmax = 1.4683167911500898 
+            text = "lEyes" 
+        intervals [6]:
+            xmin = 1.4683167911500898 
+            xmax = 1.7929287374905962 
+            text = "tenEmos" 
+        intervals [7]:
+            xmin = 1.7929287374905962 
+            xmax = 2.4580938108824446 
+            text = "desconocimiEnto" 
+        intervals [8]:
+            xmin = 2.4580938108824446 
+            xmax = 2.73846153846 
+            text = "dE" 
+        intervals [9]:
+            xmin = 2.73846153846 
+            xmax = 2.99938965154835 
+            text = "nuEstros" 
+        intervals [10]:
+            xmin = 2.99938965154835 
+            xmax = 3.38111726078525 
+            text = "derEchos" 
+        intervals [11]:
+            xmin = 3.38111726078525 
+            xmax = 3.629198789139699 
+            text = "nuEstras" 
+        intervals [12]:
+            xmin = 3.629198789139699 
+            xmax = 4.290101487502414 
+            text = "obligaciOnes" 
+        intervals [13]:
+            xmin = 4.290101487502414 
+            xmax = 4.403138640785883 
+            text = "++dis++" 
+        intervals [14]:
+            xmin = 4.403138640785883 
+            xmax = 4.45 
+            text = "<sil>" 

@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.26 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.26 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16441595604284057 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.16441595604284057 
+            xmax = 0.19322797066138786 
+            text = "nO" 
+        intervals [3]:
+            xmin = 0.19322797066138786 
+            xmax = 0.46214010710116254 
+            text = "sE" 
+        intervals [4]:
+            xmin = 0.46214010710116254 
+            xmax = 0.8719109816760574 
+            text = "primArias" 
+        intervals [5]:
+            xmin = 0.8719109816760574 
+            xmax = 1.6850500609106143 
+            text = "secundArias" 
+        intervals [6]:
+            xmin = 1.6850500609106143 
+            xmax = 2.0315488734651264 
+            text = "quizA" 
+        intervals [7]:
+            xmin = 2.0315488734651264 
+            xmax = 2.649406520285085 
+            text = "preparatOrias" 
+        intervals [8]:
+            xmin = 2.649406520285085 
+            xmax = 3.168022783418936 
+            text = "alguUna" 
+        intervals [9]:
+            xmin = 3.168022783418936 
+            xmax = 3.97309896705751 
+            text = "matEria" 
+        intervals [10]:
+            xmin = 3.97309896705751 
+            xmax = 4.21960175879397 
+            text = "++dis++" 
+        intervals [11]:
+            xmin = 4.21960175879397 
+            xmax = 4.331648482310543 
+            text = "dE" 
+        intervals [12]:
+            xmin = 4.331648482310543 
+            xmax = 4.763828701588752 
+            text = "derEchos" 
+        intervals [13]:
+            xmin = 4.763828701588752 
+            xmax = 5.480927732094818 
+            text = "bAsicos" 
+        intervals [14]:
+            xmin = 5.480927732094818 
+            xmax = 5.618585135272322 
+            text = "dEl" 
+        intervals [15]:
+            xmin = 5.618585135272322 
+            xmax = 6.124396058575707 
+            text = "ciudadAno" 
+        intervals [16]:
+            xmin = 6.124396058575707 
+            xmax = 6.26 
+            text = "<sil>" 

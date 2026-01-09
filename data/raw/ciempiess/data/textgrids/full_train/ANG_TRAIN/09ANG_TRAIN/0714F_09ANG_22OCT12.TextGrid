@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.6 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07711047965553547 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07711047965553547 
+            xmax = 0.43299876372593255 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.43299876372593255 
+            xmax = 0.5798732936597472 
+            text = "si" 
+        intervals [4]:
+            xmin = 0.5798732936597472 
+            xmax = 1.05439100575361 
+            text = "llEvan" 
+        intervals [5]:
+            xmin = 1.05439100575361 
+            xmax = 1.2012655356874247 
+            text = "++dis++" 
+        intervals [6]:
+            xmin = 1.2012655356874247 
+            xmax = 1.438524391734356 
+            text = "llevAr" 
+        intervals [7]:
+            xmin = 1.438524391734356 
+            xmax = 1.5571538197578216 
+            text = "a" 
+        intervals [8]:
+            xmin = 1.5571538197578216 
+            xmax = 1.8622009203895906 
+            text = "cAbo" 
+        intervals [9]:
+            xmin = 1.8622009203895906 
+            xmax = 2.348016673247593 
+            text = "este" 
+        intervals [10]:
+            xmin = 2.348016673247593 
+            xmax = 2.5909245496765942 
+            text = "Esta" 
+        intervals [11]:
+            xmin = 2.5909245496765942 
+            xmax = 3.2462109139966904 
+            text = "promociOn" 
+        intervals [12]:
+            xmin = 3.2462109139966904 
+            xmax = 3.3252971993456675 
+            text = "de" 
+        intervals [13]:
+            xmin = 3.3252971993456675 
+            xmax = 3.472171729279482 
+            text = "los" 
+        intervals [14]:
+            xmin = 3.472171729279482 
+            xmax = 3.7941658910574603 
+            text = "nuEvos" 
+        intervals [15]:
+            xmin = 3.7941658910574603 
+            xmax = 4.4155581330851374 
+            text = "servIcios" 
+        intervals [16]:
+            xmin = 4.4155581330851374 
+            xmax = 4.6 
+            text = "<sil>" 

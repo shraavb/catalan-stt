@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.18 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.18 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1496790597845395 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1496790597845395 
+            xmax = 1.2616651507502117 
+            text = "regulArmente" 
+        intervals [3]:
+            xmin = 1.2616651507502117 
+            xmax = 1.4617295938946633 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 1.4617295938946633 
+            xmax = 1.7874158966879563 
+            text = "hAn" 
+        intervals [5]:
+            xmin = 1.7874158966879563 
+            xmax = 1.9921330013008833 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.9921330013008833 
+            xmax = 2.5551050389864334 
+            text = "existIdo" 
+        intervals [7]:
+            xmin = 2.5551050389864334 
+            xmax = 3.1692563528252147 
+            text = "votaciOnes" 
+        intervals [8]:
+            xmin = 3.1692563528252147 
+            xmax = 3.4344580565283245 
+            text = "dOnde" 
+        intervals [9]:
+            xmin = 3.4344580565283245 
+            xmax = 3.727575729042288 
+            text = "nO" 
+        intervals [10]:
+            xmin = 3.727575729042288 
+            xmax = 3.9927774327453984 
+            text = "hAy" 
+        intervals [11]:
+            xmin = 3.9927774327453984 
+            xmax = 4.23818181818 
+            text = "Ese" 
+        intervals [12]:
+            xmin = 4.23818181818 
+            xmax = 5.090805539305644 
+            text = "porcentAje" 
+        intervals [13]:
+            xmin = 5.090805539305644 
+            xmax = 5.18 
+            text = "<sil>" 

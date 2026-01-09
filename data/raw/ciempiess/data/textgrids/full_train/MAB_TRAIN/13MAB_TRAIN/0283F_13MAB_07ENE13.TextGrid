@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.04 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.04 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19760784396997463 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.19760784396997463 
+            xmax = 0.5516471487572595 
+            text = "lAs" 
+        intervals [3]:
+            xmin = 0.5516471487572595 
+            xmax = 1.3072832768853453 
+            text = "polIticas" 
+        intervals [4]:
+            xmin = 1.3072832768853453 
+            xmax = 2.0470668988289256 
+            text = "ambientAles" 
+        intervals [5]:
+            xmin = 2.0470668988289256 
+            xmax = 2.395822034888042 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 2.395822034888042 
+            xmax = 2.5120737469077477 
+            text = "y" 
+        intervals [7]:
+            xmin = 2.5120737469077477 
+            xmax = 2.6441779651119584 
+            text = "sE" 
+        intervals [8]:
+            xmin = 2.6441779651119584 
+            xmax = 3.4579399492498966 
+            text = "asesorAran" 
+        intervals [9]:
+            xmin = 3.4579399492498966 
+            xmax = 3.5794758299977705 
+            text = "dE" 
+        intervals [10]:
+            xmin = 3.5794758299977705 
+            xmax = 3.7221483856583184 
+            text = "lA" 
+        intervals [11]:
+            xmin = 3.7221483856583184 
+            xmax = 4.076187690445603 
+            text = "gEnte" 
+        intervals [12]:
+            xmin = 4.076187690445603 
+            xmax = 4.715572106553983 
+            text = "adecuAda" 
+        intervals [13]:
+            xmin = 4.715572106553983 
+            xmax = 5.04 
+            text = "<sil>" 

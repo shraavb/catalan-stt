@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.25 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.25 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11338779564806054 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11338779564806054 
+            xmax = 0.3947633869441816 
+            text = "Una" 
+        intervals [3]:
+            xmin = 0.3947633869441816 
+            xmax = 0.5542095553453169 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.5542095553453169 
+            xmax = 0.6605070009460737 
+            text = "fuE" 
+        intervals [5]:
+            xmin = 0.6605070009460737 
+            xmax = 0.776183632923368 
+            text = "lA" 
+        intervals [6]:
+            xmin = 0.776183632923368 
+            xmax = 0.851217123935667 
+            text = "dE" 
+        intervals [7]:
+            xmin = 0.851217123935667 
+            xmax = 1.1075815515610217 
+            text = "jesUs" 
+        intervals [8]:
+            xmin = 1.1075815515610217 
+            xmax = 1.3483140018921476 
+            text = "rEyes" 
+        intervals [9]:
+            xmin = 1.3483140018921476 
+            xmax = 1.698470293282876 
+            text = "erOles" 
+        intervals [10]:
+            xmin = 1.698470293282876 
+            xmax = 1.8829276253547775 
+            text = "mIl" 
+        intervals [11]:
+            xmin = 1.8829276253547775 
+            xmax = 2.4112884578997162 
+            text = "noveciEntos" 
+        intervals [12]:
+            xmin = 2.4112884578997162 
+            xmax = 2.7208016083254494 
+            text = "setEnta" 
+        intervals [13]:
+            xmin = 2.7208016083254494 
+            xmax = 2.817719867549669 
+            text = "y" 
+        intervals [14]:
+            xmin = 2.817719867549669 
+            xmax = 3.155370577105014 
+            text = "siEte" 
+        intervals [15]:
+            xmin = 3.155370577105014 
+            xmax = 3.25 
+            text = "<sil>" 

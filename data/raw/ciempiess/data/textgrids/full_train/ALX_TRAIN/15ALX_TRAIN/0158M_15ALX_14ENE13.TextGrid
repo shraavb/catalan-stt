@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.83 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.83 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10783279848628191 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10783279848628191 
+            xmax = 0.7304857180700094 
+            text = "aprEndan" 
+        intervals [3]:
+            xmin = 0.7304857180700094 
+            xmax = 0.8962808741721853 
+            text = "lAs" 
+        intervals [4]:
+            xmin = 0.8962808741721853 
+            xmax = 1.3273482800378429 
+            text = "leyes" 
+        intervals [5]:
+            xmin = 1.3273482800378429 
+            xmax = 1.526302467360454 
+            text = "lOs" 
+        intervals [6]:
+            xmin = 1.526302467360454 
+            xmax = 1.6184108874172183 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.6184108874172183 
+            xmax = 2.447386667928098 
+            text = "procedimiEntos" 
+        intervals [8]:
+            xmin = 2.447386667928098 
+            xmax = 2.5137047303689686 
+            text = "y" 
+        intervals [9]:
+            xmin = 2.5137047303689686 
+            xmax = 2.6021288136234624 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 2.6021288136234624 
+            xmax = 2.78545454545 
+            text = "tOdo" 
+        intervals [11]:
+            xmin = 2.78545454545 
+            xmax = 2.9079287682119204 
+            text = "lO" 
+        intervals [12]:
+            xmin = 2.9079287682119204 
+            xmax = 3.6742708230842003 
+            text = "relaciOnado" 
+        intervals [13]:
+            xmin = 3.6742708230842003 
+            xmax = 3.83 
+            text = "<sil>" 

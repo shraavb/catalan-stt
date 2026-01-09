@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.9 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.9 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13235332370709335 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13235332370709335 
+            xmax = 0.38597245373565353 
+            text = "derEcho" 
+        intervals [3]:
+            xmin = 0.38597245373565353 
+            xmax = 0.7447507352394704 
+            text = "ambientAl" 
+        intervals [4]:
+            xmin = 0.7447507352394704 
+            xmax = 1.1035290167432874 
+            text = "sobretOdo" 
+        intervals [5]:
+            xmin = 1.1035290167432874 
+            xmax = 1.3138473196938008 
+            text = "En" 
+        intervals [6]:
+            xmin = 1.3138473196938008 
+            xmax = 1.6107672768004078 
+            text = "En" 
+        intervals [7]:
+            xmin = 1.6107672768004078 
+            xmax = 2.0066605529425505 
+            text = "rUbros" 
+        intervals [8]:
+            xmin = 2.0066605529425505 
+            xmax = 2.1056338719780863 
+            text = "tAn" 
+        intervals [9]:
+            xmin = 2.1056338719780863 
+            xmax = 2.9840220784184655 
+            text = "especiAles" 
+        intervals [10]:
+            xmin = 2.9840220784184655 
+            xmax = 3.429402014078376 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 3.429402014078376 
+            xmax = 3.6026053223905636 
+            text = "E" 
+        intervals [12]:
+            xmin = 3.6026053223905636 
+            xmax = 4.289232723199592 
+            text = "importAntes" 
+        intervals [13]:
+            xmin = 4.289232723199592 
+            xmax = 4.4933651937103845 
+            text = "cOmo" 
+        intervals [14]:
+            xmin = 4.4933651937103845 
+            xmax = 4.703683496660898 
+            text = "lAs" 
+        intervals [15]:
+            xmin = 4.703683496660898 
+            xmax = 5.062461778164715 
+            text = "++dis++" 
+        intervals [16]:
+            xmin = 5.062461778164715 
+            xmax = 5.804761670931232 
+            text = "renovAbles" 
+        intervals [17]:
+            xmin = 5.804761670931232 
+            xmax = 5.9 
+            text = "<sil>" 

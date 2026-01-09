@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.05 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.05 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17847683172562376 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.17847683172562376 
+            xmax = 0.33849480297859136 
+            text = "Al" 
+        intervals [3]:
+            xmin = 0.33849480297859136 
+            xmax = 0.7048517371630172 
+            text = "mErito" 
+        intervals [4]:
+            xmin = 0.7048517371630172 
+            xmax = 1.15714285714 
+            text = "pUblico" 
+        intervals [5]:
+            xmin = 1.15714285714 
+            xmax = 1.7323355525768092 
+            text = "propuEsto" 
+        intervals [6]:
+            xmin = 1.7323355525768092 
+            xmax = 1.8291885351772896 
+            text = "pOr" 
+        intervals [7]:
+            xmin = 1.8291885351772896 
+            xmax = 1.9639405109692623 
+            text = "El" 
+        intervals [8]:
+            xmin = 1.9639405109692623 
+            xmax = 2.326086445910189 
+            text = "colEgio" 
+        intervals [9]:
+            xmin = 2.326086445910189 
+            xmax = 2.806140359669092 
+            text = "mexicAno" 
+        intervals [10]:
+            xmin = 2.806140359669092 
+            xmax = 2.869305348321579 
+            text = "dE" 
+        intervals [11]:
+            xmin = 2.869305348321579 
+            xmax = 3.35778126056748 
+            text = "abogAdos" 
+        intervals [12]:
+            xmin = 3.35778126056748 
+            xmax = 3.4546342431679604 
+            text = "y" 
+        intervals [13]:
+            xmin = 3.4546342431679604 
+            xmax = 4.05 
+            text = "entregAda" 

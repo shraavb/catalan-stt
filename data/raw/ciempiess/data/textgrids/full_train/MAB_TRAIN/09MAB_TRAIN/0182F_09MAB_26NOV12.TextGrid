@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.5 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19747786243822069 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.19747786243822069 
+            xmax = 0.611111111111 
+            text = "lAs" 
+        intervals [3]:
+            xmin = 0.611111111111 
+            xmax = 0.916666666667 
+            text = "E" 
+        intervals [4]:
+            xmin = 0.916666666667 
+            xmax = 1.5272070634266885 
+            text = "infracciOnes" 
+        intervals [5]:
+            xmin = 1.5272070634266885 
+            xmax = 1.8340676482701812 
+            text = "cOntra" 
+        intervals [6]:
+            xmin = 1.8340676482701812 
+            xmax = 1.9921473434925865 
+            text = "lA" 
+        intervals [7]:
+            xmin = 1.9921473434925865 
+            xmax = 2.326904345140033 
+            text = "dignidAd" 
+        intervals [8]:
+            xmin = 2.326904345140033 
+            xmax = 2.3919959843492586 
+            text = "dE" 
+        intervals [9]:
+            xmin = 2.3919959843492586 
+            xmax = 2.503581651565074 
+            text = "lAs" 
+        intervals [10]:
+            xmin = 2.503581651565074 
+            xmax = 2.8011434308072487 
+            text = "persOnas" 
+        intervals [11]:
+            xmin = 2.8011434308072487 
+            xmax = 3.0894064044481055 
+            text = "quE" 
+        intervals [12]:
+            xmin = 3.0894064044481055 
+            xmax = 3.359071766886326 
+            text = "habIamos" 
+        intervals [13]:
+            xmin = 3.359071766886326 
+            xmax = 3.619438323723229 
+            text = "vIsto" 
+        intervals [14]:
+            xmin = 3.619438323723229 
+            xmax = 3.7124263797364083 
+            text = "quE" 
+        intervals [15]:
+            xmin = 3.7124263797364083 
+            xmax = 3.9262989085667215 
+            text = "Era" 
+        intervals [16]:
+            xmin = 3.9262989085667215 
+            xmax = 4.605111717462933 
+            text = "agredIrse" 
+        intervals [17]:
+            xmin = 4.605111717462933 
+            xmax = 5.47919944398682 
+            text = "mutuamEnte" 
+        intervals [18]:
+            xmin = 5.47919944398682 
+            xmax = 5.5 
+            text = "<sil>" 

@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.45 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.45 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11741591322696243 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11741591322696243 
+            xmax = 0.31313690227408253 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.31313690227408253 
+            xmax = 0.7518970426750495 
+            text = "generAl" 
+        intervals [4]:
+            xmin = 0.7518970426750495 
+            xmax = 0.9298632960966551 
+            text = "yO" 
+        intervals [5]:
+            xmin = 0.9298632960966551 
+            xmax = 1.2229841840851816 
+            text = "cOmo" 
+        intervals [6]:
+            xmin = 1.2229841840851816 
+            xmax = 2.2835250841837498 
+            text = "ciudadAno" 
+        intervals [7]:
+            xmin = 2.2835250841837498 
+            xmax = 2.6664936383327116 
+            text = "yO" 
+        intervals [8]:
+            xmin = 2.6664936383327116 
+            xmax = 3.2405318545596082 
+            text = "cOmo" 
+        intervals [9]:
+            xmin = 3.2405318545596082 
+            xmax = 3.841778962648593 
+            text = "persOna" 
+        intervals [10]:
+            xmin = 3.841778962648593 
+            xmax = 4.161221038955543 
+            text = "quE" 
+        intervals [11]:
+            xmin = 4.161221038955543 
+            xmax = 4.404092631860322 
+            text = "nO" 
+        intervals [12]:
+            xmin = 4.404092631860322 
+            xmax = 4.834064320913625 
+            text = "conOzco" 
+        intervals [13]:
+            xmin = 4.834064320913625 
+            xmax = 4.93171023023967 
+            text = "lA" 
+        intervals [14]:
+            xmin = 4.93171023023967 
+            xmax = 5.411011894867223 
+            text = "lEy" 
+        intervals [15]:
+            xmin = 5.411011894867223 
+            xmax = 5.614112237192435 
+            text = "quE" 
+        intervals [16]:
+            xmin = 5.614112237192435 
+            xmax = 6.219197498422501 
+            text = "espEro" 
+        intervals [17]:
+            xmin = 6.219197498422501 
+            xmax = 6.45 
+            text = "<sil>" 

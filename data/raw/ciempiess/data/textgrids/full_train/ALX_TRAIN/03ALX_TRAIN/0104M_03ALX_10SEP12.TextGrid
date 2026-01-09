@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.32 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.32 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.047224630770833484 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.047224630770833484 
+            xmax = 0.12094865651069421 
+            text = "que" 
+        intervals [3]:
+            xmin = 0.12094865651069421 
+            xmax = 0.5982147178792663 
+            text = "totAlmente" 
+        intervals [4]:
+            xmin = 0.5982147178792663 
+            xmax = 1.083241203009929 
+            text = "desconocIa" 
+        intervals [5]:
+            xmin = 1.083241203009929 
+            xmax = 1.199647559441288 
+            text = "que" 
+        intervals [6]:
+            xmin = 1.199647559441288 
+            xmax = 1.3393351871589187 
+            text = "era" 
+        intervals [7]:
+            xmin = 1.3393351871589187 
+            xmax = 1.4790228148765496 
+            text = "el" 
+        intervals [8]:
+            xmin = 1.4790228148765496 
+            xmax = 2.309388157420244 
+            text = "procedimiEnto" 
+        intervals [9]:
+            xmin = 2.309388157420244 
+            xmax = 3.1863160425364825 
+            text = "administratIvo" 
+        intervals [10]:
+            xmin = 3.1863160425364825 
+            xmax = 3.364805789064566 
+            text = "en" 
+        intervals [11]:
+            xmin = 3.364805789064566 
+            xmax = 3.73342591776387 
+            text = "matEria" 
+        intervals [12]:
+            xmin = 3.73342591776387 
+            xmax = 4.2572545217049855 
+            text = "aduanEra" 
+        intervals [13]:
+            xmin = 4.2572545217049855 
+            xmax = 4.32 
+            text = "<sil>" 

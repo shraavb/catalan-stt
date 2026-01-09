@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.5 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03845316934720907 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.03845316934720907 
+            xmax = 0.44055572374645224 
+            text = "tucionAl" 
+        intervals [3]:
+            xmin = 0.44055572374645224 
+            xmax = 0.8532399243140966 
+            text = "tenEmos" 
+        intervals [4]:
+            xmin = 0.8532399243140966 
+            xmax = 0.9960921475875119 
+            text = "El" 
+        intervals [5]:
+            xmin = 0.9960921475875119 
+            xmax = 1.2447608325449386 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.2447608325449386 
+            xmax = 2.0668086796753204 
+            text = "desarrOllo" 
+        intervals [7]:
+            xmin = 2.0668086796753204 
+            xmax = 2.6666839853262583 
+            text = "sustentAble" 
+        intervals [8]:
+            xmin = 2.6666839853262583 
+            xmax = 2.96153846154 
+            text = "cOmo" 
+        intervals [9]:
+            xmin = 2.96153846154 
+            xmax = 3.142775497747638 
+            text = "Un" 
+        intervals [10]:
+            xmin = 3.142775497747638 
+            xmax = 3.6712370765353692 
+            text = "derEcho" 
+        intervals [11]:
+            xmin = 3.6712370765353692 
+            xmax = 4.047349371348259 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 4.047349371348259 
+            xmax = 4.252068721689452 
+            text = "cOmo" 
+        intervals [13]:
+            xmin = 4.252068721689452 
+            xmax = 4.509158138396997 
+            text = "Una" 
+        intervals [14]:
+            xmin = 4.509158138396997 
+            xmax = 5.437536587618687 
+            text = "garantIa" 
+        intervals [15]:
+            xmin = 5.437536587618687 
+            xmax = 5.5 
+            text = "<sil>" 

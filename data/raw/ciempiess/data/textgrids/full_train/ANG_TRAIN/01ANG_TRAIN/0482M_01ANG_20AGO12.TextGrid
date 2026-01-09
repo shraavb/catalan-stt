@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09165469745195173 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09165469745195173 
+            xmax = 0.14780135403194036 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.14780135403194036 
+            xmax = 0.20706726931081726 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.20706726931081726 
+            xmax = 0.8 
+            text = "referendUm" 
+        intervals [5]:
+            xmin = 0.8 
+            xmax = 1 
+            text = "Es" 
+        intervals [6]:
+            xmin = 1 
+            xmax = 1.2 
+            text = "tambiEn" 
+        intervals [7]:
+            xmin = 1.2 
+            xmax = 1.4 
+            text = "lA" 
+        intervals [8]:
+            xmin = 1.4 
+            xmax = 1.9756869515804591 
+            text = "consUlta" 
+        intervals [9]:
+            xmin = 1.9756869515804591 
+            xmax = 2.0848610060415482 
+            text = "quE" 
+        intervals [10]:
+            xmin = 2.0848610060415482 
+            xmax = 2.1815580257070843 
+            text = "sE" 
+        intervals [11]:
+            xmin = 2.1815580257070843 
+            xmax = 2.253300975781514 
+            text = "lE" 
+        intervals [12]:
+            xmin = 2.253300975781514 
+            xmax = 2.3499979954470502 
+            text = "vA" 
+        intervals [13]:
+            xmin = 2.3499979954470502 
+            xmax = 2.3874290998337093 
+            text = "A" 
+        intervals [14]:
+            xmin = 2.3874290998337093 
+            xmax = 2.8 
+            text = "hAcer" 
+        intervals [15]:
+            xmin = 2.8 
+            xmax = 3 
+            text = "<sil>" 

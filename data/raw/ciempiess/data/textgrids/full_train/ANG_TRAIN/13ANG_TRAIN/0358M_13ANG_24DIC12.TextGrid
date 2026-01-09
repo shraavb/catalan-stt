@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.1 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.1 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2316420092133239 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.2316420092133239 
+            xmax = 0.3592556370994815 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.3592556370994815 
+            xmax = 0.612867530493491 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.612867530493491 
+            xmax = 0.8729408734007237 
+            text = "El" 
+        intervals [5]:
+            xmin = 0.8729408734007237 
+            xmax = 1.2024747985751054 
+            text = "Este" 
+        intervals [6]:
+            xmin = 1.2024747985751054 
+            xmax = 1.479024359823194 
+            text = "tambiEn" 
+        intervals [7]:
+            xmin = 1.479024359823194 
+            xmax = 1.7552513265134846 
+            text = "hAbla" 
+        intervals [8]:
+            xmin = 1.7552513265134846 
+            xmax = 2.34938089237756 
+            text = "revocaciOn" 
+        intervals [9]:
+            xmin = 2.34938089237756 
+            xmax = 2.454783287562013 
+            text = "dEl" 
+        intervals [10]:
+            xmin = 2.454783287562013 
+            xmax = 2.8400472147879445 
+            text = "mandAto" 
+        intervals [11]:
+            xmin = 2.8400472147879445 
+            xmax = 3.2507530994721923 
+            text = "nO" 
+        intervals [12]:
+            xmin = 3.2507530994721923 
+            xmax = 3.3875200492371964 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 3.3875200492371964 
+            xmax = 3.5942864336603377 
+            text = "aunquE" 
+        intervals [14]:
+            xmin = 3.5942864336603377 
+            xmax = 3.990588670471359 
+            text = "buEno" 
+        intervals [15]:
+            xmin = 3.990588670471359 
+            xmax = 4.1 
+            text = "<sil>" 

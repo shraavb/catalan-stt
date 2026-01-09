@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.91 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.91 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04426680101818723 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.04426680101818723 
+            xmax = 0.4355049761378959 
+            text = "Entre" 
+        intervals [3]:
+            xmin = 0.4355049761378959 
+            xmax = 0.9254511288049307 
+            text = "Otros" 
+        intervals [4]:
+            xmin = 0.9254511288049307 
+            xmax = 1.3170100404357101 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.3170100404357101 
+            xmax = 1.4245523220809522 
+            text = "hAn" 
+        intervals [6]:
+            xmin = 1.4245523220809522 
+            xmax = 1.7295636625525672 
+            text = "creAdo" 
+        intervals [7]:
+            xmin = 1.7295636625525672 
+            xmax = 1.8202948840852626 
+            text = "++dis++" 
+        intervals [8]:
+            xmin = 1.8202948840852626 
+            xmax = 2.356134108773489 
+            text = "mEJico" 
+        intervals [9]:
+            xmin = 2.356134108773489 
+            xmax = 2.5558710211119284 
+            text = "lA" 
+        intervals [10]:
+            xmin = 2.5558710211119284 
+            xmax = 3.15642857143 
+            text = "necesidad" 
+        intervals [11]:
+            xmin = 3.15642857143 
+            xmax = 3.324334452794782 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 3.324334452794782 
+            xmax = 3.565640892719571 
+            text = "cAda" 
+        intervals [13]:
+            xmin = 3.565640892719571 
+            xmax = 3.7721992052951903 
+            text = "vEz" 
+        intervals [14]:
+            xmin = 3.7721992052951903 
+            xmax = 4.077210545360123 
+            text = "mAs" 
+        intervals [15]:
+            xmin = 4.077210545360123 
+            xmax = 4.673720064854201 
+            text = "urgEnte" 
+        intervals [16]:
+            xmin = 4.673720064854201 
+            xmax = 4.91 
+            text = "<sil>" 

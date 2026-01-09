@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.64 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.64 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2022214583753596 
+            text = "El" 
+        intervals [2]:
+            xmin = 0.2022214583753596 
+            xmax = 0.5777119719281852 
+            text = "Agua" 
+        intervals [3]:
+            xmin = 0.5777119719281852 
+            xmax = 1.4026084544576212 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 1.4026084544576212 
+            xmax = 1.5297430377865306 
+            text = "El" 
+        intervals [5]:
+            xmin = 1.5297430377865306 
+            xmax = 2.0441946075360713 
+            text = "mAnto" 
+        intervals [6]:
+            xmin = 2.0441946075360713 
+            xmax = 2.973158437470138 
+            text = "freAtico" 
+        intervals [7]:
+            xmin = 2.973158437470138 
+            xmax = 4.0594087437676905 
+            text = "actualmEnte" 
+        intervals [8]:
+            xmin = 4.0594087437676905 
+            xmax = 4.241240763988979 
+            text = "dEl" 
+        intervals [9]:
+            xmin = 4.241240763988979 
+            xmax = 4.627079441043908 
+            text = "vAlle" 
+        intervals [10]:
+            xmin = 4.627079441043908 
+            xmax = 4.746822478750611 
+            text = "dE" 
+        intervals [11]:
+            xmin = 4.746822478750611 
+            xmax = 4.8275297358131395 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 4.8275297358131395 
+            xmax = 5.363277376574005 
+            text = "tolUca" 
+        intervals [13]:
+            xmin = 5.363277376574005 
+            xmax = 5.64 
+            text = "<sil>" 

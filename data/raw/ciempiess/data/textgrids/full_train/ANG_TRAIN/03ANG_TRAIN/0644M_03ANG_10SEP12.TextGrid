@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.58 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.58 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5829323822138127 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.5829323822138127 
+            xmax = 0.7413492450331126 
+            text = "tOdas" 
+        intervals [3]:
+            xmin = 0.7413492450331126 
+            xmax = 0.9135414872280039 
+            text = "Esas" 
+        intervals [4]:
+            xmin = 0.9135414872280039 
+            xmax = 1.10984064333018 
+            text = "cOsas" 
+        intervals [5]:
+            xmin = 1.10984064333018 
+            xmax = 1.1993806092715233 
+            text = "tE" 
+        intervals [6]:
+            xmin = 1.1993806092715233 
+            xmax = 1.3425 
+            text = "lAs" 
+        intervals [7]:
+            xmin = 1.3425 
+            xmax = 1.56625 
+            text = "dIcen" 
+        intervals [8]:
+            xmin = 1.56625 
+            xmax = 1.7194011807000948 
+            text = "En" 
+        intervals [9]:
+            xmin = 1.7194011807000948 
+            xmax = 1.833048060548723 
+            text = "lA" 
+        intervals [10]:
+            xmin = 1.833048060548723 
+            xmax = 2.2375 
+            text = "escuEla" 
+        intervals [11]:
+            xmin = 2.2375 
+            xmax = 2.3565124768211922 
+            text = "tE" 
+        intervals [12]:
+            xmin = 2.3565124768211922 
+            xmax = 2.5252608741721856 
+            text = "lAs" 
+        intervals [13]:
+            xmin = 2.5252608741721856 
+            xmax = 2.7043408060548724 
+            text = "dIce" 
+        intervals [14]:
+            xmin = 2.7043408060548724 
+            xmax = 2.776661547776727 
+            text = "Un" 
+        intervals [15]:
+            xmin = 2.776661547776727 
+            xmax = 3.186479084200568 
+            text = "maEstro" 
+        intervals [16]:
+            xmin = 3.186479084200568 
+            xmax = 3.58 
+            text = "<sil>" 

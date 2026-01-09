@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.46 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 8.46 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.30466703449345667 
+            text = "lo" 
+        intervals [2]:
+            xmin = 0.30466703449345667 
+            xmax = 0.6994598763255866 
+            text = "hAce" 
+        intervals [3]:
+            xmin = 0.6994598763255866 
+            xmax = 0.8449098706847924 
+            text = "por" 
+        intervals [4]:
+            xmin = 0.8449098706847924 
+            xmax = 1.468266989367103 
+            text = "ejEmplo" 
+        intervals [5]:
+            xmin = 1.468266989367103 
+            xmax = 1.7072205515286554 
+            text = "para" 
+        intervals [6]:
+            xmin = 1.7072205515286554 
+            xmax = 2.564336589716832 
+            text = "apoyAr" 
+        intervals [7]:
+            xmin = 2.564336589716832 
+            xmax = 4.055145981099179 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 4.055145981099179 
+            xmax = 4.294099543260732 
+            text = "al" 
+        intervals [9]:
+            xmin = 4.294099543260732 
+            xmax = 4.808369166173637 
+            text = "crEdito" 
+        intervals [10]:
+            xmin = 4.808369166173637 
+            xmax = 5.760328500398367 
+            text = "hipotecArio" 
+        intervals [11]:
+            xmin = 5.760328500398367 
+            xmax = 6.404464189703421 
+            text = "++dis++" 
+        intervals [12]:
+            xmin = 6.404464189703421 
+            xmax = 6.72680623692611 
+            text = "Una" 
+        intervals [13]:
+            xmin = 6.72680623692611 
+            xmax = 6.872256231139866 
+            text = "de" 
+        intervals [14]:
+            xmin = 6.872256231139866 
+            xmax = 7.116404435712956 
+            text = "las" 
+        intervals [15]:
+            xmin = 7.116404435712956 
+            xmax = 7.480029421247345 
+            text = "mAs" 
+        intervals [16]:
+            xmin = 7.480029421247345 
+            xmax = 8.46 
+            text = "nombrAdas" 

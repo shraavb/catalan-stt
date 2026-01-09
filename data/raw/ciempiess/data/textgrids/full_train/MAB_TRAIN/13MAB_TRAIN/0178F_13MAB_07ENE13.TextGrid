@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.16 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.16 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04103981835383159 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.04103981835383159 
+            xmax = 0.8997692639545885 
+            text = "viEne" 
+        intervals [3]:
+            xmin = 0.8997692639545885 
+            xmax = 1.0784644087038788 
+            text = "dE" 
+        intervals [4]:
+            xmin = 1.0784644087038788 
+            xmax = 1.6244773509933774 
+            text = "adEntro" 
+        intervals [5]:
+            xmin = 1.6244773509933774 
+            xmax = 1.72 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.72 
+            xmax = 2.105961491012299 
+            text = "adEntro" 
+        intervals [7]:
+            xmin = 2.105961491012299 
+            xmax = 2.3491854380321664 
+            text = "hAcia" 
+        intervals [8]:
+            xmin = 2.3491854380321664 
+            xmax = 2.8405970860927154 
+            text = "afuEra" 
+        intervals [9]:
+            xmin = 2.8405970860927154 
+            xmax = 3.096 
+            text = "nO" 
+        intervals [10]:
+            xmin = 3.096 
+            xmax = 3.515667632923368 
+            text = "osEa" 
+        intervals [11]:
+            xmin = 3.515667632923368 
+            xmax = 3.858166660359508 
+            text = "lA" 
+        intervals [12]:
+            xmin = 3.858166660359508 
+            xmax = 4.384324586565752 
+            text = "sociedAd" 
+        intervals [13]:
+            xmin = 4.384324586565752 
+            xmax = 4.533237207190161 
+            text = "En" 
+        intervals [14]:
+            xmin = 4.533237207190161 
+            xmax = 4.999830085146642 
+            text = "generAl" 
+        intervals [15]:
+            xmin = 4.999830085146642 
+            xmax = 5.16 
+            text = "<sil>" 

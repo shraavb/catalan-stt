@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.15 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.15 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08728809186408303 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08728809186408303 
+            xmax = 0.2456940251378577 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.2456940251378577 
+            xmax = 0.3864992991589908 
+            text = "nI" 
+        intervals [4]:
+            xmin = 0.3864992991589908 
+            xmax = 0.6241081990696529 
+            text = "Uno" 
+        intervals [5]:
+            xmin = 0.6241081990696529 
+            xmax = 0.756113143464465 
+            text = "nI" 
+        intervals [6]:
+            xmin = 0.756113143464465 
+            xmax = 1.3017335802963557 
+            text = "Otro" 
+        intervals [7]:
+            xmin = 1.3017335802963557 
+            xmax = 1.8297533578756047 
+            text = "cuAdran" 
+        intervals [8]:
+            xmin = 1.8297533578756047 
+            xmax = 2.146565224423154 
+            text = "dEntro" 
+        intervals [9]:
+            xmin = 2.146565224423154 
+            xmax = 2.252169179939004 
+            text = "dE" 
+        intervals [10]:
+            xmin = 2.252169179939004 
+            xmax = 2.384174124333816 
+            text = "lOs" 
+        intervals [11]:
+            xmin = 2.384174124333816 
+            xmax = 2.9209942315393858 
+            text = "salArios" 
+        intervals [12]:
+            xmin = 2.9209942315393858 
+            xmax = 3.8538291719293922 
+            text = "caIdos" 
+        intervals [13]:
+            xmin = 3.8538291719293922 
+            xmax = 4.786664112319399 
+            text = "pEro" 
+        intervals [14]:
+            xmin = 4.786664112319399 
+            xmax = 5.041873671482702 
+            text = "Es" 
+        intervals [15]:
+            xmin = 5.041873671482702 
+            xmax = 5.279482571393364 
+            text = "tAl" 
+        intervals [16]:
+            xmin = 5.279482571393364 
+            xmax = 5.3762861972828935 
+            text = "El" 
+        intervals [17]:
+            xmin = 5.3762861972828935 
+            xmax = 6.009909930377993 
+            text = "equIvoco" 
+        intervals [18]:
+            xmin = 6.009909930377993 
+            xmax = 6.15 
+            text = "<sil>" 

@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.5 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.061690108507543515 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.061690108507543515 
+            xmax = 0.17125273392294055 
+            text = "lA" 
+        intervals [3]:
+            xmin = 0.17125273392294055 
+            xmax = 0.75654781179993 
+            text = "importAncia" 
+        intervals [4]:
+            xmin = 0.75654781179993 
+            xmax = 0.9324246578614884 
+            text = "dEl" 
+        intervals [5]:
+            xmin = 0.9324246578614884 
+            xmax = 1.2005647674307496 
+            text = "mEdio" 
+        intervals [6]:
+            xmin = 1.2005647674307496 
+            xmax = 1.8579405199231318 
+            text = "ambiEnte" 
+        intervals [7]:
+            xmin = 1.8579405199231318 
+            xmax = 2.004985096138533 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 2.004985096138533 
+            xmax = 2.1779787152154757 
+            text = "En" 
+        intervals [9]:
+            xmin = 2.1779787152154757 
+            xmax = 2.43746914383089 
+            text = "Este" 
+        intervals [10]:
+            xmin = 2.43746914383089 
+            xmax = 2.886504246538801 
+            text = "rUbro" 
+        intervals [11]:
+            xmin = 2.886504246538801 
+            xmax = 3.222593567185493 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 3.222593567185493 
+            xmax = 3.7000067402481243 
+            text = "exIste" 
+        intervals [13]:
+            xmin = 3.7000067402481243 
+            xmax = 3.996481306801894 
+            text = "algUna" 
+        intervals [14]:
+            xmin = 3.996481306801894 
+            xmax = 4.077355823720365 
+            text = "" 
+        intervals [15]:
+            xmin = 4.077355823720365 
+            xmax = 4.683914700608895 
+            text = "posibilidAd" 
+        intervals [16]:
+            xmin = 4.683914700608895 
+            xmax = 4.7790611911012135 
+            text = "dE" 
+        intervals [17]:
+            xmin = 4.7790611911012135 
+            xmax = 4.855178383495068 
+            text = "<sil>" 
+        intervals [18]:
+            xmin = 4.855178383495068 
+            xmax = 5.104937921037404 
+            text = "Usted" 
+        intervals [19]:
+            xmin = 5.104937921037404 
+            xmax = 5.333289498218968 
+            text = "nOs" 
+        intervals [20]:
+            xmin = 5.333289498218968 
+            xmax = 5.5 
+            text = "<sil>" 

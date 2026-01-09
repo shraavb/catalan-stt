@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.03 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.03 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03584436880444275 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.03584436880444275 
+            xmax = 0.1991366187984325 
+            text = "dOnde" 
+        intervals [3]:
+            xmin = 0.1991366187984325 
+            xmax = 0.2971119687948264 
+            text = "dIce" 
+        intervals [4]:
+            xmin = 0.2971119687948264 
+            xmax = 0.414138081290519 
+            text = "quE" 
+        intervals [5]:
+            xmin = 0.414138081290519 
+            xmax = 0.6182533937830061 
+            text = "serAn" 
+        intervals [6]:
+            xmin = 0.6182533937830061 
+            xmax = 1.129902443764174 
+            text = "convocAdas" 
+        intervals [7]:
+            xmin = 1.129902443764174 
+            xmax = 1.2197131812608684 
+            text = "pOr" 
+        intervals [8]:
+            xmin = 1.2197131812608684 
+            xmax = 1.3149669937573625 
+            text = "El" 
+        intervals [9]:
+            xmin = 1.3149669937573625 
+            xmax = 1.5789561312476459 
+            text = "congrEso" 
+        intervals [10]:
+            xmin = 1.5789561312476459 
+            xmax = 1.6497161062450414 
+            text = "dE" 
+        intervals [11]:
+            xmin = 1.6497161062450414 
+            xmax = 1.7395268437417357 
+            text = "lA" 
+        intervals [12]:
+            xmin = 1.7395268437417357 
+            xmax = 1.9327560062346236 
+            text = "uniOn" 
+        intervals [13]:
+            xmin = 1.9327560062346236 
+            xmax = 2.134149781227211 
+            text = "A" 
+        intervals [14]:
+            xmin = 2.134149781227211 
+            xmax = 2.569595781211184 
+            text = "peticiOn" 
+        intervals [15]:
+            xmin = 2.569595781211184 
+            xmax = 2.85176470588 
+            text = "dE" 
+        intervals [16]:
+            xmin = 2.85176470588 
+            xmax = 3.03 
+            text = "<sil>" 

@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09370057660626023 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09370057660626023 
+            xmax = 0.5501873970345963 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.5501873970345963 
+            xmax = 0.8849443986820428 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.8849443986820428 
+            xmax = 1.41176470588 
+            text = "momEnto" 
+        intervals [5]:
+            xmin = 1.41176470588 
+            xmax = 1.726908978583196 
+            text = "podEmos" 
+        intervals [6]:
+            xmin = 1.726908978583196 
+            xmax = 2.0920984349258647 
+            text = "estAr" 
+        intervals [7]:
+            xmin = 2.0920984349258647 
+            xmax = 2.2138282537067546 
+            text = "En" 
+        intervals [8]:
+            xmin = 2.2138282537067546 
+            xmax = 2.3457022240527183 
+            text = "Una" 
+        intervals [9]:
+            xmin = 2.3457022240527183 
+            xmax = 3.0557928336079074 
+            text = "situaciOn" 
+        intervals [10]:
+            xmin = 3.0557928336079074 
+            xmax = 3.3601173805601317 
+            text = "cOmo" 
+        intervals [11]:
+            xmin = 3.3601173805601317 
+            xmax = 4.009343080724876 
+            text = "infractOres" 
+        intervals [12]:
+            xmin = 4.009343080724876 
+            xmax = 4.597703871499176 
+            text = "quiEnes" 
+        intervals [13]:
+            xmin = 4.597703871499176 
+            xmax = 4.85130766062603 
+            text = "podEmos" 
+        intervals [14]:
+            xmin = 4.85130766062603 
+            xmax = 5.094767298187809 
+            text = "sEr" 
+        intervals [15]:
+            xmin = 5.094767298187809 
+            xmax = 5.4903892092257 
+            text = "infractOres" 
+        intervals [16]:
+            xmin = 5.4903892092257 
+            xmax = 5.916443574958814 
+            text = "maEstra" 
+        intervals [17]:
+            xmin = 5.916443574958814 
+            xmax = 6 
+            text = "<sil>" 

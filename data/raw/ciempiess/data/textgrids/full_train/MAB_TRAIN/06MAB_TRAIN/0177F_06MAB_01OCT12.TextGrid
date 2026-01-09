@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.6 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3785779191276692 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.3785779191276692 
+            xmax = 1.1267092879859801 
+            text = "Este" 
+        intervals [3]:
+            xmin = 1.1267092879859801 
+            xmax = 1.9799500227169464 
+            text = "caballEros" 
+        intervals [4]:
+            xmin = 1.9799500227169464 
+            xmax = 2.2272661777114293 
+            text = "++dis++" 
+        intervals [5]:
+            xmin = 2.2272661777114293 
+            xmax = 2.4251191017070157 
+            text = "quE" 
+        intervals [6]:
+            xmin = 2.4251191017070157 
+            xmax = 2.58587460245343 
+            text = "vAn" 
+        intervals [7]:
+            xmin = 2.58587460245343 
+            xmax = 3.08 
+            text = "representAndo" 
+        intervals [8]:
+            xmin = 3.08 
+            xmax = 3.125332965535146 
+            text = "A" 
+        intervals [9]:
+            xmin = 3.125332965535146 
+            xmax = 3.290725644187707 
+            text = "lAs" 
+        intervals [10]:
+            xmin = 3.290725644187707 
+            xmax = 3.7049802038034656 
+            text = "emprEsas" 
+        intervals [11]:
+            xmin = 3.7049802038034656 
+            xmax = 3.983210878172259 
+            text = "pEro" 
+        intervals [12]:
+            xmin = 3.983210878172259 
+            xmax = 4.37273382228857 
+            text = "buEno" 
+        intervals [13]:
+            xmin = 4.37273382228857 
+            xmax = 4.589135457908743 
+            text = "aquI" 
+        intervals [14]:
+            xmin = 4.589135457908743 
+            xmax = 5.195060037645225 
+            text = "estAmos" 
+        intervals [15]:
+            xmin = 5.195060037645225 
+            xmax = 6.6 
+            text = "<sil>" 

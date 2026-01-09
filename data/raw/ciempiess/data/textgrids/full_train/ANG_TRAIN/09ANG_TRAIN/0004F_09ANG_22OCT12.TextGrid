@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.65 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.65 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2673912296226309 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.2673912296226309 
+            xmax = 0.4843872951686598 
+            text = "el" 
+        intervals [3]:
+            xmin = 0.4843872951686598 
+            xmax = 0.6728312468270533 
+            text = "dIa" 
+        intervals [4]:
+            xmin = 0.6728312468270533 
+            xmax = 0.8013157593214125 
+            text = "de" 
+        intervals [5]:
+            xmin = 0.8013157593214125 
+            xmax = 1.1896245081932537 
+            text = "hOy" 
+        intervals [6]:
+            xmin = 1.1896245081932537 
+            xmax = 1.6864312898381095 
+            text = "++dis++" 
+        intervals [7]:
+            xmin = 1.6864312898381095 
+            xmax = 1.9197639300140572 
+            text = "hEmos" 
+        intervals [8]:
+            xmin = 1.9197639300140572 
+            xmax = 2.3823081749937502 
+            text = "preparAdo" 
+        intervals [9]:
+            xmin = 2.3823081749937502 
+            xmax = 2.576462549429671 
+            text = "Un" 
+        intervals [10]:
+            xmin = 2.576462549429671 
+            xmax = 3.056138062741945 
+            text = "tEma" 
+        intervals [11]:
+            xmin = 3.056138062741945 
+            xmax = 3.1500999959468645 
+            text = "de" 
+        intervals [12]:
+            xmin = 3.1500999959468645 
+            xmax = 3.6265634145769177 
+            text = "interEs" 
+        intervals [13]:
+            xmin = 3.6265634145769177 
+            xmax = 3.712219756239824 
+            text = "y" 
+        intervals [14]:
+            xmin = 3.712219756239824 
+            xmax = 4.4796859577656445 
+            text = "relevAncia" 
+        intervals [15]:
+            xmin = 4.4796859577656445 
+            xmax = 4.65 
+            text = "++dis++" 

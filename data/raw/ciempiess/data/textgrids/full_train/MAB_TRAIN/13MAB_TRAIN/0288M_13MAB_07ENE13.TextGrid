@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.73 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.73 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05218792136919109 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05218792136919109 
+            xmax = 0.42615818796649224 
+            text = "serIa" 
+        intervals [3]:
+            xmin = 0.42615818796649224 
+            xmax = 0.8777449249896483 
+            text = "trIste" 
+        intervals [4]:
+            xmin = 0.8777449249896483 
+            xmax = 1.1388185073311605 
+            text = "quE" 
+        intervals [5]:
+            xmin = 1.1388185073311605 
+            xmax = 1.6468535864822111 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.6468535864822111 
+            xmax = 2.0561040669094464 
+            text = "nuEstra" 
+        intervals [7]:
+            xmin = 2.0561040669094464 
+            xmax = 2.5853072743584575 
+            text = "prOpia" 
+        intervals [8]:
+            xmin = 2.5853072743584575 
+            xmax = 3.14066666667 
+            text = "riquEza" 
+        intervals [9]:
+            xmin = 3.14066666667 
+            xmax = 3.8060026728741763 
+            text = "naturAl" 
+        intervals [10]:
+            xmin = 3.8060026728741763 
+            xmax = 4.257589409897332 
+            text = "sEa" 
+        intervals [11]:
+            xmin = 4.257589409897332 
+            xmax = 4.807960745644304 
+            text = "vendIda" 
+        intervals [12]:
+            xmin = 4.807960745644304 
+            xmax = 5.0266980713898946 
+            text = "pOr" 
+        intervals [13]:
+            xmin = 5.0266980713898946 
+            xmax = 5.619405663732787 
+            text = "Otras" 
+        intervals [14]:
+            xmin = 5.619405663732787 
+            xmax = 6.23328138437364 
+            text = "naciOnes" 
+        intervals [15]:
+            xmin = 6.23328138437364 
+            xmax = 6.416738496289297 
+            text = "nO" 
+        intervals [16]:
+            xmin = 6.416738496289297 
+            xmax = 6.73 
+            text = "<sil>" 

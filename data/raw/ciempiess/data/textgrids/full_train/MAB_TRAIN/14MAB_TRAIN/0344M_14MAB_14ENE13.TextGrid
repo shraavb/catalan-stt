@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.67 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.67 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.27640041511352076 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.27640041511352076 
+            xmax = 0.41002233064292526 
+            text = "nO" 
+        intervals [3]:
+            xmin = 0.41002233064292526 
+            xmax = 0.5770497250546809 
+            text = "Es" 
+        intervals [4]:
+            xmin = 0.5770497250546809 
+            xmax = 0.9540544152983579 
+            text = "fAcil" 
+        intervals [5]:
+            xmin = 0.9540544152983579 
+            xmax = 1.474225443609254 
+            text = "yO" 
+        intervals [6]:
+            xmin = 1.474225443609254 
+            xmax = 2.352312317088198 
+            text = "++dis++" 
+        intervals [7]:
+            xmin = 2.352312317088198 
+            xmax = 2.495478655155417 
+            text = "tUve" 
+        intervals [8]:
+            xmin = 2.495478655155417 
+            xmax = 2.6338727819537286 
+            text = "lA" 
+        intervals [9]:
+            xmin = 2.6338727819537286 
+            xmax = 3.0517019277423354 
+            text = "oportunidAd" 
+        intervals [10]:
+            xmin = 3.0517019277423354 
+            xmax = 3.3666678714902174 
+            text = "dE" 
+        intervals [11]:
+            xmin = 3.3666678714902174 
+            xmax = 3.9156440740577008 
+            text = "pertencEr" 
+        intervals [12]:
+            xmin = 3.9156440740577008 
+            xmax = 4.1781156938476025 
+            text = "A" 
+        intervals [13]:
+            xmin = 4.1781156938476025 
+            xmax = 4.736068494697768 
+            text = "Una" 
+        intervals [14]:
+            xmin = 4.736068494697768 
+            xmax = 5.26578947368 
+            text = "nacionAl" 
+        intervals [15]:
+            xmin = 5.26578947368 
+            xmax = 6.054772585409288 
+            text = "preparatoria" 
+        intervals [16]:
+            xmin = 6.054772585409288 
+            xmax = 6.169203868213531 
+            text = "En" 
+        intervals [17]:
+            xmin = 6.169203868213531 
+            xmax = 6.65607120469031 
+            text = "lAs" 
+        intervals [18]:
+            xmin = 6.65607120469031 
+            xmax = 6.67 
+            text = "<sil>" 

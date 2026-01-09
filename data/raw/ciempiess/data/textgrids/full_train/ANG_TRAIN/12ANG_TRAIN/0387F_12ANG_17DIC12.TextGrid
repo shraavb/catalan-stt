@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.67 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.67 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17450829649425467 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.17450829649425467 
+            xmax = 0.27034960991651524 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.27034960991651524 
+            xmax = 0.4344614479683313 
+            text = "sE" 
+        intervals [4]:
+            xmin = 0.4344614479683313 
+            xmax = 0.7305440150962931 
+            text = "hAbla" 
+        intervals [5]:
+            xmin = 0.7305440150962931 
+            xmax = 1.1139092687853354 
+            text = "mUcho" 
+        intervals [6]:
+            xmin = 1.1139092687853354 
+            xmax = 1.2594620933760112 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.2594620933760112 
+            xmax = 1.3513647226850283 
+            text = "++dis++" 
+        intervals [8]:
+            xmin = 1.3513647226850283 
+            xmax = 1.6402015576562246 
+            text = "Estos" 
+        intervals [9]:
+            xmin = 1.6402015576562246 
+            xmax = 1.8155394607438227 
+            text = "sOn" 
+        intervals [10]:
+            xmin = 1.8155394607438227 
+            xmax = 1.8969389324175234 
+            text = "mIs" 
+        intervals [11]:
+            xmin = 1.8969389324175234 
+            xmax = 2.3422243898099593 
+            text = "derEchos" 
+        intervals [12]:
+            xmin = 2.3422243898099593 
+            xmax = 2.6128661406468097 
+            text = "Estos" 
+        intervals [13]:
+            xmin = 2.6128661406468097 
+            xmax = 2.760096816279771 
+            text = "sOn" 
+        intervals [14]:
+            xmin = 2.760096816279771 
+            xmax = 2.9242086543315873 
+            text = "mIs" 
+        intervals [15]:
+            xmin = 2.9242086543315873 
+            xmax = 3.4057187266206985 
+            text = "derEchos" 
+        intervals [16]:
+            xmin = 3.4057187266206985 
+            xmax = 3.67 
+            text = "<sil>" 

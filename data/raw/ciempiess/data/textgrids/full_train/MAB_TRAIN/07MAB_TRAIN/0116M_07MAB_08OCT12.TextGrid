@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.67 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.67 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13813866129851082 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13813866129851082 
+            xmax = 0.6248877305674639 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.6248877305674639 
+            xmax = 0.7736166128440885 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 0.7736166128440885 
+            xmax = 0.9448801742535349 
+            text = "se" 
+        intervals [5]:
+            xmin = 0.9448801742535349 
+            xmax = 1.5307818317069044 
+            text = "reservO" 
+        intervals [6]:
+            xmin = 1.5307818317069044 
+            xmax = 1.643455227371014 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.643455227371014 
+            xmax = 1.895843633658619 
+            text = "la" 
+        intervals [8]:
+            xmin = 1.895843633658619 
+            xmax = 2.2789331789165916 
+            text = "discusiOn" 
+        intervals [9]:
+            xmin = 2.2789331789165916 
+            xmax = 2.5763909434698404 
+            text = "de" 
+        intervals [10]:
+            xmin = 2.5763909434698404 
+            xmax = 2.8152585422777525 
+            text = "tOdos" 
+        intervals [11]:
+            xmin = 2.8152585422777525 
+            xmax = 2.973001296207506 
+            text = "los" 
+        intervals [12]:
+            xmin = 2.973001296207506 
+            xmax = 3.473271172956152 
+            text = "artIculos" 
+        intervals [13]:
+            xmin = 3.473271172956152 
+            xmax = 3.67 
+            text = "<sil>" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.01 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.01 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.012605892147587502 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.012605892147587502 
+            xmax = 0.2826302630085146 
+            text = "favOr" 
+        intervals [3]:
+            xmin = 0.2826302630085146 
+            xmax = 0.5603696158940397 
+            text = "dE" 
+        intervals [4]:
+            xmin = 0.5603696158940397 
+            xmax = 0.9576911901608324 
+            text = "enviArme" 
+        intervals [5]:
+            xmin = 0.9576911901608324 
+            xmax = 1.4128751296121096 
+            text = "algUnos" 
+        intervals [6]:
+            xmin = 1.4128751296121096 
+            xmax = 1.8217691769157993 
+            text = "alUmnos" 
+        intervals [7]:
+            xmin = 1.8217691769157993 
+            xmax = 2.2846680983916743 
+            text = "algUnos" 
+        intervals [8]:
+            xmin = 2.2846680983916743 
+            xmax = 2.7514245108798483 
+            text = "amIgos" 
+        intervals [9]:
+            xmin = 2.7514245108798483 
+            xmax = 3.1101711750236514 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 3.1101711750236514 
+            xmax = 3.2143234323557235 
+            text = "cOn" 
+        intervals [11]:
+            xmin = 3.2143234323557235 
+            xmax = 3.4110554739829704 
+            text = "Esta" 
+        intervals [12]:
+            xmin = 3.4110554739829704 
+            xmax = 3.8585244314096494 
+            text = "inquietUd" 
+        intervals [13]:
+            xmin = 3.8585244314096494 
+            xmax = 4.01 
+            text = "<sil>" 

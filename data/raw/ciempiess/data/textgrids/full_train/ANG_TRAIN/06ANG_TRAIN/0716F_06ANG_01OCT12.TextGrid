@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.75 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 2.75 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0193294183801218 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.0193294183801218 
+            xmax = 0.09550406036754253 
+            text = "tO" 
+        intervals [3]:
+            xmin = 0.09550406036754253 
+            xmax = 0.20024419310024602 
+            text = "A" 
+        intervals [4]:
+            xmin = 0.20024419310024602 
+            xmax = 0.4954209308015013 
+            text = "gOl" 
+        intervals [5]:
+            xmin = 0.4954209308015013 
+            xmax = 0.7382276021364048 
+            text = "sE" 
+        intervals [6]:
+            xmin = 0.7382276021364048 
+            xmax = 1.3262006199768086 
+            text = "tropiEza" 
+        intervals [7]:
+            xmin = 1.3262006199768086 
+            xmax = 1.4118970922126568 
+            text = "quiEn" 
+        intervals [8]:
+            xmin = 1.4118970922126568 
+            xmax = 1.5523440883769637 
+            text = "sAbe" 
+        intervals [9]:
+            xmin = 1.5523440883769637 
+            xmax = 1.65 
+            text = "quE" 
+        intervals [10]:
+            xmin = 1.65 
+            xmax = 1.7642048114044777 
+            text = "lE" 
+        intervals [11]:
+            xmin = 1.7642048114044777 
+            xmax = 2.0236746856741297 
+            text = "pAso" 
+        intervals [12]:
+            xmin = 2.0236746856741297 
+            xmax = 2.1188929881584055 
+            text = "En" 
+        intervals [13]:
+            xmin = 2.1188929881584055 
+            xmax = 2.38333333333 
+            text = "sUs" 
+        intervals [14]:
+            xmin = 2.38333333333 
+            xmax = 2.6663982274429916 
+            text = "piEs" 
+        intervals [15]:
+            xmin = 2.6663982274429916 
+            xmax = 2.75 
+            text = "<sil>" 

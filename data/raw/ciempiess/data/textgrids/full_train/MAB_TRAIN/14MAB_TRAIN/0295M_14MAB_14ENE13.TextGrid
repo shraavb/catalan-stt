@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.1 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.1 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05462355723746451 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05462355723746451 
+            xmax = 0.7292035004730367 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.7292035004730367 
+            xmax = 1.0309247114474926 
+            text = "lO" 
+        intervals [4]:
+            xmin = 1.0309247114474926 
+            xmax = 1.4044406054872276 
+            text = "quE" 
+        intervals [5]:
+            xmin = 1.4044406054872276 
+            xmax = 1.649085241248817 
+            text = "siEmpre" 
+        intervals [6]:
+            xmin = 1.649085241248817 
+            xmax = 1.92382325449385 
+            text = "hAcen" 
+        intervals [7]:
+            xmin = 1.92382325449385 
+            xmax = 2.2672457710501415 
+            text = "mAs" 
+        intervals [8]:
+            xmin = 2.2672457710501415 
+            xmax = 2.475752298959318 
+            text = "cOmo" 
+        intervals [9]:
+            xmin = 2.475752298959318 
+            xmax = 2.586795269631031 
+            text = "quE" 
+        intervals [10]:
+            xmin = 2.586795269631031 
+            xmax = 2.805 
+            text = "mAs" 
+        intervals [11]:
+            xmin = 2.805 
+            xmax = 3.446008722800378 
+            text = "pantomImas" 
+        intervals [12]:
+            xmin = 3.446008722800378 
+            xmax = 3.571112639545884 
+            text = "sE" 
+        intervals [13]:
+            xmin = 3.571112639545884 
+            xmax = 3.7575420056764424 
+            text = "dEjan" 
+        intervals [14]:
+            xmin = 3.7575420056764424 
+            xmax = 4.078887360454115 
+            text = "caEr" 
+        intervals [15]:
+            xmin = 4.078887360454115 
+            xmax = 4.137759791863765 
+            text = "O" 
+        intervals [16]:
+            xmin = 4.137759791863765 
+            xmax = 4.304565014191106 
+            text = "Eso" 
+        intervals [17]:
+            xmin = 4.304565014191106 
+            xmax = 4.795168609271522 
+            text = "sOn" 
+        intervals [18]:
+            xmin = 4.795168609271522 
+            xmax = 5.1 
+            text = "<sil>" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.32 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.32 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13825144370860928 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13825144370860928 
+            xmax = 0.47486322800378433 
+            text = "yA" 
+        intervals [3]:
+            xmin = 0.47486322800378433 
+            xmax = 0.6036899602649007 
+            text = "nO" 
+        intervals [4]:
+            xmin = 0.6036899602649007 
+            xmax = 0.6701811769157995 
+            text = "En" 
+        intervals [5]:
+            xmin = 0.6701811769157995 
+            xmax = 0.9569245487228005 
+            text = "dOble" 
+        intervals [6]:
+            xmin = 0.9569245487228005 
+            xmax = 1.1480867965941344 
+            text = "fIla" 
+        intervals [7]:
+            xmin = 1.1480867965941344 
+            xmax = 1.281069229895932 
+            text = "hAsta" 
+        intervals [8]:
+            xmin = 1.281069229895932 
+            xmax = 1.4265187663197731 
+            text = "En" 
+        intervals [9]:
+            xmin = 1.4265187663197731 
+            xmax = 1.8504002724692528 
+            text = "trIple" 
+        intervals [10]:
+            xmin = 1.8504002724692528 
+            xmax = 2.116365139072848 
+            text = "fIla" 
+        intervals [11]:
+            xmin = 2.116365139072848 
+            xmax = 2.3989528098391677 
+            text = "pAra" 
+        intervals [12]:
+            xmin = 2.3989528098391677 
+            xmax = 3.047242172185431 
+            text = "dejArlos" 
+        intervals [13]:
+            xmin = 3.047242172185431 
+            xmax = 3.284117131504258 
+            text = "<sil>" 
+        intervals [14]:
+            xmin = 3.284117131504258 
+            xmax = 3.8950051844843903 
+            text = "nO" 
+        intervals [15]:
+            xmin = 3.8950051844843903 
+            xmax = 4.32 
+            text = "<sil>" 

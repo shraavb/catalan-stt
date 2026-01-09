@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.01 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.01 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06839087674440095 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.06839087674440095 
+            xmax = 0.292176819876159 
+            text = "pOr" 
+        intervals [3]:
+            xmin = 0.292176819876159 
+            xmax = 0.8430345260466405 
+            text = "dOnde" 
+        intervals [4]:
+            xmin = 0.8430345260466405 
+            xmax = 1.1414157835556513 
+            text = "puEde" 
+        intervals [5]:
+            xmin = 1.1414157835556513 
+            xmax = 1.3020826145220417 
+            text = "sEr" 
+        intervals [6]:
+            xmin = 1.3020826145220417 
+            xmax = 1.428320838852777 
+            text = "Un" 
+        intervals [7]:
+            xmin = 1.428320838852777 
+            xmax = 2.030821454976741 
+            text = "ejEmplo" 
+        intervals [8]:
+            xmin = 2.030821454976741 
+            xmax = 2.7136554865839004 
+            text = "parAa" 
+        intervals [9]:
+            xmin = 2.7136554865839004 
+            xmax = 2.8628461153384057 
+            text = "Ir" 
+        intervals [10]:
+            xmin = 2.8628461153384057 
+            xmax = 3.195655979483072 
+            text = "viEndo" 
+        intervals [11]:
+            xmin = 3.195655979483072 
+            xmax = 3.4423943270386 
+            text = "pOr" 
+        intervals [12]:
+            xmin = 3.4423943270386 
+            xmax = 3.867013808878346 
+            text = "dOnde" 
+        intervals [13]:
+            xmin = 3.867013808878346 
+            xmax = 4.01 
+            text = "<sil>" 

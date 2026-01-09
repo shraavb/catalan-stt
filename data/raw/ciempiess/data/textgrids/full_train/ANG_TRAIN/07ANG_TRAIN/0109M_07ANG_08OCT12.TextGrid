@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.23 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.23 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24955737842951747 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.24955737842951747 
+            xmax = 0.3482095846736045 
+            text = "lA" 
+        intervals [3]:
+            xmin = 0.3482095846736045 
+            xmax = 0.7330675285411635 
+            text = "mayorIa" 
+        intervals [4]:
+            xmin = 0.7330675285411635 
+            xmax = 0.8550234055515703 
+            text = "dE" 
+        intervals [5]:
+            xmin = 0.8550234055515703 
+            xmax = 1.0864669877740205 
+            text = "Ellos" 
+        intervals [6]:
+            xmin = 1.0864669877740205 
+            xmax = 1.2033018164616838 
+            text = "sE" 
+        intervals [7]:
+            xmin = 1.2033018164616838 
+            xmax = 1.5291410945337558 
+            text = "cAsan" 
+        intervals [8]:
+            xmin = 1.5291410945337558 
+            xmax = 1.668501897527767 
+            text = "En" 
+        intervals [9]:
+            xmin = 1.668501897527767 
+            xmax = 1.8154115685903498 
+            text = "Un" 
+        intervals [10]:
+            xmin = 1.8154115685903498 
+            xmax = 2.1478772715231784 
+            text = "estAdo" 
+        intervals [11]:
+            xmin = 2.1478772715231784 
+            xmax = 2.2597348912015134 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.2597348912015134 
+            xmax = 3.052059697256386 
+            text = "enamoramiEnto" 
+        intervals [13]:
+            xmin = 3.052059697256386 
+            xmax = 3.23 
+            text = "++dis++" 

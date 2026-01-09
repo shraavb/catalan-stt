@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.25 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.25 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03674763635576904 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.03674763635576904 
+            xmax = 0.12433877458298179 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.12433877458298179 
+            xmax = 0.22387415893208717 
+            text = "nO" 
+        intervals [4]:
+            xmin = 0.22387415893208717 
+            xmax = 0.49859181973561806 
+            text = "sAbe" 
+        intervals [5]:
+            xmin = 0.49859181973561806 
+            xmax = 0.7414581575474352 
+            text = "cOmo" 
+        intervals [6]:
+            xmin = 0.7414581575474352 
+            xmax = 1.59375 
+            text = "sobresalIr" 
+        intervals [7]:
+            xmin = 1.59375 
+            xmax = 1.6850536011769544 
+            text = "quE" 
+        intervals [8]:
+            xmin = 1.6850536011769544 
+            xmax = 1.7885704009000238 
+            text = "nO" 
+        intervals [9]:
+            xmin = 1.7885704009000238 
+            xmax = 2.0274553233378767 
+            text = "sAe" 
+        intervals [10]:
+            xmin = 2.0274553233378767 
+            xmax = 2.218563261288159 
+            text = "cOmo" 
+        intervals [11]:
+            xmin = 2.218563261288159 
+            xmax = 2.7520729213993644 
+            text = "estudiAr" 
+        intervals [12]:
+            xmin = 2.7520729213993644 
+            xmax = 2.871515382618291 
+            text = "quE" 
+        intervals [13]:
+            xmin = 2.871515382618291 
+            xmax = 2.947162274723611 
+            text = "nO" 
+        intervals [14]:
+            xmin = 2.947162274723611 
+            xmax = 3.1621587049176787 
+            text = "sAbe" 
+        intervals [15]:
+            xmin = 3.1621587049176787 
+            xmax = 3.357248058241925 
+            text = "cOmo" 
+        intervals [16]:
+            xmin = 3.357248058241925 
+            xmax = 4.046032917937734 
+            text = "analizAr" 
+        intervals [17]:
+            xmin = 4.046032917937734 
+            xmax = 4.25 
+            text = "<sil>" 

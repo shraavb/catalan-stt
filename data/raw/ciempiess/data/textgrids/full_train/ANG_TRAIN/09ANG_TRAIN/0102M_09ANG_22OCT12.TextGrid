@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.74 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.74 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3367748817783544 
+            text = "de" 
+        intervals [2]:
+            xmin = 0.3367748817783544 
+            xmax = 0.4722654075943893 
+            text = "que" 
+        intervals [3]:
+            xmin = 0.4722654075943893 
+            xmax = 0.6996139170145157 
+            text = "la" 
+        intervals [4]:
+            xmin = 0.6996139170145157 
+            xmax = 1.0762316497912907 
+            text = "condi" 
+        intervals [5]:
+            xmin = 1.0762316497912907 
+            xmax = 1.2392795706885529 
+            text = "de" 
+        intervals [6]:
+            xmin = 1.2392795706885529 
+            xmax = 1.3373226421671753 
+            text = "que" 
+        intervals [7]:
+            xmin = 1.3373226421671753 
+            xmax = 1.6014143450289382 
+            text = "las" 
+        intervals [8]:
+            xmin = 1.6014143450289382 
+            xmax = 2.2533606240500155 
+            text = "posibilidAdes" 
+        intervals [9]:
+            xmin = 2.2533606240500155 
+            xmax = 2.682796697399143 
+            text = "actuAles" 
+        intervals [10]:
+            xmin = 2.682796697399143 
+            xmax = 2.7402079371517 
+            text = "de" 
+        intervals [11]:
+            xmin = 2.7402079371517 
+            xmax = 2.875698462967735 
+            text = "los" 
+        intervals [12]:
+            xmin = 2.875698462967735 
+            xmax = 3.5639765895288056 
+            text = "productOres" 
+        intervals [13]:
+            xmin = 3.5639765895288056 
+            xmax = 3.74 
+            text = "<sil>" 

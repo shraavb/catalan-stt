@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.67 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.67 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17852319056770044 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.17852319056770044 
+            xmax = 0.34514012682217293 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.34514012682217293 
+            xmax = 0.49520422802509906 
+            text = "dIa" 
+        intervals [4]:
+            xmin = 0.49520422802509906 
+            xmax = 0.6144859494940916 
+            text = "dE" 
+        intervals [5]:
+            xmin = 0.6144859494940916 
+            xmax = 0.8896034683661228 
+            text = "hOy" 
+        intervals [6]:
+            xmin = 0.8896034683661228 
+            xmax = 1.100651506444626 
+            text = "cOmo" 
+        intervals [7]:
+            xmin = 1.100651506444626 
+            xmax = 1.2622590000477771 
+            text = "lO" 
+        intervals [8]:
+            xmin = 1.2622590000477771 
+            xmax = 2.038552138962914 
+            text = "prometImos" 
+        intervals [9]:
+            xmin = 2.038552138962914 
+            xmax = 2.3184794046683725 
+            text = "En" 
+        intervals [10]:
+            xmin = 2.3184794046683725 
+            xmax = 2.4137123919702295 
+            text = "lA" 
+        intervals [11]:
+            xmin = 2.4137123919702295 
+            xmax = 2.7603952907513776 
+            text = "emisiOn" 
+        intervals [12]:
+            xmin = 2.7603952907513776 
+            xmax = 3.3067825310286985 
+            text = "pasAda" 
+        intervals [13]:
+            xmin = 3.3067825310286985 
+            xmax = 3.67 
+            text = "<sil>" 

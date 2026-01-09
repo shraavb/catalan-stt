@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.8 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.8 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.35616300551031455 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.35616300551031455 
+            xmax = 0.467717678660537 
+            text = "sE" 
+        intervals [3]:
+            xmin = 0.467717678660537 
+            xmax = 0.8900317984435219 
+            text = "hiciEron" 
+        intervals [4]:
+            xmin = 0.8900317984435219 
+            xmax = 1.3920278276195228 
+            text = "trabAjos" 
+        intervals [5]:
+            xmin = 1.3920278276195228 
+            xmax = 1.4926262382282054 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.4926262382282054 
+            xmax = 1.6041809113784278 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 1.6041809113784278 
+            xmax = 2.2097634227653495 
+            text = "conservaciOn" 
+        intervals [8]:
+            xmin = 2.2097634227653495 
+            xmax = 2.273508950279762 
+            text = "<sli>" 
+        intervals [9]:
+            xmin = 2.273508950279762 
+            xmax = 2.3711192892862067 
+            text = "del" 
+        intervals [10]:
+            xmin = 2.3711192892862067 
+            xmax = 2.8223181012241603 
+            text = "suElo" 
+        intervals [11]:
+            xmin = 2.8223181012241603 
+            xmax = 2.9896501109494937 
+            text = "y" 
+        intervals [12]:
+            xmin = 2.9896501109494937 
+            xmax = 3.3761073715056216 
+            text = "Agua" 
+        intervals [13]:
+            xmin = 3.3761073715056216 
+            xmax = 3.8 
+            text = "<sil>" 

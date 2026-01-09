@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.2 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.2 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23194837104744498 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.23194837104744498 
+            xmax = 0.6156781300590768 
+            text = "Estos" 
+        intervals [3]:
+            xmin = 0.6156781300590768 
+            xmax = 0.9063653490261516 
+            text = "cEntro" 
+        intervals [4]:
+            xmin = 0.9063653490261516 
+            xmax = 0.931410345211899 
+            text = "dE" 
+        intervals [5]:
+            xmin = 0.931410345211899 
+            xmax = 1.3096558194529333 
+            text = "operaciOn" 
+        intervals [6]:
+            xmin = 1.3096558194529333 
+            xmax = 2.22857142857 
+            text = "estratEgica" 
+        intervals [7]:
+            xmin = 2.22857142857 
+            xmax = 2.3516407431494084 
+            text = "vA" 
+        intervals [8]:
+            xmin = 2.3516407431494084 
+            xmax = 2.6058126751569213 
+            text = "sEr" 
+        intervals [9]:
+            xmin = 2.6058126751569213 
+            xmax = 3.4846776053290593 
+            text = "concurrEnte" 
+        intervals [10]:
+            xmin = 3.4846776053290593 
+            xmax = 4.109442229005005 
+            text = "Entre" 
+        intervals [11]:
+            xmin = 4.109442229005005 
+            xmax = 4.215221106644161 
+            text = "lA" 
+        intervals [12]:
+            xmin = 4.215221106644161 
+            xmax = 5.025442297071739 
+            text = "autoridAd" 
+        intervals [13]:
+            xmin = 5.025442297071739 
+            xmax = 5.2 
+            text = "<sil>" 

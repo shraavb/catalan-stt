@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.96 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.96 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03911445979186375 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.03911445979186375 
+            xmax = 0.11911170482497632 
+            text = "dEl" 
+        intervals [3]:
+            xmin = 0.11911170482497632 
+            xmax = 0.610523352885525 
+            text = "equIpo" 
+        intervals [4]:
+            xmin = 0.610523352885525 
+            xmax = 0.8009929839167453 
+            text = "dE" 
+        intervals [5]:
+            xmin = 0.8009929839167453 
+            xmax = 1.0714598599810783 
+            text = "fUtbol" 
+        intervals [6]:
+            xmin = 1.0714598599810783 
+            xmax = 1.711437820245979 
+            text = "asociaciOn" 
+        intervals [7]:
+            xmin = 1.711437820245979 
+            xmax = 2.069520726584673 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 2.069520726584673 
+            xmax = 2.1190428306527904 
+            text = "dE" 
+        intervals [9]:
+            xmin = 2.1190428306527904 
+            xmax = 2.1876118978240298 
+            text = "lA" 
+        intervals [10]:
+            xmin = 2.1876118978240298 
+            xmax = 2.427603632923368 
+            text = "facultAd" 
+        intervals [11]:
+            xmin = 2.427603632923368 
+            xmax = 2.5342666263008513 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.5342666263008513 
+            xmax = 2.8466368211920527 
+            text = "derEcho" 
+        intervals [13]:
+            xmin = 2.8466368211920527 
+            xmax = 2.9571092071901606 
+            text = "dE" 
+        intervals [14]:
+            xmin = 2.9571092071901606 
+            xmax = 3.0218688817407755 
+            text = "lA" 
+        intervals [15]:
+            xmin = 3.0218688817407755 
+            xmax = 3.353286039735099 
+            text = "unAm" 
+        intervals [16]:
+            xmin = 3.353286039735099 
+            xmax = 3.96 
+            text = "<sil>" 

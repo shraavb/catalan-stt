@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.48 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.48 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.022862655195507703 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.022862655195507703 
+            xmax = 0.23100051517180978 
+            text = "sOn" 
+        intervals [3]:
+            xmin = 0.23100051517180978 
+            xmax = 0.37454386687960434 
+            text = "lAs" 
+        intervals [4]:
+            xmin = 0.37454386687960434 
+            xmax = 0.7979967544175982 
+            text = "persOnas" 
+        intervals [5]:
+            xmin = 0.7979967544175982 
+            xmax = 0.9307743547473082 
+            text = "quE" 
+        intervals [6]:
+            xmin = 0.9307743547473082 
+            xmax = 1.3757587450414712 
+            text = "recIben" 
+        intervals [7]:
+            xmin = 1.3757587450414712 
+            xmax = 1.4618847560661479 
+            text = "El" 
+        intervals [8]:
+            xmin = 1.4618847560661479 
+            xmax = 1.8961033949822261 
+            text = "servIcio" 
+        intervals [9]:
+            xmin = 1.8961033949822261 
+            xmax = 2.3662078718252535 
+            text = "mEdico" 
+        intervals [10]:
+            xmin = 2.3662078718252535 
+            xmax = 2.4236252125083713 
+            text = "dEl" 
+        intervals [11]:
+            xmin = 2.4236252125083713 
+            xmax = 2.721477667302045 
+            text = "segUro" 
+        intervals [12]:
+            xmin = 2.721477667302045 
+            xmax = 3.21230769231 
+            text = "populAr" 
+        intervals [13]:
+            xmin = 3.21230769231 
+            xmax = 3.48 
+            text = "<sil>" 

@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.1 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.1 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.44540656480083785 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.44540656480083785 
+            xmax = 0.6624813622500846 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.6624813622500846 
+            xmax = 1.0614296386432949 
+            text = "objEto" 
+        intervals [4]:
+            xmin = 1.0614296386432949 
+            xmax = 1.2139686854995222 
+            text = "dE" 
+        intervals [5]:
+            xmin = 1.2139686854995222 
+            xmax = 1.9121281691876402 
+            text = "tutEla" 
+        intervals [6]:
+            xmin = 1.9121281691876402 
+            xmax = 2.01773212470349 
+            text = "dE" 
+        intervals [7]:
+            xmin = 2.01773212470349 
+            xmax = 2.16440428514217 
+            text = "lA" 
+        intervals [8]:
+            xmin = 2.16440428514217 
+            xmax = 2.604420766458211 
+            text = "constituciOn" 
+        intervals [9]:
+            xmin = 2.604420766458211 
+            xmax = 2.751092926896891 
+            text = "yA" 
+        intervals [10]:
+            xmin = 2.751092926896891 
+            xmax = 3.0913723391146295 
+            text = "nO" 
+        intervals [11]:
+            xmin = 3.0913723391146295 
+            xmax = 3.196976294630479 
+            text = "Es" 
+        intervals [12]:
+            xmin = 3.196976294630479 
+            xmax = 3.3201809093989705 
+            text = "El" 
+        intervals [13]:
+            xmin = 3.3201809093989705 
+            xmax = 3.80714285714 
+            text = "estAdo" 
+        intervals [14]:
+            xmin = 3.80714285714 
+            xmax = 4.1 
+            text = "<sil>" 

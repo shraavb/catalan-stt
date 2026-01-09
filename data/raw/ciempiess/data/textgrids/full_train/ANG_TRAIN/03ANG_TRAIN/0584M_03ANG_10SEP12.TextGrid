@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.01 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.01 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15147556859035002 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.15147556859035002 
+            xmax = 0.29034524503311254 
+            text = "Al" 
+        intervals [3]:
+            xmin = 0.29034524503311254 
+            xmax = 0.5487971428571428 
+            text = "sesEnta" 
+        intervals [4]:
+            xmin = 0.5487971428571428 
+            xmax = 0.622089472090823 
+            text = "y" 
+        intervals [5]:
+            xmin = 0.622089472090823 
+            xmax = 0.7841040946073793 
+            text = "sEis" 
+        intervals [6]:
+            xmin = 0.7841040946073793 
+            xmax = 1.100418357615894 
+            text = "porciEnto" 
+        intervals [7]:
+            xmin = 1.100418357615894 
+            xmax = 1.1891406508987699 
+            text = "dE" 
+        intervals [8]:
+            xmin = 1.1891406508987699 
+            xmax = 1.3125803632923367 
+            text = "lA" 
+        intervals [9]:
+            xmin = 1.3125803632923367 
+            xmax = 1.9182064522232731 
+            text = "poblaciOn" 
+        intervals [10]:
+            xmin = 1.9182064522232731 
+            xmax = 2.0223587095553452 
+            text = "y" 
+        intervals [11]:
+            xmin = 2.0223587095553452 
+            xmax = 2.1882308230842002 
+            text = "sOlo" 
+        intervals [12]:
+            xmin = 2.1882308230842002 
+            xmax = 2.319385517502365 
+            text = "En" 
+        intervals [13]:
+            xmin = 2.319385517502365 
+            xmax = 2.581694906338694 
+            text = "zOnas" 
+        intervals [14]:
+            xmin = 2.581694906338694 
+            xmax = 3.0214488817407754 
+            text = "urbAnas" 
+        intervals [15]:
+            xmin = 3.0214488817407754 
+            xmax = 3.160318558183538 
+            text = "mE" 
+        intervals [16]:
+            xmin = 3.160318558183538 
+            xmax = 3.6502199167455056 
+            text = "imagIno" 
+        intervals [17]:
+            xmin = 3.6502199167455056 
+            xmax = 3.9356742516556285 
+            text = "nO" 
+        intervals [18]:
+            xmin = 3.9356742516556285 
+            xmax = 4.01 
+            text = "<sil>" 

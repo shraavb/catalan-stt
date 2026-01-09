@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.39 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.39 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08670977682695065 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08670977682695065 
+            xmax = 0.19333675294892078 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.19333675294892078 
+            xmax = 0.45279572817904806 
+            text = "lAs" 
+        intervals [4]:
+            xmin = 0.45279572817904806 
+            xmax = 0.5807480995254122 
+            text = "y" 
+        intervals [5]:
+            xmin = 0.5807480995254122 
+            xmax = 0.7762308890823575 
+            text = "lOs" 
+        intervals [6]:
+            xmin = 0.7762308890823575 
+            xmax = 1.5084027917865523 
+            text = "estudiAntes" 
+        intervals [7]:
+            xmin = 1.5084027917865523 
+            xmax = 1.6967771162686995 
+            text = "Es" 
+        intervals [8]:
+            xmin = 1.6967771162686995 
+            xmax = 2.08615384615 
+            text = "decIr" 
+        intervals [9]:
+            xmin = 2.08615384615 
+            xmax = 2.219249299266353 
+            text = "quE" 
+        intervals [10]:
+            xmin = 2.219249299266353 
+            xmax = 2.5640098553940565 
+            text = "termInen" 
+        intervals [11]:
+            xmin = 2.5640098553940565 
+            xmax = 2.7914807377875928 
+            text = "sUs" 
+        intervals [12]:
+            xmin = 2.7914807377875928 
+            xmax = 3.2713021303364584 
+            text = "carrEras" 
+        intervals [13]:
+            xmin = 3.2713021303364584 
+            xmax = 3.39 
+            text = "<sil>" 

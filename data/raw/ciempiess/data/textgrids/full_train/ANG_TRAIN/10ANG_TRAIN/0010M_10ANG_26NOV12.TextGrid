@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.76 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.76 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23020703494112774 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.23020703494112774 
+            xmax = 0.7150924225211547 
+            text = "directOr" 
+        intervals [3]:
+            xmin = 0.7150924225211547 
+            xmax = 0.8333571511992101 
+            text = "dE" 
+        intervals [4]:
+            xmin = 0.8333571511992101 
+            xmax = 0.9437375646320617 
+            text = "lA" 
+        intervals [5]:
+            xmin = 0.9437375646320617 
+            xmax = 1.3852592183634684 
+            text = "facultAd" 
+        intervals [6]:
+            xmin = 1.3852592183634684 
+            xmax = 1.49563963179632 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.49563963179632 
+            xmax = 1.8622602906982917 
+            text = "derEcho" 
+        intervals [8]:
+            xmin = 1.8622602906982917 
+            xmax = 2.027830910847569 
+            text = "El" 
+        intervals [9]:
+            xmin = 2.027830910847569 
+            xmax = 2.3944515697495405 
+            text = "doctOr" 
+        intervals [10]:
+            xmin = 2.3944515697495405 
+            xmax = 2.7019398643124846 
+            text = "humbErto" 
+        intervals [11]:
+            xmin = 2.7019398643124846 
+            xmax = 3.1198085723082802 
+            text = "patINo" 
+        intervals [12]:
+            xmin = 3.1198085723082802 
+            xmax = 3.5416194379266774 
+            text = "umbEr" 
+        intervals [13]:
+            xmin = 3.5416194379266774 
+            xmax = 3.76 
+            text = "<sil>" 

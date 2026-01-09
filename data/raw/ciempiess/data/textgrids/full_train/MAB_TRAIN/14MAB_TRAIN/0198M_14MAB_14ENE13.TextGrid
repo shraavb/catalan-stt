@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.45 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.45 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07410040681173133 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07410040681173133 
+            xmax = 0.3257511920529802 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.3257511920529802 
+            xmax = 0.5380815421002839 
+            text = "tiEnen" 
+        intervals [4]:
+            xmin = 0.5380815421002839 
+            xmax = 0.6979846452223275 
+            text = "sU" 
+        intervals [5]:
+            xmin = 0.6979846452223275 
+            xmax = 0.9653636045411544 
+            text = "nIvel" 
+        intervals [6]:
+            xmin = 0.9653636045411544 
+            xmax = 1.683616887417219 
+            text = "compEtitivo" 
+        intervals [7]:
+            xmin = 1.683616887417219 
+            xmax = 2.050203242081623 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 2.050203242081623 
+            xmax = 2.120980025430724 
+            text = "quE" 
+        intervals [9]:
+            xmin = 2.120980025430724 
+            xmax = 2.2284558816275073 
+            text = "sI" 
+        intervals [10]:
+            xmin = 2.2284558816275073 
+            xmax = 2.5325339137940164 
+            text = "Unos" 
+        intervals [11]:
+            xmin = 2.5325339137940164 
+            xmax = 2.773699249650213 
+            text = "sOn" 
+        intervals [12]:
+            xmin = 2.773699249650213 
+            xmax = 2.885605364238411 
+            text = "Un" 
+        intervals [13]:
+            xmin = 2.885605364238411 
+            xmax = 3.0638580037842957 
+            text = "pOco" 
+        intervals [14]:
+            xmin = 3.0638580037842957 
+            xmax = 3.3810428476821195 
+            text = "mAs" 
+        intervals [15]:
+            xmin = 3.3810428476821195 
+            xmax = 4.070461144749291 
+            text = "<sil>" 
+        intervals [16]:
+            xmin = 4.070461144749291 
+            xmax = 4.2434710596026495 
+            text = "Otros" 
+        intervals [17]:
+            xmin = 4.2434710596026495 
+            xmax = 4.364053727530748 
+            text = "Un" 
+        intervals [18]:
+            xmin = 4.364053727530748 
+            xmax = 4.565898628193 
+            text = "pOco" 
+        intervals [19]:
+            xmin = 4.565898628193 
+            xmax = 4.980073878902555 
+            text = "mEnos" 
+        intervals [20]:
+            xmin = 4.980073878902555 
+            xmax = 5.45 
+            text = "<sil>" 

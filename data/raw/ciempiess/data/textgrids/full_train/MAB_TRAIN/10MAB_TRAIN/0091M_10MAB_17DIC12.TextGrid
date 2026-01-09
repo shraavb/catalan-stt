@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.7 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.7 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2684984288838914 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.2684984288838914 
+            xmax = 0.5131905209328116 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.5131905209328116 
+            xmax = 0.6600057761621638 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.6600057761621638 
+            xmax = 0.7741954191183266 
+            text = "lAs" 
+        intervals [5]:
+            xmin = 0.7741954191183266 
+            xmax = 1.0515131234404362 
+            text = "rEdes" 
+        intervals [6]:
+            xmin = 1.0515131234404362 
+            xmax = 1.50011529219679 
+            text = "sociAles" 
+        intervals [7]:
+            xmin = 1.50011529219679 
+            xmax = 1.8916226394750624 
+            text = "sAns" 
+        intervals [8]:
+            xmin = 1.8916226394750624 
+            xmax = 2.283129986753335 
+            text = "sEr" 
+        intervals [9]:
+            xmin = 2.283129986753335 
+            xmax = 3.596310880749207 
+            text = "utilizAdas" 
+        intervals [10]:
+            xmin = 3.596310880749207 
+            xmax = 4.093851467915345 
+            text = "pAra" 
+        intervals [11]:
+            xmin = 4.093851467915345 
+            xmax = 4.56692284587659 
+            text = "encontrAr" 
+        intervals [12]:
+            xmin = 4.56692284587659 
+            xmax = 5.464127183389298 
+            text = "delicuEntes" 
+        intervals [13]:
+            xmin = 5.464127183389298 
+            xmax = 5.7 
+            text = "<sil>" 

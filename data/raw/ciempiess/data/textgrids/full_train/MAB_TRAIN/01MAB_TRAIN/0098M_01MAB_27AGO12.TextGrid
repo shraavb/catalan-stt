@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.1 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.1 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12531803725579282 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12531803725579282 
+            xmax = 0.5123116116051145 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.5123116116051145 
+            xmax = 0.9327490750957356 
+            text = "siguiEnte" 
+        intervals [4]:
+            xmin = 0.9327490750957356 
+            xmax = 1.372297332381385 
+            text = "pUnto" 
+        intervals [5]:
+            xmin = 1.372297332381385 
+            xmax = 1.4439628091127408 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.4439628091127408 
+            xmax = 1.5872937625754526 
+            text = "Es" 
+        intervals [7]:
+            xmin = 1.5872937625754526 
+            xmax = 1.706736223794379 
+            text = "El" 
+        intervals [8]:
+            xmin = 1.706736223794379 
+            xmax = 2.351725514376582 
+            text = "relatIvo" 
+        intervals [9]:
+            xmin = 2.351725514376582 
+            xmax = 2.509389563185565 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 2.509389563185565 
+            xmax = 2.667053611994548 
+            text = "Al" 
+        intervals [11]:
+            xmin = 2.667053611994548 
+            xmax = 3.2260443304991235 
+            text = "llamAdo" 
+        intervals [12]:
+            xmin = 3.2260443304991235 
+            xmax = 3.5365947296683324 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 3.5365947296683324 
+            xmax = 4.071696955929123 
+            text = "vEto" 
+        intervals [14]:
+            xmin = 4.071696955929123 
+            xmax = 4.965126565846693 
+            text = "presupuestAl" 
+        intervals [15]:
+            xmin = 4.965126565846693 
+            xmax = 5.1 
+            text = "<sil>" 

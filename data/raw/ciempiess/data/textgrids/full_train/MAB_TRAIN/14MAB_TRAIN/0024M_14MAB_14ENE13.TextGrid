@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.45 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.45 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.27926893093661304 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.27926893093661304 
+            xmax = 0.39985159886471144 
+            text = "Una" 
+        intervals [3]:
+            xmin = 0.39985159886471144 
+            xmax = 0.6986869063386944 
+            text = "enOrme" 
+        intervals [4]:
+            xmin = 0.6986869063386944 
+            xmax = 1.55714285714 
+            text = "satisfaciOn" 
+        intervals [5]:
+            xmin = 1.55714285714 
+            xmax = 1.6790764238410596 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.6790764238410596 
+            xmax = 1.8730572374645222 
+            text = "Es" 
+        intervals [7]:
+            xmin = 1.8730572374645222 
+            xmax = 2.0670380510879847 
+            text = "Una" 
+        intervals [8]:
+            xmin = 2.0670380510879847 
+            xmax = 2.2610188647114473 
+            text = "grAn" 
+        intervals [9]:
+            xmin = 2.2610188647114473 
+            xmax = 3.1470393377483443 
+            text = "responsabIlidad" 
+        intervals [10]:
+            xmin = 3.1470393377483443 
+            xmax = 3.996360737937559 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 3.996360737937559 
+            xmax = 4.143157029328288 
+            text = "y" 
+        intervals [12]:
+            xmin = 4.143157029328288 
+            xmax = 4.216555175023652 
+            text = "mE" 
+        intervals [13]:
+            xmin = 4.216555175023652 
+            xmax = 4.447235061494797 
+            text = "llEna" 
+        intervals [14]:
+            xmin = 4.447235061494797 
+            xmax = 4.536361381267739 
+            text = "dE" 
+        intervals [15]:
+            xmin = 4.536361381267739 
+            xmax = 5.113061097445601 
+            text = "orgullo" 
+        intervals [16]:
+            xmin = 5.113061097445601 
+            xmax = 5.45 
+            text = "<sil>" 

@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.6 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3506122129380912 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.3506122129380912 
+            xmax = 0.8232517491798231 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.8232517491798231 
+            xmax = 1.0354572552475394 
+            text = "En" 
+        intervals [4]:
+            xmin = 1.0354572552475394 
+            xmax = 1.183807017829626 
+            text = "El" 
+        intervals [5]:
+            xmin = 1.183807017829626 
+            xmax = 1.5720466368853345 
+            text = "Ambito" 
+        intervals [6]:
+            xmin = 1.5720466368853345 
+            xmax = 2.2760389535373036 
+            text = "bioEtico" 
+        intervals [7]:
+            xmin = 2.2760389535373036 
+            xmax = 2.384553132776477 
+            text = "y" 
+        intervals [8]:
+            xmin = 2.384553132776477 
+            xmax = 2.664278572593012 
+            text = "tambiEn" 
+        intervals [9]:
+            xmin = 2.664278572593012 
+            xmax = 2.828255554554429 
+            text = "yA" 
+        intervals [10]:
+            xmin = 2.828255554554429 
+            xmax = 2.9684220799378935 
+            text = "lO" 
+        intervals [11]:
+            xmin = 2.9684220799378935 
+            xmax = 3.2235800586146657 
+            text = "hAce" 
+        intervals [12]:
+            xmin = 3.2235800586146657 
+            xmax = 3.4719569577621066 
+            text = "asI" 
+        intervals [13]:
+            xmin = 3.4719569577621066 
+            xmax = 3.5852939894119094 
+            text = "El" 
+        intervals [14]:
+            xmin = 3.5852939894119094 
+            xmax = 3.901190822308169 
+            text = "Ambito" 
+        intervals [15]:
+            xmin = 3.901190822308169 
+            xmax = 4.531524653083759 
+            text = "jurIdico" 
+        intervals [16]:
+            xmin = 4.531524653083759 
+            xmax = 4.6 
+            text = "<sil>" 

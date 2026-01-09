@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.46 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.46 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07744507852412488 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07744507852412488 
+            xmax = 0.2471939224219489 
+            text = "pEro" 
+        intervals [3]:
+            xmin = 0.2471939224219489 
+            xmax = 0.42692799243140966 
+            text = "nO" 
+        intervals [4]:
+            xmin = 0.42692799243140966 
+            xmax = 0.6532597842951751 
+            text = "quiEre" 
+        intervals [5]:
+            xmin = 0.6532597842951751 
+            xmax = 1.0027426982024599 
+            text = "decIr" 
+        intervals [6]:
+            xmin = 1.0027426982024599 
+            xmax = 1.169163133396405 
+            text = "cOn" 
+        intervals [7]:
+            xmin = 1.169163133396405 
+            xmax = 1.405480151371807 
+            text = "Esto" 
+        intervals [8]:
+            xmin = 1.405480151371807 
+            xmax = 1.4886903689687796 
+            text = "quE" 
+        intervals [9]:
+            xmin = 1.4886903689687796 
+            xmax = 1.6551108041627247 
+            text = "estE" 
+        intervals [10]:
+            xmin = 1.6551108041627247 
+            xmax = 2.430630032166509 
+            text = "garantizAda" 
+        intervals [11]:
+            xmin = 2.430630032166509 
+            xmax = 2.6436481892147587 
+            text = "lA" 
+        intervals [12]:
+            xmin = 2.6436481892147587 
+            xmax = 3.296016295175024 
+            text = "calidAd" 
+        intervals [13]:
+            xmin = 3.296016295175024 
+            xmax = 3.46 
+            text = "<sil>" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.12 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.12 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1656789069960876 
+            text = "tAr" 
+        intervals [2]:
+            xmin = 0.1656789069960876 
+            xmax = 0.3233121284002341 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.3233121284002341 
+            xmax = 0.5597619605064539 
+            text = "lOs" 
+        intervals [4]:
+            xmin = 0.5597619605064539 
+            xmax = 1.3566854687163057 
+            text = "derEchos" 
+        intervals [5]:
+            xmin = 1.3566854687163057 
+            xmax = 2.206153384060873 
+            text = "humAno" 
+        intervals [6]:
+            xmin = 2.206153384060873 
+            xmax = 2.4426032161670928 
+            text = "lOs" 
+        intervals [7]:
+            xmin = 2.4426032161670928 
+            xmax = 2.8104140661101016 
+            text = "derEchos" 
+        intervals [8]:
+            xmin = 2.8104140661101016 
+            xmax = 3.983905825452081 
+            text = "sindicAles" 
+        intervals [9]:
+            xmin = 3.983905825452081 
+            xmax = 4.754557130094575 
+            text = "sOn" 
+        intervals [10]:
+            xmin = 4.754557130094575 
+            xmax = 5.437634422845877 
+            text = "derEchos" 
+        intervals [11]:
+            xmin = 5.437634422845877 
+            xmax = 5.831717476356243 
+            text = "humAnos" 
+        intervals [12]:
+            xmin = 5.831717476356243 
+            xmax = 6.006865500138628 
+            text = "Es" 
+        intervals [13]:
+            xmin = 6.006865500138628 
+            xmax = 6.12 
+            text = "El" 

@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.02 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.02 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0362976953642384 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.0362976953642384 
+            xmax = 0.8007158145695364 
+            text = "interesAnte" 
+        intervals [3]:
+            xmin = 0.8007158145695364 
+            xmax = 1.5651339337748345 
+            text = "respEcto" 
+        intervals [4]:
+            xmin = 1.5651339337748345 
+            xmax = 1.6577906754966887 
+            text = "dEl" 
+        intervals [5]:
+            xmin = 1.6577906754966887 
+            xmax = 1.8778504370860927 
+            text = "mEdio" 
+        intervals [6]:
+            xmin = 1.8778504370860927 
+            xmax = 2.2600594966887417 
+            text = "ambiEnte" 
+        intervals [7]:
+            xmin = 2.2600594966887417 
+            xmax = 2.34111111111 
+            text = "y" 
+        intervals [8]:
+            xmin = 2.34111111111 
+            xmax = 3.053432847682119 
+            text = "desarrOllo" 
+        intervals [9]:
+            xmin = 3.053432847682119 
+            xmax = 3.551462834437086 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 3.551462834437086 
+            xmax = 4.310089907284768 
+            text = "y" 
+        intervals [11]:
+            xmin = 4.310089907284768 
+            xmax = 4.703881059602649 
+            text = "ahorIta" 
+        intervals [12]:
+            xmin = 4.703881059602649 
+            xmax = 4.97026919205298 
+            text = "El" 
+        intervals [13]:
+            xmin = 4.97026919205298 
+            xmax = 5.1266274437086095 
+            text = "El" 
+        intervals [14]:
+            xmin = 5.1266274437086095 
+            xmax = 5.584120105960265 
+            text = "esquEma" 
+        intervals [15]:
+            xmin = 5.584120105960265 
+            xmax = 5.740478357615894 
+            text = "quE" 
+        intervals [16]:
+            xmin = 5.740478357615894 
+            xmax = 5.792597774834437 
+            text = "tE" 
+        intervals [17]:
+            xmin = 5.792597774834437 
+            xmax = 5.885254516556292 
+            text = "hA" 
+        intervals [18]:
+            xmin = 5.885254516556292 
+            xmax = 5.977911258278145 
+            text = "tO" 
+        intervals [19]:
+            xmin = 5.977911258278145 
+            xmax = 6.02 
+            text = "<sil>" 

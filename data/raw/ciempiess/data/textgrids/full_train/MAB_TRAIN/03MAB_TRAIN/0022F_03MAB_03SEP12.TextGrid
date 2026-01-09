@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.2 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.2 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2915506671474937 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.2915506671474937 
+            xmax = 1.0476281489876875 
+            text = "dEl" 
+        intervals [3]:
+            xmin = 1.0476281489876875 
+            xmax = 1.5516798035478168 
+            text = "sobretOdo" 
+        intervals [4]:
+            xmin = 1.5516798035478168 
+            xmax = 1.6428380815001806 
+            text = "pOr" 
+        intervals [5]:
+            xmin = 1.6428380815001806 
+            xmax = 1.776894372606598 
+            text = "lOs" 
+        intervals [6]:
+            xmin = 1.776894372606598 
+            xmax = 2.0181956965981493 
+            text = "dANos" 
+        intervals [7]:
+            xmin = 2.0181956965981493 
+            xmax = 2.6938394037744926 
+            text = "psicolOgicos" 
+        intervals [8]:
+            xmin = 2.6938394037744926 
+            xmax = 2.87615595967922 
+            text = "quE" 
+        intervals [9]:
+            xmin = 2.87615595967922 
+            xmax = 3.272962581354215 
+            text = "conllEva" 
+        intervals [10]:
+            xmin = 3.272962581354215 
+            xmax = 3.5303506602785366 
+            text = "Esto" 
+        intervals [11]:
+            xmin = 3.5303506602785366 
+            xmax = 3.626871189875157 
+            text = "++dis++" 
+        intervals [12]:
+            xmin = 3.626871189875157 
+            xmax = 3.728753971116034 
+            text = "Y" 
+        intervals [13]:
+            xmin = 3.728753971116034 
+            xmax = 3.852085758933938 
+            text = "lA" 
+        intervals [14]:
+            xmin = 3.852085758933938 
+            xmax = 4.372224168426837 
+            text = "vinculaciOn" 
+        intervals [15]:
+            xmin = 4.372224168426837 
+            xmax = 4.538453969398795 
+            text = "cOn" 
+        intervals [16]:
+            xmin = 4.538453969398795 
+            xmax = 4.661785757216699 
+            text = "El" 
+        intervals [17]:
+            xmin = 4.661785757216699 
+            xmax = 5.063954630535951 
+            text = "derEcho" 
+        intervals [18]:
+            xmin = 5.063954630535951 
+            xmax = 5.2 
+            text = "<sil>" 

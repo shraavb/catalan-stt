@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.7 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.7 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17610325734974044 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.17610325734974044 
+            xmax = 0.4748055729559282 
+            text = "Es" 
+        intervals [3]:
+            xmin = 0.4748055729559282 
+            xmax = 0.6998021223735761 
+            text = "Uno" 
+        intervals [4]:
+            xmin = 0.6998021223735761 
+            xmax = 0.7812663902661727 
+            text = "dE" 
+        intervals [5]:
+            xmin = 0.7812663902661727 
+            xmax = 0.9480741769033945 
+            text = "lOs" 
+        intervals [6]:
+            xmin = 0.9480741769033945 
+            xmax = 1.3592747672184062 
+            text = "elemEntos" 
+        intervals [7]:
+            xmin = 1.3592747672184062 
+            xmax = 1.5338410555596849 
+            text = "mAs" 
+        intervals [8]:
+            xmin = 1.5338410555596849 
+            xmax = 2.3407252327815944 
+            text = "importAntes" 
+        intervals [9]:
+            xmin = 2.3407252327815944 
+            xmax = 2.4532235074904185 
+            text = "lA" 
+        intervals [10]:
+            xmin = 2.4532235074904185 
+            xmax = 2.8760618503615154 
+            text = "laicidAd" 
+        intervals [11]:
+            xmin = 2.8760618503615154 
+            xmax = 2.9497676165500555 
+            text = "dEl" 
+        intervals [12]:
+            xmin = 2.9497676165500555 
+            xmax = 3.41538461538 
+            text = "estAdo" 
+        intervals [13]:
+            xmin = 3.41538461538 
+            xmax = 3.7 
+            text = "<sil>" 

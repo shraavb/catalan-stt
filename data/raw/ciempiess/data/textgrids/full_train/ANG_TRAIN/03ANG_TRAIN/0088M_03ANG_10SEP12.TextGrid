@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.47 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.47 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23734049759229536 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.23734049759229536 
+            xmax = 0.39361112359550565 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.39361112359550565 
+            xmax = 0.6905253130016051 
+            text = "algUnos" 
+        intervals [4]:
+            xmin = 0.6905253130016051 
+            xmax = 0.9405583146067416 
+            text = "nO" 
+        intervals [5]:
+            xmin = 0.9405583146067416 
+            xmax = 1.1020379614767255 
+            text = "yA" 
+        intervals [6]:
+            xmin = 1.1020379614767255 
+            xmax = 1.3468619422150883 
+            text = "sOn" 
+        intervals [7]:
+            xmin = 1.3468619422150883 
+            xmax = 1.560431797752809 
+            text = "mUchos" 
+        intervals [8]:
+            xmin = 1.560431797752809 
+            xmax = 1.8260918619582664 
+            text = "maEstros" 
+        intervals [9]:
+            xmin = 1.8260918619582664 
+            xmax = 1.9563173836276082 
+            text = "dE" 
+        intervals [10]:
+            xmin = 1.9563173836276082 
+            xmax = 2.3678300321027286 
+            text = "carrEra" 
+        intervals [11]:
+            xmin = 2.3678300321027286 
+            xmax = 2.5449367415730335 
+            text = "quE" 
+        intervals [12]:
+            xmin = 2.5449367415730335 
+            xmax = 2.685580304975923 
+            text = "estAn" 
+        intervals [13]:
+            xmin = 2.685580304975923 
+            xmax = 3.4929785393258426 
+            text = "comprometIdos" 
+        intervals [14]:
+            xmin = 3.4929785393258426 
+            xmax = 3.6336221027287317 
+            text = "quE" 
+        intervals [15]:
+            xmin = 3.6336221027287317 
+            xmax = 4.190625 
+            text = "tiEnen" 
+        intervals [16]:
+            xmin = 4.190625 
+            xmax = 4.47 
+            text = "<sil>" 

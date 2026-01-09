@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.98 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.98 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03635822775342514 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.03635822775342514 
+            xmax = 0.2544225426793923 
+            text = "Una" 
+        intervals [3]:
+            xmin = 0.2544225426793923 
+            xmax = 0.6548029241828074 
+            text = "persOna" 
+        intervals [4]:
+            xmin = 0.6548029241828074 
+            xmax = 0.7477483698889573 
+            text = "quE" 
+        intervals [5]:
+            xmin = 0.7477483698889573 
+            xmax = 0.8764420639436265 
+            text = "sE" 
+        intervals [6]:
+            xmin = 0.8764420639436265 
+            xmax = 1.1695777004014838 
+            text = "encuEntra" 
+        intervals [7]:
+            xmin = 1.1695777004014838 
+            xmax = 1.344744117309228 
+            text = "En" 
+        intervals [8]:
+            xmin = 1.344744117309228 
+            xmax = 1.4519888623547856 
+            text = "El" 
+        intervals [9]:
+            xmin = 1.4519888623547856 
+            xmax = 2.031110485600797 
+            text = "extranjEro" 
+        intervals [10]:
+            xmin = 2.031110485600797 
+            xmax = 2.295647523379839 
+            text = "ahOra" 
+        intervals [11]:
+            xmin = 2.295647523379839 
+            xmax = 2.6245314081862157 
+            text = "++dis++" 
+        intervals [12]:
+            xmin = 2.6245314081862157 
+            xmax = 2.803272649928812 
+            text = "quE" 
+        intervals [13]:
+            xmin = 2.803272649928812 
+            xmax = 3.2000782065973747 
+            text = "tAntos" 
+        intervals [14]:
+            xmin = 3.2000782065973747 
+            xmax = 3.69571428571 
+            text = "derEchos" 
+        intervals [15]:
+            xmin = 3.69571428571 
+            xmax = 3.98 
+            text = "<sil>" 

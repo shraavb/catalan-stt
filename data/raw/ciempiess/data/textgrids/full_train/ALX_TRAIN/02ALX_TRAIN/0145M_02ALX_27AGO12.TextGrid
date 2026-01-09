@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.42 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.42 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1352979671082687 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1352979671082687 
+            xmax = 0.266470877112837 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.266470877112837 
+            xmax = 0.3644133165829147 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.3644133165829147 
+            xmax = 0.4920882823206946 
+            text = "vA" 
+        intervals [5]:
+            xmin = 0.4920882823206946 
+            xmax = 0.7474382137962543 
+            text = "salIr" 
+        intervals [6]:
+            xmin = 0.7474382137962543 
+            xmax = 1.40823529412 
+            text = "absuElto" 
+        intervals [7]:
+            xmin = 1.40823529412 
+            xmax = 1.5078136717309008 
+            text = "dE" 
+        intervals [8]:
+            xmin = 1.5078136717309008 
+            xmax = 1.6145009718679497 
+            text = "quE" 
+        intervals [9]:
+            xmin = 1.6145009718679497 
+            xmax = 1.955864718886697 
+            text = "estAndo" 
+        intervals [10]:
+            xmin = 1.955864718886697 
+            xmax = 2.21294117647 
+            text = "adEntro" 
+        intervals [11]:
+            xmin = 2.21294117647 
+            xmax = 2.6235905664687067 
+            text = "mEnos" 
+        intervals [12]:
+            xmin = 2.6235905664687067 
+            xmax = 2.7197840338053902 
+            text = "mE" 
+        intervals [13]:
+            xmin = 2.7197840338053902 
+            xmax = 2.81647058824 
+            text = "vA" 
+        intervals [14]:
+            xmin = 2.81647058824 
+            xmax = 2.8806894700776606 
+            text = "A" 
+        intervals [15]:
+            xmin = 2.8806894700776606 
+            xmax = 3.2812040886249423 
+            text = "pagAr" 
+        intervals [16]:
+            xmin = 3.2812040886249423 
+            xmax = 3.42 
+            text = "<sil>" 

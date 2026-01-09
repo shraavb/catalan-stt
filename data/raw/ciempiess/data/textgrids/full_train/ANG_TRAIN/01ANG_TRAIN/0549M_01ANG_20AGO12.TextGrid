@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.62 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.62 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1306137591789743 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1306137591789743 
+            xmax = 0.6085804143594018 
+            text = "cOn" 
+        intervals [3]:
+            xmin = 0.6085804143594018 
+            xmax = 0.7386393681499943 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 0.7386393681499943 
+            xmax = 0.9207219034568238 
+            text = "puEs" 
+        intervals [5]:
+            xmin = 0.9207219034568238 
+            xmax = 0.9922543280416497 
+            text = "cOn" 
+        intervals [6]:
+            xmin = 0.9922543280416497 
+            xmax = 1.145073598745596 
+            text = "lA" 
+        intervals [7]:
+            xmin = 1.145073598745596 
+            xmax = 1.632794675460318 
+            text = "participaciOn" 
+        intervals [8]:
+            xmin = 1.632794675460318 
+            xmax = 2.016468589142566 
+            text = "dirEcta" 
+        intervals [9]:
+            xmin = 2.016468589142566 
+            xmax = 2.149779016777923 
+            text = "dE" 
+        intervals [10]:
+            xmin = 2.149779016777923 
+            xmax = 2.2798379705685154 
+            text = "lOs" 
+        intervals [11]:
+            xmin = 2.2798379705685154 
+            xmax = 2.9041209487633597 
+            text = "ciudadAnos" 
+        intervals [12]:
+            xmin = 2.9041209487633597 
+            xmax = 3.216262437860782 
+            text = "En" 
+        intervals [13]:
+            xmin = 3.216262437860782 
+            xmax = 3.62 
+            text = "<sil>" 

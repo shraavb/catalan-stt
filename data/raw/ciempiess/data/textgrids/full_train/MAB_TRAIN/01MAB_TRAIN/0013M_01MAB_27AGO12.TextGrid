@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.4 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.4 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.21528785616927373 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.21528785616927373 
+            xmax = 0.33894593366651526 
+            text = "nO" 
+        intervals [3]:
+            xmin = 0.33894593366651526 
+            xmax = 0.9448705134029987 
+            text = "Unicamente" 
+        intervals [4]:
+            xmin = 0.9448705134029987 
+            xmax = 1.229284091646654 
+            text = "pAra" 
+        intervals [5]:
+            xmin = 1.229284091646654 
+            xmax = 1.4024054001427924 
+            text = "lOs" 
+        intervals [6]:
+            xmin = 1.4024054001427924 
+            xmax = 2.119622249626793 
+            text = "especialIstas" 
+        intervals [7]:
+            xmin = 2.119622249626793 
+            xmax = 2.36923076923 
+            text = "sIno" 
+        intervals [8]:
+            xmin = 2.36923076923 
+            xmax = 2.486474546201943 
+            text = "En" 
+        intervals [9]:
+            xmin = 2.486474546201943 
+            xmax = 2.766766188529024 
+            text = "generAl" 
+        intervals [10]:
+            xmin = 2.766766188529024 
+            xmax = 2.97286298435776 
+            text = "pAra" 
+        intervals [11]:
+            xmin = 2.97286298435776 
+            xmax = 3.236666883018542 
+            text = "tOdo" 
+        intervals [12]:
+            xmin = 3.236666883018542 
+            xmax = 3.8920546937539218 
+            text = "ciudadAno" 
+        intervals [13]:
+            xmin = 3.8920546937539218 
+            xmax = 4.4 
+            text = "<sil>" 

@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 7 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23102377707102834 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.23102377707102834 
+            xmax = 0.7097304255641376 
+            text = "mEJico" 
+        intervals [3]:
+            xmin = 0.7097304255641376 
+            xmax = 1.3917234590337724 
+            text = "olImpico" 
+        intervals [4]:
+            xmin = 1.3917234590337724 
+            xmax = 2.0474859912161136 
+            text = "egresAda" 
+        intervals [5]:
+            xmin = 2.0474859912161136 
+            xmax = 2.191753748296229 
+            text = "del" 
+        intervals [6]:
+            xmin = 2.191753748296229 
+            xmax = 2.6442298955020442 
+            text = "institUto" 
+        intervals [7]:
+            xmin = 2.6442298955020442 
+            xmax = 3.2672043010752687 
+            text = "politEcnico" 
+        intervals [8]:
+            xmin = 3.2672043010752687 
+            xmax = 3.7000075723156143 
+            text = "nacionAl" 
+        intervals [9]:
+            xmin = 3.7000075723156143 
+            xmax = 3.7983719521429657 
+            text = "dE" 
+        intervals [10]:
+            xmin = 3.7983719521429657 
+            xmax = 3.8770634560048465 
+            text = "lA" 
+        intervals [11]:
+            xmin = 3.8770634560048465 
+            xmax = 4.198387096774193 
+            text = "escuEla" 
+        intervals [12]:
+            xmin = 4.198387096774193 
+            xmax = 4.532825988187188 
+            text = "superiOr" 
+        intervals [13]:
+            xmin = 4.532825988187188 
+            xmax = 4.663978494623656 
+            text = "dE" 
+        intervals [14]:
+            xmin = 4.663978494623656 
+            xmax = 5.221376646978646 
+            text = "turIsmo" 
+        intervals [15]:
+            xmin = 5.221376646978646 
+            xmax = 5.634507042253522 
+            text = "<sil>" 
+        intervals [16]:
+            xmin = 5.634507042253522 
+            xmax = 6.63126609117068 
+            text = "repesentAnte" 
+        intervals [17]:
+            xmin = 6.63126609117068 
+            xmax = 7 
+            text = "<sil>" 

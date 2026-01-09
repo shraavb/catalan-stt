@@ -15,17 +15,38 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-# Sample Catalan-Spanish phrases for testing
+# Sample Spanish slang phrases for testing
 SAMPLE_PHRASES = [
     # Greetings
-    "Hola, ¿qué tal, nen?",
+    "Hola, ¿qué tal, tío?",
     "Buenos días, ¿cómo estás?",
-    "Apa, ¿qué haces por aquí?",
+    "¿Qué onda, carnal?",
 
-    # Common expressions
-    "Ostras, qué bien!",
-    "Home, no me lo puedo creer!",
+    # Common expressions - Spain
+    "¡Mola mucho!",
+    "Qué guay, tío!",
     "Vale, vale, lo entiendo.",
+    "Flipé cuando lo vi.",
+    "Eso es
+
+ la
+
+.",
+
+    # Common expressions - Mexico
+    "¡Qué chido!",
+    "No
+
+ que la neta.",
+    "¡Órale, está padre!",
+    "¿Qué onda?",
+
+    # Common expressions - Argentina
+    "¡Che, qué copado!",
+    "Dale, está
+
+.",
+    "Sos un crack, boludo.",
 
     # Conversational
     "¿Vamos a tomar algo?",
@@ -52,10 +73,10 @@ SAMPLE_PHRASES = [
     "¿Qué me recomiendas?",
     "La cuenta, por favor.",
 
-    # Catalan-influenced
-    "Nen, ven aquí un momento.",
-    "Home, no seas borde!",
-    "Apa, vamos que llegamos tarde!",
+    # Informal Spanish
+    "Tío, ven aquí un momento.",
+    "Venga, no seas borde!",
+    "Vamos que llegamos tarde!",
 ]
 
 
@@ -118,7 +139,7 @@ def main():
         else:
             raise ValueError("Input JSON must be a list of phrases or objects with 'text' field")
     else:
-        logger.info("Using sample Catalan-Spanish phrases")
+        logger.info("Using sample Spanish slang phrases")
         phrases = SAMPLE_PHRASES
 
     if args.max_samples:

@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.23 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.23 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1605063464172338 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1605063464172338 
+            xmax = 0.3003744479068236 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.3003744479068236 
+            xmax = 0.5289619254780382 
+            text = "Otro" 
+        intervals [4]:
+            xmin = 0.5289619254780382 
+            xmax = 0.760935884198456 
+            text = "tIpo" 
+        intervals [5]:
+            xmin = 0.760935884198456 
+            xmax = 0.909941054763396 
+            text = "++dis++" 
+        intervals [6]:
+            xmin = 0.909941054763396 
+            xmax = 1.4382321140390921 
+            text = "refOrmas" 
+        intervals [7]:
+            xmin = 1.4382321140390921 
+            xmax = 1.504603929549725 
+            text = "quE" 
+        intervals [8]:
+            xmin = 1.504603929549725 
+            xmax = 1.6061983640258206 
+            text = "sOn" 
+        intervals [9]:
+            xmin = 1.6061983640258206 
+            xmax = 1.7966879286684994 
+            text = "lAs" 
+        intervals [10]:
+            xmin = 1.7966879286684994 
+            xmax = 1.9011576571076687 
+            text = "quE" 
+        intervals [11]:
+            xmin = 1.9011576571076687 
+            xmax = 2.148370780999501 
+            text = "vAmos" 
+        intervals [12]:
+            xmin = 2.148370780999501 
+            xmax = 2.1964523843242354 
+            text = "A" 
+        intervals [13]:
+            xmin = 2.1964523843242354 
+            xmax = 2.3606967198963456 
+            text = "hablAr" 
+        intervals [14]:
+            xmin = 2.3606967198963456 
+            xmax = 2.5452599423433555 
+            text = "mAs" 
+        intervals [15]:
+            xmin = 2.5452599423433555 
+            xmax = 3.0735510010907605 
+            text = "adelAnte" 
+        intervals [16]:
+            xmin = 3.0735510010907605 
+            xmax = 3.23 
+            text = "<sil>" 

@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.35 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.35 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.7529597440004927 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 1.7529597440004927 
+            xmax = 2.0073822818151013 
+            text = "cOn" 
+        intervals [3]:
+            xmin = 2.0073822818151013 
+            xmax = 2.661611664766951 
+            text = "documEntos" 
+        intervals [4]:
+            xmin = 2.661611664766951 
+            xmax = 3.661128777610055 
+            text = "falsificAdos" 
+        intervals [5]:
+            xmin = 3.661128777610055 
+            xmax = 4.933241466683096 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 4.933241466683096 
+            xmax = 5.142231408459382 
+            text = "Y" 
+        intervals [7]:
+            xmin = 5.142231408459382 
+            xmax = 5.3693943886509965 
+            text = "cuAndo" 
+        intervals [8]:
+            xmin = 5.3693943886509965 
+            xmax = 5.505692176765965 
+            text = "sE" 
+        intervals [9]:
+            xmin = 5.505692176765965 
+            xmax = 5.7146821185422505 
+            text = "lE" 
+        intervals [10]:
+            xmin = 5.7146821185422505 
+            xmax = 6.005450733187517 
+            text = "concEde" 
+        intervals [11]:
+            xmin = 6.005450733187517 
+            xmax = 6.159921559717815 
+            text = "A" 
+        intervals [12]:
+            xmin = 6.159921559717815 
+            xmax = 6.35 
+            text = "lA" 

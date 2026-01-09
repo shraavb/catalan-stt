@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.99 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 2.99 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13230923262423566 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13230923262423566 
+            xmax = 0.32124831338098936 
+            text = "lA" 
+        intervals [3]:
+            xmin = 0.32124831338098936 
+            xmax = 0.46618788218069085 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.46618788218069085 
+            xmax = 0.7146557144087505 
+            text = "juEga" 
+        intervals [5]:
+            xmin = 0.7146557144087505 
+            xmax = 1.0122994717652802 
+            text = "fUtbol" 
+        intervals [6]:
+            xmin = 1.0122994717652802 
+            xmax = 1.141709801050728 
+            text = "Es" 
+        intervals [7]:
+            xmin = 1.141709801050728 
+            xmax = 1.322884262050355 
+            text = "mUy" 
+        intervals [8]:
+            xmin = 1.322884262050355 
+            xmax = 1.5635874745212874 
+            text = "rUda" 
+        intervals [9]:
+            xmin = 1.5635874745212874 
+            xmax = 1.9466420492062126 
+            text = "yA" 
+        intervals [10]:
+            xmin = 1.9466420492062126 
+            xmax = 2.07 
+            text = "yA" 
+        intervals [11]:
+            xmin = 2.07 
+            xmax = 2.2054627077771083 
+            text = "Es" 
+        intervals [12]:
+            xmin = 2.2054627077771083 
+            xmax = 2.4668715729337127 
+            text = "mejOr" 
+        intervals [13]:
+            xmin = 2.4668715729337127 
+            xmax = 2.917219518847071 
+            text = "aceptAdo" 
+        intervals [14]:
+            xmin = 2.917219518847071 
+            xmax = 2.99 
+            text = "<sil>" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.9 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.9 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10689150979936475 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10689150979936475 
+            xmax = 0.22347750566966107 
+            text = "una" 
+        intervals [3]:
+            xmin = 0.22347750566966107 
+            xmax = 0.7746113043292436 
+            text = "espEcie" 
+        intervals [4]:
+            xmin = 0.7746113043292436 
+            xmax = 0.954789661583338 
+            text = "de" 
+        intervals [5]:
+            xmin = 0.954789661583338 
+            xmax = 1.935171899583557 
+            text = "darwinIsmo" 
+        intervals [6]:
+            xmin = 1.935171899583557 
+            xmax = 2.6823821458431834 
+            text = "econOmico" 
+        intervals [7]:
+            xmin = 2.6823821458431834 
+            xmax = 3.291808942437914 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 3.291808942437914 
+            xmax = 3.4401911190001093 
+            text = "es" 
+        intervals [9]:
+            xmin = 3.4401911190001093 
+            xmax = 3.93333333333 
+            text = "decIr" 
+        intervals [10]:
+            xmin = 3.93333333333 
+            xmax = 4.272191180438133 
+            text = "las" 
+        intervals [11]:
+            xmin = 4.272191180438133 
+            xmax = 5.0088026998004604 
+            text = "emprEsas" 
+        intervals [12]:
+            xmin = 5.0088026998004604 
+            xmax = 5.771911036406036 
+            text = "fuErtes" 
+        intervals [13]:
+            xmin = 5.771911036406036 
+            xmax = 5.9 
+            text = "<sil>" 

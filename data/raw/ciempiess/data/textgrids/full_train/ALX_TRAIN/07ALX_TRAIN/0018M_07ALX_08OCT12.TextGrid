@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.6 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11794753704445331 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11794753704445331 
+            xmax = 0.3680772311389051 
+            text = "Yy" 
+        intervals [3]:
+            xmin = 0.3680772311389051 
+            xmax = 0.9209955022950617 
+            text = "buEno" 
+        intervals [4]:
+            xmin = 0.9209955022950617 
+            xmax = 1.4015078093712454 
+            text = "Este" 
+        intervals [5]:
+            xmin = 1.4015078093712454 
+            xmax = 1.6450551430947906 
+            text = "tIpo" 
+        intervals [6]:
+            xmin = 1.6450551430947906 
+            xmax = 1.829361233480176 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.829361233480176 
+            xmax = 2.2967088198145467 
+            text = "cuestiOnes" 
+        intervals [8]:
+            xmin = 2.2967088198145467 
+            xmax = 2.4151913064908657 
+            text = "nOs" 
+        intervals [9]:
+            xmin = 2.4151913064908657 
+            xmax = 2.711397523181664 
+            text = "ayudAn" 
+        intervals [10]:
+            xmin = 2.711397523181664 
+            xmax = 2.8957036135670493 
+            text = "cOmo" 
+        intervals [11]:
+            xmin = 2.8957036135670493 
+            xmax = 3.2050745509996608 
+            text = "alUmnos" 
+        intervals [12]:
+            xmin = 3.2050745509996608 
+            xmax = 3.36305119990142 
+            text = "A" 
+        intervals [13]:
+            xmin = 3.36305119990142 
+            xmax = 3.6658397769631246 
+            text = "dArnos" 
+        intervals [14]:
+            xmin = 3.6658397769631246 
+            xmax = 3.883057669203043 
+            text = "cuEnta" 
+        intervals [15]:
+            xmin = 3.883057669203043 
+            xmax = 4.3125 
+            text = "tambiEn" 
+        intervals [16]:
+            xmin = 4.3125 
+            xmax = 4.6 
+            text = "<sil>" 

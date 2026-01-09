@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.82 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.82 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3116468181219916 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.3116468181219916 
+            xmax = 0.6667982734469014 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.6667982734469014 
+            xmax = 1.9571818944607402 
+            text = "posteriOrmente" 
+        intervals [4]:
+            xmin = 1.9571818944607402 
+            xmax = 2.1288384312011135 
+            text = "++dis++" 
+        intervals [5]:
+            xmin = 2.1288384312011135 
+            xmax = 2.3833636408506322 
+            text = "se" 
+        intervals [6]:
+            xmin = 2.3833636408506322 
+            xmax = 2.5313434139026776 
+            text = "le" 
+        intervals [7]:
+            xmin = 2.5313434139026776 
+            xmax = 2.697080759720969 
+            text = "dA" 
+        intervals [8]:
+            xmin = 2.697080759720969 
+            xmax = 2.8746564873834237 
+            text = "el" 
+        intervals [9]:
+            xmin = 2.8746564873834237 
+            xmax = 3.466575579591607 
+            text = "rAngo" 
+        intervals [10]:
+            xmin = 3.466575579591607 
+            xmax = 3.608636161721571 
+            text = "++dis++" 
+        intervals [11]:
+            xmin = 3.608636161721571 
+            xmax = 3.8335654167606803 
+            text = "de" 
+        intervals [12]:
+            xmin = 3.8335654167606803 
+            xmax = 4.555706709254664 
+            text = "autOnomo" 
+        intervals [13]:
+            xmin = 4.555706709254664 
+            xmax = 4.82 
+            text = "++dis++" 

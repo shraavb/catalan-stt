@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.99 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.99 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10323730436573307 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10323730436573307 
+            xmax = 0.2888414641680395 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.2888414641680395 
+            xmax = 0.449135965815486 
+            text = "juEz" 
+        intervals [4]:
+            xmin = 0.449135965815486 
+            xmax = 0.9468925761943987 
+            text = "cIvico" 
+        intervals [5]:
+            xmin = 0.9468925761943987 
+            xmax = 1.039694656095552 
+            text = "lA" 
+        intervals [6]:
+            xmin = 1.039694656095552 
+            xmax = 1.497 
+            text = "aligEra" 
+        intervals [7]:
+            xmin = 1.497 
+            xmax = 1.7821112953047777 
+            text = "vAmos" 
+        intervals [8]:
+            xmin = 1.7821112953047777 
+            xmax = 1.8664768224876442 
+            text = "A" 
+        intervals [9]:
+            xmin = 1.8664768224876442 
+            xmax = 2.212375483937397 
+            text = "decIrlo" 
+        intervals [10]:
+            xmin = 2.212375483937397 
+            xmax = 2.495 
+            text = "asI" 
+        intervals [11]:
+            xmin = 2.495 
+            xmax = 2.6932589888797365 
+            text = "lAs" 
+        intervals [12]:
+            xmin = 2.6932589888797365 
+            xmax = 2.7944976214991764 
+            text = "quE" 
+        intervals [13]:
+            xmin = 2.7944976214991764 
+            xmax = 3.2435 
+            text = "tArdan" 
+        intervals [14]:
+            xmin = 3.2435 
+            xmax = 3.6297163406095554 
+            text = "mEnos" 
+        intervals [15]:
+            xmin = 3.6297163406095554 
+            xmax = 3.840630158566722 
+            text = "dE" 
+        intervals [16]:
+            xmin = 3.840630158566722 
+            xmax = 4.110599845551895 
+            text = "quInce" 
+        intervals [17]:
+            xmin = 4.110599845551895 
+            xmax = 4.321513663509061 
+            text = "dIas" 
+        intervals [18]:
+            xmin = 4.321513663509061 
+            xmax = 4.431188848846788 
+            text = "En" 
+        intervals [19]:
+            xmin = 4.431188848846788 
+            xmax = 4.819270273887974 
+            text = "sanAr" 
+        intervals [20]:
+            xmin = 4.819270273887974 
+            xmax = 4.99 
+            text = "++dis++" 

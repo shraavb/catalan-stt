@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.96 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.96 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.035935924314096486 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.035935924314096486 
+            xmax = 0.4716688741721854 
+            text = "tenEr" 
+        intervals [3]:
+            xmin = 0.4716688741721854 
+            xmax = 1.0908683292336803 
+            text = "formaciOn" 
+        intervals [4]:
+            xmin = 1.0908683292336803 
+            xmax = 1.3374014456007568 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.3374014456007568 
+            xmax = 1.5019176343272684 
+            text = "y" 
+        intervals [6]:
+            xmin = 1.5019176343272684 
+            xmax = 1.7753499742248418 
+            text = "seguIr" 
+        intervals [7]:
+            xmin = 1.7753499742248418 
+            xmax = 2.7039881097260343 
+            text = "siEndo" 
+        intervals [8]:
+            xmin = 2.7039881097260343 
+            xmax = 2.9671022481180387 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.9671022481180387 
+            xmax = 3.101238867690433 
+            text = "lA" 
+        intervals [10]:
+            xmin = 3.101238867690433 
+            xmax = 3.426262215115851 
+            text = "mIsma" 
+        intervals [11]:
+            xmin = 3.426262215115851 
+            xmax = 4.200127328033512 
+            text = "persOna" 
+        intervals [12]:
+            xmin = 4.200127328033512 
+            xmax = 4.504514272447791 
+            text = "osEa" 
+        intervals [13]:
+            xmin = 4.504514272447791 
+            xmax = 4.90176503041219 
+            text = "<sil>" 
+        intervals [14]:
+            xmin = 4.90176503041219 
+            xmax = 5.397038702679493 
+            text = "aquI" 
+        intervals [15]:
+            xmin = 5.397038702679493 
+            xmax = 5.577607229026947 
+            text = "yO" 
+        intervals [16]:
+            xmin = 5.577607229026947 
+            xmax = 5.876835072688443 
+            text = "crEo" 
+        intervals [17]:
+            xmin = 5.876835072688443 
+            xmax = 5.96 
+            text = "<sil>" 

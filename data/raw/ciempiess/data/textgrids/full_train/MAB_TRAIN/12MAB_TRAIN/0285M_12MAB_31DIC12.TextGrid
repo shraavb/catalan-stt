@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.89 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.89 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.41353991262063766 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.41353991262063766 
+            xmax = 0.5860663294828373 
+            text = "pEro" 
+        intervals [3]:
+            xmin = 0.5860663294828373 
+            xmax = 0.7634791491925637 
+            text = "sE" 
+        intervals [4]:
+            xmin = 0.7634791491925637 
+            xmax = 1.442542010840137 
+            text = "dedicarOn" 
+        intervals [5]:
+            xmin = 1.442542010840137 
+            xmax = 1.509115055023517 
+            text = "A" 
+        intervals [6]:
+            xmin = 1.509115055023517 
+            xmax = 2.0520594601696622 
+            text = "explotAr" 
+        intervals [7]:
+            xmin = 2.0520594601696622 
+            xmax = 2.1642169898712136 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 2.1642169898712136 
+            xmax = 2.3926105048998267 
+            text = "tOdo" 
+        intervals [9]:
+            xmin = 2.3926105048998267 
+            xmax = 2.561866413358531 
+            text = "lO" 
+        intervals [10]:
+            xmin = 2.561866413358531 
+            xmax = 2.6475139814942614 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 2.6475139814942614 
+            xmax = 2.762730352914946 
+            text = "quE" 
+        intervals [12]:
+            xmin = 2.762730352914946 
+            xmax = 3.578421478017136 
+            text = "destruyO" 
+        intervals [13]:
+            xmin = 3.578421478017136 
+            xmax = 3.89 
+            text = "<sil>" 

@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.38 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.38 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2314360461103974 
+            text = "++dis++" 
+        intervals [2]:
+            xmin = 0.2314360461103974 
+            xmax = 0.35518414829010375 
+            text = "<sil>" 
+        intervals [3]:
+            xmin = 0.35518414829010375 
+            xmax = 0.4973272386316583 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.4973272386316583 
+            xmax = 1.1799453514019982 
+            text = "maEstro" 
+        intervals [5]:
+            xmin = 1.1799453514019982 
+            xmax = 1.2476723532706213 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.2476723532706213 
+            xmax = 2.0403291158811725 
+            text = "francIsco" 
+        intervals [7]:
+            xmin = 2.0403291158811725 
+            xmax = 2.501442994388823 
+            text = "javiEr" 
+        intervals [8]:
+            xmin = 2.501442994388823 
+            xmax = 2.6870651476583824 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.6870651476583824 
+            xmax = 3.3093229295130278 
+            text = "hinojOsa" 
+        intervals [10]:
+            xmin = 3.3093229295130278 
+            xmax = 3.4111938024174617 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 3.4111938024174617 
+            xmax = 3.9192114080185543 
+            text = "trIos" 
+        intervals [12]:
+            xmin = 3.9192114080185543 
+            xmax = 4.30952786689823 
+            text = "++dis++" 
+        intervals [13]:
+            xmin = 4.30952786689823 
+            xmax = 4.422406203345935 
+            text = "El" 
+        intervals [14]:
+            xmin = 4.422406203345935 
+            xmax = 4.745557667449722 
+            text = "maEstro" 
+        intervals [15]:
+            xmin = 4.745557667449722 
+            xmax = 5.189545790810696 
+            text = "francIsco" 
+        intervals [16]:
+            xmin = 5.189545790810696 
+            xmax = 5.4383533588764905 
+            text = "javiEr" 
+        intervals [17]:
+            xmin = 5.4383533588764905 
+            xmax = 6.1005729327030265 
+            text = "hinojOsa" 
+        intervals [18]:
+            xmin = 6.1005729327030265 
+            xmax = 6.38 
+            text = "<sil>" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.31 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.31 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.31717743690742883 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.31717743690742883 
+            xmax = 0.4386399264229671 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.4386399264229671 
+            xmax = 0.9036677434253135 
+            text = "mAs" 
+        intervals [4]:
+            xmin = 0.9036677434253135 
+            xmax = 1.3270512783080468 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.3270512783080468 
+            xmax = 1.5734466141824244 
+            text = "O" 
+        intervals [6]:
+            xmin = 1.5734466141824244 
+            xmax = 1.708790531071167 
+            text = "O" 
+        intervals [7]:
+            xmin = 1.708790531071167 
+            xmax = 2.180759061760116 
+            text = "mEnor" 
+        intervals [8]:
+            xmin = 2.180759061760116 
+            xmax = 2.3577472607684715 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.3577472607684715 
+            xmax = 2.992822563092571 
+            text = "importAncia" 
+        intervals [10]:
+            xmin = 2.992822563092571 
+            xmax = 3.042095041250206 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 3.042095041250206 
+            xmax = 3.1982610990425893 
+            text = "como" 
+        intervals [12]:
+            xmin = 3.1982610990425893 
+            xmax = 3.271138592679035 
+            text = "++dis++" 
+        intervals [13]:
+            xmin = 3.271138592679035 
+            xmax = 3.31 
+            text = "<sil>" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.01 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.01 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1205918142504118 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1205918142504118 
+            xmax = 0.20529547981878082 
+            text = "pOr" 
+        intervals [3]:
+            xmin = 0.20529547981878082 
+            xmax = 0.30693987850082366 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.30693987850082366 
+            xmax = 1.0692728686161448 
+            text = "animalIto" 
+        intervals [5]:
+            xmin = 1.0692728686161448 
+            xmax = 1.3742060646622734 
+            text = "debEmos" 
+        intervals [6]:
+            xmin = 1.3742060646622734 
+            xmax = 1.9332502574135089 
+            text = "recordAr" 
+        intervals [7]:
+            xmin = 1.9332502574135089 
+            xmax = 1.9925428233113671 
+            text = "quE" 
+        intervals [8]:
+            xmin = 1.9925428233113671 
+            xmax = 2.0857168554365733 
+            text = "Un" 
+        intervals [9]:
+            xmin = 2.0857168554365733 
+            xmax = 2.8226387458813837 
+            text = "animalIto" 
+        intervals [10]:
+            xmin = 2.8226387458813837 
+            xmax = 3.0767497425864905 
+            text = "Es" 
+        intervals [11]:
+            xmin = 3.0767497425864905 
+            xmax = 3.313920006177924 
+            text = "mUy" 
+        intervals [12]:
+            xmin = 3.313920006177924 
+            xmax = 3.847553099258649 
+            text = "sensIble" 
+        intervals [13]:
+            xmin = 3.847553099258649 
+            xmax = 4.042371530065897 
+            text = "Es" 
+        intervals [14]:
+            xmin = 4.042371530065897 
+            xmax = 4.676 
+            text = "nerviOso" 
+        intervals [15]:
+            xmin = 4.676 
+            xmax = 5.01 
+            text = "<sil>" 

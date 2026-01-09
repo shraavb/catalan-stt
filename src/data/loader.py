@@ -22,7 +22,10 @@ class AudioSample:
     transcript: str
     duration_seconds: float
     language: str = "es"
+    region: str = "general"  # spain, mexico, argentina, etc.
+    dialect_markers: Optional[list[str]] = None  # detected slang terms
     speaker_id: Optional[str] = None
+    dataset: Optional[str] = None  # source dataset identifier
     metadata: Optional[Dict[str, Any]] = None
 
 
@@ -100,13 +103,37 @@ def load_manifest(manifest_path: str | Path) -> list[AudioSample]:
             transcript=item["transcript"],
             duration_seconds=item.get("duration", 0.0),
             language=item.get("language", "es"),
+            region=item.get("region", "general"),
+            dialect_markers=item.get("dialect_markers"),
             speaker_id=item.get("speaker_id"),
+            dataset=item.get("dataset"),
             metadata=item.get("metadata"),
         )
         samples.append(sample)
 
     logger.info(f"Loaded {len(samples)} samples from {manifest_path}")
     return samples
+
+
+def filter_by_region(
+    samples: list[AudioSample],
+    regions: list[str],
+) -> list[AudioSample]:
+    """Filter samples by region(s).
+
+    Args:
+        samples: List of audio samples
+        regions: List of regions to include (e.g., ["spain", "mexico"])
+
+    Returns:
+        Filtered list of samples
+    """
+    if not regions:
+        return samples
+
+    filtered = [s for s in samples if s.region in regions]
+    logger.info(f"Filtered {len(samples)} samples to {len(filtered)} for regions: {regions}")
+    return filtered
 
 
 def load_from_csv(

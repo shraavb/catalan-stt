@@ -2,14 +2,15 @@
 """Prepare downloaded datasets for training.
 
 This script:
-1. Parses different dataset formats (ParlamentParla, Google Crowdsourced, MagicHub)
+1. Parses different dataset formats (MagicHub Spanish Conversational, Common Voice, etc.)
 2. Preprocesses audio (resample to 16kHz, normalize, trim silence)
-3. Generates training manifests in JSON format
-4. Creates train/val/test splits
+3. Generates training manifests in JSON format with region metadata
+4. Creates train/val/test splits (optionally per-region)
 
 Usage:
     python scripts/prepare_datasets.py --input-dir data/raw --output-dir data/processed
-    python scripts/prepare_datasets.py --dataset parlament-clean --input-dir data/raw
+    python scripts/prepare_datasets.py --dataset spanish-conversational --input-dir data/raw
+    python scripts/prepare_datasets.py --region mexico --input-dir data/raw --output-dir data/processed
 """
 
 import argparse
@@ -42,6 +43,28 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+# Region to dataset mapping
+DATASET_REGIONS = {
+    "spanish-conversational": "spain",
+    "common-voice-spain": "spain",
+    "common-voice-mexico": "mexico",
+    "common-voice-argentina": "argentina",
+    "ciempiess": "mexico",
+    "untref": "argentina",
+    "openslr-argentina": "argentina",
+    "chilean-spanish": "chile",
+    "tedx-spanish": "spain",
+}
+
+# Slang markers by region (for detection)
+SLANG_MARKERS = {
+    "spain": ["tio", "tia", "mola", "guay", "currar", "pasta", "flipar", "chaval", "colega", "quedarse"],
+    "mexico": ["chido", "padre", "neta", "chale", "onda", "guey", "wey", "morro", "chingon", "fresa"],
+    "argentina": ["che", "boludo", "pibe", "mina", "laburo", "copado", "morfar", "chabon", "quilombo", "guita"],
+    "chile": ["cachai", "polola", "pololo", "fome", "bacán", "bacan", "al tiro", "po", "weon", "cuático"],
+}
+
+
 @dataclass
 class AudioEntry:
     """Single audio entry for manifest."""
@@ -49,6 +72,8 @@ class AudioEntry:
     transcript: str
     duration: float
     language: str
+    region: str = "general"
+    dialect_markers: Optional[List[str]] = None
     speaker_id: Optional[str] = None
     dataset: Optional[str] = None
     original_path: Optional[str] = None
@@ -57,10 +82,31 @@ class AudioEntry:
         return {k: v for k, v in asdict(self).items() if v is not None}
 
 
+def detect_dialect_markers(transcript: str, region: str = "general") -> List[str]:
+    """Detect slang markers in transcript based on region."""
+    transcript_lower = transcript.lower()
+    markers = []
+
+    # Check region-specific markers first
+    if region in SLANG_MARKERS:
+        for marker in SLANG_MARKERS[region]:
+            if marker in transcript_lower:
+                markers.append(marker)
+
+    # Also check all markers if no specific region
+    if region == "general":
+        for region_markers in SLANG_MARKERS.values():
+            for marker in region_markers:
+                if marker in transcript_lower and marker not in markers:
+                    markers.append(marker)
+
+    return markers
+
+
 class DatasetParser:
     """Base class for dataset-specific parsers."""
 
-    def __init__(self, dataset_dir: Path, language: str = "ca"):
+    def __init__(self, dataset_dir: Path, language: str = "es"):
         self.dataset_dir = dataset_dir
         self.language = language
 
@@ -69,31 +115,148 @@ class DatasetParser:
         raise NotImplementedError
 
 
-class ParlamentParlaParser(DatasetParser):
-    """Parser for ParlamentParla dataset (OpenSLR 59).
+class SpanishConversationalParser(DatasetParser):
+    """Parser for Spanish Conversational Corpus (MagicHub).
 
-    Structure:
-        parlament_v1.0_clean/
-        ├── audio/
-        │   ├── 00001.wav
-        │   └── ...
-        └── transcripts/
-            └── transcripts.txt  (or similar)
+    Structure (handles both flat and nested):
+        spanish-conversational/
+        ├── Spanish_Conversational_Speech_Corpus/  (optional nested dir)
+        │   ├── WAV/
+        │   │   └── *.wav
+        │   └── TXT/
+        │       └── *.txt
+        OR:
+        ├── AUDIO/
+        │   └── *.wav
+        └── TRANSCRIPTION/
+            └── *.txt
     """
 
-    def parse(self) -> Iterator[Tuple[Path, str, Optional[str]]]:
-        # Find the extracted directory
-        for subdir in self.dataset_dir.iterdir():
-            if subdir.is_dir() and "parlament" in subdir.name.lower():
-                root = subdir
-                break
-        else:
-            root = self.dataset_dir
+    def __init__(self, dataset_dir: Path, language: str = "es"):
+        super().__init__(dataset_dir, language)
 
-        # Look for audio files and transcripts
+    def parse(self) -> Iterator[Tuple[Path, str, Optional[str]]]:
+        # Find audio and transcript directories
         audio_dir = None
-        for candidate in ["audio", "wavs", "clips", "."]:
-            test_dir = root / candidate
+        transcript_dir = None
+
+        # Check for nested structure first (e.g., Spanish_Conversational_Speech_Corpus/)
+        search_dirs = [self.dataset_dir]
+        for subdir in self.dataset_dir.iterdir():
+            if subdir.is_dir() and not subdir.name.startswith("."):
+                search_dirs.append(subdir)
+
+        # Search for audio directory
+        audio_candidates = ["WAV", "AUDIO", "audio", "wavs", "wav"]
+        for search_dir in search_dirs:
+            for candidate in audio_candidates:
+                test_dir = search_dir / candidate
+                if test_dir.exists() and list(test_dir.glob("*.wav")):
+                    audio_dir = test_dir
+                    break
+            if audio_dir:
+                break
+
+        # Search for transcript directory (look in same parent as audio)
+        if audio_dir:
+            audio_parent = audio_dir.parent
+            transcript_candidates = ["TXT", "TRANSCRIPTION", "transcription", "transcripts", "txt"]
+            for candidate in transcript_candidates:
+                test_dir = audio_parent / candidate
+                if test_dir.exists():
+                    transcript_dir = test_dir
+                    break
+
+        if not audio_dir:
+            # Try finding wav files directly
+            wav_files = list(self.dataset_dir.glob("**/*.wav"))
+            if wav_files:
+                audio_dir = wav_files[0].parent
+
+        if not audio_dir:
+            logger.error(f"No audio directory found in {self.dataset_dir}")
+            return
+
+        logger.info(f"Audio directory: {audio_dir}")
+        if transcript_dir:
+            logger.info(f"Transcript directory: {transcript_dir}")
+
+        # Process audio files
+        for audio_file in sorted(audio_dir.glob("*.wav")):
+            transcript = ""
+
+            # Try to find matching transcript
+            if transcript_dir:
+                transcript_file = transcript_dir / f"{audio_file.stem}.txt"
+                if transcript_file.exists():
+                    with open(transcript_file, "r", encoding="utf-8") as f:
+                        transcript = f.read().strip()
+
+            # Extract speaker from filename if possible
+            speaker_id = None
+            match = re.search(r"spk(\d+)|speaker(\d+)|s(\d+)", audio_file.stem, re.I)
+            if match:
+                speaker_id = f"es_speaker_{match.group(1) or match.group(2) or match.group(3)}"
+
+            if transcript:
+                yield audio_file, transcript, speaker_id
+
+
+class CommonVoiceParser(DatasetParser):
+    """Parser for Common Voice data (reads from train_manifest.json).
+
+    Structure:
+        common-voice-{region}/
+        ├── audio/
+        │   └── cv_*.wav
+        └── train_manifest.json
+    """
+
+    def __init__(self, dataset_dir: Path, language: str = "es"):
+        super().__init__(dataset_dir, language)
+
+    def parse(self) -> Iterator[Tuple[Path, str, Optional[str]]]:
+        import json
+
+        # Look for manifest file
+        manifest_path = self.dataset_dir / "train_manifest.json"
+        if not manifest_path.exists():
+            logger.error(f"No train_manifest.json found in {self.dataset_dir}")
+            return
+
+        logger.info(f"Loading manifest from {manifest_path}")
+
+        with open(manifest_path, "r", encoding="utf-8") as f:
+            manifest = json.load(f)
+
+        for entry in manifest:
+            audio_path = Path(entry.get("audio_path", ""))
+            transcript = entry.get("transcript", "")
+            speaker_id = entry.get("speaker_id")
+
+            # Handle both absolute and relative paths
+            if not audio_path.is_absolute():
+                # Try path as-is from project root first
+                if not audio_path.exists():
+                    # Try relative to dataset directory
+                    audio_path = self.dataset_dir / audio_path.name
+
+            if audio_path.exists() and transcript:
+                yield audio_path, transcript, speaker_id
+            elif audio_path.exists() and not transcript:
+                logger.debug(f"Skipping {audio_path.name} - no transcript")
+            else:
+                logger.debug(f"Audio file not found: {audio_path}")
+
+
+class GenericParser(DatasetParser):
+    """Generic parser for datasets with audio + transcripts."""
+
+    def parse(self) -> Iterator[Tuple[Path, str, Optional[str]]]:
+        # Find audio directory (case-insensitive)
+        audio_dir = None
+        for candidate in ["audio", "AUDIO", "wavs", "clips", "speech", "."]:
+            test_dir = self.dataset_dir / candidate
             if test_dir.exists():
                 wav_files = list(test_dir.glob("*.wav"))
                 if wav_files:
@@ -101,13 +264,16 @@ class ParlamentParlaParser(DatasetParser):
                     break
 
         if not audio_dir:
-            logger.error(f"No audio directory found in {root}")
+            logger.error(f"No audio directory found in {self.dataset_dir}")
             return
 
-        # Look for transcript file
+        logger.info(f"Audio directory: {audio_dir}")
+
+        # Look for transcript file (prioritize transcripts.tsv over generic .txt)
         transcript_file = None
-        for pattern in ["*.txt", "*.tsv", "*transcripts*"]:
-            files = list(root.glob(f"**/{pattern}"))
+        for pattern in ["transcripts.tsv", "transcripts.txt", "*transcripts*", "*.tsv", "*.txt"]:
+            files = [f for f in self.dataset_dir.glob(f"**/{pattern}")
+                     if f.name.lower() not in ("license.txt", "readme.txt", "about.html")]
             if files:
                 transcript_file = files[0]
                 break
@@ -170,172 +336,125 @@ class ParlamentParlaParser(DatasetParser):
         return transcripts
 
 
-class GoogleCrowdsourcedParser(DatasetParser):
-    """Parser for Google Crowdsourced dataset (OpenSLR 69).
+class CIEMPIESSParser(DatasetParser):
+    """Parser for CIEMPIESS Mexican Spanish Corpus.
 
     Structure:
-        google-catalan-female/
-        ├── ca_es_female/
-        │   ├── wavs/
-        │   │   ├── hash1.wav
-        │   │   └── ...
-        │   └── line_index_female.tsv
-        └── line_index_female.tsv (copy at root)
+        ciempiess/
+        └── data/
+            ├── train/
+            │   └── */*/*.wav
+            ├── test/
+            │   └── */*/*.wav
+            └── transcriptions/
+                ├── CIEMPIESS_train.fileids
+                ├── CIEMPIESS_train.transcription
+                ├── CIEMPIESS_test.fileids
+                └── CIEMPIESS_test.transcription
     """
 
-    def __init__(self, dataset_dir: Path, language: str = "ca", gender: str = "female"):
-        super().__init__(dataset_dir, language)
-        self.gender = gender
-
     def parse(self) -> Iterator[Tuple[Path, str, Optional[str]]]:
-        # Find index file
-        index_file = None
-        for pattern in [f"line_index_{self.gender}.tsv", "line_index*.tsv", "*.tsv"]:
-            files = list(self.dataset_dir.glob(f"**/{pattern}"))
-            if files:
-                index_file = files[0]
-                break
-
-        if not index_file:
-            logger.error(f"No index file found in {self.dataset_dir}")
+        data_dir = self.dataset_dir / "data"
+        if not data_dir.exists():
+            logger.error(f"No data directory found in {self.dataset_dir}")
             return
 
-        # Find audio directory
-        audio_dir = None
-        for candidate in self.dataset_dir.glob("**/wavs"):
-            audio_dir = candidate
-            break
-
-        if not audio_dir:
-            # Try finding wav files directly
-            wav_files = list(self.dataset_dir.glob("**/*.wav"))
-            if wav_files:
-                audio_dir = wav_files[0].parent
-
-        if not audio_dir:
-            logger.error(f"No audio directory found in {self.dataset_dir}")
+        transcription_dir = data_dir / "transcriptions"
+        if not transcription_dir.exists():
+            logger.error(f"No transcriptions directory found in {data_dir}")
             return
 
-        logger.info(f"Parsing index: {index_file}")
-        logger.info(f"Audio directory: {audio_dir}")
+        # Load transcripts from both train and test sets
+        transcripts = {}
+        for split in ["train", "FULL_TRAIN", "test"]:
+            trans_file = transcription_dir / f"CIEMPIESS_{split}.transcription"
+            if trans_file.exists():
+                transcripts.update(self._load_ciempiess_transcripts(trans_file))
 
-        # Parse TSV index
-        with open(index_file, "r", encoding="utf-8") as f:
+        if not transcripts:
+            logger.error("No transcripts loaded from CIEMPIESS")
+            return
+
+        logger.info(f"Loaded {len(transcripts)} transcripts from CIEMPIESS")
+
+        # Find all wav files in train and test directories
+        for split_dir in ["train", "test"]:
+            split_path = data_dir / split_dir
+            if not split_path.exists():
+                continue
+
+            for audio_file in sorted(split_path.glob("**/*.wav")):
+                file_id = audio_file.stem
+                if file_id in transcripts:
+                    transcript = transcripts[file_id]
+                    # Clean up transcript (remove <s>, </s>, <sil>, ++dis++, normalize case)
+                    transcript = self._clean_transcript(transcript)
+                    if transcript:
+                        yield audio_file, transcript, None
+                else:
+                    logger.debug(f"No transcript for {file_id}")
+
+    def _load_ciempiess_transcripts(self, filepath: Path) -> Dict[str, str]:
+        """Load transcripts from CIEMPIESS .transcription format."""
+        transcripts = {}
+        with open(filepath, "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if not line:
                     continue
+                # Format: <s> transcript </s> (file_id)
+                match = re.match(r"<s>\s*(.*?)\s*</s>\s*\((\S+)\)", line)
+                if match:
+                    transcript = match.group(1)
+                    file_id = match.group(2)
+                    transcripts[file_id] = transcript
+        return transcripts
 
-                parts = line.split("\t")
-                if len(parts) >= 2:
-                    file_id = parts[0]
-                    transcript = parts[1]
-
-                    # Find audio file
-                    audio_file = audio_dir / f"{file_id}.wav"
-                    if not audio_file.exists():
-                        audio_file = audio_dir / file_id
-                        if not audio_file.exists():
-                            continue
-
-                    speaker_id = f"{self.gender}_{file_id[:8]}"
-                    yield audio_file, transcript, speaker_id
-
-
-class SpanishConversationalParser(DatasetParser):
-    """Parser for Spanish Conversational Corpus (MagicHub).
-
-    Structure:
-        spanish-conversational/
-        ├── AUDIO/
-        │   ├── conv_001.wav
-        │   └── ...
-        └── TRANSCRIPTION/
-            ├── conv_001.txt
-            └── ...
-    """
-
-    def __init__(self, dataset_dir: Path, language: str = "es"):
-        super().__init__(dataset_dir, language)
-
-    def parse(self) -> Iterator[Tuple[Path, str, Optional[str]]]:
-        # Find audio and transcript directories
-        audio_dir = None
-        transcript_dir = None
-
-        for candidate in ["AUDIO", "audio", "wavs", "wav"]:
-            test_dir = self.dataset_dir / candidate
-            if test_dir.exists():
-                audio_dir = test_dir
-                break
-
-        for candidate in ["TRANSCRIPTION", "transcription", "transcripts", "txt"]:
-            test_dir = self.dataset_dir / candidate
-            if test_dir.exists():
-                transcript_dir = test_dir
-                break
-
-        if not audio_dir:
-            # Try finding wav files directly
-            wav_files = list(self.dataset_dir.glob("**/*.wav"))
-            if wav_files:
-                audio_dir = wav_files[0].parent
-
-        if not audio_dir:
-            logger.error(f"No audio directory found in {self.dataset_dir}")
-            return
-
-        logger.info(f"Audio directory: {audio_dir}")
-        if transcript_dir:
-            logger.info(f"Transcript directory: {transcript_dir}")
-
-        # Process audio files
-        for audio_file in sorted(audio_dir.glob("*.wav")):
-            transcript = ""
-
-            # Try to find matching transcript
-            if transcript_dir:
-                transcript_file = transcript_dir / f"{audio_file.stem}.txt"
-                if transcript_file.exists():
-                    with open(transcript_file, "r", encoding="utf-8") as f:
-                        transcript = f.read().strip()
-
-            # Extract speaker from filename if possible
-            speaker_id = None
-            match = re.search(r"spk(\d+)|speaker(\d+)|s(\d+)", audio_file.stem, re.I)
-            if match:
-                speaker_id = f"es_speaker_{match.group(1) or match.group(2) or match.group(3)}"
-
-            if transcript:
-                yield audio_file, transcript, speaker_id
+    def _clean_transcript(self, transcript: str) -> str:
+        """Clean CIEMPIESS transcript format."""
+        # Remove silence markers
+        transcript = re.sub(r"<sil>", "", transcript)
+        # Remove disfluency markers
+        transcript = re.sub(r"\+\+dis\+\+", "", transcript)
+        # Remove other special markers
+        transcript = re.sub(r"\+\+\w+\+\+", "", transcript)
+        # Normalize case (CIEMPIESS uses uppercase for stressed vowels)
+        transcript = transcript.lower()
+        # Clean up whitespace
+        transcript = " ".join(transcript.split())
+        return transcript
 
 
 def get_parser(dataset_id: str, dataset_dir: Path) -> Optional[DatasetParser]:
     """Get appropriate parser for dataset."""
-    if "parlament" in dataset_id:
-        return ParlamentParlaParser(dataset_dir, language="ca")
-    elif "google-catalan-female" in dataset_id:
-        return GoogleCrowdsourcedParser(dataset_dir, language="ca", gender="female")
-    elif "google-catalan-male" in dataset_id:
-        return GoogleCrowdsourcedParser(dataset_dir, language="ca", gender="male")
-    elif "spanish" in dataset_id:
+    if "common-voice" in dataset_id:
+        return CommonVoiceParser(dataset_dir, language="es")
+    elif "ciempiess" in dataset_id:
+        return CIEMPIESSParser(dataset_dir, language="es")
+    elif dataset_id == "spanish-conversational":
         return SpanishConversationalParser(dataset_dir, language="es")
     else:
-        logger.warning(f"No parser for dataset: {dataset_id}")
-        return None
+        # Try generic parser for all other datasets
+        return GenericParser(dataset_dir, language="es")
 
 
 def process_audio_file(
-    args: Tuple[Path, str, Optional[str], str, Path, AudioPreprocessor]
+    args: Tuple[Path, str, Optional[str], str, str, Path, AudioPreprocessor]
 ) -> Optional[AudioEntry]:
     """Process a single audio file (for parallel processing)."""
-    audio_path, transcript, speaker_id, dataset_id, output_dir, preprocessor = args
+    audio_path, transcript, speaker_id, dataset_id, region, output_dir, preprocessor = args
 
     try:
-        # Create output path
-        output_subdir = output_dir / dataset_id
+        # Create output path (organized by region if specified)
+        if region and region != "general":
+            output_subdir = output_dir / region / dataset_id
+        else:
+            output_subdir = output_dir / dataset_id
         output_subdir.mkdir(parents=True, exist_ok=True)
         output_path = output_subdir / f"{audio_path.stem}.wav"
+
+        # Detect dialect markers in transcript
+        dialect_markers = detect_dialect_markers(transcript, region)
 
         # Skip if already processed
         if output_path.exists():
@@ -344,7 +463,9 @@ def process_audio_file(
                 audio_path=str(output_path),
                 transcript=transcript,
                 duration=round(duration, 3),
-                language="ca" if "catalan" in dataset_id or "parlament" in dataset_id else "es",
+                language="es",
+                region=region,
+                dialect_markers=dialect_markers if dialect_markers else None,
                 speaker_id=speaker_id,
                 dataset=dataset_id,
                 original_path=str(audio_path),
@@ -357,7 +478,9 @@ def process_audio_file(
             audio_path=str(output_path),
             transcript=transcript,
             duration=round(metadata.duration_seconds, 3),
-            language="ca" if "catalan" in dataset_id or "parlament" in dataset_id else "es",
+            language="es",
+            region=region,
+            dialect_markers=dialect_markers if dialect_markers else None,
             speaker_id=speaker_id,
             dataset=dataset_id,
             original_path=str(audio_path),
@@ -373,10 +496,24 @@ def prepare_dataset(
     input_dir: Path,
     output_dir: Path,
     preprocessor: AudioPreprocessor,
+    region: Optional[str] = None,
     max_workers: int = 4,
     max_samples: Optional[int] = None,
 ) -> List[AudioEntry]:
-    """Prepare a single dataset."""
+    """Prepare a single dataset.
+
+    Args:
+        dataset_id: ID of the dataset
+        input_dir: Directory containing raw datasets
+        output_dir: Directory for processed audio
+        preprocessor: Audio preprocessor instance
+        region: Region override (spain, mexico, argentina, etc.)
+        max_workers: Number of parallel workers
+        max_samples: Maximum samples to process
+
+    Returns:
+        List of AudioEntry objects
+    """
     dataset_dir = input_dir / dataset_id
 
     if not dataset_dir.exists():
@@ -387,13 +524,15 @@ def prepare_dataset(
     if not parser:
         return []
 
-    logger.info(f"Preparing dataset: {dataset_id}")
+    # Determine region from dataset ID if not provided
+    effective_region = region or DATASET_REGIONS.get(dataset_id, "general")
+    logger.info(f"Preparing dataset: {dataset_id} (region: {effective_region})")
 
     # Collect all entries to process
     entries_to_process = []
     for audio_path, transcript, speaker_id in parser.parse():
         entries_to_process.append((
-            audio_path, transcript, speaker_id, dataset_id, output_dir, preprocessor
+            audio_path, transcript, speaker_id, dataset_id, effective_region, output_dir, preprocessor
         ))
 
         if max_samples and len(entries_to_process) >= max_samples:
@@ -528,6 +667,18 @@ def main():
         default=42,
         help="Random seed for splits",
     )
+    parser.add_argument(
+        "--region", "-r",
+        type=str,
+        choices=["spain", "mexico", "argentina", "general"],
+        default=None,
+        help="Region override for all datasets (spain, mexico, argentina)",
+    )
+    parser.add_argument(
+        "--per-region-splits",
+        action="store_true",
+        help="Create separate train/val/test splits per region",
+    )
 
     args = parser.parse_args()
 
@@ -574,6 +725,7 @@ def main():
             input_dir=args.input_dir,
             output_dir=args.output_dir,
             preprocessor=preprocessor,
+            region=args.region,
             max_workers=args.workers,
             max_samples=args.max_samples,
         )
@@ -585,13 +737,51 @@ def main():
 
     # Create splits
     test_ratio = 1.0 - args.train_ratio - args.val_ratio
-    train, val, test = create_splits(
-        all_entries,
-        train_ratio=args.train_ratio,
-        val_ratio=args.val_ratio,
-        test_ratio=test_ratio,
-        seed=args.seed,
-    )
+
+    if args.per_region_splits:
+        # Group entries by region and create per-region splits
+        entries_by_region: Dict[str, List[AudioEntry]] = {}
+        for entry in all_entries:
+            region = entry.region or "general"
+            if region not in entries_by_region:
+                entries_by_region[region] = []
+            entries_by_region[region].append(entry)
+
+        # Create splits for each region
+        for region, region_entries in entries_by_region.items():
+            train, val, test = create_splits(
+                region_entries,
+                train_ratio=args.train_ratio,
+                val_ratio=args.val_ratio,
+                test_ratio=test_ratio,
+                seed=args.seed,
+            )
+
+            # Save region-specific manifests
+            region_dir = args.manifests_dir / region
+            save_manifest(train, region_dir / "train.json")
+            save_manifest(val, region_dir / "val.json")
+            save_manifest(test, region_dir / "test.json")
+            save_manifest(region_entries, region_dir / "all.json")
+
+            logger.info(f"Region {region}: {len(train)} train, {len(val)} val, {len(test)} test")
+
+        # Also save combined manifests
+        train, val, test = create_splits(
+            all_entries,
+            train_ratio=args.train_ratio,
+            val_ratio=args.val_ratio,
+            test_ratio=test_ratio,
+            seed=args.seed,
+        )
+    else:
+        train, val, test = create_splits(
+            all_entries,
+            train_ratio=args.train_ratio,
+            val_ratio=args.val_ratio,
+            test_ratio=test_ratio,
+            seed=args.seed,
+        )
 
     # Save manifests
     save_manifest(train, args.manifests_dir / "train.json")
@@ -620,11 +810,31 @@ def main():
     for ds, count in sorted(dataset_counts.items()):
         print(f"  {ds}: {count}")
 
+    # Per-region breakdown
+    print("\nPer-region breakdown:")
+    region_counts: Dict[str, int] = {}
+    region_with_markers: Dict[str, int] = {}
+    for entry in all_entries:
+        region = entry.region or "general"
+        region_counts[region] = region_counts.get(region, 0) + 1
+        if entry.dialect_markers:
+            region_with_markers[region] = region_with_markers.get(region, 0) + 1
+
+    for region, count in sorted(region_counts.items()):
+        markers = region_with_markers.get(region, 0)
+        pct = 100 * markers / count if count > 0 else 0
+        print(f"  {region}: {count} ({markers} with slang markers, {pct:.1f}%)")
+
     # Total duration
     total_duration = sum(e.duration for e in all_entries)
     print(f"\nTotal duration: {total_duration/3600:.1f} hours")
 
     print(f"\nManifests saved to: {args.manifests_dir.absolute()}")
+    if args.per_region_splits:
+        print("\nPer-region manifests saved to:")
+        for region in region_counts.keys():
+            print(f"  {args.manifests_dir / region}")
+
     print("\nNext step:")
     print(f"  python scripts/train.py --config {args.config} \\")
     print(f"    --train-manifest {args.manifests_dir}/train.json \\")

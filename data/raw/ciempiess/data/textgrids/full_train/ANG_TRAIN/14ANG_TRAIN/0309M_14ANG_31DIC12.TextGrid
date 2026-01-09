@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.65 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.65 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13014952558454757 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13014952558454757 
+            xmax = 0.3077301608083546 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.3077301608083546 
+            xmax = 0.4278582375774005 
+            text = "nI" 
+        intervals [4]:
+            xmin = 0.4278582375774005 
+            xmax = 0.5688781537845413 
+            text = "Un" 
+        intervals [5]:
+            xmin = 0.5688781537845413 
+            xmax = 1.1120659791750098 
+            text = "militAr" 
+        intervals [6]:
+            xmin = 1.1120659791750098 
+            xmax = 1.3366532531345305 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.3366532531345305 
+            xmax = 1.5978012461107174 
+            text = "hAya" 
+        intervals [8]:
+            xmin = 1.5978012461107174 
+            xmax = 2.073090593327377 
+            text = "cometIdo" 
+        intervals [9]:
+            xmin = 2.073090593327377 
+            xmax = 2.2036645898154705 
+            text = "Una" 
+        intervals [10]:
+            xmin = 2.2036645898154705 
+            xmax = 2.485704422229752 
+            text = "violaciOn" 
+        intervals [11]:
+            xmin = 2.485704422229752 
+            xmax = 2.590163619420227 
+            text = "A" 
+        intervals [12]:
+            xmin = 2.590163619420227 
+            xmax = 2.715514656048797 
+            text = "lOs" 
+        intervals [13]:
+            xmin = 2.715514656048797 
+            xmax = 3.002777448322602 
+            text = "derEchos" 
+        intervals [14]:
+            xmin = 3.002777448322602 
+            xmax = 3.40666666667 
+            text = "humAnos" 
+        intervals [15]:
+            xmin = 3.40666666667 
+            xmax = 3.65 
+            text = "<sil>" 

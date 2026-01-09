@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.12 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.12 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.015435564806054864 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.015435564806054864 
+            xmax = 0.512888370860927 
+            text = "lO" 
+        intervals [3]:
+            xmin = 0.512888370860927 
+            xmax = 0.6581839924314095 
+            text = "mAs" 
+        intervals [4]:
+            xmin = 0.6581839924314095 
+            xmax = 1.330484071901608 
+            text = "rescatAble" 
+        intervals [5]:
+            xmin = 1.330484071901608 
+            xmax = 1.4757796934720906 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.4757796934720906 
+            xmax = 1.7712962119205293 
+            text = "dEntro" 
+        intervals [7]:
+            xmin = 1.7712962119205293 
+            xmax = 1.896890732261116 
+            text = "dE" 
+        intervals [8]:
+            xmin = 1.896890732261116 
+            xmax = 2.0027841513718068 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 2.0027841513718068 
+            xmax = 2.3657371645723364 
+            text = "tOdo" 
+        intervals [10]:
+            xmin = 2.3657371645723364 
+            xmax = 2.6218514805609834 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 2.6218514805609834 
+            xmax = 2.8262504058211535 
+            text = "dEntro" 
+        intervals [12]:
+            xmin = 2.8262504058211535 
+            xmax = 2.991247128621532 
+            text = "dE" 
+        intervals [13]:
+            xmin = 2.991247128621532 
+            xmax = 3.1295290368968782 
+            text = "tOdo" 
+        intervals [14]:
+            xmin = 3.1295290368968782 
+            xmax = 3.365942251655629 
+            text = "lO" 
+        intervals [15]:
+            xmin = 3.365942251655629 
+            xmax = 3.759964276253548 
+            text = "<sil>" 
+        intervals [16]:
+            xmin = 3.759964276253548 
+            xmax = 4.016078592242195 
+            text = "lAs" 
+        intervals [17]:
+            xmin = 4.016078592242195 
+            xmax = 4.924791886471145 
+            text = "adversidAdes" 
+        intervals [18]:
+            xmin = 4.924791886471145 
+            xmax = 5.12 
+            text = "<sil>" 

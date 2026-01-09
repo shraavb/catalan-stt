@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.28 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.28 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1270907742998352 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1270907742998352 
+            xmax = 0.45738434925864907 
+            text = "clAro" 
+        intervals [3]:
+            xmin = 0.45738434925864907 
+            xmax = 0.6359214168039539 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 0.6359214168039539 
+            xmax = 0.8233853377265239 
+            text = "En" 
+        intervals [5]:
+            xmin = 0.8233853377265239 
+            xmax = 1.2608011532125207 
+            text = "lA" 
+        intervals [6]:
+            xmin = 1.2608011532125207 
+            xmax = 1.5107530477759474 
+            text = "lEy" 
+        intervals [7]:
+            xmin = 1.5107530477759474 
+            xmax = 1.5910947281713346 
+            text = "dE" 
+        intervals [8]:
+            xmin = 1.5910947281713346 
+            xmax = 1.9570957166392093 
+            text = "cultUra" 
+        intervals [9]:
+            xmin = 1.9570957166392093 
+            xmax = 2.5551948929159805 
+            text = "cIvica" 
+        intervals [10]:
+            xmin = 2.5551948929159805 
+            xmax = 2.7515856672158154 
+            text = "En" 
+        intervals [11]:
+            xmin = 2.7515856672158154 
+            xmax = 2.956903294892916 
+            text = "lOs" 
+        intervals [12]:
+            xmin = 2.956903294892916 
+            xmax = 3.6531978583196048 
+            text = "artIculos" 
+        intervals [13]:
+            xmin = 3.6531978583196048 
+            xmax = 4.260223887973641 
+            text = "veintitrEs" 
+        intervals [14]:
+            xmin = 4.260223887973641 
+            xmax = 4.394126688632619 
+            text = "Al" 
+        intervals [15]:
+            xmin = 4.394126688632619 
+            xmax = 5.063640691927513 
+            text = "veintisEis" 
+        intervals [16]:
+            xmin = 5.063640691927513 
+            xmax = 5.28 
+            text = "<sil>" 

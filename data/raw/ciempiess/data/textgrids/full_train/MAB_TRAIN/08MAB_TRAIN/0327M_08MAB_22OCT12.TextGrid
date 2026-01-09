@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.1 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.1 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0838820435193945 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.0838820435193945 
+            xmax = 0.2100922232734153 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.2100922232734153 
+            xmax = 0.26925324503311254 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.26925324503311254 
+            xmax = 0.7622617596972564 
+            text = "requisIto" 
+        intervals [5]:
+            xmin = 0.7622617596972564 
+            xmax = 0.9239685525070955 
+            text = "pAra" 
+        intervals [6]:
+            xmin = 0.9239685525070955 
+            xmax = 1.3657041816461684 
+            text = "obtenEr" 
+        intervals [7]:
+            xmin = 1.3657041816461684 
+            xmax = 1.7048940397350993 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.7048940397350993 
+            xmax = 1.8468804919583728 
+            text = "El" 
+        intervals [9]:
+            xmin = 1.8468804919583728 
+            xmax = 2.1347974645222325 
+            text = "mayOr" 
+        intervals [10]:
+            xmin = 2.1347974645222325 
+            xmax = 2.5962534342478714 
+            text = "nUmero" 
+        intervals [11]:
+            xmin = 2.5962534342478714 
+            xmax = 2.7145754777672657 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.7145754777672657 
+            xmax = 3.22142857143 
+            text = "constAncias" 
+        intervals [13]:
+            xmin = 3.22142857143 
+            xmax = 3.329850104068117 
+            text = "dE" 
+        intervals [14]:
+            xmin = 3.329850104068117 
+            xmax = 3.8859637086092715 
+            text = "mayorIa" 
+        intervals [15]:
+            xmin = 3.8859637086092715 
+            xmax = 4.1 
+            text = "<sil>" 

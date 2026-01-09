@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.8 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.8 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04484503311258277 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.04484503311258277 
+            xmax = 0.14354293282876063 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.14354293282876063 
+            xmax = 0.6077886092715231 
+            text = "profesOr" 
+        intervals [4]:
+            xmin = 0.6077886092715231 
+            xmax = 0.7028310312204351 
+            text = "dE" 
+        intervals [5]:
+            xmin = 0.7028310312204351 
+            xmax = 0.8380837086092715 
+            text = "lAs" 
+        intervals [6]:
+            xmin = 0.8380837086092715 
+            xmax = 1.6057340397350992 
+            text = "asignatUras" 
+        intervals [7]:
+            xmin = 1.6057340397350992 
+            xmax = 1.711742894985809 
+            text = "En" 
+        intervals [8]:
+            xmin = 1.711742894985809 
+            xmax = 1.850651050141911 
+            text = "lAs" 
+        intervals [9]:
+            xmin = 1.850651050141911 
+            xmax = 2.223509782403027 
+            text = "matErias" 
+        intervals [10]:
+            xmin = 2.223509782403027 
+            xmax = 2.3185522043519393 
+            text = "dE" 
+        intervals [11]:
+            xmin = 2.3185522043519393 
+            xmax = 2.6219568590350044 
+            text = "derEcho" 
+        intervals [12]:
+            xmin = 2.6219568590350044 
+            xmax = 3.50769230769 
+            text = "constitucionAl" 
+        intervals [13]:
+            xmin = 3.50769230769 
+            xmax = 3.8 
+            text = "<sil>" 

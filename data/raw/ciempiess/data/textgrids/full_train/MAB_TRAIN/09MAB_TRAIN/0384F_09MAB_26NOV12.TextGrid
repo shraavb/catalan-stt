@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.32 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.32 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2777251390728477 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.2777251390728477 
+            xmax = 0.9941987814569537 
+            text = "entOnces" 
+        intervals [3]:
+            xmin = 0.9941987814569537 
+            xmax = 1.3984946225165564 
+            text = "buEno" 
+        intervals [4]:
+            xmin = 1.3984946225165564 
+            xmax = 1.6287897218543048 
+            text = "lE" 
+        intervals [5]:
+            xmin = 1.6287897218543048 
+            xmax = 1.9358498543046359 
+            text = "pOnen" 
+        intervals [6]:
+            xmin = 1.9358498543046359 
+            xmax = 2.128 
+            text = "lA" 
+        intervals [7]:
+            xmin = 2.128 
+            xmax = 2.683029509933775 
+            text = "pibEta" 
+        intervals [8]:
+            xmin = 2.683029509933775 
+            xmax = 2.959383629139073 
+            text = "A" 
+        intervals [9]:
+            xmin = 2.959383629139073 
+            xmax = 3.123149033112583 
+            text = "lA" 
+        intervals [10]:
+            xmin = 3.123149033112583 
+            xmax = 3.54666666667 
+            text = "persOna" 
+        intervals [11]:
+            xmin = 3.54666666667 
+            xmax = 3.757739973509934 
+            text = "pAra" 
+        intervals [12]:
+            xmin = 3.757739973509934 
+            xmax = 4.121094463576159 
+            text = "quE" 
+        intervals [13]:
+            xmin = 4.121094463576159 
+            xmax = 4.499801960264901 
+            text = "puEda" 
+        intervals [14]:
+            xmin = 4.499801960264901 
+            xmax = 4.904097801324504 
+            text = "soplAr" 
+        intervals [15]:
+            xmin = 4.904097801324504 
+            xmax = 5.32 
+            text = "<sil>" 

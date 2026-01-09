@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.53 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.53 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12893853682813536 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12893853682813536 
+            xmax = 0.2124206204379562 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.2124206204379562 
+            xmax = 0.3531475613802256 
+            text = "sU" 
+        intervals [4]:
+            xmin = 0.3531475613802256 
+            xmax = 0.8570374615019851 
+            text = "cInto" 
+        intervals [5]:
+            xmin = 0.8570374615019851 
+            xmax = 2.2694283726759132 
+            text = "++dis++" 
+        intervals [6]:
+            xmin = 2.2694283726759132 
+            xmax = 2.711037041701003 
+            text = "dE" 
+        intervals [7]:
+            xmin = 2.711037041701003 
+            xmax = 2.7682818990334517 
+            text = "++dis++" 
+        intervals [8]:
+            xmin = 2.7682818990334517 
+            xmax = 3.0680708059172397 
+            text = "cOmo" 
+        intervals [9]:
+            xmin = 3.0680708059172397 
+            xmax = 3.444666811604343 
+            text = "podEmo" 
+        intervals [10]:
+            xmin = 3.444666811604343 
+            xmax = 3.901699040821022 
+            text = "regulAr" 
+        intervals [11]:
+            xmin = 3.901699040821022 
+            xmax = 4.015146687476487 
+            text = "A" 
+        intervals [12]:
+            xmin = 4.015146687476487 
+            xmax = 4.165414437974165 
+            text = "lA" 
+        intervals [13]:
+            xmin = 4.165414437974165 
+            xmax = 4.509970002262609 
+            text = "rEdes" 
+        intervals [14]:
+            xmin = 4.509970002262609 
+            xmax = 5.2686827305905775 
+            text = "sociAles" 
+        intervals [15]:
+            xmin = 5.2686827305905775 
+            xmax = 5.53 
+            text = "<sil>" 

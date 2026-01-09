@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.2 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.2 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24769153753735249 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.24769153753735249 
+            xmax = 0.42512907797048766 
+            text = "tAl" 
+        intervals [3]:
+            xmin = 0.42512907797048766 
+            xmax = 0.5670791103169958 
+            text = "lA" 
+        intervals [4]:
+            xmin = 0.5670791103169958 
+            xmax = 1.2857011490711932 
+            text = "urgEncia" 
+        intervals [5]:
+            xmin = 1.2857011490711932 
+            xmax = 1.6317043529158066 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.6317043529158066 
+            xmax = 2.0664263269769876 
+            text = "servIr" 
+        intervals [7]:
+            xmin = 2.0664263269769876 
+            xmax = 2.2172482363451524 
+            text = "Al" 
+        intervals [8]:
+            xmin = 2.2172482363451524 
+            xmax = 2.5543795631681094 
+            text = "sectOr" 
+        intervals [9]:
+            xmin = 2.5543795631681094 
+            xmax = 3.5125422815070393 
+            text = "empresariAl" 
+        intervals [10]:
+            xmin = 3.5125422815070393 
+            xmax = 3.9738798866331906 
+            text = "cOn" 
+        intervals [11]:
+            xmin = 3.9738798866331906 
+            xmax = 4.85219571177721 
+            text = "Estas" 
+        intervals [12]:
+            xmin = 4.85219571177721 
+            xmax = 5.996667847570931 
+            text = "refOrmas" 
+        intervals [13]:
+            xmin = 5.996667847570931 
+            xmax = 6.2 
+            text = "<sil>" 

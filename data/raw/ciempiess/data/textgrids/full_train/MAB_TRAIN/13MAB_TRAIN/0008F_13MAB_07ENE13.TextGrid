@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.75 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.75 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.054414325755744695 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.054414325755744695 
+            xmax = 0.5112236572056901 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.5112236572056901 
+            xmax = 1.1109212155546706 
+            text = "signifIca" 
+        intervals [4]:
+            xmin = 1.1109212155546706 
+            xmax = 1.5639408703878903 
+            text = "lIderes" 
+        intervals [5]:
+            xmin = 1.5639408703878903 
+            xmax = 2.1716640491958374 
+            text = "ambientAles" 
+        intervals [6]:
+            xmin = 2.1716640491958374 
+            xmax = 2.3722695673381313 
+            text = "pAr" 
+        intervals [7]:
+            xmin = 2.3722695673381313 
+            xmax = 2.505226395458846 
+            text = "El" 
+        intervals [8]:
+            xmin = 2.505226395458846 
+            xmax = 2.9484530747398296 
+            text = "mUndo" 
+        intervals [9]:
+            xmin = 2.9484530747398296 
+            xmax = 3.094672185430464 
+            text = "cOn" 
+        intervals [10]:
+            xmin = 3.094672185430464 
+            xmax = 3.362244928846408 
+            text = "cEde" 
+        intervals [11]:
+            xmin = 3.362244928846408 
+            xmax = 3.4589011508540715 
+            text = "En" 
+        intervals [12]:
+            xmin = 3.4589011508540715 
+            xmax = 3.5790229895931884 
+            text = "El" 
+        intervals [13]:
+            xmin = 3.5790229895931884 
+            xmax = 3.9052299214811383 
+            text = "colEgio" 
+        intervals [14]:
+            xmin = 3.9052299214811383 
+            xmax = 4.01316283066363 
+            text = "dE" 
+        intervals [15]:
+            xmin = 4.01316283066363 
+            xmax = 4.602556764427626 
+            text = "mExico" 
+        intervals [16]:
+            xmin = 4.602556764427626 
+            xmax = 4.75 
+            text = "<sil>" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.62 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.62 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7662236684020826 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.7662236684020826 
+            xmax = 1.0096851452512245 
+            text = "puEs" 
+        intervals [3]:
+            xmin = 1.0096851452512245 
+            xmax = 1.232426496411078 
+            text = "vAmos" 
+        intervals [4]:
+            xmin = 1.232426496411078 
+            xmax = 1.3360271248575215 
+            text = "A" 
+        intervals [5]:
+            xmin = 1.3360271248575215 
+            xmax = 1.4603478789932536 
+            text = "Un" 
+        intervals [6]:
+            xmin = 1.4603478789932536 
+            xmax = 1.6675491358861405 
+            text = "cOrte" 
+        intervals [7]:
+            xmin = 1.6675491358861405 
+            xmax = 1.7866898585995503 
+            text = "quE" 
+        intervals [8]:
+            xmin = 1.7866898585995503 
+            xmax = 1.895470518468316 
+            text = "vA" 
+        intervals [9]:
+            xmin = 1.895470518468316 
+            xmax = 1.9990711469147593 
+            text = "A" 
+        intervals [10]:
+            xmin = 1.9990711469147593 
+            xmax = 2.1441120267397804 
+            text = "sEr" 
+        intervals [11]:
+            xmin = 2.1441120267397804 
+            xmax = 2.3305931579433783 
+            text = "mUy" 
+        intervals [12]:
+            xmin = 2.3305931579433783 
+            xmax = 2.5274343519916207 
+            text = "brEve" 
+        intervals [13]:
+            xmin = 2.5274343519916207 
+            xmax = 2.688015326083608 
+            text = "Y" 
+        intervals [14]:
+            xmin = 2.688015326083608 
+            xmax = 3.045437494223838 
+            text = "enseguIda" 
+        intervals [15]:
+            xmin = 3.045437494223838 
+            xmax = 3.62 
+            text = "regresAmos" 

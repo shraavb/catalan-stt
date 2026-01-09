@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.23 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.23 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12293841038462873 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12293841038462873 
+            xmax = 0.700739683754451 
+            text = "sabEmos" 
+        intervals [3]:
+            xmin = 0.700739683754451 
+            xmax = 0.8651546802417988 
+            text = "que" 
+        intervals [4]:
+            xmin = 0.8651546802417988 
+            xmax = 1.0483599620419863 
+            text = "los" 
+        intervals [5]:
+            xmin = 1.0483599620419863 
+            xmax = 1.9878742276839736 
+            text = "canadiEnses" 
+        intervals [6]:
+            xmin = 1.9878742276839736 
+            xmax = 2.3636799339407686 
+            text = "no" 
+        intervals [7]:
+            xmin = 2.3636799339407686 
+            xmax = 2.8099492101207124 
+            text = "son" 
+        intervals [8]:
+            xmin = 2.8099492101207124 
+            xmax = 3.073013204500469 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 3.073013204500469 
+            xmax = 3.72127804779344 
+            text = "iguAles" 
+        intervals [10]:
+            xmin = 3.72127804779344 
+            xmax = 3.876297901624368 
+            text = "a" 
+        intervals [11]:
+            xmin = 3.876297901624368 
+            xmax = 4.101781325378445 
+            text = "los" 
+        intervals [12]:
+            xmin = 4.101781325378445 
+            xmax = 5.078876161646112 
+            text = "norteamericAnos" 
+        intervals [13]:
+            xmin = 5.078876161646112 
+            xmax = 5.23 
+            text = "<sil>" 

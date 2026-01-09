@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.17 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.17 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12007181236827551 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12007181236827551 
+            xmax = 0.3763274720123089 
+            text = "nO" 
+        intervals [3]:
+            xmin = 0.3763274720123089 
+            xmax = 0.4389677443697393 
+            text = "sE" 
+        intervals [4]:
+            xmin = 0.4389677443697393 
+            xmax = 0.5557064337631322 
+            text = "dA" 
+        intervals [5]:
+            xmin = 0.5557064337631322 
+            xmax = 0.6297358465491864 
+            text = "lA" 
+        intervals [6]:
+            xmin = 0.6297358465491864 
+            xmax = 1.344404408445324 
+            text = "desapariciOn" 
+        intervals [7]:
+            xmin = 1.344404408445324 
+            xmax = 1.42412839144569 
+            text = "dE" 
+        intervals [8]:
+            xmin = 1.42412839144569 
+            xmax = 1.8056645958045843 
+            text = "ningUna" 
+        intervals [9]:
+            xmin = 1.8056645958045843 
+            xmax = 1.8768467234834825 
+            text = "dE" 
+        intervals [10]:
+            xmin = 1.8768467234834825 
+            xmax = 2.0220582639484346 
+            text = "Estas" 
+        intervals [11]:
+            xmin = 2.0220582639484346 
+            xmax = 2.1815062299491665 
+            text = "trEs" 
+        intervals [12]:
+            xmin = 2.1815062299491665 
+            xmax = 3.0328444769887883 
+            text = "dependEncias" 
+        intervals [13]:
+            xmin = 3.0328444769887883 
+            xmax = 3.17 
+            text = "<sil>" 

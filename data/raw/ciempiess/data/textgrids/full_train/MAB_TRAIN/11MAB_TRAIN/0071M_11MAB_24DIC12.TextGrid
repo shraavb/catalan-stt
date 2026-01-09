@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.6 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4641206370721789 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.4641206370721789 
+            xmax = 0.640413419179939 
+            text = "crEo" 
+        intervals [3]:
+            xmin = 0.640413419179939 
+            xmax = 0.728559810233819 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.728559810233819 
+            xmax = 0.8247195095653245 
+            text = "Es" 
+        intervals [5]:
+            xmin = 0.8247195095653245 
+            xmax = 1.0330655247835865 
+            text = "Un" 
+        intervals [6]:
+            xmin = 1.0330655247835865 
+            xmax = 1.217371615168972 
+            text = "lUjo" 
+        intervals [7]:
+            xmin = 1.217371615168972 
+            xmax = 1.481810788330612 
+            text = "quE" 
+        intervals [8]:
+            xmin = 1.481810788330612 
+            xmax = 1.6981701118264994 
+            text = "lA" 
+        intervals [9]:
+            xmin = 1.6981701118264994 
+            xmax = 2.739900187917809 
+            text = "universidAd" 
+        intervals [10]:
+            xmin = 2.739900187917809 
+            xmax = 3.124538985243831 
+            text = "Y" 
+        intervals [11]:
+            xmin = 3.124538985243831 
+            xmax = 3.2367253011305874 
+            text = "lA" 
+        intervals [12]:
+            xmin = 3.2367253011305874 
+            xmax = 3.6534173315671112 
+            text = "facultAd" 
+        intervals [13]:
+            xmin = 3.6534173315671112 
+            xmax = 3.7415637226209912 
+            text = "dE" 
+        intervals [14]:
+            xmin = 3.7415637226209912 
+            xmax = 4.0140162040602565 
+            text = "derEcho" 
+        intervals [15]:
+            xmin = 4.0140162040602565 
+            xmax = 4.41468161794153 
+            text = "tEngan" 
+        intervals [16]:
+            xmin = 4.41468161794153 
+            xmax = 5.27058823529 
+            text = "personAjes" 
+        intervals [17]:
+            xmin = 5.27058823529 
+            xmax = 5.6 
+            text = "<sil>" 

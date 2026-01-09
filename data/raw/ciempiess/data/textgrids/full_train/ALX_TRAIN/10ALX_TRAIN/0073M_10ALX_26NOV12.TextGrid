@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.53 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.53 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12295149069015886 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12295149069015886 
+            xmax = 0.34719499855323566 
+            text = "O" 
+        intervals [3]:
+            xmin = 0.34719499855323566 
+            xmax = 0.893429184373551 
+            text = "cuAndo" 
+        intervals [4]:
+            xmin = 0.893429184373551 
+            xmax = 1.58 
+            text = "quiEran" 
+        intervals [5]:
+            xmin = 1.58 
+            xmax = 1.8939002194549706 
+            text = "E" 
+        intervals [6]:
+            xmin = 1.8939002194549706 
+            xmax = 2.8541224197917354 
+            text = "dictaminAr" 
+        intervals [7]:
+            xmin = 2.8541224197917354 
+            xmax = 3.1301144294693684 
+            text = "quiEn" 
+        intervals [8]:
+            xmin = 3.1301144294693684 
+            xmax = 3.2278615995635302 
+            text = "vA" 
+        intervals [9]:
+            xmin = 3.2278615995635302 
+            xmax = 3.30835926905284 
+            text = "A" 
+        intervals [10]:
+            xmin = 3.30835926905284 
+            xmax = 3.567101778125621 
+            text = "sEr" 
+        intervals [11]:
+            xmin = 3.567101778125621 
+            xmax = 4.22833263464495 
+            text = "sU" 
+        intervals [12]:
+            xmin = 4.22833263464495 
+            xmax = 4.7630671533953635 
+            text = "tutOr" 
+        intervals [13]:
+            xmin = 4.7630671533953635 
+            xmax = 5.53 
+            text = "cautelAr" 

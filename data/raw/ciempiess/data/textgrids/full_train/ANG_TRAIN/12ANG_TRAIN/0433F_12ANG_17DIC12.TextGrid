@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.43 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.43 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.037519415606419984 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.037519415606419984 
+            xmax = 0.5953601475616894 
+            text = "incita" 
+        intervals [3]:
+            xmin = 0.5953601475616894 
+            xmax = 1.0898098872493145 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 1.0898098872493145 
+            xmax = 1.216591871784603 
+            text = "En" 
+        intervals [5]:
+            xmin = 1.216591871784603 
+            xmax = 1.3116783601860693 
+            text = "lA" 
+        intervals [6]:
+            xmin = 1.3116783601860693 
+            xmax = 1.9138927867286897 
+            text = "creaciOn" 
+        intervals [7]:
+            xmin = 1.9138927867286897 
+            xmax = 2.085048465851329 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 2.085048465851329 
+            xmax = 2.3703079310557285 
+            text = "y" 
+        intervals [9]:
+            xmin = 2.3703079310557285 
+            xmax = 2.7316365869813004 
+            text = "++dis++" 
+        intervals [10]:
+            xmin = 2.7316365869813004 
+            xmax = 3.0168960521857 
+            text = "lA" 
+        intervals [11]:
+            xmin = 3.0168960521857 
+            xmax = 3.5367021887803824 
+            text = "lA" 
+        intervals [12]:
+            xmin = 3.5367021887803824 
+            xmax = 4.151594813776532 
+            text = "lA" 
+        intervals [13]:
+            xmin = 4.151594813776532 
+            xmax = 4.43 
+            text = "<sil>" 

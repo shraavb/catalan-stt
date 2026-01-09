@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.05 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.05 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.050664049195837266 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.050664049195837266 
+            xmax = 0.16802412488174076 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.16802412488174076 
+            xmax = 0.23257216650898765 
+            text = "En" 
+        intervals [4]:
+            xmin = 0.23257216650898765 
+            xmax = 0.35286624408703876 
+            text = "lA" 
+        intervals [5]:
+            xmin = 0.35286624408703876 
+            xmax = 0.6633752885525072 
+            text = "mayorIa" 
+        intervals [6]:
+            xmin = 0.6633752885525072 
+            xmax = 0.7812305203405864 
+            text = "dE" 
+        intervals [7]:
+            xmin = 0.7812305203405864 
+            xmax = 0.9778999218501892 
+            text = "lAs" 
+        intervals [8]:
+            xmin = 0.9778999218501892 
+            xmax = 1.394436915799432 
+            text = "vEces" 
+        intervals [9]:
+            xmin = 1.394436915799432 
+            xmax = 1.5231662488174076 
+            text = "pUs" 
+        intervals [10]:
+            xmin = 1.5231662488174076 
+            xmax = 2.254099470198675 
+            text = "otorgAban" 
+        intervals [11]:
+            xmin = 2.254099470198675 
+            xmax = 2.3421195269631028 
+            text = "lA" 
+        intervals [12]:
+            xmin = 2.3421195269631028 
+            xmax = 2.91718389782403 
+            text = "razOn" 
+        intervals [13]:
+            xmin = 2.91718389782403 
+            xmax = 3.05 
+            text = "<sil>" 

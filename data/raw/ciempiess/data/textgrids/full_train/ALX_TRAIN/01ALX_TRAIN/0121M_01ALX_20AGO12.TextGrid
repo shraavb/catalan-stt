@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.08 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.08 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08126126736699423 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08126126736699423 
+            xmax = 0.4023659776347001 
+            text = "empiEza" 
+        intervals [3]:
+            xmin = 0.4023659776347001 
+            xmax = 0.5424843966606081 
+            text = "lA" 
+        intervals [4]:
+            xmin = 0.5424843966606081 
+            xmax = 1.1204728751424788 
+            text = "revoluciOn" 
+        intervals [5]:
+            xmin = 1.1204728751424788 
+            xmax = 1.359841840978405 
+            text = "pEro" 
+        intervals [6]:
+            xmin = 1.359841840978405 
+            xmax = 1.4415775854101847 
+            text = "nO" 
+        intervals [7]:
+            xmin = 1.4415775854101847 
+            xmax = 1.5875342718955054 
+            text = "dE" 
+        intervals [8]:
+            xmin = 1.5875342718955054 
+            xmax = 2.1480079479991376 
+            text = "Armas" 
+        intervals [9]:
+            xmin = 2.1480079479991376 
+            xmax = 2.4924657281044946 
+            text = "sIno" 
+        intervals [10]:
+            xmin = 2.4924657281044946 
+            xmax = 2.661775484427467 
+            text = "lA" 
+        intervals [11]:
+            xmin = 2.661775484427467 
+            xmax = 3.1930578232340348 
+            text = "revoluciOn" 
+        intervals [12]:
+            xmin = 3.1930578232340348 
+            xmax = 3.899488185822988 
+            text = "ideolOgica" 
+        intervals [13]:
+            xmin = 3.899488185822988 
+            xmax = 4.08 
+            text = "<sil>" 

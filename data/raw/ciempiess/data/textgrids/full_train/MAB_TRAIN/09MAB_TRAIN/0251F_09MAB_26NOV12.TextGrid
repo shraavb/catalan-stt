@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.62 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.62 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3455343286655683 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.3455343286655683 
+            xmax = 0.8298161243822075 
+            text = "corralOn" 
+        intervals [3]:
+            xmin = 0.8298161243822075 
+            xmax = 1.3375309102141681 
+            text = "++dis++" 
+        intervals [4]:
+            xmin = 1.3375309102141681 
+            xmax = 1.6031047981878088 
+            text = "entOnces" 
+        intervals [5]:
+            xmin = 1.6031047981878088 
+            xmax = 1.8374346993410215 
+            text = "nOs" 
+        intervals [6]:
+            xmin = 1.8374346993410215 
+            xmax = 2.063953603789127 
+            text = "pOnen" 
+        intervals [7]:
+            xmin = 2.063953603789127 
+            xmax = 2.1967405477759474 
+            text = "A" 
+        intervals [8]:
+            xmin = 2.1967405477759474 
+            xmax = 2.8919192545304777 
+            text = "disposiciOn" 
+        intervals [9]:
+            xmin = 2.8919192545304777 
+            xmax = 3.1496821457990114 
+            text = "dEl" 
+        intervals [10]:
+            xmin = 3.1496821457990114 
+            xmax = 3.391823043657331 
+            text = "dEl" 
+        intervals [11]:
+            xmin = 3.391823043657331 
+            xmax = 3.6573969316309722 
+            text = "jUez" 
+        intervals [12]:
+            xmin = 3.6573969316309722 
+            xmax = 4.0635687602965405 
+            text = "cIvico" 
+        intervals [13]:
+            xmin = 4.0635687602965405 
+            xmax = 4.62 
+            text = "<sil>" 

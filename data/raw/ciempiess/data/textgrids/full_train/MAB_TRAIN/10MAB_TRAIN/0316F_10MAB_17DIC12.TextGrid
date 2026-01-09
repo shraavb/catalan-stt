@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.05 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.05 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.315625 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.315625 
+            xmax = 0.63125 
+            text = "no" 
+        intervals [3]:
+            xmin = 0.63125 
+            xmax = 1.0712453854701744 
+            text = "se" 
+        intervals [4]:
+            xmin = 1.0712453854701744 
+            xmax = 1.588337510451142 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.588337510451142 
+            xmax = 2.1054296354321096 
+            text = "m" 
+        intervals [6]:
+            xmin = 2.1054296354321096 
+            xmax = 2.2551141979266003 
+            text = "cOmo" 
+        intervals [7]:
+            xmin = 2.2551141979266003 
+            xmax = 2.323152635424096 
+            text = "se" 
+        intervals [8]:
+            xmin = 2.323152635424096 
+            xmax = 2.51819615625025 
+            text = "puEde" 
+        intervals [9]:
+            xmin = 2.51819615625025 
+            xmax = 2.667880718744741 
+            text = "decIr" 
+        intervals [10]:
+            xmin = 2.667880718744741 
+            xmax = 3.3301215103870327 
+            text = "ofEnsas" 
+        intervals [11]:
+            xmin = 3.3301215103870327 
+            xmax = 3.575059885378017 
+            text = "cOntra" 
+        intervals [12]:
+            xmin = 3.575059885378017 
+            xmax = 3.819998260369002 
+            text = "Otras" 
+        intervals [13]:
+            xmin = 3.819998260369002 
+            xmax = 4.3008032186846386 
+            text = "persOnas" 
+        intervals [14]:
+            xmin = 4.3008032186846386 
+            xmax = 4.42327240618013 
+            text = "y" 
+        intervals [15]:
+            xmin = 4.42327240618013 
+            xmax = 4.509454427010292 
+            text = "te" 
+        intervals [16]:
+            xmin = 4.509454427010292 
+            xmax = 4.9721158019932625 
+            text = "escUdes" 
+        intervals [17]:
+            xmin = 4.9721158019932625 
+            xmax = 5.05 
+            text = "<sil>" 

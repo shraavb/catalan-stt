@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.35 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.35 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4807549909277226 
+            text = "Esta" 
+        intervals [2]:
+            xmin = 0.4807549909277226 
+            xmax = 0.9500049797636505 
+            text = "fracciOn" 
+        intervals [3]:
+            xmin = 0.9500049797636505 
+            xmax = 1.4802760669327237 
+            text = "tercEra" 
+        intervals [4]:
+            xmin = 1.4802760669327237 
+            xmax = 1.9949509456556478 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.9949509456556478 
+            xmax = 2.1587111343402148 
+            text = "dEntro" 
+        intervals [6]:
+            xmin = 2.1587111343402148 
+            xmax = 2.2951779582440204 
+            text = "de" 
+        intervals [7]:
+            xmin = 2.2951779582440204 
+            xmax = 2.5574200345192306 
+            text = "Esta" 
+        intervals [8]:
+            xmin = 2.5574200345192306 
+            xmax = 2.8381517865499166 
+            text = "bAse" 
+        intervals [9]:
+            xmin = 2.8381517865499166 
+            xmax = 3.372321925830527 
+            text = "primEra" 
+        intervals [10]:
+            xmin = 3.372321925830527 
+            xmax = 3.45420202017281 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 3.45420202017281 
+            xmax = 3.9252119011422297 
+            text = "artIculo" 
+        intervals [12]:
+            xmin = 3.9252119011422297 
+            xmax = 4.1981455489498405 
+            text = "ciEnto" 
+        intervals [13]:
+            xmin = 4.1981455489498405 
+            xmax = 4.593625 
+            text = "veintidOs" 
+        intervals [14]:
+            xmin = 4.593625 
+            xmax = 5.255730093203738 
+            text = "constitucionAl" 
+        intervals [15]:
+            xmin = 5.255730093203738 
+            xmax = 5.477976063339119 
+            text = "<sil>" 
+        intervals [16]:
+            xmin = 5.477976063339119 
+            xmax = 5.649534356075201 
+            text = "se" 
+        intervals [17]:
+            xmin = 5.649534356075201 
+            xmax = 6.288881997552875 
+            text = "establEce" 
+        intervals [18]:
+            xmin = 6.288881997552875 
+            xmax = 6.35 
+            text = "<sil>" 

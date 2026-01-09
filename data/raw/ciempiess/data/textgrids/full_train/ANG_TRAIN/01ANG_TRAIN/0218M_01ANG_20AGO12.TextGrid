@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11734663191659984 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11734663191659984 
+            xmax = 0.4834753408179631 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.4834753408179631 
+            xmax = 0.7763783079390537 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.7763783079390537 
+            xmax = 1.4695819967923014 
+            text = "E" 
+        intervals [5]:
+            xmin = 1.4695819967923014 
+            xmax = 1.7771301122694465 
+            text = "llEvo" 
+        intervals [6]:
+            xmin = 1.7771301122694465 
+            xmax = 1.9772804731355251 
+            text = "Al" 
+        intervals [7]:
+            xmin = 1.9772804731355251 
+            xmax = 2.353172614274258 
+            text = "presidEnte" 
+        intervals [8]:
+            xmin = 2.353172614274258 
+            xmax = 2.4556886527666397 
+            text = "dE" 
+        intervals [9]:
+            xmin = 2.4556886527666397 
+            xmax = 2.509387530072173 
+            text = "lA" 
+        intervals [10]:
+            xmin = 2.509387530072173 
+            xmax = 3.0805483159583 
+            text = "repUblica" 
+        intervals [11]:
+            xmin = 3.0805483159583 
+            xmax = 3.3051072574178026 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 3.3051072574178026 
+            xmax = 3.436913592622293 
+            text = "A" 
+        intervals [13]:
+            xmin = 3.436913592622293 
+            xmax = 3.934848636728147 
+            text = "ocupAr" 
+        intervals [14]:
+            xmin = 3.934848636728147 
+            xmax = 4.33026764234162 
+            text = "Este" 
+        intervals [15]:
+            xmin = 4.33026764234162 
+            xmax = 4.579235164394547 
+            text = "Ese" 
+        intervals [16]:
+            xmin = 4.579235164394547 
+            xmax = 4.789148957497995 
+            text = "cArgo" 
+        intervals [17]:
+            xmin = 4.789148957497995 
+            xmax = 4.867256415396953 
+            text = "dE" 
+        intervals [18]:
+            xmin = 4.867256415396953 
+            xmax = 5.628804129911788 
+            text = "elecciOn" 
+        intervals [19]:
+            xmin = 5.628804129911788 
+            xmax = 5.643449278267843 
+            text = "popular" 
+        intervals [20]:
+            xmin = 5.643449278267843 
+            xmax = 6 
+            text = "<sil>" 

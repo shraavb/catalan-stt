@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.73 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.73 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12766468223406546 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12766468223406546 
+            xmax = 0.3945364668371276 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.3945364668371276 
+            xmax = 0.5760092803672099 
+            text = "vAn" 
+        intervals [4]:
+            xmin = 0.5760092803672099 
+            xmax = 0.7201200440528635 
+            text = "A" 
+        intervals [5]:
+            xmin = 0.7201200440528635 
+            xmax = 1.1524523351098241 
+            text = "permitIr" 
+        intervals [6]:
+            xmin = 1.1524523351098241 
+            xmax = 1.280550791719294 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.280550791719294 
+            xmax = 1.542085140630295 
+            text = "Un" 
+        intervals [8]:
+            xmin = 1.542085140630295 
+            xmax = 2.2146020378300113 
+            text = "legisladOr" 
+        intervals [9]:
+            xmin = 2.2146020378300113 
+            xmax = 2.5241733079695634 
+            text = "durE" 
+        intervals [10]:
+            xmin = 2.5241733079695634 
+            xmax = 2.8337445781091155 
+            text = "hAsta" 
+        intervals [11]:
+            xmin = 2.8337445781091155 
+            xmax = 3.0846040556359937 
+            text = "nuEve" 
+        intervals [12]:
+            xmin = 3.0846040556359937 
+            xmax = 3.5596358322294446 
+            text = "Anos" 
+        intervals [13]:
+            xmin = 3.5596358322294446 
+            xmax = 3.73 
+            text = "<sil>" 

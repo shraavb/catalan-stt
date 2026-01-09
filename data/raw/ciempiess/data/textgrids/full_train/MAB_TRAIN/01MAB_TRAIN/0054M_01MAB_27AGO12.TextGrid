@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.85 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.85 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1163456545725969 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1163456545725969 
+            xmax = 0.7520605893425066 
+            text = "implicarA" 
+        intervals [3]:
+            xmin = 0.7520605893425066 
+            xmax = 0.8835878172259363 
+            text = "lA" 
+        intervals [4]:
+            xmin = 0.8835878172259363 
+            xmax = 1.5631451612903227 
+            text = "posibilidAd" 
+        intervals [5]:
+            xmin = 1.5631451612903227 
+            xmax = 1.672751184526514 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.672751184526514 
+            xmax = 1.8810026286752775 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.8810026286752775 
+            xmax = 2.0947343739858506 
+            text = "quE" 
+        intervals [8]:
+            xmin = 2.0947343739858506 
+            xmax = 2.3468282274290906 
+            text = "tOda" 
+        intervals [9]:
+            xmin = 2.3468282274290906 
+            xmax = 2.9825431621990006 
+            text = "aquElla" 
+        intervals [10]:
+            xmin = 2.9825431621990006 
+            xmax = 3.305880930745765 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 3.305880930745765 
+            xmax = 4.204650321282534 
+            text = "propuEsta" 
+        intervals [12]:
+            xmin = 4.204650321282534 
+            xmax = 4.347138151489583 
+            text = "dE" 
+        intervals [13]:
+            xmin = 4.347138151489583 
+            xmax = 4.593751703771013 
+            text = "ley" 
+        intervals [14]:
+            xmin = 4.593751703771013 
+            xmax = 4.675956221198157 
+            text = "quE" 
+        intervals [15]:
+            xmin = 4.675956221198157 
+            xmax = 4.780081943272539 
+            text = "hAga" 
+        intervals [16]:
+            xmin = 4.780081943272539 
+            xmax = 4.90064856883235 
+            text = "El" 
+        intervals [17]:
+            xmin = 4.90064856883235 
+            xmax = 5.624048322191212 
+            text = "presidEnte" 
+        intervals [18]:
+            xmin = 5.624048322191212 
+            xmax = 5.85 
+            text = "<sil>" 

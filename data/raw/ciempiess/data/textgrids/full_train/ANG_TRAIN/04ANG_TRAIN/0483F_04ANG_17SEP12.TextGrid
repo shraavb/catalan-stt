@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.48 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.48 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.022862655195507703 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.022862655195507703 
+            xmax = 0.30277219102570707 
+            text = "puEda" 
+        intervals [3]:
+            xmin = 0.30277219102570707 
+            xmax = 0.5683273916851269 
+            text = "++dis++" 
+        intervals [4]:
+            xmin = 0.5683273916851269 
+            xmax = 0.6939278244294471 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 0.6939278244294471 
+            xmax = 1.2322153933336766 
+            text = "cubrIrlas" 
+        intervals [6]:
+            xmin = 1.2322153933336766 
+            xmax = 1.3937016640049456 
+            text = "tAn" 
+        intervals [7]:
+            xmin = 1.3937016640049456 
+            xmax = 2.1006526711658333 
+            text = "fAcilmente" 
+        intervals [8]:
+            xmin = 2.1006526711658333 
+            xmax = 2.5528142290453864 
+            text = "entOnces" 
+        intervals [9]:
+            xmin = 2.5528142290453864 
+            xmax = 2.739420586265519 
+            text = "crO" 
+        intervals [10]:
+            xmin = 2.739420586265519 
+            xmax = 2.8255465972901956 
+            text = "quE" 
+        intervals [11]:
+            xmin = 2.8255465972901956 
+            xmax = 2.9403812786564316 
+            text = "Es" 
+        intervals [12]:
+            xmin = 2.9403812786564316 
+            xmax = 3.3100054093040026 
+            text = "Una" 
+        intervals [13]:
+            xmin = 3.3100054093040026 
+            xmax = 3.48 
+            text = "<sil>" 

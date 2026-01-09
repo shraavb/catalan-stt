@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.58 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.58 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23420023463959994 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.23420023463959994 
+            xmax = 0.3430499166551647 
+            text = "y" 
+        intervals [3]:
+            xmin = 0.3430499166551647 
+            xmax = 0.44063928673808483 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.44063928673808483 
+            xmax = 0.6583386507692144 
+            text = "sOn" 
+        intervals [5]:
+            xmin = 0.6583386507692144 
+            xmax = 1.0186686326138428 
+            text = "tEmas" 
+        intervals [6]:
+            xmin = 1.0186686326138428 
+            xmax = 1.1087511280749998 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.1087511280749998 
+            xmax = 1.4803414218522726 
+            text = "impElen" 
+        intervals [8]:
+            xmin = 1.4803414218522726 
+            xmax = 2.283577006380923 
+            text = "Obviamente" 
+        intervals [9]:
+            xmin = 2.283577006380923 
+            xmax = 2.4524816853705924 
+            text = "A" 
+        intervals [10]:
+            xmin = 2.4524816853705924 
+            xmax = 2.5838519912514464 
+            text = "lA" 
+        intervals [11]:
+            xmin = 2.5838519912514464 
+            xmax = 3.28166666667 
+            text = "bioEtica" 
+        intervals [12]:
+            xmin = 3.28166666667 
+            xmax = 3.58 
+            text = "<sil>" 

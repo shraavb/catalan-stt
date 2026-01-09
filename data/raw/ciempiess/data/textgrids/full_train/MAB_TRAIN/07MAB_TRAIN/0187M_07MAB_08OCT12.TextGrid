@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.57 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.57 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12711719572615823 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12711719572615823 
+            xmax = 0.38625888718881624 
+            text = "tomAr" 
+        intervals [3]:
+            xmin = 0.38625888718881624 
+            xmax = 0.5592549744754062 
+            text = "en" 
+        intervals [4]:
+            xmin = 0.5592549744754062 
+            xmax = 0.9502828711407567 
+            text = "cuEnta" 
+        intervals [5]:
+            xmin = 0.9502828711407567 
+            xmax = 1.152321313153392 
+            text = "como" 
+        intervals [6]:
+            xmin = 1.152321313153392 
+            xmax = 1.3178805920248573 
+            text = "yA" 
+        intervals [7]:
+            xmin = 1.3178805920248573 
+            xmax = 1.407675455141584 
+            text = "lo" 
+        intervals [8]:
+            xmin = 1.407675455141584 
+            xmax = 1.805789416856232 
+            text = "habIamos" 
+        intervals [9]:
+            xmin = 1.805789416856232 
+            xmax = 2.4646623814387443 
+            text = "mencionAdo" 
+        intervals [10]:
+            xmin = 2.4646623814387443 
+            xmax = 2.7452713286785153 
+            text = "que" 
+        intervals [11]:
+            xmin = 2.7452713286785153 
+            xmax = 2.8659331759916173 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 2.8659331759916173 
+            xmax = 2.927667144384367 
+            text = "ps" 
+        intervals [13]:
+            xmin = 2.927667144384367 
+            xmax = 3.0436674329683346 
+            text = "el" 
+        intervals [14]:
+            xmin = 3.0436674329683346 
+            xmax = 3.5740183432515025 
+            text = "procEso" 
+        intervals [15]:
+            xmin = 3.5740183432515025 
+            xmax = 4.436289165460689 
+            text = "legislatIvo" 
+        intervals [16]:
+            xmin = 4.436289165460689 
+            xmax = 4.57 
+            text = "<sil>" 

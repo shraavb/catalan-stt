@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.32 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.32 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24298495006379156 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.24298495006379156 
+            xmax = 0.5651374810047376 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.5651374810047376 
+            xmax = 0.7212320063060207 
+            text = "pUes" 
+        intervals [4]:
+            xmin = 0.7212320063060207 
+            xmax = 0.8158850695206286 
+            text = "sI" 
+        intervals [5]:
+            xmin = 0.8158850695206286 
+            xmax = 0.8972534922840635 
+            text = "Es" 
+        intervals [6]:
+            xmin = 0.8972534922840635 
+            xmax = 1.029441442308652 
+            text = "mUy" 
+        intervals [7]:
+            xmin = 1.029441442308652 
+            xmax = 1.471155737310155 
+            text = "difIcil" 
+        intervals [8]:
+            xmin = 1.471155737310155 
+            xmax = 1.6255896825550413 
+            text = "dE" 
+        intervals [9]:
+            xmin = 1.6255896825550413 
+            xmax = 1.8733007416229974 
+            text = "integrAr" 
+        intervals [10]:
+            xmin = 1.8733007416229974 
+            xmax = 1.9662932247812086 
+            text = "A" 
+        intervals [11]:
+            xmin = 1.9662932247812086 
+            xmax = 2.320559305680991 
+            text = "equIpos" 
+        intervals [12]:
+            xmin = 2.320559305680991 
+            xmax = 3.0595174307774897 
+            text = "representatIvos" 
+        intervals [13]:
+            xmin = 3.0595174307774897 
+            xmax = 3.32 
+            text = "<sil>" 

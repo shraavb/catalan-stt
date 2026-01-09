@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.2 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.2 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10730621911037884 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10730621911037884 
+            xmax = 0.5370801070840197 
+            text = "genEra" 
+        intervals [3]:
+            xmin = 0.5370801070840197 
+            xmax = 0.9249248352553541 
+            text = "Una" 
+        intervals [4]:
+            xmin = 0.9249248352553541 
+            xmax = 1.65333333333 
+            text = "controvErsia" 
+        intervals [5]:
+            xmin = 1.65333333333 
+            xmax = 1.9941184102141678 
+            text = "entOnces" 
+        intervals [6]:
+            xmin = 1.9941184102141678 
+            xmax = 2.277140238879736 
+            text = "tOdas" 
+        intervals [7]:
+            xmin = 2.277140238879736 
+            xmax = 2.570644357495881 
+            text = "Esas" 
+        intervals [8]:
+            xmin = 2.570644357495881 
+            xmax = 3.1157234349258647 
+            text = "persOnas" 
+        intervals [9]:
+            xmin = 3.1157234349258647 
+            xmax = 3.5769441927512355 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 3.5769441927512355 
+            xmax = 4.174434719934102 
+            text = "acUden" 
+        intervals [11]:
+            xmin = 4.174434719934102 
+            xmax = 4.342151359143328 
+            text = "cOn" 
+        intervals [12]:
+            xmin = 4.342151359143328 
+            xmax = 4.803372116968698 
+            text = "nosOtros" 
+        intervals [13]:
+            xmin = 4.803372116968698 
+            xmax = 4.939641886326194 
+            text = "En" 
+        intervals [14]:
+            xmin = 4.939641886326194 
+            xmax = 5.37333333333 
+            text = "algUna" 
+        intervals [15]:
+            xmin = 5.37333333333 
+            xmax = 5.8516011120263585 
+            text = "ocasiOn" 
+        intervals [16]:
+            xmin = 5.8516011120263585 
+            xmax = 6.2 
+            text = "<sil>" 

@@ -39,21 +39,24 @@ class TranscriptionResponse(BaseModel):
     words: Optional[List[WordTiming]] = Field(None, description="Word-level timings")
     processing_time_ms: float = Field(..., description="Processing time in milliseconds")
     model: str = Field(..., description="Model used for transcription")
+    region: Optional[str] = Field(None, description="Region used for transcription (spain, mexico, argentina)")
 
     class Config:
         json_schema_extra = {
             "example": {
-                "text": "Hola, ¿cómo estás?",
+                "text": "Hola, ¿qué tal, tío?",
                 "language": "es",
                 "duration_seconds": 2.5,
                 "confidence": 0.95,
                 "words": [
                     {"word": "Hola", "start": 0.0, "end": 0.5, "confidence": 0.98},
-                    {"word": "cómo", "start": 0.6, "end": 0.9, "confidence": 0.94},
-                    {"word": "estás", "start": 1.0, "end": 1.5, "confidence": 0.93}
+                    {"word": "qué", "start": 0.6, "end": 0.8, "confidence": 0.94},
+                    {"word": "tal", "start": 0.8, "end": 1.0, "confidence": 0.95},
+                    {"word": "tío", "start": 1.1, "end": 1.5, "confidence": 0.93}
                 ],
                 "processing_time_ms": 234.5,
-                "model": "catalan-whisper-small"
+                "model": "spanish-slang-whisper-small",
+                "region": "spain"
             }
         }
 
@@ -83,6 +86,8 @@ class HealthResponse(BaseModel):
     model_name: str
     timestamp: datetime
     version: str
+    supported_regions: Optional[List[str]] = Field(None, description="List of supported regions")
+    loaded_regions: Optional[List[str]] = Field(None, description="Currently loaded region models")
 
 
 class ErrorResponse(BaseModel):

@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.01 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.01 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1586192508549854 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1586192508549854 
+            xmax = 0.2898464643172144 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.2898464643172144 
+            xmax = 0.5210563166078084 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.5210563166078084 
+            xmax = 1.3459130869418192 
+            text = "colEgio" 
+        intervals [5]:
+            xmin = 1.3459130869418192 
+            xmax = 1.583371854159186 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.583371854159186 
+            xmax = 2.52695800810188 
+            text = "notArios" 
+        intervals [7]:
+            xmin = 2.52695800810188 
+            xmax = 3.208089735120116 
+            text = "++dis++" 
+        intervals [8]:
+            xmin = 3.208089735120116 
+            xmax = 3.714251844188714 
+            text = "tenEmos" 
+        intervals [9]:
+            xmin = 3.714251844188714 
+            xmax = 3.9267149516989894 
+            text = "lO" 
+        intervals [10]:
+            xmin = 3.9267149516989894 
+            xmax = 4.020448675600582 
+            text = "quE" 
+        intervals [11]:
+            xmin = 4.020448675600582 
+            xmax = 4.176671548769901 
+            text = "sE" 
+        intervals [12]:
+            xmin = 4.176671548769901 
+            xmax = 4.582851019010135 
+            text = "llAma" 
+        intervals [13]:
+            xmin = 4.582851019010135 
+            xmax = 5.338969725149644 
+            text = "asesorIa" 
+        intervals [14]:
+            xmin = 5.338969725149644 
+            xmax = 6.01 
+            text = "gratuIta" 

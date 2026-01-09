@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.02 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.02 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07365698105436566 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07365698105436566 
+            xmax = 0.5927332166392091 
+            text = "estE" 
+        intervals [3]:
+            xmin = 0.5927332166392091 
+            xmax = 0.7352247322899504 
+            text = "En" 
+        intervals [4]:
+            xmin = 0.7352247322899504 
+            xmax = 0.9591399711696869 
+            text = "Este" 
+        intervals [5]:
+            xmin = 0.9591399711696869 
+            xmax = 1.121987417627677 
+            text = "cAso" 
+        intervals [6]:
+            xmin = 1.121987417627677 
+            xmax = 1.4680382413509059 
+            text = "El" 
+        intervals [7]:
+            xmin = 1.4680382413509059 
+            xmax = 1.9565805807248762 
+            text = "peritAje" 
+        intervals [8]:
+            xmin = 1.9565805807248762 
+            xmax = 2.0990720963756173 
+            text = "dE" 
+        intervals [9]:
+            xmin = 2.0990720963756173 
+            xmax = 2.618148331960461 
+            text = "trAnsito" 
+        intervals [10]:
+            xmin = 2.618148331960461 
+            xmax = 3.2186482907742993 
+            text = "terrEstre" 
+        intervals [11]:
+            xmin = 3.2186482907742993 
+            xmax = 3.89529411765 
+            text = "tenEmos" 
+        intervals [12]:
+            xmin = 3.89529411765 
+            xmax = 4.338224485172981 
+            text = "perItos" 
+        intervals [13]:
+            xmin = 4.338224485172981 
+            xmax = 4.602851585667215 
+            text = "dE" 
+        intervals [14]:
+            xmin = 4.602851585667215 
+            xmax = 4.714809205107083 
+            text = "lA" 
+        intervals [15]:
+            xmin = 4.714809205107083 
+            xmax = 5.31176470588 
+            text = "consultorIa" 
+        intervals [16]:
+            xmin = 5.31176470588 
+            xmax = 5.8343853995057655 
+            text = "jurIdica" 
+        intervals [17]:
+            xmin = 5.8343853995057655 
+            xmax = 6.02 
+            text = "<sil>" 

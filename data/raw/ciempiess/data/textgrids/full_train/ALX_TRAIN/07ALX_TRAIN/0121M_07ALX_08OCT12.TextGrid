@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.5 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13481755029111855 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13481755029111855 
+            xmax = 0.27505044514956406 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.27505044514956406 
+            xmax = 0.6656992236838052 
+            text = "hablAndo" 
+        intervals [4]:
+            xmin = 0.6656992236838052 
+            xmax = 0.7708738948276392 
+            text = "dE" 
+        intervals [5]:
+            xmin = 0.7708738948276392 
+            xmax = 1.0313064138504666 
+            text = "Estas" 
+        intervals [6]:
+            xmin = 1.0313064138504666 
+            xmax = 1.7174459351221465 
+            text = "deficiEncias" 
+        intervals [7]:
+            xmin = 1.7174459351221465 
+            xmax = 2.083053125288808 
+            text = "quisiEra" 
+        intervals [8]:
+            xmin = 2.083053125288808 
+            xmax = 2.4436519977819535 
+            text = "salIrme" 
+        intervals [9]:
+            xmin = 2.4436519977819535 
+            xmax = 2.5738682572933675 
+            text = "Un" 
+        intervals [10]:
+            xmin = 2.5738682572933675 
+            xmax = 2.884383953051354 
+            text = "poquIto" 
+        intervals [11]:
+            xmin = 2.884383953051354 
+            xmax = 3.0596750716244108 
+            text = "dEl" 
+        intervals [12]:
+            xmin = 3.0596750716244108 
+            xmax = 3.3952323557499766 
+            text = "tEma" 
+        intervals [13]:
+            xmin = 3.3952323557499766 
+            xmax = 3.5 
+            text = "<sil>" 

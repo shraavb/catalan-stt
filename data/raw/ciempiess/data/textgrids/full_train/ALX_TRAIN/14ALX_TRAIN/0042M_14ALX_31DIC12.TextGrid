@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.6 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09755703719137408 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09755703719137408 
+            xmax = 0.42090802727848253 
+            text = "E" 
+        intervals [3]:
+            xmin = 0.42090802727848253 
+            xmax = 0.6213856411324897 
+            text = "O" 
+        intervals [4]:
+            xmin = 0.6213856411324897 
+            xmax = 0.8186297450856259 
+            text = "buEno" 
+        intervals [5]:
+            xmin = 0.8186297450856259 
+            xmax = 0.941503121318727 
+            text = "++dis++" 
+        intervals [6]:
+            xmin = 0.941503121318727 
+            xmax = 1.090244576758797 
+            text = "En" 
+        intervals [7]:
+            xmin = 1.090244576758797 
+            xmax = 1.2292855024962537 
+            text = "El" 
+        intervals [8]:
+            xmin = 1.2292855024962537 
+            xmax = 1.588205101492944 
+            text = "cAso" 
+        intervals [9]:
+            xmin = 1.588205101492944 
+            xmax = 2.05714285714 
+            text = "dE" 
+        intervals [10]:
+            xmin = 2.05714285714 
+            xmax = 2.31428571429 
+            text = "El" 
+        intervals [11]:
+            xmin = 2.31428571429 
+            xmax = 2.6293952895734334 
+            text = "presidEnte" 
+        intervals [12]:
+            xmin = 2.6293952895734334 
+            xmax = 2.7393346262030502 
+            text = "dE" 
+        intervals [13]:
+            xmin = 2.7393346262030502 
+            xmax = 2.842806943030925 
+            text = "lA" 
+        intervals [14]:
+            xmin = 2.842806943030925 
+            xmax = 3.5541791212225635 
+            text = "repUblica" 
+        intervals [15]:
+            xmin = 3.5541791212225635 
+            xmax = 3.6 
+            text = "<sil>" 

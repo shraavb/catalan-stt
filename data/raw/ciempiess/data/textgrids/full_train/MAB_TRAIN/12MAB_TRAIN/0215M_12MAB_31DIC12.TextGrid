@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.9 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.9 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4354591132534214 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.4354591132534214 
+            xmax = 0.6321803300880166 
+            text = "pAra" 
+        intervals [3]:
+            xmin = 0.6321803300880166 
+            xmax = 0.7837332248611806 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.7837332248611806 
+            xmax = 1.2043698307622073 
+            text = "sE" 
+        intervals [5]:
+            xmin = 1.2043698307622073 
+            xmax = 1.838417655833608 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.838417655833608 
+            xmax = 2.3400827940692457 
+            text = "complEte" 
+        intervals [7]:
+            xmin = 2.3400827940692457 
+            xmax = 2.3992348167740776 
+            text = "El" 
+        intervals [8]:
+            xmin = 2.3992348167740776 
+            xmax = 2.9884353566575004 
+            text = "cIclo" 
+        intervals [9]:
+            xmin = 2.9884353566575004 
+            xmax = 3.1055795584847172 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 3.1055795584847172 
+            xmax = 4.197071059802822 
+            text = "hidrolOgico" 
+        intervals [11]:
+            xmin = 4.197071059802822 
+            xmax = 4.435998837787045 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 4.435998837787045 
+            xmax = 5.638479447613852 
+            text = "iniciAlmente" 
+        intervals [13]:
+            xmin = 5.638479447613852 
+            xmax = 5.9 
+            text = "<sil>" 

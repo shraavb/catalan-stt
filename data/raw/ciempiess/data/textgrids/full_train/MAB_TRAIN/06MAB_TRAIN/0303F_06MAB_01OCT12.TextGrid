@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.06 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.06 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12052216524956191 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12052216524956191 
+            xmax = 0.29083306289349 
+            text = "puEs" 
+        intervals [3]:
+            xmin = 0.29083306289349 
+            xmax = 1.1480645810345946 
+            text = "evolucionAndo" 
+        intervals [4]:
+            xmin = 1.1480645810345946 
+            xmax = 1.515 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.515 
+            xmax = 1.6760283637307718 
+            text = "pEro" 
+        intervals [6]:
+            xmin = 1.6760283637307718 
+            xmax = 2.181284026741092 
+            text = "tambiEn" 
+        intervals [7]:
+            xmin = 2.181284026741092 
+            xmax = 2.6581545401440905 
+            text = "viEne" 
+        intervals [8]:
+            xmin = 2.6581545401440905 
+            xmax = 3.617572596871552 
+            text = "desvirtuAndo" 
+        intervals [9]:
+            xmin = 3.617572596871552 
+            xmax = 3.7878834945154805 
+            text = "lO" 
+        intervals [10]:
+            xmin = 3.7878834945154805 
+            xmax = 3.90710112286623 
+            text = "quE" 
+        intervals [11]:
+            xmin = 3.90710112286623 
+            xmax = 4.900581359122477 
+            text = "tradicionAlmente" 
+        intervals [12]:
+            xmin = 4.900581359122477 
+            xmax = 5.9508318945933665 
+            text = "manejAbamos" 
+        intervals [13]:
+            xmin = 5.9508318945933665 
+            xmax = 6.06 
+            text = "<sil>" 

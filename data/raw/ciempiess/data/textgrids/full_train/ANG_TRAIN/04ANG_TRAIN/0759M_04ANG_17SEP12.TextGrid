@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.02 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.02 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19876610635342046 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.19876610635342046 
+            xmax = 0.31513041418744586 
+            text = "lA" 
+        intervals [3]:
+            xmin = 0.31513041418744586 
+            xmax = 0.71356707282824 
+            text = "atenciOn" 
+        intervals [4]:
+            xmin = 0.71356707282824 
+            xmax = 1.0545870950710157 
+            text = "debIda" 
+        intervals [5]:
+            xmin = 1.0545870950710157 
+            xmax = 1.3190516021164336 
+            text = "perdOn" 
+        intervals [6]:
+            xmin = 1.3190516021164336 
+            xmax = 1.4425843652758064 
+            text = "A" 
+        intervals [7]:
+            xmin = 1.4425843652758064 
+            xmax = 1.9962150214071692 
+            text = "cAda" 
+        intervals [8]:
+            xmin = 1.9962150214071692 
+            xmax = 2.191083605545898 
+            text = "A" 
+        intervals [9]:
+            xmin = 2.191083605545898 
+            xmax = 2.421079782188365 
+            text = "cAda" 
+        intervals [10]:
+            xmin = 2.421079782188365 
+            xmax = 2.8647537907185066 
+            text = "persOna" 
+        intervals [11]:
+            xmin = 2.8647537907185066 
+            xmax = 2.9853501195230385 
+            text = "quE" 
+        intervals [12]:
+            xmin = 2.9853501195230385 
+            xmax = 3.358629869351776 
+            text = "recUrra" 
+        intervals [13]:
+            xmin = 3.358629869351776 
+            xmax = 3.4438848749124698 
+            text = "A" 
+        intervals [14]:
+            xmin = 3.4438848749124698 
+            xmax = 3.645713051341868 
+            text = "sU" 
+        intervals [15]:
+            xmin = 3.645713051341868 
+            xmax = 4.02 
+            text = "<sil>" 

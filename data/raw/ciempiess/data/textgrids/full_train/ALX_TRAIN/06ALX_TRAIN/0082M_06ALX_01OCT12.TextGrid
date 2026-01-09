@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.99 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 2.99 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08705906906338694 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08705906906338694 
+            xmax = 0.30565663954588457 
+            text = "es" 
+        intervals [3]:
+            xmin = 0.30565663954588457 
+            xmax = 0.452347114474929 
+            text = "de" 
+        intervals [4]:
+            xmin = 0.452347114474929 
+            xmax = 0.6306767114474928 
+            text = "los" 
+        intervals [5]:
+            xmin = 0.6306767114474928 
+            xmax = 0.7888723216650898 
+            text = "paIs" 
+        intervals [6]:
+            xmin = 0.7888723216650898 
+            xmax = 1.041985298013245 
+            text = "dOnde" 
+        intervals [7]:
+            xmin = 1.041985298013245 
+            xmax = 1.3756342213812676 
+            text = "mas" 
+        intervals [8]:
+            xmin = 1.3756342213812676 
+            xmax = 1.7006542932828759 
+            text = "dinEro" 
+        intervals [9]:
+            xmin = 1.7006542932828759 
+            xmax = 1.8904890255439923 
+            text = "se" 
+        intervals [10]:
+            xmin = 1.8904890255439923 
+            xmax = 2.0716949063386942 
+            text = "gAsta" 
+        intervals [11]:
+            xmin = 2.0716949063386942 
+            xmax = 2.2212616650898767 
+            text = "en" 
+        intervals [12]:
+            xmin = 2.2212616650898767 
+            xmax = 2.8080235648060548 
+            text = "democrAcia" 
+        intervals [13]:
+            xmin = 2.8080235648060548 
+            xmax = 2.99 
+            text = "<sil>" 

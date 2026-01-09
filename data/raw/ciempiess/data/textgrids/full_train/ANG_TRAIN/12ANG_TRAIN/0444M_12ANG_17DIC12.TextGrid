@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.15 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.15 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.005654301748118107 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.005654301748118107 
+            xmax = 0.586283639652699 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.586283639652699 
+            xmax = 0.6646219694402514 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 0.6646219694402514 
+            xmax = 0.9460612214182294 
+            text = "Eso" 
+        intervals [5]:
+            xmin = 0.9460612214182294 
+            xmax = 1.0708820150919847 
+            text = "Es" 
+        intervals [6]:
+            xmin = 1.0708820150919847 
+            xmax = 1.3052536339674448 
+            text = "lO" 
+        intervals [7]:
+            xmin = 1.3052536339674448 
+            xmax = 1.4135540284784973 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.4135540284784973 
+            xmax = 1.7334424469406609 
+            text = "primEro" 
+        intervals [9]:
+            xmin = 1.7334424469406609 
+            xmax = 1.8320708072669714 
+            text = "En" 
+        intervals [10]:
+            xmin = 1.8320708072669714 
+            xmax = 1.923850802615321 
+            text = "El" 
+        intervals [11]:
+            xmin = 1.923850802615321 
+            xmax = 2.1753919369055534 
+            text = "Area" 
+        intervals [12]:
+            xmin = 2.1753919369055534 
+            xmax = 2.924316698948086 
+            text = "acadEmica" 
+        intervals [13]:
+            xmin = 2.924316698948086 
+            xmax = 3.4556858614953327 
+            text = "++dis++" 
+        intervals [14]:
+            xmin = 3.4556858614953327 
+            xmax = 3.8445631461132517 
+            text = "y" 
+        intervals [15]:
+            xmin = 3.8445631461132517 
+            xmax = 4.15 
+            text = "<sil>" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.57 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.57 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15059590436695033 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.15059590436695033 
+            xmax = 0.28579102640581877 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.28579102640581877 
+            xmax = 0.4410150554134085 
+            text = "lA" 
+        intervals [4]:
+            xmin = 0.4410150554134085 
+            xmax = 0.7881827762045769 
+            text = "medIda" 
+        intervals [5]:
+            xmin = 0.7881827762045769 
+            xmax = 0.9217088226627185 
+            text = "En" 
+        intervals [6]:
+            xmin = 0.9217088226627185 
+            xmax = 1.0485585667979531 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.0485585667979531 
+            xmax = 1.2820351310977625 
+            text = "Uno" 
+        intervals [8]:
+            xmin = 1.2820351310977625 
+            xmax = 1.3555217309348113 
+            text = "dE" 
+        intervals [9]:
+            xmin = 1.3555217309348113 
+            xmax = 1.5725015564292917 
+            text = "lOs" 
+        intervals [10]:
+            xmin = 1.5725015564292917 
+            xmax = 2.2685610853382157 
+            text = "progenitOres" 
+        intervals [11]:
+            xmin = 2.2685610853382157 
+            xmax = 2.5698446250431233 
+            text = "estA" 
+        intervals [12]:
+            xmin = 2.5698446250431233 
+            xmax = 3.4260803979559564 
+            text = "manipulAndo" 
+        intervals [13]:
+            xmin = 3.4260803979559564 
+            xmax = 3.57 
+            text = "<sil>" 

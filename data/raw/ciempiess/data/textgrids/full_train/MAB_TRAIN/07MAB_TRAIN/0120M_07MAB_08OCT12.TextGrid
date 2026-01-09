@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.38 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.38 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1012574916798285 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1012574916798285 
+            xmax = 0.43205675696638085 
+            text = "en" 
+        intervals [3]:
+            xmin = 0.43205675696638085 
+            xmax = 0.625714285714 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 0.625714285714 
+            xmax = 1.1313072364338899 
+            text = "este" 
+        intervals [5]:
+            xmin = 1.1313072364338899 
+            xmax = 1.3581874704205505 
+            text = "toma" 
+        intervals [6]:
+            xmin = 1.3581874704205505 
+            xmax = 1.909519579231471 
+            text = "este" 
+        intervals [7]:
+            xmin = 1.909519579231471 
+            xmax = 2.1585026279269406 
+            text = "hAce" 
+        intervals [8]:
+            xmin = 2.1585026279269406 
+            xmax = 2.4301345449508576 
+            text = "Uso" 
+        intervals [9]:
+            xmin = 2.4301345449508576 
+            xmax = 2.556537516239215 
+            text = "de" 
+        intervals [10]:
+            xmin = 2.556537516239215 
+            xmax = 2.73672898594815 
+            text = "la" 
+        intervals [11]:
+            xmin = 2.73672898594815 
+            xmax = 2.8730610916881316 
+            text = "vOz" 
+        intervals [12]:
+            xmin = 2.8730610916881316 
+            xmax = 3.2064123195725 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 3.2064123195725 
+            xmax = 3.434263083117103 
+            text = "tOman" 
+        intervals [14]:
+            xmin = 3.434263083117103 
+            xmax = 3.533771805195171 
+            text = "la" 
+        intervals [15]:
+            xmin = 3.533771805195171 
+            xmax = 4.144271262268727 
+            text = "tribUna" 
+        intervals [16]:
+            xmin = 4.144271262268727 
+            xmax = 4.38 
+            text = "<sil>" 

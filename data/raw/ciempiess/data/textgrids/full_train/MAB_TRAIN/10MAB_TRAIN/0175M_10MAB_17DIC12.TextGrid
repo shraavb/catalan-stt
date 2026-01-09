@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.6 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.6 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5522670281260589 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.5522670281260589 
+            xmax = 0.816706201287699 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.816706201287699 
+            xmax = 1.289491389667601 
+            text = "Ell" 
+        intervals [4]:
+            xmin = 1.289491389667601 
+            xmax = 1.6500902621607467 
+            text = "nuEvo" 
+        intervals [5]:
+            xmin = 1.6500902621607467 
+            xmax = 2.018702442931518 
+            text = "disENo" 
+        intervals [6]:
+            xmin = 2.018702442931518 
+            xmax = 2.162941991928776 
+            text = "dE" 
+        intervals [7]:
+            xmin = 2.162941991928776 
+            xmax = 2.61333333333 
+            text = "feIsbuk" 
+        intervals [8]:
+            xmin = 2.61333333333 
+            xmax = 2.8921530451926927 
+            text = "quE" 
+        intervals [9]:
+            xmin = 2.8921530451926927 
+            xmax = 3.10851236868858 
+            text = "crEo" 
+        intervals [10]:
+            xmin = 3.10851236868858 
+            xmax = 3.5171910908474784 
+            text = "algUnos" 
+        intervals [11]:
+            xmin = 3.5171910908474784 
+            xmax = 3.7095104895104893 
+            text = "lO" 
+        intervals [12]:
+            xmin = 3.7095104895104893 
+            xmax = 4.406668309663904 
+            text = "odiAmos" 
+        intervals [13]:
+            xmin = 4.406668309663904 
+            xmax = 4.735213949046548 
+            text = "cOn" 
+        intervals [14]:
+            xmin = 4.735213949046548 
+            xmax = 5.22666666667 
+            text = "cuarEnta" 
+        intervals [15]:
+            xmin = 5.22666666667 
+            xmax = 5.6 
+            text = "<sil>" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.77 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.77 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13123169057612696 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13123169057612696 
+            xmax = 0.6846821922435602 
+            text = "sobresAlen" 
+        intervals [3]:
+            xmin = 0.6846821922435602 
+            xmax = 0.87 
+            text = "lOs" 
+        intervals [4]:
+            xmin = 0.87 
+            xmax = 1.2134565568939741 
+            text = "Otros" 
+        intervals [5]:
+            xmin = 1.2134565568939741 
+            xmax = 1.4108656530301287 
+            text = "dOs" 
+        intervals [6]:
+            xmin = 1.4108656530301287 
+            xmax = 1.551872150270239 
+            text = "El" 
+        intervals [7]:
+            xmin = 1.551872150270239 
+            xmax = 1.6717276729243329 
+            text = "dE" 
+        intervals [8]:
+            xmin = 1.6717276729243329 
+            xmax = 2.5706440928300367 
+            text = "responsabilidAdes" 
+        intervals [9]:
+            xmin = 2.5706440928300367 
+            xmax = 2.6587731536051056 
+            text = "Y" 
+        intervals [10]:
+            xmin = 2.6587731536051056 
+            xmax = 2.7292764022251608 
+            text = "El" 
+        intervals [11]:
+            xmin = 2.7292764022251608 
+            xmax = 2.803304813276219 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.803304813276219 
+            xmax = 3.6352431469928703 
+            text = "auditorIas" 
+        intervals [13]:
+            xmin = 3.6352431469928703 
+            xmax = 3.77 
+            text = "<sil>" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.7 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.7 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.055045744664916754 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.055045744664916754 
+            xmax = 0.3489889725385351 
+            text = "hAy" 
+        intervals [3]:
+            xmin = 0.3489889725385351 
+            xmax = 0.46595600093115147 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 0.46595600093115147 
+            xmax = 1.03025018207587 
+            text = "referEncia" 
+        intervals [5]:
+            xmin = 1.03025018207587 
+            xmax = 1.1523027334420786 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.1523027334420786 
+            xmax = 1.4885189839001762 
+            text = "dOsis" 
+        intervals [7]:
+            xmin = 1.4885189839001762 
+            xmax = 1.601417593913919 
+            text = "pOr" 
+        intervals [8]:
+            xmin = 1.601417593913919 
+            xmax = 2.067692126229764 
+            text = "ejEmplo" 
+        intervals [9]:
+            xmin = 2.067692126229764 
+            xmax = 2.4262684473737286 
+            text = "vAmos" 
+        intervals [10]:
+            xmin = 2.4262684473737286 
+            xmax = 2.485249028278336 
+            text = "A" 
+        intervals [11]:
+            xmin = 2.485249028278336 
+            xmax = 2.7466563947100258 
+            text = "hablAr" 
+        intervals [12]:
+            xmin = 2.7466563947100258 
+            xmax = 2.8535417465614135 
+            text = "dEl" 
+        intervals [13]:
+            xmin = 2.8535417465614135 
+            xmax = 3.7161750162146334 
+            text = "narcOtico" 
+        intervals [14]:
+            xmin = 3.7161750162146334 
+            xmax = 4.147841964162518 
+            text = "Opio" 
+        intervals [15]:
+            xmin = 4.147841964162518 
+            xmax = 4.7 
+            text = "<sil>" 

@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.9 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.9 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09082198675496689 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09082198675496689 
+            xmax = 0.47734066225165567 
+            text = "canAles" 
+        intervals [3]:
+            xmin = 0.47734066225165567 
+            xmax = 0.9628458278145696 
+            text = "culturAles" 
+        intervals [4]:
+            xmin = 0.9628458278145696 
+            xmax = 1.0806868874172186 
+            text = "pOr" 
+        intervals [5]:
+            xmin = 1.0806868874172186 
+            xmax = 1.36111111111 
+            text = "ejEmplo" 
+        intervals [6]:
+            xmin = 1.36111111111 
+            xmax = 1.636896688741722 
+            text = "cOmo" 
+        intervals [7]:
+            xmin = 1.636896688741722 
+            xmax = 1.8018741721854306 
+            text = "El" 
+        intervals [8]:
+            xmin = 1.8018741721854306 
+            xmax = 2.1506837086092716 
+            text = "canAl" 
+        intervals [9]:
+            xmin = 2.1506837086092716 
+            xmax = 2.56077059602649 
+            text = "Once" 
+        intervals [10]:
+            xmin = 2.56077059602649 
+            xmax = 2.664470728476821 
+            text = "quE" 
+        intervals [11]:
+            xmin = 2.664470728476821 
+            xmax = 2.8907255629139077 
+            text = "tiEne" 
+        intervals [12]:
+            xmin = 2.8907255629139077 
+            xmax = 2.99444444444 
+            text = "mUy" 
+        intervals [13]:
+            xmin = 2.99444444444 
+            xmax = 3.26666666667 
+            text = "buEna" 
+        intervals [14]:
+            xmin = 3.26666666667 
+            xmax = 3.781603973509934 
+            text = "programaciOn" 
+        intervals [15]:
+            xmin = 3.781603973509934 
+            xmax = 3.8334540397351 
+            text = "O" 
+        intervals [16]:
+            xmin = 3.8334540397351 
+            xmax = 3.9324405298013247 
+            text = "El" 
+        intervals [17]:
+            xmin = 3.9324405298013247 
+            xmax = 4.158695364238411 
+            text = "canAl" 
+        intervals [18]:
+            xmin = 4.158695364238411 
+            xmax = 4.62777777778 
+            text = "veintidOs" 
+        intervals [19]:
+            xmin = 4.62777777778 
+            xmax = 4.9 
+            text = "<sil>" 

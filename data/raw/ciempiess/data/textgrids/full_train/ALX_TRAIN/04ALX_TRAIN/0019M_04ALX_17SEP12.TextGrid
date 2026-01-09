@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.97 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.97 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08622315216766331 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08622315216766331 
+            xmax = 0.2087248842858786 
+            text = "El" 
+        intervals [3]:
+            xmin = 0.2087248842858786 
+            xmax = 0.5985031228438363 
+            text = "combAte" 
+        intervals [4]:
+            xmin = 0.5985031228438363 
+            xmax = 0.7284292023631556 
+            text = "A" 
+        intervals [5]:
+            xmin = 0.7284292023631556 
+            xmax = 0.8732039766846826 
+            text = "lA" 
+        intervals [6]:
+            xmin = 0.8732039766846826 
+            xmax = 1.5228343742812789 
+            text = "pobrEza" 
+        intervals [7]:
+            xmin = 1.5228343742812789 
+            xmax = 1.9831439131497242 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.9831439131497242 
+            xmax = 2.1353430348723554 
+            text = "lA" 
+        intervals [9]:
+            xmin = 2.1353430348723554 
+            xmax = 2.5733795315374888 
+            text = "atenciOn" 
+        intervals [10]:
+            xmin = 2.5733795315374888 
+            xmax = 2.6587595266501842 
+            text = "A" 
+        intervals [11]:
+            xmin = 2.6587595266501842 
+            xmax = 3.055962112609246 
+            text = "adUltos" 
+        intervals [12]:
+            xmin = 3.055962112609246 
+            xmax = 3.727865552409154 
+            text = "mayOres" 
+        intervals [13]:
+            xmin = 3.727865552409154 
+            xmax = 3.97 
+            text = "<sil>" 

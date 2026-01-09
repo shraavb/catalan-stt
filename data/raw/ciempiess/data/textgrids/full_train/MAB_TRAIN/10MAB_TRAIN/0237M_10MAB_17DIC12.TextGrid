@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.99 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.99 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.049339845096043625 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.049339845096043625 
+            xmax = 0.5174173491629737 
+            text = "si" 
+        intervals [3]:
+            xmin = 0.5174173491629737 
+            xmax = 1.5396555764355795 
+            text = "Estos" 
+        intervals [4]:
+            xmin = 1.5396555764355795 
+            xmax = 1.9539310685407936 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.9539310685407936 
+            xmax = 2.2444619331340605 
+            text = "si" 
+        intervals [6]:
+            xmin = 2.2444619331340605 
+            xmax = 2.5296125965311558 
+            text = "es" 
+        intervals [7]:
+            xmin = 2.5296125965311558 
+            xmax = 2.696398833612476 
+            text = "si" 
+        intervals [8]:
+            xmin = 2.696398833612476 
+            xmax = 2.9223672838516834 
+            text = "Estas" 
+        intervals [9]:
+            xmin = 2.9223672838516834 
+            xmax = 3.1537159352870625 
+            text = "rEdes" 
+        intervals [10]:
+            xmin = 3.1537159352870625 
+            xmax = 3.643314244138679 
+            text = "sociAles" 
+        intervals [11]:
+            xmin = 3.643314244138679 
+            xmax = 4.003787724282176 
+            text = "deberIan" 
+        intervals [12]:
+            xmin = 4.003787724282176 
+            xmax = 4.122152150597953 
+            text = "de" 
+        intervals [13]:
+            xmin = 4.122152150597953 
+            xmax = 4.740875288157687 
+            text = "aceptArse" 
+        intervals [14]:
+            xmin = 4.740875288157687 
+            xmax = 5.015265549162439 
+            text = "cOmo" 
+        intervals [15]:
+            xmin = 5.015265549162439 
+            xmax = 5.348838023325079 
+            text = "pruEba" 
+        intervals [16]:
+            xmin = 5.348838023325079 
+            xmax = 5.736212509449436 
+            text = "plEna" 
+        intervals [17]:
+            xmin = 5.736212509449436 
+            xmax = 5.946040356100128 
+            text = "cOmo" 
+        intervals [18]:
+            xmin = 5.946040356100128 
+            xmax = 5.99 
+            text = "<sil>" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.35 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.35 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4006966144439073 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.4006966144439073 
+            xmax = 0.7574391911097147 
+            text = "puEs" 
+        intervals [3]:
+            xmin = 0.7574391911097147 
+            xmax = 0.97699583237639 
+            text = "dE" 
+        intervals [4]:
+            xmin = 0.97699583237639 
+            xmax = 1.3817194405194537 
+            text = "Otras" 
+        intervals [5]:
+            xmin = 1.3817194405194537 
+            xmax = 1.8469564540604642 
+            text = "fuEntes" 
+        intervals [6]:
+            xmin = 1.8469564540604642 
+            xmax = 2.436849513474891 
+            text = "nO" 
+        intervals [7]:
+            xmin = 2.436849513474891 
+            xmax = 2.8663224070079987 
+            text = "++dis++" 
+        intervals [8]:
+            xmin = 2.8663224070079987 
+            xmax = 3.502868172784328 
+            text = "mUy" 
+        intervals [9]:
+            xmin = 3.502868172784328 
+            xmax = 3.904680100293269 
+            text = "++dis++" 
+        intervals [10]:
+            xmin = 3.904680100293269 
+            xmax = 4.0327940481946705 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 4.0327940481946705 
+            xmax = 4.6112070359697555 
+            text = "legAles" 
+        intervals [12]:
+            xmin = 4.6112070359697555 
+            xmax = 5.158882692566927 
+            text = "digAmos" 
+        intervals [13]:
+            xmin = 5.158882692566927 
+            xmax = 5.35 
+            text = "++dis++" 

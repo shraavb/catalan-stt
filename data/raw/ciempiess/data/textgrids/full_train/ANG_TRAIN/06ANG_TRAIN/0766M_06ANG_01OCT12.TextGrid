@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.51 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.51 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08405209437202849 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08405209437202849 
+            xmax = 0.3163371432824194 
+            text = "lAs" 
+        intervals [3]:
+            xmin = 0.3163371432824194 
+            xmax = 0.76529143949578 
+            text = "jugadOras" 
+        intervals [4]:
+            xmin = 0.76529143949578 
+            xmax = 0.99457085914781 
+            text = "cOmo" 
+        intervals [5]:
+            xmin = 0.99457085914781 
+            xmax = 1.2405197344646943 
+            text = "tOdas" 
+        intervals [6]:
+            xmin = 1.2405197344646943 
+            xmax = 1.3604758997241078 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.3604758997241078 
+            xmax = 1.462527231714181 
+            text = "yO" 
+        intervals [8]:
+            xmin = 1.462527231714181 
+            xmax = 1.9481564540306766 
+            text = "entrenAdo" 
+        intervals [9]:
+            xmin = 1.9481564540306766 
+            xmax = 2.4203672875318905 
+            text = "++dis++" 
+        intervals [10]:
+            xmin = 2.4203672875318905 
+            xmax = 2.621607012026946 
+            text = "sU" 
+        intervals [11]:
+            xmin = 2.621607012026946 
+            xmax = 3.153567583117095 
+            text = "prioridAd" 
+        intervals [12]:
+            xmin = 3.153567583117095 
+            xmax = 3.4561237392608803 
+            text = "Es" 
+        intervals [13]:
+            xmin = 3.4561237392608803 
+            xmax = 3.7286097476584676 
+            text = "sEr" 
+        intervals [14]:
+            xmin = 3.7286097476584676 
+            xmax = 4.3566527863017335 
+            text = "estudiAnte" 
+        intervals [15]:
+            xmin = 4.3566527863017335 
+            xmax = 4.51 
+            text = "<sil>" 

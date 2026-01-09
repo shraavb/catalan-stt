@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.93 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.93 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07715053547776725 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07715053547776725 
+            xmax = 0.30004810217596967 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.30004810217596967 
+            xmax = 0.9070882838221379 
+            text = "provOca" 
+        intervals [4]:
+            xmin = 0.9070882838221379 
+            xmax = 1.1726683632923365 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 1.1726683632923365 
+            xmax = 1.4192784370860925 
+            text = "lA" 
+        intervals [6]:
+            xmin = 1.4192784370860925 
+            xmax = 2.116426145695364 
+            text = "fAlta" 
+        intervals [7]:
+            xmin = 2.116426145695364 
+            xmax = 2.424688737937559 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 2.424688737937559 
+            xmax = 2.647586304635761 
+            text = "dE" 
+        intervals [9]:
+            xmin = 2.647586304635761 
+            xmax = 3.6340265998107846 
+            text = "testamEnto" 
+        intervals [10]:
+            xmin = 3.6340265998107846 
+            xmax = 3.856924166508987 
+            text = "En" 
+        intervals [11]:
+            xmin = 3.856924166508987 
+            xmax = 4.203126770104068 
+            text = "mUchas" 
+        intervals [12]:
+            xmin = 4.203126770104068 
+            xmax = 4.848106963103121 
+            text = "ocasIones" 
+        intervals [13]:
+            xmin = 4.848106963103121 
+            xmax = 4.93 
+            text = "<sil>" 

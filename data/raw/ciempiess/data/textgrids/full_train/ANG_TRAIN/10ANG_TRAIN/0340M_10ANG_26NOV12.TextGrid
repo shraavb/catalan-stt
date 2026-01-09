@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.05 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.05 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10999082941382568 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10999082941382568 
+            xmax = 0.40418482646225057 
+            text = "buEno" 
+        intervals [3]:
+            xmin = 0.40418482646225057 
+            xmax = 0.5161064557741514 
+            text = "yO" 
+        intervals [4]:
+            xmin = 0.5161064557741514 
+            xmax = 0.7015765843481584 
+            text = "crEo" 
+        intervals [5]:
+            xmin = 0.7015765843481584 
+            xmax = 0.9094310387845456 
+            text = "quE" 
+        intervals [6]:
+            xmin = 0.9094310387845456 
+            xmax = 1.0437369939588266 
+            text = "El" 
+        intervals [7]:
+            xmin = 1.0437369939588266 
+            xmax = 1.2579869700701793 
+            text = "tEma" 
+        intervals [8]:
+            xmin = 1.2579869700701793 
+            xmax = 1.4082817294318748 
+            text = "dE" 
+        intervals [9]:
+            xmin = 1.4082817294318748 
+            xmax = 1.5513125 
+            text = "lA" 
+        intervals [10]:
+            xmin = 1.5513125 
+            xmax = 2.0515 
+            text = "educaciOn" 
+        intervals [11]:
+            xmin = 2.0515 
+            xmax = 2.39642857143 
+            text = "yO" 
+        intervals [12]:
+            xmin = 2.39642857143 
+            xmax = 2.5211025008759167 
+            text = "crEo" 
+        intervals [13]:
+            xmin = 2.5211025008759167 
+            xmax = 2.808900976249376 
+            text = "quE" 
+        intervals [14]:
+            xmin = 2.808900976249376 
+            xmax = 3.05 
+            text = "<sil>" 

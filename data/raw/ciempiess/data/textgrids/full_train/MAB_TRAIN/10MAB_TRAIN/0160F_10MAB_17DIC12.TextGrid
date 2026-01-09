@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.78 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.78 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12533527925818672 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.12533527925818672 
+            xmax = 0.5522156587905487 
+            text = "viEjas" 
+        intervals [3]:
+            xmin = 0.5522156587905487 
+            xmax = 1.1537289208588768 
+            text = "amistAdes" 
+        intervals [4]:
+            xmin = 1.1537289208588768 
+            xmax = 1.483591032315702 
+            text = "tenEr" 
+        intervals [5]:
+            xmin = 1.483591032315702 
+            xmax = 1.8328567973876344 
+            text = "nuEvas" 
+        intervals [6]:
+            xmin = 1.8328567973876344 
+            xmax = 2.783635824527895 
+            text = "tenEr" 
+        intervals [7]:
+            xmin = 2.783635824527895 
+            xmax = 3.307534472135794 
+            text = "puEs" 
+        intervals [8]:
+            xmin = 3.307534472135794 
+            xmax = 3.5791856227472967 
+            text = "Una" 
+        intervals [9]:
+            xmin = 3.5791856227472967 
+            xmax = 3.792625812513478 
+            text = "fOrma" 
+        intervals [10]:
+            xmin = 3.792625812513478 
+            xmax = 3.9478550414343365 
+            text = "dE" 
+        intervals [11]:
+            xmin = 3.9478550414343365 
+            xmax = 5.005354163457688 
+            text = "comunicaciOn" 
+        intervals [12]:
+            xmin = 5.005354163457688 
+            xmax = 5.64567473275623 
+            text = "sAna" 
+        intervals [13]:
+            xmin = 5.64567473275623 
+            xmax = 5.820307615292197 
+            text = "se" 
+        intervals [14]:
+            xmin = 5.820307615292197 
+            xmax = 6.082256939096147 
+            text = "podrIa" 
+        intervals [15]:
+            xmin = 6.082256939096147 
+            xmax = 6.509137318628508 
+            text = "decIr" 
+        intervals [16]:
+            xmin = 6.509137318628508 
+            xmax = 6.78 
+            text = "<sil>" 

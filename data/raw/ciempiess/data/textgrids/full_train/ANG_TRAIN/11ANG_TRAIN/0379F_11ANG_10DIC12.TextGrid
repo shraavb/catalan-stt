@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.81 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.81 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.096263460187054 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.096263460187054 
+            xmax = 0.5875725885872841 
+            text = "cuAntas" 
+        intervals [3]:
+            xmin = 0.5875725885872841 
+            xmax = 0.9373180698213462 
+            text = "fuEntes" 
+        intervals [4]:
+            xmin = 0.9373180698213462 
+            xmax = 1.8741363231268697 
+            text = "bibliogrAficas" 
+        intervals [5]:
+            xmin = 1.8741363231268697 
+            xmax = 2.0864817938761218 
+            text = "sOn" 
+        intervals [6]:
+            xmin = 2.0864817938761218 
+            xmax = 3.031627320544361 
+            text = "indispensAbles" 
+        intervals [7]:
+            xmin = 3.031627320544361 
+            xmax = 3.173190967710529 
+            text = "pAra" 
+        intervals [8]:
+            xmin = 3.173190967710529 
+            xmax = 3.239809154612255 
+            text = "lA" 
+        intervals [9]:
+            xmin = 3.239809154612255 
+            xmax = 3.818554653321001 
+            text = "elaboraciOn" 
+        intervals [10]:
+            xmin = 3.818554653321001 
+            xmax = 3.901827386948159 
+            text = "dE" 
+        intervals [11]:
+            xmin = 3.901827386948159 
+            xmax = 4.07 
+            text = "lA" 
+        intervals [12]:
+            xmin = 4.07 
+            xmax = 4.534700162514556 
+            text = "tEsis" 
+        intervals [13]:
+            xmin = 4.534700162514556 
+            xmax = 4.81 
+            text = "<sil>" 

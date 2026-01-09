@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.52 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.52 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.16344122611163667 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.16344122611163667 
+            xmax = 0.24132214191106902 
+            text = "sE" 
+        intervals [3]:
+            xmin = 0.24132214191106902 
+            xmax = 0.6612018618732259 
+            text = "Abre" 
+        intervals [4]:
+            xmin = 0.6612018618732259 
+            xmax = 0.820349820245979 
+            text = "El" 
+        intervals [5]:
+            xmin = 0.820349820245979 
+            xmax = 1.1521902440870386 
+            text = "juIcio" 
+        intervals [6]:
+            xmin = 1.1521902440870386 
+            xmax = 1.8023265846736043 
+            text = "sucesOrio" 
+        intervals [7]:
+            xmin = 1.8023265846736043 
+            xmax = 2.1036918675496685 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 2.1036918675496685 
+            xmax = 2.276384333017975 
+            text = "En" 
+        intervals [9]:
+            xmin = 2.276384333017975 
+            xmax = 2.4355322913907282 
+            text = "El" 
+        intervals [10]:
+            xmin = 2.4355322913907282 
+            xmax = 2.797847856196783 
+            text = "estAdo" 
+        intervals [11]:
+            xmin = 2.797847856196783 
+            xmax = 2.8994316594134335 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.8994316594134335 
+            xmax = 3.44459807000946 
+            text = "mEJico" 
+        intervals [13]:
+            xmin = 3.44459807000946 
+            xmax = 3.52 
+            text = "<sil>" 

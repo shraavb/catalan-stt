@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.05 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.05 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05873486746068043 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05873486746068043 
+            xmax = 0.7194321029808879 
+            text = "distInto" 
+        intervals [3]:
+            xmin = 0.7194321029808879 
+            xmax = 1.133662344686347 
+            text = "++dis++" 
+        intervals [4]:
+            xmin = 1.133662344686347 
+            xmax = 1.2448394471574113 
+            text = "A" 
+        intervals [5]:
+            xmin = 1.2448394471574113 
+            xmax = 1.4022469390054857 
+            text = "lO" 
+        intervals [6]:
+            xmin = 1.4022469390054857 
+            xmax = 1.4913064409721595 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.4913064409721595 
+            xmax = 1.5886505477729422 
+            text = "Es" 
+        intervals [8]:
+            xmin = 1.5886505477729422 
+            xmax = 1.9646085009289194 
+            text = "delincuEncia" 
+        intervals [9]:
+            xmin = 1.9646085009289194 
+            xmax = 2.672942214245254 
+            text = "organizAda" 
+        intervals [10]:
+            xmin = 2.672942214245254 
+            xmax = 2.749574808960764 
+            text = "Y" 
+        intervals [11]:
+            xmin = 2.749574808960764 
+            xmax = 3.2155838308794054 
+            text = "delincuEncia" 
+        intervals [12]:
+            xmin = 3.2155838308794054 
+            xmax = 3.871138362623598 
+            text = "convencionAl" 
+        intervals [13]:
+            xmin = 3.871138362623598 
+            xmax = 4.05 
+            text = "<sil>" 

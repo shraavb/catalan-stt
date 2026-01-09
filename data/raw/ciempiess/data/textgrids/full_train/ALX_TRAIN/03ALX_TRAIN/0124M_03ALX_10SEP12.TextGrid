@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.16 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.16 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1337335619896303 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1337335619896303 
+            xmax = 0.46570724514572825 
+            text = "nos" 
+        intervals [3]:
+            xmin = 0.46570724514572825 
+            xmax = 0.8862072438101191 
+            text = "dio" 
+        intervals [4]:
+            xmin = 0.8862072438101191 
+            xmax = 1.2126480322469488 
+            text = "cOmo" 
+        intervals [5]:
+            xmin = 1.2126480322469488 
+            xmax = 2.2 
+            text = "consumidOres" 
+        intervals [6]:
+            xmin = 2.2 
+            xmax = 2.546075659590609 
+            text = "la" 
+        intervals [7]:
+            xmin = 2.546075659590609 
+            xmax = 3.4036743410771955 
+            text = "posibilidAd" 
+        intervals [8]:
+            xmin = 3.4036743410771955 
+            xmax = 3.763312497829635 
+            text = "de" 
+        intervals [9]:
+            xmin = 3.763312497829635 
+            xmax = 4.338733548633538 
+            text = "escogEr" 
+        intervals [10]:
+            xmin = 4.338733548633538 
+            xmax = 4.847759862806222 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 4.847759862806222 
+            xmax = 5.08014144101549 
+            text = "nos" 
+        intervals [12]:
+            xmin = 5.08014144101549 
+            xmax = 5.196332230120125 
+            text = "dio" 
+        intervals [13]:
+            xmin = 5.196332230120125 
+            xmax = 5.362319071698174 
+            text = "la" 
+        intervals [14]:
+            xmin = 5.362319071698174 
+            xmax = 5.948805911940613 
+            text = "libertAd" 
+        intervals [15]:
+            xmin = 5.948805911940613 
+            xmax = 6.16 
+            text = "<sil>" 

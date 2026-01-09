@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08517389061067397 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08517389061067397 
+            xmax = 0.2775281770421165 
+            text = "yA" 
+        intervals [3]:
+            xmin = 0.2775281770421165 
+            xmax = 0.6986281013920312 
+            text = "tenIamos" 
+        intervals [4]:
+            xmin = 0.6986281013920312 
+            xmax = 0.7974046268568261 
+            text = "pOr" 
+        intervals [5]:
+            xmin = 0.7974046268568261 
+            xmax = 0.8857836233253267 
+            text = "lO" 
+        intervals [6]:
+            xmin = 0.8857836233253267 
+            xmax = 1.1353243192363873 
+            text = "mEnos" 
+        intervals [7]:
+            xmin = 1.1353243192363873 
+            xmax = 1.3744674861511537 
+            text = "diEz" 
+        intervals [8]:
+            xmin = 1.3744674861511537 
+            xmax = 1.90476190476 
+            text = "tEmas" 
+        intervals [9]:
+            xmin = 1.90476190476 
+            xmax = 2.14285714286 
+            text = "pOr" 
+        intervals [10]:
+            xmin = 2.14285714286 
+            xmax = 2.273853744330601 
+            text = "quE" 
+        intervals [11]:
+            xmin = 2.273853744330601 
+            xmax = 2.814525252137899 
+            text = "todavIa" 
+        intervals [12]:
+            xmin = 2.814525252137899 
+            xmax = 3.204432589498931 
+            text = "hAsta" 
+        intervals [13]:
+            xmin = 3.204432589498931 
+            xmax = 3.3655942889414914 
+            text = "A" 
+        intervals [14]:
+            xmin = 3.3655942889414914 
+            xmax = 3.849079387269171 
+            text = "princIpios" 
+        intervals [15]:
+            xmin = 3.849079387269171 
+            xmax = 3.9634522062284074 
+            text = "dEl" 
+        intervals [16]:
+            xmin = 3.9634522062284074 
+            xmax = 4.161005257157997 
+            text = "mEs" 
+        intervals [17]:
+            xmin = 4.161005257157997 
+            xmax = 4.212992902139468 
+            text = "dE" 
+        intervals [18]:
+            xmin = 4.212992902139468 
+            xmax = 4.670484177976412 
+            text = "abrIl" 
+        intervals [19]:
+            xmin = 4.670484177976412 
+            xmax = 5 
+            text = "<sil>" 

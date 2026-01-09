@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.72 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.72 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.393333333333 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.393333333333 
+            xmax = 0.60276790874221 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.60276790874221 
+            xmax = 0.8229492575298566 
+            text = "Ese" 
+        intervals [4]:
+            xmin = 0.8229492575298566 
+            xmax = 1.2029222216980182 
+            text = "progrAma" 
+        intervals [5]:
+            xmin = 1.2029222216980182 
+            xmax = 1.6168871648220962 
+            text = "nacionAl" 
+        intervals [6]:
+            xmin = 1.6168871648220962 
+            xmax = 1.7297013452373924 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.7297013452373924 
+            xmax = 2.1191271396268543 
+            text = "prevenciOn" 
+        intervals [8]:
+            xmin = 2.1191271396268543 
+            xmax = 2.222551775830819 
+            text = "y" 
+        intervals [9]:
+            xmin = 2.222551775830819 
+            xmax = 2.851283135441362 
+            text = "tratamiEnto" 
+        intervals [10]:
+            xmin = 2.851283135441362 
+            xmax = 3.132868029820284 
+            text = "dE" 
+        intervals [11]:
+            xmin = 3.132868029820284 
+            xmax = 4.397999796379946 
+            text = "farmacodependEncia" 
+        intervals [12]:
+            xmin = 4.397999796379946 
+            xmax = 4.72 
+            text = "<sil>" 

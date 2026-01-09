@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.3 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.3 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15957513718070007 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.15957513718070007 
+            xmax = 0.2960783727530747 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.2960783727530747 
+            xmax = 0.4262326206244086 
+            text = "El" 
+        intervals [4]:
+            xmin = 0.4262326206244086 
+            xmax = 0.8293933396404918 
+            text = "estAdo" 
+        intervals [5]:
+            xmin = 0.8293933396404918 
+            xmax = 0.9024066982024596 
+            text = "dE" 
+        intervals [6]:
+            xmin = 0.9024066982024596 
+            xmax = 1.4642921097445598 
+            text = "mEJico" 
+        intervals [7]:
+            xmin = 1.4642921097445598 
+            xmax = 1.5753993945127718 
+            text = "En" 
+        intervals [8]:
+            xmin = 1.5753993945127718 
+            xmax = 2.1817277199621565 
+            text = "naucAlpan" 
+        intervals [9]:
+            xmin = 2.1817277199621565 
+            xmax = 2.3087074739829703 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 2.3087074739829703 
+            xmax = 2.343626906338694 
+            text = "O" 
+        intervals [11]:
+            xmin = 2.343626906338694 
+            xmax = 2.5087005865657517 
+            text = "En" 
+        intervals [12]:
+            xmin = 2.5087005865657517 
+            xmax = 3.200740245979186 
+            text = "tlanepAntla" 
+        intervals [13]:
+            xmin = 3.200740245979186 
+            xmax = 3.3 
+            text = "<sil>" 

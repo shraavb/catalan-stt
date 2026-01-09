@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.66 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.66 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.030929580926417212 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.030929580926417212 
+            xmax = 0.4137042133959916 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.4137042133959916 
+            xmax = 0.7480263607428351 
+            text = "durAnte" 
+        intervals [4]:
+            xmin = 0.7480263607428351 
+            xmax = 0.951526798258305 
+            text = "mI" 
+        intervals [5]:
+            xmin = 0.951526798258305 
+            xmax = 1.7025403176606346 
+            text = "ejercIcio" 
+        intervals [6]:
+            xmin = 1.7025403176606346 
+            xmax = 1.9011955066638313 
+            text = "hE" 
+        intervals [7]:
+            xmin = 1.9011955066638313 
+            xmax = 2.1628389263265784 
+            text = "tenIdo" 
+        intervals [8]:
+            xmin = 2.1628389263265784 
+            xmax = 2.2694343935965864 
+            text = "El" 
+        intervals [9]:
+            xmin = 2.2694343935965864 
+            xmax = 2.7927212329220805 
+            text = "contActo" 
+        intervals [10]:
+            xmin = 2.7927212329220805 
+            xmax = 3.3741510543948516 
+            text = "principAlmente" 
+        intervals [11]:
+            xmin = 3.3741510543948516 
+            xmax = 3.5291990067875907 
+            text = "cOn" 
+        intervals [12]:
+            xmin = 3.5291990067875907 
+            xmax = 4.362581750898563 
+            text = "pacieEtes" 
+        intervals [13]:
+            xmin = 4.362581750898563 
+            xmax = 4.66 
+            text = "<sil>" 

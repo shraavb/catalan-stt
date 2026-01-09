@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.95 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.95 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10603396404919584 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10603396404919584 
+            xmax = 0.26793315042573324 
+            text = "no" 
+        intervals [3]:
+            xmin = 0.26793315042573324 
+            xmax = 0.8869594512771997 
+            text = "entrEgue" 
+        intervals [4]:
+            xmin = 0.8869594512771997 
+            xmax = 0.9774325260170294 
+            text = "o" 
+        intervals [5]:
+            xmin = 0.9774325260170294 
+            xmax = 1.3964657142857144 
+            text = "impIda" 
+        intervals [6]:
+            xmin = 1.3964657142857144 
+            xmax = 1.4726535666982026 
+            text = "la" 
+        intervals [7]:
+            xmin = 1.4726535666982026 
+            xmax = 1.8726397918637654 
+            text = "entrEga" 
+        intervals [8]:
+            xmin = 1.8726397918637654 
+            xmax = 2.4154782403027437 
+            text = "oportUna" 
+        intervals [9]:
+            xmin = 2.4154782403027437 
+            xmax = 2.5916626490066226 
+            text = "de" 
+        intervals [10]:
+            xmin = 2.5916626490066226 
+            xmax = 3.40592032166509 
+            text = "documEntos" 
+        intervals [11]:
+            xmin = 3.40592032166509 
+            xmax = 3.5297255818353834 
+            text = "o" 
+        intervals [12]:
+            xmin = 3.5297255818353834 
+            xmax = 4.105896215704825 
+            text = "materiAles" 
+        intervals [13]:
+            xmin = 4.105896215704825 
+            xmax = 4.8106338505203405 
+            text = "electorAles" 
+        intervals [14]:
+            xmin = 4.8106338505203405 
+            xmax = 4.95 
+            text = "<sil>" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.66 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.66 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02429233180057661 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.02429233180057661 
+            xmax = 0.13084620895459947 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.13084620895459947 
+            xmax = 0.4390913535787371 
+            text = "sEntido" 
+        intervals [4]:
+            xmin = 0.4390913535787371 
+            xmax = 0.7625584806534494 
+            text = "positIvo" 
+        intervals [5]:
+            xmin = 0.7625584806534494 
+            xmax = 0.8120299236178172 
+            text = "O" 
+        intervals [6]:
+            xmin = 0.8120299236178172 
+            xmax = 1.0784146165028743 
+            text = "negatIvo" 
+        intervals [7]:
+            xmin = 1.0784146165028743 
+            xmax = 1.245856423459196 
+            text = "pEro" 
+        intervals [8]:
+            xmin = 1.245856423459196 
+            xmax = 1.3486048050005752 
+            text = "quE" 
+        intervals [9]:
+            xmin = 1.3486048050005752 
+            xmax = 1.4437421953166671 
+            text = "sE" 
+        intervals [10]:
+            xmin = 1.4437421953166671 
+            xmax = 2.227674291521264 
+            text = "dictamInen" 
+        intervals [11]:
+            xmin = 2.227674291521264 
+            xmax = 2.634862322074137 
+            text = "Estas" 
+        intervals [12]:
+            xmin = 2.634862322074137 
+            xmax = 3.37846153846 
+            text = "iniciatIvas" 
+        intervals [13]:
+            xmin = 3.37846153846 
+            xmax = 3.66 
+            text = "<sil>" 

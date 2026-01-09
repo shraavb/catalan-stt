@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.35 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.35 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.32637622839715347 
+            text = "Al" 
+        intervals [2]:
+            xmin = 0.32637622839715347 
+            xmax = 0.9987786497643325 
+            text = "secretArio" 
+        intervals [3]:
+            xmin = 0.9987786497643325 
+            xmax = 1.1078168802563075 
+            text = "dE" 
+        intervals [4]:
+            xmin = 1.1078168802563075 
+            xmax = 1.6530080327161825 
+            text = "trabAjo" 
+        intervals [5]:
+            xmin = 1.6530080327161825 
+            xmax = 1.9528631665691136 
+            text = "lA" 
+        intervals [6]:
+            xmin = 1.9528631665691136 
+            xmax = 2.616179068728628 
+            text = "destitUye" 
+        intervals [7]:
+            xmin = 2.616179068728628 
+            xmax = 4.079108661162626 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 4.079108661162626 
+            xmax = 4.2154064492775944 
+            text = "Y" 
+        intervals [9]:
+            xmin = 4.2154064492775944 
+            xmax = 4.3880503142232214 
+            text = "dE" 
+        intervals [10]:
+            xmin = 4.3880503142232214 
+            xmax = 4.824203236191122 
+            text = "inmediAto" 
+        intervals [11]:
+            xmin = 4.824203236191122 
+            xmax = 5.351221350235667 
+            text = "registrAn" 
+        intervals [12]:
+            xmin = 5.351221350235667 
+            xmax = 5.741941676165244 
+            text = "Otra" 
+        intervals [13]:
+            xmin = 5.741941676165244 
+            xmax = 6.35 
+            text = "<sil>" 

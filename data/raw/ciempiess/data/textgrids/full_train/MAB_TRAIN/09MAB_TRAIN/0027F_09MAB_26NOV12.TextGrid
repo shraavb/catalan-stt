@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.01 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.01 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06129924835255348 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.06129924835255348 
+            xmax = 0.1375325473640856 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.1375325473640856 
+            xmax = 0.4255250102965403 
+            text = "estEn" 
+        intervals [4]:
+            xmin = 0.4255250102965403 
+            xmax = 0.713517473228995 
+            text = "dEntro" 
+        intervals [5]:
+            xmin = 0.713517473228995 
+            xmax = 0.7812804056836902 
+            text = "dE" 
+        intervals [6]:
+            xmin = 0.7812804056836902 
+            xmax = 0.9252766371499175 
+            text = "sU" 
+        intervals [7]:
+            xmin = 0.9252766371499175 
+            xmax = 1.3572653315485994 
+            text = "domicIlio" 
+        intervals [8]:
+            xmin = 1.3572653315485994 
+            xmax = 1.7807836593904447 
+            text = "realIz" 
+        intervals [9]:
+            xmin = 1.7807836593904447 
+            xmax = 2.331357485584843 
+            text = "E" 
+        intervals [10]:
+            xmin = 2.331357485584843 
+            xmax = 2.7548758134266884 
+            text = "teniEndo" 
+        intervals [11]:
+            xmin = 2.7548758134266884 
+            xmax = 3.4325051379736404 
+            text = "ruIdos" 
+        intervals [12]:
+            xmin = 3.4325051379736404 
+            xmax = 3.6019124691103785 
+            text = "<sil>" 
+        intervals [13]:
+            xmin = 3.6019124691103785 
+            xmax = 3.847553099258649 
+            text = "pAra" 
+        intervals [14]:
+            xmin = 3.847553099258649 
+            xmax = 4.186367761532125 
+            text = "Eso" 
+        intervals [15]:
+            xmin = 4.186367761532125 
+            xmax = 4.796234153624382 
+            text = "tenEmos" 
+        intervals [16]:
+            xmin = 4.796234153624382 
+            xmax = 5.01 
+            text = "<sil>" 

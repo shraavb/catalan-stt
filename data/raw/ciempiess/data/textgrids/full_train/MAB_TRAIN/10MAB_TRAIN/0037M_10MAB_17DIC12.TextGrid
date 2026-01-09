@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.4 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.4 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11281938325991188 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11281938325991188 
+            xmax = 0.23244662826160625 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.23244662826160625 
+            xmax = 0.4528126058963064 
+            text = "vAmos" 
+        intervals [4]:
+            xmin = 0.4528126058963064 
+            xmax = 0.7109556082683837 
+            text = "Al" 
+        intervals [5]:
+            xmin = 0.7109556082683837 
+            xmax = 1.0257641477465267 
+            text = "fAce" 
+        intervals [6]:
+            xmin = 1.0257641477465267 
+            xmax = 1.1705760759064725 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.1705760759064725 
+            xmax = 1.3720535411724841 
+            text = "vAmos" 
+        intervals [8]:
+            xmin = 1.3720535411724841 
+            xmax = 1.6616773974923758 
+            text = "Esto" 
+        intervals [9]:
+            xmin = 1.6616773974923758 
+            xmax = 1.8127854964418844 
+            text = "Y" 
+        intervals [10]:
+            xmin = 1.8127854964418844 
+            xmax = 1.9387089122331416 
+            text = "quE" 
+        intervals [11]:
+            xmin = 1.9387089122331416 
+            xmax = 2.1338902067095904 
+            text = "vAmos" 
+        intervals [12]:
+            xmin = 2.1338902067095904 
+            xmax = 2.272405964079973 
+            text = "El" 
+        intervals [13]:
+            xmin = 2.272405964079973 
+            xmax = 2.6690647238224336 
+            text = "Otro" 
+        intervals [14]:
+            xmin = 2.6690647238224336 
+            xmax = 3.361643510674348 
+            text = "entOnces" 
+        intervals [15]:
+            xmin = 3.361643510674348 
+            xmax = 3.5442324635716713 
+            text = "yO" 
+        intervals [16]:
+            xmin = 3.5442324635716713 
+            xmax = 3.8086716367333113 
+            text = "crEo" 
+        intervals [17]:
+            xmin = 3.8086716367333113 
+            xmax = 4.15555555556 
+            text = "quE" 
+        intervals [18]:
+            xmin = 4.15555555556 
+            xmax = 4.4 
+            text = "<sil>" 

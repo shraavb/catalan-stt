@@ -1,0 +1,85 @@
+# Argentina (Rioplatense Spanish) Configuration
+# Inherits from: base.yaml
+
+_inherit: "../base.yaml"
+
+region: argentina
+language_code: "es-AR"
+
+# Argentina-specific datasets
+datasets:
+  # Mozilla Common Voice - Argentina locale
+  common-voice-argentina:
+    enabled: true
+    language: "es"
+    locale: "es-AR"
+    source: "mozilla"
+    auto_download: true
+    priority: 1
+
+  # UNTREF Corpus - Argentine Spanish
+  untref:
+    enabled: false
+    language: "es"
+    source: "untref"
+    manual_download: true
+    download_url: "https://untref.edu.ar/"
+    hours: 10
+    priority: 2
+
+# Training output for Argentina model
+training:
+  output_dir: "./models/spanish-slang-whisper-argentina"
+
+# Argentina-specific slang markers (Rioplatense Spanish)
+slang_markers:
+  lexical:
+    - "che"
+    - "boludo"
+    - "boluda"
+    - "pibe"
+    - "piba"
+    - "mina"
+    - "laburo"
+    - "laburar"
+    - "copado"
+    - "copada"
+    - "morfar"
+    - "morfi"
+    - "afanar"
+    - "chabon"
+    - "chabona"
+    - "quilombo"
+    - "guita"
+    - "mango"
+    - "trucho"
+    - "trucha"
+    - "groso"
+    - "grosa"
+    - "gil"
+    - "garca"
+    - "bondi"
+    - "birra"
+    - "faso"
+    - "onda"
+    - "joda"
+    - "bardear"
+    - "flashear"
+    - "rancho"
+  expressions:
+    - "que onda"
+    - "todo bien"
+    - "todo piola"
+    - "de una"
+    - "ni en pedo"
+    - "al pedo"
+    - "en pedo"
+    - "que se yo"
+    - "viste"
+    - "dale"
+    - "ta bien"
+    - "re copado"
+    - "re piola"
+    - "al toque"
+    - "manso quilombo"
+    - "una masa"

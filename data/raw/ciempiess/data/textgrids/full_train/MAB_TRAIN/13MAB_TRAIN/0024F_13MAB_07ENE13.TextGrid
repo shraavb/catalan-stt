@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.7 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.7 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.039571495550947 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.039571495550947 
+            xmax = 0.21363587094443584 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.21363587094443584 
+            xmax = 0.9 
+            text = "espAcios" 
+        intervals [4]:
+            xmin = 0.9 
+            xmax = 1.1366279915522504 
+            text = "Este" 
+        intervals [5]:
+            xmin = 1.1366279915522504 
+            xmax = 1.4765071458811851 
+            text = "tIpo" 
+        intervals [6]:
+            xmin = 1.4765071458811851 
+            xmax = 1.5779075565649556 
+            text = "dE" 
+        intervals [7]:
+            xmin = 1.5779075565649556 
+            xmax = 2.1 
+            text = "trabAjo" 
+        intervals [8]:
+            xmin = 2.1 
+            xmax = 2.4 
+            text = "tAn" 
+        intervals [9]:
+            xmin = 2.4 
+            xmax = 3.198184257332072 
+            text = "interesAnte" 
+        intervals [10]:
+            xmin = 3.198184257332072 
+            xmax = 3.7519891390728475 
+            text = "quE" 
+        intervals [11]:
+            xmin = 3.7519891390728475 
+            xmax = 3.905519205298013 
+            text = "yO" 
+        intervals [12]:
+            xmin = 3.905519205298013 
+            xmax = 3.9750440061687238 
+            text = "mE" 
+        intervals [13]:
+            xmin = 3.9750440061687238 
+            xmax = 4.1958209303041745 
+            text = "estOy" 
+        intervals [14]:
+            xmin = 4.1958209303041745 
+            xmax = 4.629303803216651 
+            text = "enterAndo" 
+        intervals [15]:
+            xmin = 4.629303803216651 
+            xmax = 5.062477918637653 
+            text = "apEnas" 
+        intervals [16]:
+            xmin = 5.062477918637653 
+            xmax = 5.34760518448439 
+            text = "pEro" 
+        intervals [17]:
+            xmin = 5.34760518448439 
+            xmax = 5.451786300851467 
+            text = "mE" 
+        intervals [18]:
+            xmin = 5.451786300851467 
+            xmax = 5.555967417218543 
+            text = "dA" 
+        intervals [19]:
+            xmin = 5.555967417218543 
+            xmax = 5.671004946564299 
+            text = "++dis++" 
+        intervals [20]:
+            xmin = 5.671004946564299 
+            xmax = 5.7 
+            text = "<sil>" 

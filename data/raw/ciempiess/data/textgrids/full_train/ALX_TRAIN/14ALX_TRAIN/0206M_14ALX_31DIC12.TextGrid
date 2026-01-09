@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.66 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 2.66 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08880824257868741 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08880824257868741 
+            xmax = 0.21782528762344366 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.21782528762344366 
+            xmax = 0.4710809686372245 
+            text = "pAra" 
+        intervals [4]:
+            xmin = 0.4710809686372245 
+            xmax = 0.580984377379054 
+            text = "quE" 
+        intervals [5]:
+            xmin = 0.580984377379054 
+            xmax = 0.8509644901578958 
+            text = "ademAs" 
+        intervals [6]:
+            xmin = 0.8509644901578958 
+            xmax = 0.9871491488162496 
+            text = "lOs" 
+        intervals [7]:
+            xmin = 0.9871491488162496 
+            xmax = 1.0683821031036886 
+            text = "quE" 
+        intervals [8]:
+            xmin = 1.0683821031036886 
+            xmax = 1.3574758521854575 
+            text = "estAmos" 
+        intervals [9]:
+            xmin = 1.3574758521854575 
+            xmax = 1.5916178968963115 
+            text = "aquI" 
+        intervals [10]:
+            xmin = 1.5916178968963115 
+            xmax = 1.7086889192517385 
+            text = "nO" 
+        intervals [11]:
+            xmin = 1.7086889192517385 
+            xmax = 1.8281491461450314 
+            text = "lO" 
+        intervals [12]:
+            xmin = 1.8281491461450314 
+            xmax = 2.370498576240581 
+            text = "ocupAmos" 
+        intervals [13]:
+            xmin = 2.370498576240581 
+            xmax = 2.66 
+            text = "<sil>" 

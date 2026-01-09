@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.63 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.63 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08521670791940178 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08521670791940178 
+            xmax = 0.25489572294638146 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.25489572294638146 
+            xmax = 0.3460196384238335 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.3460196384238335 
+            xmax = 0.5219830614147755 
+            text = "lAs" 
+        intervals [5]:
+            xmin = 0.5219830614147755 
+            xmax = 1.01845129056779 
+            text = "propuEstas" 
+        intervals [6]:
+            xmin = 1.01845129056779 
+            xmax = 1.106433002063261 
+            text = "quE" 
+        intervals [7]:
+            xmin = 1.106433002063261 
+            xmax = 1.2792542210722218 
+            text = "estA" 
+        intervals [8]:
+            xmin = 1.2792542210722218 
+            xmax = 1.815 
+            text = "haciEndo" 
+        intervals [9]:
+            xmin = 1.815 
+            xmax = 1.9139794254324047 
+            text = "sU" 
+        intervals [10]:
+            xmin = 1.9139794254324047 
+            xmax = 2.2501952515043833 
+            text = "fOrma" 
+        intervals [11]:
+            xmin = 2.2501952515043833 
+            xmax = 2.3287503510539107 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.3287503510539107 
+            xmax = 2.749805684639379 
+            text = "gobernAr" 
+        intervals [13]:
+            xmin = 2.749805684639379 
+            xmax = 2.8943470678105094 
+            text = "Es" 
+        intervals [14]:
+            xmin = 2.8943470678105094 
+            xmax = 3.0137508191257916 
+            text = "lA" 
+        intervals [15]:
+            xmin = 3.0137508191257916 
+            xmax = 3.5007924363328633 
+            text = "corrEcta" 
+        intervals [16]:
+            xmin = 3.5007924363328633 
+            xmax = 3.63 
+            text = "<sil>" 

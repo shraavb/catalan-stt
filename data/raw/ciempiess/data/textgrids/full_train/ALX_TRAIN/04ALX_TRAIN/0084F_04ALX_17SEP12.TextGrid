@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.25 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.25 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1717225439816535 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1717225439816535 
+            xmax = 0.2739460461634833 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.2739460461634833 
+            xmax = 0.40342914892713433 
+            text = "fuE" 
+        intervals [4]:
+            xmin = 0.40342914892713433 
+            xmax = 0.7714337567817214 
+            text = "aprobAda" 
+        intervals [5]:
+            xmin = 0.7714337567817214 
+            xmax = 0.9349913602726491 
+            text = "pOr" 
+        intervals [6]:
+            xmin = 0.9349913602726491 
+            xmax = 1.575591973945449 
+            text = "unanimidAd" 
+        intervals [7]:
+            xmin = 1.575591973945449 
+            xmax = 1.6982601765636447 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.6982601765636447 
+            xmax = 1.8072985788909297 
+            text = "En" 
+        intervals [9]:
+            xmin = 1.8072985788909297 
+            xmax = 1.9708561823818573 
+            text = "mIl" 
+        intervals [10]:
+            xmin = 1.9708561823818573 
+            xmax = 2.352490590527355 
+            text = "noveciEntos" 
+        intervals [11]:
+            xmin = 2.352490590527355 
+            xmax = 2.6659759972183 
+            text = "novEnta" 
+        intervals [12]:
+            xmin = 2.6659759972183 
+            xmax = 2.75 
+            text = "y" 
+        intervals [13]:
+            xmin = 2.75 
+            xmax = 3.061240205654708 
+            text = "trEs" 
+        intervals [14]:
+            xmin = 3.061240205654708 
+            xmax = 3.25 
+            text = "<sil>" 

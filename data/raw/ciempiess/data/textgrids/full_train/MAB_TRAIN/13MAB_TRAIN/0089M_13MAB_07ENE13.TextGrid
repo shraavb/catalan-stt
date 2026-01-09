@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.85 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.85 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.057782724692526 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.057782724692526 
+            xmax = 0.3335308041627246 
+            text = "primEr" 
+        intervals [3]:
+            xmin = 0.3335308041627246 
+            xmax = 0.9244195458845789 
+            text = "momEnto" 
+        intervals [4]:
+            xmin = 0.9244195458845789 
+            xmax = 1.1551475307473982 
+            text = "pAra" 
+        intervals [5]:
+            xmin = 1.1551475307473982 
+            xmax = 1.6166035004730368 
+            text = "empezAr" 
+        intervals [6]:
+            xmin = 1.6166035004730368 
+            xmax = 1.7854288552507094 
+            text = "A" 
+        intervals [7]:
+            xmin = 1.7854288552507094 
+            xmax = 2.156844635761589 
+            text = "tOmar" 
+        intervals [8]:
+            xmin = 2.156844635761589 
+            xmax = 2.8715386376537366 
+            text = "consciEncia" 
+        intervals [9]:
+            xmin = 2.8715386376537366 
+            xmax = 3.3667596783349096 
+            text = "tOdos" 
+        intervals [10]:
+            xmin = 3.3667596783349096 
+            xmax = 3.6537627814569533 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 3.6537627814569533 
+            xmax = 4.17857142857 
+            text = "Este" 
+        intervals [12]:
+            xmin = 4.17857142857 
+            xmax = 4.745500075685903 
+            text = "principAlmente" 
+        intervals [13]:
+            xmin = 4.745500075685903 
+            xmax = 4.886187871333964 
+            text = "lAs" 
+        intervals [14]:
+            xmin = 4.886187871333964 
+            xmax = 5.702177086092715 
+            text = "autoridAdes" 
+        intervals [15]:
+            xmin = 5.702177086092715 
+            xmax = 5.85 
+            text = "<sil>" 

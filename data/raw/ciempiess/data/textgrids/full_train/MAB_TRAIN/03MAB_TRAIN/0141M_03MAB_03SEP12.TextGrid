@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.36 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.36 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08790623873061666 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.08790623873061666 
+            xmax = 0.18838658492607285 
+            text = "pueEs" 
+        intervals [3]:
+            xmin = 0.18838658492607285 
+            xmax = 0.36162856112513525 
+            text = "Es" 
+        intervals [4]:
+            xmin = 0.36162856112513525 
+            xmax = 0.8259170573386225 
+            text = "perfEcto" 
+        intervals [5]:
+            xmin = 0.8259170573386225 
+            xmax = 1.196654886404616 
+            text = "entOnces" 
+        intervals [6]:
+            xmin = 1.196654886404616 
+            xmax = 1.3525726649837722 
+            text = "El" 
+        intervals [7]:
+            xmin = 1.3525726649837722 
+            xmax = 1.615900468806347 
+            text = "crImen" 
+        intervals [8]:
+            xmin = 1.615900468806347 
+            xmax = 1.9415953840605842 
+            text = "tOntes" 
+        intervals [9]:
+            xmin = 1.9415953840605842 
+            xmax = 2.076724125495853 
+            text = "Al" 
+        intervals [10]:
+            xmin = 2.076724125495853 
+            xmax = 2.419743238369996 
+            text = "revEs" 
+        intervals [11]:
+            xmin = 2.419743238369996 
+            xmax = 2.5063642264695276 
+            text = "Es" 
+        intervals [12]:
+            xmin = 2.5063642264695276 
+            xmax = 2.835523981247746 
+            text = "dEcir" 
+        intervals [13]:
+            xmin = 2.835523981247746 
+            xmax = 3.08 
+            text = "tU" 
+        intervals [14]:
+            xmin = 3.08 
+            xmax = 3.36 
+            text = "<sil>" 

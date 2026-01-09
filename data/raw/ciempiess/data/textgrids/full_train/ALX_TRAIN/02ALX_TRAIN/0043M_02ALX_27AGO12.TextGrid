@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.67 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.67 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10935186788764778 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.10935186788764778 
+            xmax = 0.400155055831614 
+            text = "pAra" 
+        intervals [3]:
+            xmin = 0.400155055831614 
+            xmax = 0.8774649297143264 
+            text = "quE" 
+        intervals [4]:
+            xmin = 0.8774649297143264 
+            xmax = 1.3368527901208125 
+            text = "Ellos" 
+        intervals [5]:
+            xmin = 1.3368527901208125 
+            xmax = 1.6791493542480331 
+            text = "puEdan" 
+        intervals [6]:
+            xmin = 1.6791493542480331 
+            xmax = 2.2133644937420405 
+            text = "ejercitAr" 
+        intervals [7]:
+            xmin = 2.2133644937420405 
+            xmax = 2.312483261925673 
+            text = "sU" 
+        intervals [8]:
+            xmin = 2.312483261925673 
+            xmax = 2.6143296089054857 
+            text = "acciOn" 
+        intervals [9]:
+            xmin = 2.6143296089054857 
+            xmax = 3.1824972758515426 
+            text = "penAl" 
+        intervals [10]:
+            xmin = 3.1824972758515426 
+            xmax = 3.335874484682748 
+            text = "cuAndo" 
+        intervals [11]:
+            xmin = 3.335874484682748 
+            xmax = 3.4349459607522856 
+            text = "El" 
+        intervals [12]:
+            xmin = 3.4349459607522856 
+            xmax = 3.930661099694742 
+            text = "ministErio" 
+        intervals [13]:
+            xmin = 3.930661099694742 
+            xmax = 4.598831528393778 
+            text = "pUblico" 
+        intervals [14]:
+            xmin = 4.598831528393778 
+            xmax = 4.868610167468731 
+            text = "nO" 
+        intervals [15]:
+            xmin = 4.868610167468731 
+            xmax = 5.441627418516082 
+            text = "desearE" 
+        intervals [16]:
+            xmin = 5.441627418516082 
+            xmax = 5.67 
+            text = "<sil>" 

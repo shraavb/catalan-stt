@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.9 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.9 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.058325562059216234 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.058325562059216234 
+            xmax = 0.5340148014446726 
+            text = "pAra" 
+        intervals [3]:
+            xmin = 0.5340148014446726 
+            xmax = 1.0639745665807905 
+            text = "separaciOn" 
+        intervals [4]:
+            xmin = 1.0639745665807905 
+            xmax = 1.1410202564433305 
+            text = "dE" 
+        intervals [5]:
+            xmin = 1.1410202564433305 
+            xmax = 1.3001958775769786 
+            text = "lOs" 
+        intervals [6]:
+            xmin = 1.3001958775769786 
+            xmax = 1.6671766635011822 
+            text = "pAdres" 
+        intervals [7]:
+            xmin = 1.6671766635011822 
+            xmax = 1.924605089434073 
+            text = "Y" 
+        intervals [8]:
+            xmin = 1.924605089434073 
+            xmax = 2.2202735854914315 
+            text = "cOmo" 
+        intervals [9]:
+            xmin = 2.2202735854914315 
+            xmax = 2.5077557093322924 
+            text = "viEne" 
+        intervals [10]:
+            xmin = 2.5077557093322924 
+            xmax = 2.72123442667389 
+            text = "dE" 
+        intervals [11]:
+            xmin = 2.72123442667389 
+            xmax = 2.7739498986323863 
+            text = "lA" 
+        intervals [12]:
+            xmin = 2.7739498986323863 
+            xmax = 3.755268684321313 
+            text = "especulaciOn" 
+        intervals [13]:
+            xmin = 3.755268684321313 
+            xmax = 3.9 
+            text = "<sil>" 

@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.86 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.86 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3284638107852413 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.3284638107852413 
+            xmax = 0.5652233339640492 
+            text = "pOco" 
+        intervals [3]:
+            xmin = 0.5652233339640492 
+            xmax = 1.0105567228003784 
+            text = "tiEmpo" 
+        intervals [4]:
+            xmin = 1.0105567228003784 
+            xmax = 1.2585905089877012 
+            text = "dE" 
+        intervals [5]:
+            xmin = 1.2585905089877012 
+            xmax = 2.2450885222327344 
+            text = "desarrollArse" 
+        intervals [6]:
+            xmin = 2.2450885222327344 
+            xmax = 2.594590675496689 
+            text = "pOco" 
+        intervals [7]:
+            xmin = 2.594590675496689 
+            xmax = 3.085021116367077 
+            text = "tiEmpo" 
+        intervals [8]:
+            xmin = 3.085021116367077 
+            xmax = 3.5754515572374648 
+            text = "dE" 
+        intervals [9]:
+            xmin = 3.5754515572374648 
+            xmax = 3.7332912393566704 
+            text = "dE" 
+        intervals [10]:
+            xmin = 3.7332912393566704 
+            xmax = 3.936227973509934 
+            text = "creAr" 
+        intervals [11]:
+            xmin = 3.936227973509934 
+            xmax = 4.1842617596972564 
+            text = "sUs" 
+        intervals [12]:
+            xmin = 4.1842617596972564 
+            xmax = 4.561949570482498 
+            text = "prOpias" 
+        intervals [13]:
+            xmin = 4.561949570482498 
+            xmax = 5.390607901608326 
+            text = "instituciOnes" 
+        intervals [14]:
+            xmin = 5.390607901608326 
+            xmax = 5.67810160832545 
+            text = "buEno" 
+        intervals [15]:
+            xmin = 5.67810160832545 
+            xmax = 5.796481369914854 
+            text = "pUs" 
+        intervals [16]:
+            xmin = 5.796481369914854 
+            xmax = 5.86 
+            text = "<sil>" 

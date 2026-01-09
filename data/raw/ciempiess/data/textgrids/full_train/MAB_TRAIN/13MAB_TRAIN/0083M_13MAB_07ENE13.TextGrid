@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.71 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.71 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05105336991485335 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05105336991485335 
+            xmax = 0.2821276631977294 
+            text = "cuidAdo" 
+        intervals [3]:
+            xmin = 0.2821276631977294 
+            xmax = 0.39086850709555343 
+            text = "dE" 
+        intervals [4]:
+            xmin = 0.39086850709555343 
+            xmax = 0.7170910387890255 
+            text = "nuEstras" 
+        intervals [5]:
+            xmin = 0.7170910387890255 
+            xmax = 1.3604743651844844 
+            text = "espEcies" 
+        intervals [6]:
+            xmin = 1.3604743651844844 
+            xmax = 2.7469201248817408 
+            text = "++dis++" 
+        intervals [7]:
+            xmin = 2.7469201248817408 
+            xmax = 2.8964387852412488 
+            text = "y" 
+        intervals [8]:
+            xmin = 2.8964387852412488 
+            xmax = 3.435612136234626 
+            text = "considEro" 
+        intervals [9]:
+            xmin = 3.435612136234626 
+            xmax = 3.879637248817408 
+            text = "quE" 
+        intervals [10]:
+            xmin = 3.879637248817408 
+            xmax = 4.196798043519395 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 4.196798043519395 
+            xmax = 4.54567491769158 
+            text = "mAs" 
+        intervals [12]:
+            xmin = 4.54567491769158 
+            xmax = 4.677070104068117 
+            text = "quE" 
+        intervals [13]:
+            xmin = 4.677070104068117 
+            xmax = 4.71 
+            text = "<sil>" 

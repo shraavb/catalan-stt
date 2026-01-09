@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.45 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.45 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11314450417423985 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11314450417423985 
+            xmax = 0.251374071963279 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.251374071963279 
+            xmax = 0.419224261421398 
+            text = "Un" 
+        intervals [4]:
+            xmin = 0.419224261421398 
+            xmax = 0.7203672483903761 
+            text = "tEma" 
+        intervals [5]:
+            xmin = 0.7203672483903761 
+            xmax = 0.9523954514648347 
+            text = "cOmo" 
+        intervals [6]:
+            xmin = 0.9523954514648347 
+            xmax = 1.070877938141154 
+            text = "pOr" 
+        intervals [7]:
+            xmin = 1.070877938141154 
+            xmax = 1.396704776501032 
+            text = "ejEmplo" 
+        intervals [8]:
+            xmin = 1.396704776501032 
+            xmax = 2.097726156002588 
+            text = "migratOrio" 
+        intervals [9]:
+            xmin = 2.097726156002588 
+            xmax = 2.260639575182527 
+            text = "En" 
+        intervals [10]:
+            xmin = 2.260639575182527 
+            xmax = 2.3396278996334066 
+            text = "Un" 
+        intervals [11]:
+            xmin = 2.3396278996334066 
+            xmax = 2.53 
+            text = "cAso" 
+        intervals [12]:
+            xmin = 2.53 
+            xmax = 2.709885670496904 
+            text = "quE" 
+        intervals [13]:
+            xmin = 2.709885670496904 
+            xmax = 2.8481152382859434 
+            text = "yO" 
+        intervals [14]:
+            xmin = 2.8481152382859434 
+            xmax = 3.2628039416530608 
+            text = "llEvo" 
+        intervals [15]:
+            xmin = 3.2628039416530608 
+            xmax = 3.45 
+            text = "<sil>" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.52 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.52 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.15216099414297532 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.15216099414297532 
+            xmax = 0.3020319609751053 
+            text = "Una" 
+        intervals [3]:
+            xmin = 0.3020319609751053 
+            xmax = 0.7863372149048586 
+            text = "evaluaciOn" 
+        intervals [4]:
+            xmin = 0.7863372149048586 
+            xmax = 0.9219240966165554 
+            text = "quE" 
+        intervals [5]:
+            xmin = 0.9219240966165554 
+            xmax = 1.0970226720591487 
+            text = "sE" 
+        intervals [6]:
+            xmin = 1.0970226720591487 
+            xmax = 1.7090635752828847 
+            text = "dAba" 
+        intervals [7]:
+            xmin = 1.7090635752828847 
+            xmax = 1.9491346610417597 
+            text = "dEntro" 
+        intervals [8]:
+            xmin = 1.9491346610417597 
+            xmax = 2.192689279976519 
+            text = "dEl" 
+        intervals [9]:
+            xmin = 2.192689279976519 
+            xmax = 2.862753623240851 
+            text = "funcionamiEnto" 
+        intervals [10]:
+            xmin = 2.862753623240851 
+            xmax = 3.0986722284367354 
+            text = "dEl" 
+        intervals [11]:
+            xmin = 3.0986722284367354 
+            xmax = 3.7179261022687387 
+            text = "ministErio" 
+        intervals [12]:
+            xmin = 3.7179261022687387 
+            xmax = 4.367839006161346 
+            text = "pUblico" 
+        intervals [13]:
+            xmin = 4.367839006161346 
+            xmax = 4.52 
+            text = "<sil>" 

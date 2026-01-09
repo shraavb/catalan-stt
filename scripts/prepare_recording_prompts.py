@@ -20,7 +20,7 @@ def main():
             dialogues = json.load(f)
     else:
         # Fallback to CSV
-        csv_path = data_dir / "catalan_spanish_full.csv"
+        csv_path = data_dir / "spanish_slang_phrases.csv"
         if csv_path.exists():
             df = pd.read_csv(csv_path)
             dialogues = df.to_dict("records")

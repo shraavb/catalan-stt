@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.65 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.65 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13007202424975167 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13007202424975167 
+            xmax = 0.4477094530575047 
+            text = "tambiEn" 
+        intervals [3]:
+            xmin = 0.4477094530575047 
+            xmax = 0.8302703333763948 
+            text = "Otro" 
+        intervals [4]:
+            xmin = 0.8302703333763948 
+            xmax = 1.32941176471 
+            text = "tEma" 
+        intervals [5]:
+            xmin = 1.32941176471 
+            xmax = 1.3828142438475632 
+            text = "de" 
+        intervals [6]:
+            xmin = 1.3828142438475632 
+            xmax = 1.4510788901445573 
+            text = "la" 
+        intervals [7]:
+            xmin = 1.4510788901445573 
+            xmax = 1.7302088548741728 
+            text = "refOrma" 
+        intervals [8]:
+            xmin = 1.7302088548741728 
+            xmax = 2.1147331345828415 
+            text = "polItica" 
+        intervals [9]:
+            xmin = 2.1147331345828415 
+            xmax = 2.247582071177555 
+            text = "es" 
+        intervals [10]:
+            xmin = 2.247582071177555 
+            xmax = 2.4185641935214837 
+            text = "el" 
+        intervals [11]:
+            xmin = 2.4185641935214837 
+            xmax = 2.5282165338634957 
+            text = "++dis++" 
+        intervals [12]:
+            xmin = 2.5282165338634957 
+            xmax = 2.888749618869512 
+            text = "relatIvo" 
+        intervals [13]:
+            xmin = 2.888749618869512 
+            xmax = 2.9557884187406365 
+            text = "a" 
+        intervals [14]:
+            xmin = 2.9557884187406365 
+            xmax = 3.0810731764427683 
+            text = "la" 
+        intervals [15]:
+            xmin = 3.0810731764427683 
+            xmax = 3.754082917619534 
+            text = "reconducciOn" 
+        intervals [16]:
+            xmin = 3.754082917619534 
+            xmax = 4.563856021586349 
+            text = "presupuestAl" 
+        intervals [17]:
+            xmin = 4.563856021586349 
+            xmax = 5.042577665886159 
+            text = "++dis++" 
+        intervals [18]:
+            xmin = 5.042577665886159 
+            xmax = 5.485341994808652 
+            text = "y" 
+        intervals [19]:
+            xmin = 5.485341994808652 
+            xmax = 5.65 
+            text = "<sil>" 

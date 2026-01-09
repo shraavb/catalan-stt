@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.26 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.26 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25517279091769157 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.25517279091769157 
+            xmax = 0.6239912582781456 
+            text = "debEmos" 
+        intervals [3]:
+            xmin = 0.6239912582781456 
+            xmax = 0.7305388155156102 
+            text = "dE" 
+        intervals [4]:
+            xmin = 0.7305388155156102 
+            xmax = 1.058377453169347 
+            text = "llevAr" 
+        intervals [5]:
+            xmin = 1.058377453169347 
+            xmax = 1.3985100397350991 
+            text = "refOrmas" 
+        intervals [6]:
+            xmin = 1.3985100397350991 
+            xmax = 1.7345446433301797 
+            text = "todavIa" 
+        intervals [7]:
+            xmin = 1.7345446433301797 
+            xmax = 1.9230518599810784 
+            text = "mAs" 
+        intervals [8]:
+            xmin = 1.9230518599810784 
+            xmax = 2.738550471144749 
+            text = "trascendentAles" 
+        intervals [9]:
+            xmin = 2.738550471144749 
+            xmax = 2.9598415515610217 
+            text = "y" 
+        intervals [10]:
+            xmin = 2.9598415515610217 
+            xmax = 3.127858853358562 
+            text = "mAs" 
+        intervals [11]:
+            xmin = 3.127858853358562 
+            xmax = 3.3286600189214757 
+            text = "dE" 
+        intervals [12]:
+            xmin = 3.3286600189214757 
+            xmax = 3.8286139413434244 
+            text = "fOndo" 
+        intervals [13]:
+            xmin = 3.8286139413434244 
+            xmax = 4.26 
+            text = "<sil>" 

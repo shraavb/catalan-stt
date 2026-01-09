@@ -1,0 +1,89 @@
+# Mexico (Mexican Spanish) Configuration
+# Inherits from: base.yaml
+
+_inherit: "../base.yaml"
+
+region: mexico
+language_code: "es-MX"
+
+# Mexico-specific datasets
+datasets:
+  # CIEMPIESS - Mexican Conversational Corpus
+  ciempiess:
+    enabled: true
+    language: "es"
+    source: "cimat"
+    manual_download: true
+    download_url: "https://www.ciempiess.org/"
+    hours: 17
+    priority: 1
+
+  # Mozilla Common Voice - Mexico locale
+  common-voice-mexico:
+    enabled: true
+    language: "es"
+    locale: "es-MX"
+    source: "mozilla"
+    auto_download: true
+    priority: 2
+
+  # DIMEx100 - Mexican Phonetics Corpus
+  dimex100:
+    enabled: false
+    language: "es"
+    source: "unam"
+    manual_download: true
+    download_url: "https://turing.iimas.unam.mx/~luis/DIME/DIMEx100/"
+    hours: 5
+    priority: 3
+
+# Training output for Mexico model
+training:
+  output_dir: "./models/spanish-slang-whisper-mexico"
+
+# Mexico-specific slang markers (Mexican Spanish)
+slang_markers:
+  lexical:
+    - "chido"
+    - "padre"
+    - "neta"
+    - "chale"
+    - "onda"
+    - "guey"
+    - "wey"
+    - "morro"
+    - "morra"
+    - "chingon"
+    - "chingar"
+    - "naco"
+    - "fresa"
+    - "chavo"
+    - "chava"
+    - "cuate"
+    - "carnal"
+    - "compa"
+    - "mano"
+    - "vato"
+    - "bronca"
+    - "lana"
+    - "feria"
+    - "chamba"
+    - "jale"
+    - "pedo"
+    - "cura"
+    - "cotorrear"
+  expressions:
+    - "que chido"
+    - "esta padre"
+    - "que onda"
+    - "no mames"
+    - "a huevo"
+    - "que pedo"
+    - "no manches"
+    - "a poco"
+    - "orale"
+    - "andale"
+    - "que rollo"
+    - "de volada"
+    - "al chile"
+    - "a toda madre"

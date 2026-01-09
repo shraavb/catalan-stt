@@ -1,22 +1,22 @@
 #!/bin/bash
-# RunPod Setup Script for CatalanSTT Training
+# RunPod Setup Script for SpanishSlangSTT Training
 # Run this on a RunPod GPU instance
 
 set -e
 
-echo "=== CatalanSTT RunPod Setup ==="
+echo "=== SpanishSlangSTT RunPod Setup ==="
 
 # Install dependencies
 echo "Installing dependencies..."
 pip install -q torch transformers datasets librosa jiwer evaluate tensorboard accelerate huggingface_hub tqdm requests
 
 # Clone repo (if not already present)
-if [ ! -d "catalan-stt" ]; then
+if [ ! -d "spanish-slang-stt" ]; then
     echo "Cloning repository..."
-    git clone https://github.com/shraavb/catalan-stt.git
-    cd catalan-stt
+    git clone https://github.com/shraavb/spanish-slang-stt.git
+    cd spanish-slang-stt
 else
-    cd catalan-stt
+    cd spanish-slang-stt
     git pull
 fi
 
@@ -24,50 +24,7 @@ fi
 export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 
 # Create data directories
-mkdir -p data/raw/archives
-
-# Download datasets from Hugging Face (~1.8GB)
-echo ""
-echo "Downloading datasets from Hugging Face (~1.8GB)..."
-python -c "
-from huggingface_hub import hf_hub_download
-import os
-
-os.makedirs('data/raw/archives', exist_ok=True)
-
-print('Downloading ca_es_female.zip...')
-hf_hub_download(
-    repo_id='shraavb/catalan-stt-data',
-    filename='ca_es_female.zip',
-    repo_type='dataset',
-    local_dir='data/raw/archives',
-    local_dir_use_symlinks=False
-)
-
-print('Downloading ca_es_male.zip...')
-hf_hub_download(
-    repo_id='shraavb/catalan-stt-data',
-    filename='ca_es_male.zip',
-    repo_type='dataset',
-    local_dir='data/raw/archives',
-    local_dir_use_symlinks=False
-)
-
-print('Downloads complete!')
-"
-
-# Extract datasets
-echo ""
-echo "Extracting datasets..."
-mkdir -p data/raw/google-catalan-female data/raw/google-catalan-male
-unzip -q -o data/raw/archives/ca_es_female.zip -d data/raw/google-catalan-female
-unzip -q -o data/raw/archives/ca_es_male.zip -d data/raw/google-catalan-male
-echo "Extraction complete!"
-
-# Prepare data
-echo ""
-echo "Preparing datasets..."
-python scripts/prepare_datasets.py --input-dir data/raw --output-dir data/processed
+mkdir -p data/raw data/processed data/splits
 
 # Check GPU
 echo ""
@@ -76,9 +33,12 @@ python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}'); 
 
 echo ""
 echo "=== Ready to Train ==="
-echo "Run the following command to start training:"
+echo "Place your training data in data/raw/ then run:"
 echo ""
 echo "export PYTHONPATH=\${PYTHONPATH}:\$(pwd)"
+echo "python scripts/prepare_datasets.py --input-dir data/raw --output-dir data/processed"
+echo ""
+echo "Then start training with:"
 echo "python scripts/train.py \\"
 echo "  --config configs/default.yaml \\"
 echo "  --train-manifest data/splits/train.json \\"

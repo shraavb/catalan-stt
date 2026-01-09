@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.37 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.37 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05246561030184632 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.05246561030184632 
+            xmax = 0.31984365709970586 
+            text = "buEno" 
+        intervals [3]:
+            xmin = 0.31984365709970586 
+            xmax = 0.5437642386290039 
+            text = "puEs" 
+        intervals [4]:
+            xmin = 0.5437642386290039 
+            xmax = 0.6248501227942814 
+            text = "<sil>" 
+        intervals [5]:
+            xmin = 0.6248501227942814 
+            xmax = 0.9547686127398153 
+            text = "sIn" 
+        intervals [6]:
+            xmin = 0.9547686127398153 
+            xmax = 1.3005867889477845 
+            text = "dUda" 
+        intervals [7]:
+            xmin = 1.3005867889477845 
+            xmax = 1.3920099849567877 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 1.3920099849567877 
+            xmax = 2.003023687532143 
+            text = "Este" 
+        intervals [9]:
+            xmin = 2.003023687532143 
+            xmax = 2.215019504364614 
+            text = "Es" 
+        intervals [10]:
+            xmin = 2.215019504364614 
+            xmax = 2.402282475899963 
+            text = "++dis++" 
+        intervals [11]:
+            xmin = 2.402282475899963 
+            xmax = 2.4870808026329514 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 2.4870808026329514 
+            xmax = 2.7838749461984107 
+            text = "tEma" 
+        intervals [13]:
+            xmin = 2.7838749461984107 
+            xmax = 2.8845729591938345 
+            text = "<sil>" 
+        intervals [14]:
+            xmin = 2.8845729591938345 
+            xmax = 3.15840088926911 
+            text = "cOn" 
+        intervals [15]:
+            xmin = 3.15840088926911 
+            xmax = 3.37 
+            text = "<sil>" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.34 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.34 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09051125117199706 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.09051125117199706 
+            xmax = 0.21351037501235434 
+            text = "dE" 
+        intervals [3]:
+            xmin = 0.21351037501235434 
+            xmax = 0.6035075969451945 
+            text = "dOnde" 
+        intervals [4]:
+            xmin = 0.6035075969451945 
+            xmax = 0.7235067421552992 
+            text = "dE" 
+        intervals [5]:
+            xmin = 0.7235067421552992 
+            xmax = 0.9785049257267716 
+            text = "dOnde" 
+        intervals [6]:
+            xmin = 0.9785049257267716 
+            xmax = 1.0895041350461183 
+            text = "sE" 
+        intervals [7]:
+            xmin = 1.0895041350461183 
+            xmax = 1.3175025109453173 
+            text = "nOs" 
+        intervals [8]:
+            xmin = 1.3175025109453173 
+            xmax = 1.5995005021890634 
+            text = "viEnen" 
+        intervals [9]:
+            xmin = 1.5995005021890634 
+            xmax = 1.8424987712395253 
+            text = "Esas" 
+        intervals [10]:
+            xmin = 1.8424987712395253 
+            xmax = 2.5474937493488903 
+            text = "atribuciOnes" 
+        intervals [11]:
+            xmin = 2.5474937493488903 
+            xmax = 2.7184925312732893 
+            text = "Al" 
+        intervals [12]:
+            xmin = 2.7184925312732893 
+            xmax = 3.255488706088508 
+            text = "meJicAno" 
+        intervals [13]:
+            xmin = 3.255488706088508 
+            xmax = 3.34 
+            text = "<sil>" 

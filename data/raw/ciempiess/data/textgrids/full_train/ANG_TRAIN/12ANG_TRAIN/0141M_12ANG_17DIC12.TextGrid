@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.5 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.5 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19462788037953235 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.19462788037953235 
+            xmax = 0.31464863605557436 
+            text = "++dis++" 
+        intervals [3]:
+            xmin = 0.31464863605557436 
+            xmax = 0.5781408844459505 
+            text = "vIno" 
+        intervals [4]:
+            xmin = 0.5781408844459505 
+            xmax = 0.6766784564554388 
+            text = "El" 
+        intervals [5]:
+            xmin = 0.6766784564554388 
+            xmax = 1.1705165081597764 
+            text = "temblOr" 
+        intervals [6]:
+            xmin = 1.1705165081597764 
+            xmax = 1.253153749772789 
+            text = "y" 
+        intervals [7]:
+            xmin = 1.253153749772789 
+            xmax = 1.4026878060249068 
+            text = "nOs" 
+        intervals [8]:
+            xmin = 1.4026878060249068 
+            xmax = 1.7744305714705184 
+            text = "tumbO" 
+        intervals [9]:
+            xmin = 1.7744305714705184 
+            xmax = 2.2541836950403256 
+            text = "todavIa" 
+        intervals [10]:
+            xmin = 2.2541836950403256 
+            xmax = 2.6083433019532363 
+            text = "algUnos" 
+        intervals [11]:
+            xmin = 2.6083433019532363 
+            xmax = 2.696883203681464 
+            text = "dE" 
+        intervals [12]:
+            xmin = 2.696883203681464 
+            xmax = 2.8365794930748898 
+            text = "lOs" 
+        intervals [13]:
+            xmin = 2.8365794930748898 
+            xmax = 3.327690636061928 
+            text = "lugAres" 
+        intervals [14]:
+            xmin = 3.327690636061928 
+            xmax = 3.5637970406705355 
+            text = "pEro" 
+        intervals [15]:
+            xmin = 3.5637970406705355 
+            xmax = 3.8888297732815147 
+            text = "siEte" 
+        intervals [16]:
+            xmin = 3.8888297732815147 
+            xmax = 4.108605786438072 
+            text = "mIl" 
+        intervals [17]:
+            xmin = 4.108605786438072 
+            xmax = 4.311263783727126 
+            text = "Era" 
+        intervals [18]:
+            xmin = 4.311263783727126 
+            xmax = 4.665530370600983 
+            text = "nuEstro" 
+        intervals [19]:
+            xmin = 4.665530370600983 
+            xmax = 5.242410411724839 
+            text = "lImite" 
+        intervals [20]:
+            xmin = 5.242410411724839 
+            xmax = 5.5 
+            text = "<sil>" 

@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.02 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.02 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.29218633128985544 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.29218633128985544 
+            xmax = 0.4041723144696712 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.4041723144696712 
+            xmax = 0.5420012168448292 
+            text = "lOs" 
+        intervals [4]:
+            xmin = 0.5420012168448292 
+            xmax = 1.4378890822833552 
+            text = "requisItos" 
+        intervals [5]:
+            xmin = 1.4378890822833552 
+            xmax = 1.7996899510181448 
+            text = "pAra" 
+        intervals [6]:
+            xmin = 1.7996899510181448 
+            xmax = 1.8944473214010658 
+            text = "lA" 
+        intervals [7]:
+            xmin = 1.8944473214010658 
+            xmax = 2.661120590862881 
+            text = "acreditaciOn" 
+        intervals [8]:
+            xmin = 2.661120590862881 
+            xmax = 2.7644922676442496 
+            text = "dE" 
+        intervals [9]:
+            xmin = 2.7644922676442496 
+            xmax = 2.962621314808539 
+            text = "Una" 
+        intervals [10]:
+            xmin = 2.962621314808539 
+            xmax = 3.643151520285881 
+            text = "directIva" 
+        intervals [11]:
+            xmin = 3.643151520285881 
+            xmax = 4.582110917716644 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 4.582110917716644 
+            xmax = 4.806082884076276 
+            text = "sE" 
+        intervals [13]:
+            xmin = 4.806082884076276 
+            xmax = 5.16 
+            text = "estAn" 
+        intervals [14]:
+            xmin = 5.16 
+            xmax = 5.693356443116355 
+            text = "poniEndo" 
+        intervals [15]:
+            xmin = 5.693356443116355 
+            xmax = 6.02 
+            text = "<sil>" 

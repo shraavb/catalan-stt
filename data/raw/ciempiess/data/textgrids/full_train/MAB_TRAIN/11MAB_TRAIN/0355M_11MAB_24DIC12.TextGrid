@@ -1,0 +1,90 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.25 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.25 
+        intervals: size = 19 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07082056159699328 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.07082056159699328 
+            xmax = 0.3301798696897815 
+            text = "nO" 
+        intervals [3]:
+            xmin = 0.3301798696897815 
+            xmax = 0.7147471196204676 
+            text = "durEn" 
+        intervals [4]:
+            xmin = 0.7147471196204676 
+            xmax = 0.9651630032962631 
+            text = "mAs" 
+        intervals [5]:
+            xmin = 0.9651630032962631 
+            xmax = 1.0993143695511536 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.0993143695511536 
+            xmax = 1.322899979975971 
+            text = "sEis" 
+        intervals [7]:
+            xmin = 1.322899979975971 
+            xmax = 2.30263157895 
+            text = "mEses" 
+        intervals [8]:
+            xmin = 2.30263157895 
+            xmax = 2.8253952820307444 
+            text = "Osea" 
+        intervals [9]:
+            xmin = 2.8253952820307444 
+            xmax = 3.1473585610424815 
+            text = "El" 
+        intervals [10]:
+            xmin = 3.1473585610424815 
+            xmax = 3.7733982702319704 
+            text = "ponEn" 
+        intervals [11]:
+            xmin = 3.7733982702319704 
+            xmax = 4.211626066664612 
+            text = "finitUd" 
+        intervals [12]:
+            xmin = 4.211626066664612 
+            xmax = 4.30106031083454 
+            text = "A" 
+        intervals [13]:
+            xmin = 4.30106031083454 
+            xmax = 4.488872223591386 
+            text = "lA" 
+        intervals [14]:
+            xmin = 4.488872223591386 
+            xmax = 5.043364537444933 
+            text = "huElga" 
+        intervals [15]:
+            xmin = 5.043364537444933 
+            xmax = 5.535252880379532 
+            text = "yA" 
+        intervals [16]:
+            xmin = 5.535252880379532 
+            xmax = 5.66046082221743 
+            text = "nO" 
+        intervals [17]:
+            xmin = 5.66046082221743 
+            xmax = 5.740951641970364 
+            text = "Es" 
+        intervals [18]:
+            xmin = 5.740951641970364 
+            xmax = 6.009254374480145 
+            text = "huElga" 
+        intervals [19]:
+            xmin = 6.009254374480145 
+            xmax = 6.25 
+            text = "<sil>" 

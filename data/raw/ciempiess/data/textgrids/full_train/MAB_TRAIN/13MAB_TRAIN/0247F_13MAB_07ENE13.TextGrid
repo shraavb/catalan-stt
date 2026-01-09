@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.99 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.99 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.054088389782403025 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.054088389782403025 
+            xmax = 0.19329475496688742 
+            text = "En" 
+        intervals [3]:
+            xmin = 0.19329475496688742 
+            xmax = 0.32770090066225166 
+            text = "lAs" 
+        intervals [4]:
+            xmin = 0.32770090066225166 
+            xmax = 0.9565296537369916 
+            text = "polIticas" 
+        intervals [5]:
+            xmin = 0.9565296537369916 
+            xmax = 1.7245647719962158 
+            text = "ambientAles" 
+        intervals [6]:
+            xmin = 1.7245647719962158 
+            xmax = 2.0077777218543047 
+            text = "<sil>" 
+        intervals [7]:
+            xmin = 2.0077777218543047 
+            xmax = 2.263909507975321 
+            text = "quE" 
+        intervals [8]:
+            xmin = 2.263909507975321 
+            xmax = 2.7260904920246793 
+            text = "vAya" 
+        intervals [9]:
+            xmin = 2.7260904920246793 
+            xmax = 3.1234797493381468 
+            text = "A" 
+        intervals [10]:
+            xmin = 3.1234797493381468 
+            xmax = 3.4258411407723064 
+            text = "A" 
+        intervals [11]:
+            xmin = 3.4258411407723064 
+            xmax = 3.857785985678249 
+            text = "fOndo" 
+        intervals [12]:
+            xmin = 3.857785985678249 
+            xmax = 4.008966681395329 
+            text = "A" 
+        intervals [13]:
+            xmin = 4.008966681395329 
+            xmax = 4.535939392180579 
+            text = "tOdo" 
+        intervals [14]:
+            xmin = 4.535939392180579 
+            xmax = 4.743272917735431 
+            text = "A" 
+        intervals [15]:
+            xmin = 4.743272917735431 
+            xmax = 4.950606443290283 
+            text = "Edu" 
+        intervals [16]:
+            xmin = 4.950606443290283 
+            xmax = 4.99 
+            text = "<sil>" 

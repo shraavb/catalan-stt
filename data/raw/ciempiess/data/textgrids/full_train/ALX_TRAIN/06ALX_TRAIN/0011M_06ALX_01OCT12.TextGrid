@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.73 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.73 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1010799302010626 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.1010799302010626 
+            xmax = 0.2719439825462588 
+            text = "en" 
+        intervals [3]:
+            xmin = 0.2719439825462588 
+            xmax = 0.4126555550658321 
+            text = "la" 
+        intervals [4]:
+            xmin = 0.4126555550658321 
+            xmax = 0.7945869661903884 
+            text = "cAlle" 
+        intervals [5]:
+            xmin = 0.7945869661903884 
+            xmax = 0.928597987637601 
+            text = "es" 
+        intervals [6]:
+            xmin = 0.928597987637601 
+            xmax = 1.169817826242584 
+            text = "decIr" 
+        intervals [7]:
+            xmin = 1.169817826242584 
+            xmax = 1.297128296617436 
+            text = "es" 
+        intervals [8]:
+            xmin = 1.297128296617436 
+            xmax = 1.454591246817911 
+            text = "una" 
+        intervals [9]:
+            xmin = 1.454591246817911 
+            xmax = 1.960482852781139 
+            text = "hipOtesis" 
+        intervals [10]:
+            xmin = 1.960482852781139 
+            xmax = 2.610436306800121 
+            text = "normatIva" 
+        intervals [11]:
+            xmin = 2.610436306800121 
+            xmax = 2.73533333333 
+            text = "que" 
+        intervals [12]:
+            xmin = 2.73533333333 
+            xmax = 2.952164411490513 
+            text = "crEa" 
+        intervals [13]:
+            xmin = 2.952164411490513 
+            xmax = 3.0292207488226603 
+            text = "el" 
+        intervals [14]:
+            xmin = 3.0292207488226603 
+            xmax = 3.6423211719436583 
+            text = "legisladOr" 
+        intervals [15]:
+            xmin = 3.6423211719436583 
+            xmax = 3.73 
+            text = "<sil>" 

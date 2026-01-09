@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.1 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.1 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0838820435193945 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.0838820435193945 
+            xmax = 0.21403629139072847 
+            text = "A" 
+        intervals [3]:
+            xmin = 0.21403629139072847 
+            xmax = 0.6810260584529368 
+            text = "firmAr" 
+        intervals [4]:
+            xmin = 0.6810260584529368 
+            xmax = 0.7375579020780941 
+            text = "Y" 
+        intervals [5]:
+            xmin = 0.7375579020780941 
+            xmax = 0.7549141698577478 
+            text = "A" 
+        intervals [6]:
+            xmin = 0.7549141698577478 
+            xmax = 1.200053320719016 
+            text = "emitIr" 
+        intervals [7]:
+            xmin = 1.200053320719016 
+            xmax = 1.593947612146902 
+            text = "vOtos" 
+        intervals [8]:
+            xmin = 1.593947612146902 
+            xmax = 1.7394584907615092 
+            text = "En" 
+        intervals [9]:
+            xmin = 1.7394584907615092 
+            xmax = 2.2114815848040146 
+            text = "cOntra" 
+        intervals [10]:
+            xmin = 2.2114815848040146 
+            xmax = 2.73333333333 
+            text = "pEro" 
+        intervals [11]:
+            xmin = 2.73333333333 
+            xmax = 2.9603302527962607 
+            text = "nO" 
+        intervals [12]:
+            xmin = 2.9603302527962607 
+            xmax = 3.1555277728890263 
+            text = "sOn" 
+        intervals [13]:
+            xmin = 3.1555277728890263 
+            xmax = 3.411059071919556 
+            text = "vOtos" 
+        intervals [14]:
+            xmin = 3.411059071919556 
+            xmax = 4.000341684011353 
+            text = "razonAdas" 
+        intervals [15]:
+            xmin = 4.000341684011353 
+            xmax = 4.1 
+            text = "<sil>" 

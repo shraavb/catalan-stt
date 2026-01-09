@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11762371664879441 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.11762371664879441 
+            xmax = 0.2799375 
+            text = "pEro" 
+        intervals [3]:
+            xmin = 0.2799375 
+            xmax = 0.4229375 
+            text = "nO" 
+        intervals [4]:
+            xmin = 0.4229375 
+            xmax = 0.7781448076698483 
+            text = "votAmos" 
+        intervals [5]:
+            xmin = 0.7781448076698483 
+            xmax = 0.919685041460074 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 0.919685041460074 
+            xmax = 1.0738066293649866 
+            text = "nO" 
+        intervals [7]:
+            xmin = 1.0738066293649866 
+            xmax = 1.429229883104887 
+            text = "acudImos" 
+        intervals [8]:
+            xmin = 1.429229883104887 
+            xmax = 1.5047180077930074 
+            text = "A" 
+        intervals [9]:
+            xmin = 1.5047180077930074 
+            xmax = 1.6368222259972183 
+            text = "lAs" 
+        intervals [10]:
+            xmin = 1.6368222259972183 
+            xmax = 1.8727226156475945 
+            text = "Urnas" 
+        intervals [11]:
+            xmin = 1.8727226156475945 
+            xmax = 2.0551522503105524 
+            text = "pAra" 
+        intervals [12]:
+            xmin = 2.0551522503105524 
+            xmax = 2.306779332604287 
+            text = "votAr" 
+        intervals [13]:
+            xmin = 2.306779332604287 
+            xmax = 3 
+            text = "<sil>" 

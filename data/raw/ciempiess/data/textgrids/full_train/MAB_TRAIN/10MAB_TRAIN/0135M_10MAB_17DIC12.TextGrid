@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.4 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 5.4 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.23581496687367534 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.23581496687367534 
+            xmax = 0.936403385258415 
+            text = "A" 
+        intervals [3]:
+            xmin = 0.936403385258415 
+            xmax = 1.1614000503935142 
+            text = "++dis++" 
+        intervals [4]:
+            xmin = 1.1614000503935142 
+            xmax = 1.3958277134684078 
+            text = "A" 
+        intervals [5]:
+            xmin = 1.3958277134684078 
+            xmax = 1.8 
+            text = "Estas" 
+        intervals [6]:
+            xmin = 1.8 
+            xmax = 2.2527012405697433 
+            text = "dIchas" 
+        intervals [7]:
+            xmin = 2.2527012405697433 
+            xmax = 2.7040418562599124 
+            text = "rEdes" 
+        intervals [8]:
+            xmin = 2.7040418562599124 
+            xmax = 3.0462523529324583 
+            text = "++dis++" 
+        intervals [9]:
+            xmin = 3.0462523529324583 
+            xmax = 3.6404052231395165 
+            text = "limitAndo" 
+        intervals [10]:
+            xmin = 3.6404052231395165 
+            xmax = 3.7791756213964938 
+            text = "lA" 
+        intervals [11]:
+            xmin = 3.7791756213964938 
+            xmax = 4.213001526627044 
+            text = "libertAd" 
+        intervals [12]:
+            xmin = 4.213001526627044 
+            xmax = 4.291144080985342 
+            text = "dE" 
+        intervals [13]:
+            xmin = 4.291144080985342 
+            xmax = 4.8852969511924 
+            text = "expresiOn" 
+        intervals [14]:
+            xmin = 4.8852969511924 
+            xmax = 5.4 
+            text = "++dis++" 

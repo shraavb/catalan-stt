@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.85 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.85 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0681192070030896 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.0681192070030896 
+            xmax = 0.34932736869207 
+            text = "tAban" 
+        intervals [3]:
+            xmin = 0.34932736869207 
+            xmax = 0.5044187693099896 
+            text = "lAs" 
+        intervals [4]:
+            xmin = 0.5044187693099896 
+            xmax = 1.2213986869207 
+            text = "haciEndas" 
+        intervals [5]:
+            xmin = 1.2213986869207 
+            xmax = 1.7629473480947475 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 1.7629473480947475 
+            xmax = 1.881676428939238 
+            text = "++dis++" 
+        intervals [7]:
+            xmin = 1.881676428939238 
+            xmax = 2.6711170829042223 
+            text = "rAnchos" 
+        intervals [8]:
+            xmin = 2.6711170829042223 
+            xmax = 3.2622441426364572 
+            text = "<sil>" 
+        intervals [9]:
+            xmin = 3.2622441426364572 
+            xmax = 3.481137358393408 
+            text = "lOs" 
+        intervals [10]:
+            xmin = 3.481137358393408 
+            xmax = 3.821829943357363 
+            text = "biEnes" 
+        intervals [11]:
+            xmin = 3.821829943357363 
+            xmax = 3.8955619207003083 
+            text = "<sil>" 
+        intervals [12]:
+            xmin = 3.8955619207003083 
+            xmax = 4.584574536560247 
+            text = "comunAles" 
+        intervals [13]:
+            xmin = 4.584574536560247 
+            xmax = 4.85 
+            text = "<sil>" 

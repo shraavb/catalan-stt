@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.95 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.95 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.41094226114007243 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.41094226114007243 
+            xmax = 1.39 
+            text = "aumentAndo" 
+        intervals [3]:
+            xmin = 1.39 
+            xmax = 2.307684347362163 
+            text = "<sil>" 
+        intervals [4]:
+            xmin = 2.307684347362163 
+            xmax = 2.42427156215826 
+            text = "El" 
+        intervals [5]:
+            xmin = 2.42427156215826 
+            xmax = 2.4825651695563087 
+            text = "<sil>" 
+        intervals [6]:
+            xmin = 2.4825651695563087 
+            xmax = 3.010850986601124 
+            text = "crecimiEnto" 
+        intervals [7]:
+            xmin = 3.010850986601124 
+            xmax = 3.2319954419134276 
+            text = "<sil>" 
+        intervals [8]:
+            xmin = 3.2319954419134276 
+            xmax = 3.965030637189846 
+            text = "poblacionAl" 
+        intervals [9]:
+            xmin = 3.965030637189846 
+            xmax = 5.108664511822226 
+            text = "<sil>" 
+        intervals [10]:
+            xmin = 5.108664511822226 
+            xmax = 5.286277846863155 
+            text = "En" 
+        intervals [11]:
+            xmin = 5.286277846863155 
+            xmax = 5.346393129492393 
+            text = "++dis++" 
+        intervals [12]:
+            xmin = 5.346393129492393 
+            xmax = 6.059578982502893 
+            text = "princIpio" 
+        intervals [13]:
+            xmin = 6.059578982502893 
+            xmax = 6.219886402847527 
+            text = "lA" 
+        intervals [14]:
+            xmin = 6.219886402847527 
+            xmax = 6.75181557035472 
+            text = "regiOn" 
+        intervals [15]:
+            xmin = 6.75181557035472 
+            xmax = 6.95 
+            text = "<sil>" 

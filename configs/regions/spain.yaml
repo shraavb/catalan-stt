@@ -1,0 +1,65 @@
+# Spain (Peninsular Spanish) Configuration
+# Inherits from: base.yaml
+
+_inherit: "../base.yaml"
+
+region: spain
+language_code: "es-ES"
+
+# Spain-specific datasets
+datasets:
+  # Spanish Conversational Corpus (MagicHub)
+  spanish-conversational:
+    enabled: true
+    language: "es"
+    source: "magichub"
+    manual_download: true
+    download_url: "https://magichub.com/datasets/spanish-conversational-speech-corpus/"
+    hours: 5.56
+    priority: 1
+
+  # Mozilla Common Voice - Spain locale
+  common-voice-spain:
+    enabled: true
+    language: "es"
+    locale: "es-ES"
+    source: "mozilla"
+    auto_download: true
+    priority: 2
+
+# Training output for Spain model
+training:
+  output_dir: "./models/spanish-slang-whisper-spain"
+
+# Spain-specific slang markers (Peninsular Spanish)
+slang_markers:
+  lexical:
+    - "tio"
+    - "tia"
+    - "mola"
+    - "molar"
+    - "guay"
+    - "currar"
+    - "pasta"
+    - "flipar"
+    - "quedarse"
+    - "chaval"
+    - "chavala"
+    - "colega"
+    - "rollo"
+    - "mogollon"
+    - "majo"
+    - "maja"
+    - "cani"
+    - "pijo"
+    - "finde"
+    - "quedar"
+  expressions:
+    - "que guay"
+    - "mola mucho"
+    - "me mola"
+    - "que fuerte"
+    - "vaya tela"
+    - "ni de cona"
+    - "ir de canas"
+    - "de puta madre"

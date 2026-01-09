@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.34 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.34 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13343382828625117 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.13343382828625117 
+            xmax = 0.2911529065648008 
+            text = "lE" 
+        intervals [3]:
+            xmin = 0.2911529065648008 
+            xmax = 0.5110037429530822 
+            text = "gUsta" 
+        intervals [4]:
+            xmin = 0.5110037429530822 
+            xmax = 0.5779148670712547 
+            text = "A" 
+        intervals [5]:
+            xmin = 0.5779148670712547 
+            xmax = 0.65916408921475 
+            text = "lA" 
+        intervals [6]:
+            xmin = 0.65916408921475 
+            xmax = 1.0367340038815809 
+            text = "mayorIa" 
+        intervals [7]:
+            xmin = 1.0367340038815809 
+            xmax = 1.1323213240503989 
+            text = "dE" 
+        intervals [8]:
+            xmin = 1.1323213240503989 
+            xmax = 1.2948197683373894 
+            text = "lOs" 
+        intervals [9]:
+            xmin = 1.2948197683373894 
+            xmax = 1.9113579834262653 
+            text = "mejicAnos" 
+        intervals [10]:
+            xmin = 1.9113579834262653 
+            xmax = 2.1885612119158373 
+            text = "Y" 
+        intervals [11]:
+            xmin = 2.1885612119158373 
+            xmax = 2.293707264101537 
+            text = "pOr" 
+        intervals [12]:
+            xmin = 2.293707264101537 
+            xmax = 2.494440636456055 
+            text = "Eso" 
+        intervals [13]:
+            xmin = 2.494440636456055 
+            xmax = 2.6521597147346045 
+            text = "nO" 
+        intervals [14]:
+            xmin = 2.6521597147346045 
+            xmax = 3.235242367764394 
+            text = "progresAmos" 
+        intervals [15]:
+            xmin = 3.235242367764394 
+            xmax = 3.34 
+            text = "<sil>" 

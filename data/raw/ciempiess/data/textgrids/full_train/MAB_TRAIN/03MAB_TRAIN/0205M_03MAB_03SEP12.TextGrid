@@ -1,0 +1,94 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.8 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 3.8 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02060179925823233 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.02060179925823233 
+            xmax = 0.0803909919504684 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.0803909919504684 
+            xmax = 0.27968830092458863 
+            text = "aquI" 
+        intervals [4]:
+            xmin = 0.27968830092458863 
+            xmax = 0.39926668630906076 
+            text = "lO" 
+        intervals [5]:
+            xmin = 0.39926668630906076 
+            xmax = 0.5097861031038001 
+            text = "quE" 
+        intervals [6]:
+            xmin = 0.5097861031038001 
+            xmax = 0.8993217524623078 
+            text = "hacEmos" 
+        intervals [7]:
+            xmin = 0.8993217524623078 
+            xmax = 1.026147312718566 
+            text = "Es" 
+        intervals [8]:
+            xmin = 1.026147312718566 
+            xmax = 1.3142225138720671 
+            text = "jUstamente" 
+        intervals [9]:
+            xmin = 1.3142225138720671 
+            xmax = 1.415682962077074 
+            text = "lO" 
+        intervals [10]:
+            xmin = 1.415682962077074 
+            xmax = 1.5678736343845838 
+            text = "++dis++" 
+        intervals [11]:
+            xmin = 1.5678736343845838 
+            xmax = 1.686997034533036 
+            text = "lO" 
+        intervals [12]:
+            xmin = 1.686997034533036 
+            xmax = 1.7970451790836799 
+            text = "quE" 
+        intervals [13]:
+            xmin = 1.7970451790836799 
+            xmax = 1.9847743668465427 
+            text = "hAcen" 
+        intervals [14]:
+            xmin = 1.9847743668465427 
+            xmax = 2.153083293806351 
+            text = "Estos" 
+        intervals [15]:
+            xmin = 2.153083293806351 
+            xmax = 2.500490181505442 
+            text = "papAs" 
+        intervals [16]:
+            xmin = 2.500490181505442 
+            xmax = 2.578171224717661 
+            text = "Es" 
+        intervals [17]:
+            xmin = 2.578171224717661 
+            xmax = 2.9622608272669666 
+            text = "jUstamente" 
+        intervals [18]:
+            xmin = 2.9622608272669666 
+            xmax = 3.042099677235081 
+            text = "lO" 
+        intervals [19]:
+            xmin = 3.042099677235081 
+            xmax = 3.3959799852018566 
+            text = "contrArio" 
+        intervals [20]:
+            xmin = 3.3959799852018566 
+            xmax = 3.8 
+            text = "++dis++" 

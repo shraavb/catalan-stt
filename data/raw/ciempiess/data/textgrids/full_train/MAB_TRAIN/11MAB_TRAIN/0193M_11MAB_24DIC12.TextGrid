@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.28 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 6.28 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.7695811897353746 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 1.7695811897353746 
+            xmax = 2.0930898924863683 
+            text = "pEro" 
+        intervals [3]:
+            xmin = 2.0930898924863683 
+            xmax = 2.182953421028311 
+            text = "vOy" 
+        intervals [4]:
+            xmin = 2.182953421028311 
+            xmax = 2.3087623609870307 
+            text = "A" 
+        intervals [5]:
+            xmin = 2.3087623609870307 
+            xmax = 2.7760527094051324 
+            text = "tratAr" 
+        intervals [6]:
+            xmin = 2.7760527094051324 
+            xmax = 3.189424940698068 
+            text = "dE" 
+        intervals [7]:
+            xmin = 3.189424940698068 
+            xmax = 3.647728936261976 
+            text = "hablAr" 
+        intervals [8]:
+            xmin = 3.647728936261976 
+            xmax = 3.8094832876374727 
+            text = "Un" 
+        intervals [9]:
+            xmin = 3.8094832876374727 
+            xmax = 4.276773636055574 
+            text = "pOco" 
+        intervals [10]:
+            xmin = 4.276773636055574 
+            xmax = 5.247299744308555 
+            text = "<sil>" 
+        intervals [11]:
+            xmin = 5.247299744308555 
+            xmax = 5.471958565663411 
+            text = "sObre" 
+        intervals [12]:
+            xmin = 5.471958565663411 
+            xmax = 5.678644681309879 
+            text = "El" 
+        intervals [13]:
+            xmin = 5.678644681309879 
+            xmax = 6.092016912602816 
+            text = "tEma" 
+        intervals [14]:
+            xmin = 6.092016912602816 
+            xmax = 6.28 
+            text = "<sil>" 

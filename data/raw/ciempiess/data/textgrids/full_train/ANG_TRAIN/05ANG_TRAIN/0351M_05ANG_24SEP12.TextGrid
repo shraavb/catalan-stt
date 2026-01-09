@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.11 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "palabra" 
+        xmin = 0 
+        xmax = 4.11 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.24730158369572278 
+            text = "<sil>" 
+        intervals [2]:
+            xmin = 0.24730158369572278 
+            xmax = 0.37436025832413844 
+            text = "quE" 
+        intervals [3]:
+            xmin = 0.37436025832413844 
+            xmax = 0.8132902252223017 
+            text = "cOmpran" 
+        intervals [4]:
+            xmin = 0.8132902252223017 
+            xmax = 1.3061238722658532 
+            text = "lIbros" 
+        intervals [5]:
+            xmin = 1.3061238722658532 
+            xmax = 1.402380443954047 
+            text = "dE" 
+        intervals [6]:
+            xmin = 1.402380443954047 
+            xmax = 2.103128285844097 
+            text = "argumentaciOn" 
+        intervals [7]:
+            xmin = 2.103128285844097 
+            xmax = 2.3495451093658732 
+            text = "pEro" 
+        intervals [8]:
+            xmin = 2.3495451093658732 
+            xmax = 2.4997053611994553 
+            text = "nO" 
+        intervals [9]:
+            xmin = 2.4997053611994553 
+            xmax = 2.8770311222171747 
+            text = "sAben" 
+        intervals [10]:
+            xmin = 2.8770311222171747 
+            xmax = 3.077244791328617 
+            text = "pOr" 
+        intervals [11]:
+            xmin = 3.077244791328617 
+            xmax = 3.342912929188032 
+            text = "dOnde" 
+        intervals [12]:
+            xmin = 3.342912929188032 
+            xmax = 3.993607353800221 
+            text = "empezAr" 
+        intervals [13]:
+            xmin = 3.993607353800221 
+            xmax = 4.11 
+            text = "<sil>" 
