@@ -2,7 +2,7 @@
 
 import torch
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
 from dataclasses import dataclass
 import logging
 
@@ -93,11 +93,12 @@ class WhisperTrainer:
     def prepare_dataset(
         self,
         samples: list[AudioSample],
+        max_label_length: int = 448,
     ) -> Dataset:
         """Convert AudioSamples to HuggingFace Dataset format."""
         import librosa
 
-        def process_sample(sample: AudioSample) -> Dict[str, Any]:
+        def process_sample(sample: AudioSample) -> Optional[Dict[str, Any]]:
             # Load and process audio
             audio, _ = librosa.load(sample.audio_path, sr=self.config.sample_rate)
 
@@ -111,6 +112,10 @@ class WhisperTrainer:
             # Tokenize transcript
             labels = self.processor.tokenizer(sample.transcript).input_ids
 
+            # Skip samples with transcripts that are too long for Whisper
+            if len(labels) > max_label_length:
+                return None
+
             return {
                 "input_features": input_features,
                 "labels": labels,
@@ -118,11 +123,19 @@ class WhisperTrainer:
 
         # Process all samples
         processed = []
+        skipped_long = 0
         for sample in samples:
             try:
-                processed.append(process_sample(sample))
+                result = process_sample(sample)
+                if result is not None:
+                    processed.append(result)
+                else:
+                    skipped_long += 1
             except Exception as e:
                 logger.warning(f"Failed to process {sample.audio_path}: {e}")
+
+        if skipped_long > 0:
+            logger.info(f"Skipped {skipped_long} samples with transcripts exceeding {max_label_length} tokens")
 
         # Create HuggingFace Dataset
         dataset = Dataset.from_list(processed)
