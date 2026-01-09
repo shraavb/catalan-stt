@@ -39,13 +39,14 @@ logger = logging.getLogger(__name__)
 VERSION = "0.2.0"
 
 # Supported regions
-SUPPORTED_REGIONS = ["spain", "mexico", "argentina", "general"]
+SUPPORTED_REGIONS = ["spain", "mexico", "argentina", "chile", "general"]
 
 # Region to model path mapping (can be configured)
 REGION_MODEL_PATHS: Dict[str, Optional[str]] = {
     "spain": None,  # Will use environment variable or default
     "mexico": None,
     "argentina": None,
+    "chile": None,
     "general": None,
 }
 
@@ -66,7 +67,7 @@ def create_app(
     app = FastAPI(
         title="SpanishSlangSTT API",
         description="Speech-to-Text API optimized for regional Spanish slang and informal speech. "
-                    "Supports Spain, Mexico, and Argentina regional variants.",
+                    "Supports Spain, Mexico, Argentina, and Chile regional variants.",
         version=VERSION,
         docs_url="/docs",
         redoc_url="/redoc",

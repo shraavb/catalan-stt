@@ -251,7 +251,7 @@ def main():
     parser.add_argument(
         "--region",
         type=str,
-        choices=["spain", "mexico", "argentina", "general"],
+        choices=["spain", "mexico", "argentina", "chile", "general"],
         default=None,
         help="Evaluate only on samples from specific region",
     )

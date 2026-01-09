@@ -167,7 +167,7 @@ Examples:
     parser.add_argument(
         "--region",
         type=str,
-        choices=["spain", "mexico", "argentina", "general"],
+        choices=["spain", "mexico", "argentina", "chile", "general"],
         default=None,
         help="Train model for specific region only",
     )

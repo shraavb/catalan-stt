@@ -1,0 +1,25 @@
+{
+  "model": "catalan-whisper",
+  "base_model": "openai/whisper-small",
+  "evaluation_date": "2026-01-09",
+  "dataset": {
+    "name": "google-catalan",
+    "language": "ca",
+    "test_samples": 424,
+    "failed_samples": 0,
+    "total_duration_seconds": 1677.3
+  },
+  "metrics": {
+    "wer": {
+      "mean": 12.68,
+      "median": 9.09,
+      "std": 15.25
+    },
+    "cer": {
+      "mean": 4.30,
+      "median": 1.94,
+      "std": 6.79
+    }
+  },
+  "notes": "This model was trained on Catalan data (google-catalan-female and google-catalan-male datasets), not Spanish regional slang as originally intended."
+}

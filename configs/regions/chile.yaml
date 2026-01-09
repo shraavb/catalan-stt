@@ -1,0 +1,89 @@
+# Chile (Chilean Spanish) Configuration
+# Inherits from: base.yaml
+
+_inherit: "../base.yaml"
+
+region: chile
+language_code: "es-CL"
+
+# Chile-specific datasets
+datasets:
+  # Chilean Spanish corpus
+  chilean-spanish:
+    enabled: true
+    language: "es"
+    locale: "es-CL"
+    source: "chilean"
+    manual_download: true
+    priority: 1
+
+# Training output for Chile model
+training:
+  output_dir: "./models/spanish-slang-whisper-chile"
+
+# Chile-specific slang markers (Chilean Spanish)
+slang_markers:
+  lexical:
+    - "po"
+    - "weon"
+    - "weona"
+    - "wea"
+    - "fome"
+    - "bacán"
+    - "bacan"
+    - "cachai"
+    - "cachar"
+    - "pololo"
+    - "polola"
+    - "pololear"
+    - "cuático"
+    - "cuatico"
+    - "caleta"
+    - "carrete"
+    - "carretear"
+    - "copete"
+    - "copetear"
+    - "pega"
+    - "pegarse"
+    - "luca"
+    - "lucas"
+    - "gamba"
+    - "cabro"
+    - "cabra"
+    - "cabro chico"
+    - "al tiro"
+    - "al toque"
+    - "filete"
+    - "piola"
+    - "aperrar"
+    - "aperrado"
+    - "mino"
+    - "mina"
+    - "pulento"
+    - "la raja"
+    - "raja"
+    - "puta"
+    - "conchatumare"
+    - "csm"
+    - "wena"
+    - "hueón"
+    - "huevón"
+  expressions:
+    - "que wea"
+    - "que onda"
+    - "cachai o no"
+    - "onda po"
+    - "ya po"
+    - "dale po"
+    - "oye weon"
+    - "la wea"
+    - "puta la wea"
+    - "wena weon"
+    - "que lata"
+    - "la cago"
+    - "la cagué"
+    - "es la raja"
+    - "buena onda"
+    - "mala onda"
+    - "al tiro"
+    - "altiro"
