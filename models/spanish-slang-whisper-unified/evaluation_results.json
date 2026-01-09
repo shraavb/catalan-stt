@@ -1,0 +1,26 @@
+{
+  "model": "spanish-slang-whisper-unified",
+  "base_model": "openai/whisper-small",
+  "evaluation_date": "2026-01-09",
+  "dataset": {
+    "name": "spanish-regional",
+    "language": "es",
+    "regions": ["spain", "mexico", "argentina", "chile"],
+    "test_samples": 424,
+    "failed_samples": 0,
+    "total_duration_seconds": 1677.3
+  },
+  "metrics": {
+    "wer": {
+      "mean": 16.35,
+      "median": 9.09,
+      "std": 79.29
+    },
+    "cer": {
+      "mean": 7.95,
+      "median": 1.99,
+      "std": 77.16
+    }
+  },
+  "notes": "Unified model trained on all 4 Spanish regional dialects (Spain, Mexico, Argentina, Chile). High standard deviation indicates some outlier samples. Median WER of 9.09% shows most samples transcribe accurately."
+}
