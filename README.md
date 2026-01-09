@@ -4,6 +4,8 @@
 
 A custom STT pipeline optimized for recognizing regional Spanish slang and informal speech, featuring Whisper fine-tuning, a production-ready API, and comprehensive evaluation tools.
 
+![Architecture Diagram](docs/architecture.png)
+
 ## Why This Project?
 
 Standard STT models often struggle with informal speech, slang, and regional variations. This project addresses:
