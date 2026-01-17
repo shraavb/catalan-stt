@@ -162,6 +162,72 @@ def evaluate_model(
     )
 
 
+def evaluate_batch(
+    references: List[str],
+    hypotheses: List[str],
+    normalize: bool = True
+) -> Dict:
+    """Evaluate a batch of reference-hypothesis pairs.
+
+    Args:
+        references: List of reference transcriptions
+        hypotheses: List of hypothesis transcriptions
+        normalize: Whether to normalize text before comparison
+
+    Returns:
+        Dictionary with aggregate metrics
+    """
+    if len(references) != len(hypotheses):
+        raise ValueError("references and hypotheses must have same length")
+
+    wers = []
+    cers = []
+
+    for ref, hyp in zip(references, hypotheses):
+        wers.append(compute_wer(ref, hyp, normalize=normalize))
+        cers.append(compute_cer(ref, hyp, normalize=normalize))
+
+    return {
+        "wer": np.mean(wers),
+        "cer": np.mean(cers),
+        "wer_median": np.median(wers),
+        "cer_median": np.median(cers),
+        "num_samples": len(references),
+    }
+
+
+def detect_slang(
+    text: str,
+    slang_dict: Dict[str, Dict],
+    region: Optional[str] = None
+) -> List[str]:
+    """Detect slang terms in text.
+
+    Args:
+        text: Text to analyze
+        slang_dict: Dictionary mapping regions to slang terms
+        region: Optional region to limit search to
+
+    Returns:
+        List of detected slang terms
+    """
+    text_lower = text.lower()
+    detected = []
+
+    if region:
+        regions_to_check = [region.lower()]
+    else:
+        regions_to_check = list(slang_dict.keys())
+
+    for r in regions_to_check:
+        if r in slang_dict:
+            for term in slang_dict[r]:
+                if term.lower() in text_lower:
+                    detected.append(term.lower())
+
+    return detected
+
+
 def format_results(results: EvaluationResults) -> str:
     """Format evaluation results for display."""
     lines = [

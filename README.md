@@ -2,21 +2,19 @@
 
 **Fine-tuned Speech-to-Text for Regional Spanish Slang and Informal Speech**
 
-A custom STT pipeline optimized for recognizing regional Spanish slang and informal speech, featuring Whisper fine-tuning, a production-ready API, and comprehensive evaluation tools.
+A custom STT pipeline that fine-tunes OpenAI's Whisper model to accurately transcribe regional Spanish slang and informal speech. The goal is improved transcription accuracy—correctly converting spoken slang (e.g., "¿Qué onda, güey?", "Che, ¿cómo andás?") into text—not dialect identification or classification.
 
 ![Architecture Diagram](docs/architecture.png)
 
 ## Why This Project?
 
-Standard STT models often struggle with informal speech, slang, and regional variations. This project addresses:
+Standard STT models often mistranscribe informal speech, slang, and regional vocabulary. This project improves transcription accuracy for:
 
-- **Regional slang**: Mexican ("chido", "padre", "neta"), Argentinian ("che", "boludo", "pibe"), Spanish ("mola", "guay", "
-
-")
+- **Regional slang vocabulary**: Mexican ("chido", "padre", "neta"), Argentinian ("che", "boludo", "pibe"), Spanish ("mola", "guay", "tío")
 - **Informal expressions**: Everyday colloquialisms and casual speech patterns
 - **Code-switching**: Natural mixing of formal and informal registers
 
-This project fine-tunes Whisper on Spanish slang data to improve recognition accuracy for informal speech.
+**Note**: This is a transcription tool, not a dialect classifier. The model outputs accurate text from speech—it does not identify or label which regional variety is being spoken.
 
 ## Features
 

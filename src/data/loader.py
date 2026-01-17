@@ -116,22 +116,33 @@ def load_manifest(manifest_path: str | Path) -> list[AudioSample]:
 
 
 def filter_by_region(
-    samples: list[AudioSample],
-    regions: list[str],
-) -> list[AudioSample]:
+    samples: list,
+    region: str | list[str],
+) -> list:
     """Filter samples by region(s).
 
     Args:
-        samples: List of audio samples
-        regions: List of regions to include (e.g., ["spain", "mexico"])
+        samples: List of audio samples (AudioSample or dict)
+        region: Single region or list of regions to include (e.g., "spain" or ["spain", "mexico"])
 
     Returns:
         Filtered list of samples
     """
-    if not regions:
+    if not region:
         return samples
 
-    filtered = [s for s in samples if s.region in regions]
+    # Handle single region string
+    if isinstance(region, str):
+        regions = [region.lower()]
+    else:
+        regions = [r.lower() for r in region]
+
+    def get_region(sample):
+        if isinstance(sample, dict):
+            return sample.get("region", "").lower()
+        return getattr(sample, "region", "").lower()
+
+    filtered = [s for s in samples if get_region(s) in regions]
     logger.info(f"Filtered {len(samples)} samples to {len(filtered)} for regions: {regions}")
     return filtered
 
