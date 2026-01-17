@@ -6,20 +6,20 @@ Supports:
 - Per-region model loading
 """
 
-import os
 import base64
+import logging
+import os
 import tempfile
 import time
-from pathlib import Path
-from typing import Optional, Dict, Literal
 from datetime import datetime
-import logging
+from pathlib import Path
+from typing import Dict, Optional
 
-from fastapi import FastAPI, HTTPException, UploadFile, File, Form, Query
+import librosa
+import numpy as np
+from fastapi import FastAPI, File, Form, HTTPException, Query, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-import numpy as np
-import librosa
 
 from .models import (
     TranscriptionRequest,

@@ -1,11 +1,11 @@
 """Benchmark utilities for comparing STT models."""
 
 import json
-from pathlib import Path
-from typing import Dict, List, Optional, Callable
-from dataclasses import dataclass, asdict
 import logging
+from dataclasses import dataclass
 from datetime import datetime
+from pathlib import Path
+from typing import Callable, Dict, List, Optional
 
 from .metrics import evaluate_model, EvaluationResults, format_results
 

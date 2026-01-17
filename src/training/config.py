@@ -1,9 +1,10 @@
 """Training configuration for Whisper fine-tuning."""
 
-from dataclasses import dataclass, field
-from typing import Optional, List
-import yaml
+from dataclasses import dataclass
 from pathlib import Path
+from typing import Optional
+
+import yaml
 
 
 @dataclass

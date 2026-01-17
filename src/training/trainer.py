@@ -1,21 +1,19 @@
 """Whisper fine-tuning trainer."""
 
-import torch
-from pathlib import Path
-from typing import Optional, Dict, Any, List
-from dataclasses import dataclass
 import logging
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any, Dict, Optional
 
+import evaluate
+import torch
+from datasets import Dataset
 from transformers import (
-    WhisperForConditionalGeneration,
-    WhisperProcessor,
-    WhisperFeatureExtractor,
-    WhisperTokenizer,
     Seq2SeqTrainer,
     Seq2SeqTrainingArguments,
+    WhisperForConditionalGeneration,
+    WhisperProcessor,
 )
-from datasets import Dataset, DatasetDict
-import evaluate
 
 from .config import TrainingConfig
 from ..data.loader import AudioSample, AudioDataset, create_data_collator

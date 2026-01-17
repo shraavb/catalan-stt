@@ -1,12 +1,13 @@
 """Whisper transcription service."""
 
-import torch
-import numpy as np
-from pathlib import Path
-from typing import Optional, List, Tuple
-from dataclasses import dataclass
 import logging
 import time
+from dataclasses import dataclass
+from pathlib import Path
+from typing import List, Optional
+
+import numpy as np
+import torch
 
 logger = logging.getLogger(__name__)
 
