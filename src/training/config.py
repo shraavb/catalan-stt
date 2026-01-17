@@ -71,10 +71,7 @@ class TrainingConfig:
 
     def to_dict(self) -> dict:
         """Convert to dictionary."""
-        return {
-            k: v for k, v in self.__dict__.items()
-            if not k.startswith("_")
-        }
+        return {k: v for k, v in self.__dict__.items() if not k.startswith("_")}
 
     def get_training_args(self):
         """Get HuggingFace TrainingArguments-compatible dict."""

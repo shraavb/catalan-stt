@@ -1,6 +1,6 @@
 """Whisper fine-tuning utilities."""
 
-from .trainer import WhisperTrainer
 from .config import TrainingConfig
+from .trainer import WhisperTrainer
 
 __all__ = ["WhisperTrainer", "TrainingConfig"]

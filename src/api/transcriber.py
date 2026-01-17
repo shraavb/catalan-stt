@@ -15,6 +15,7 @@ logger = logging.getLogger(__name__)
 @dataclass
 class WordInfo:
     """Word with timing and confidence."""
+
     word: str
     start: float
     end: float
@@ -24,6 +25,7 @@ class WordInfo:
 @dataclass
 class TranscriptionResult:
     """Result of transcription."""
+
     text: str
     language: str
     duration_seconds: float
@@ -87,7 +89,7 @@ class Transcriber:
 
     def _load_transformers(self) -> None:
         """Load model using HuggingFace transformers."""
-        from transformers import WhisperProcessor, WhisperForConditionalGeneration
+        from transformers import WhisperForConditionalGeneration, WhisperProcessor
 
         self._processor = WhisperProcessor.from_pretrained(self.model_path)
         self._model = WhisperForConditionalGeneration.from_pretrained(self.model_path)
@@ -136,12 +138,14 @@ class Transcriber:
 
             if word_timestamps and segment.words:
                 for word in segment.words:
-                    all_words.append(WordInfo(
-                        word=word.word.strip(),
-                        start=word.start,
-                        end=word.end,
-                        confidence=word.probability,
-                    ))
+                    all_words.append(
+                        WordInfo(
+                            word=word.word.strip(),
+                            start=word.start,
+                            end=word.end,
+                            confidence=word.probability,
+                        )
+                    )
 
         # Convert log probability to confidence
         avg_confidence = np.exp(total_confidence / max(segment_count, 1))
@@ -163,9 +167,7 @@ class Transcriber:
         """Transcribe using HuggingFace transformers."""
         # Process audio
         input_features = self._processor(
-            audio,
-            sampling_rate=sample_rate,
-            return_tensors="pt"
+            audio, sampling_rate=sample_rate, return_tensors="pt"
         ).input_features.to(self.device)
 
         # Generate

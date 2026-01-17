@@ -1,12 +1,13 @@
 """Audio preprocessing utilities for STT pipeline."""
 
-import numpy as np
-import librosa
-import soundfile as sf
-from pathlib import Path
-from dataclasses import dataclass
-from typing import Optional, Tuple
 import logging
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Optional, Tuple
+
+import librosa
+import numpy as np
+import soundfile as sf
 
 logger = logging.getLogger(__name__)
 
@@ -14,6 +15,7 @@ logger = logging.getLogger(__name__)
 @dataclass
 class AudioMetadata:
     """Metadata for processed audio."""
+
     duration_seconds: float
     sample_rate: int
     num_channels: int
@@ -56,17 +58,13 @@ class AudioPreprocessor:
         if orig_sr == self.target_sample_rate:
             return waveform
 
-        resampled = librosa.resample(
-            waveform,
-            orig_sr=orig_sr,
-            target_sr=self.target_sample_rate
-        )
+        resampled = librosa.resample(waveform, orig_sr=orig_sr, target_sr=self.target_sample_rate)
         return resampled
 
     def normalize_audio(self, waveform: np.ndarray) -> np.ndarray:
         """Normalize audio to target dB level."""
         # Calculate current RMS
-        rms = np.sqrt(np.mean(waveform ** 2))
+        rms = np.sqrt(np.mean(waveform**2))
 
         if rms == 0:
             logger.warning("Audio has zero RMS, skipping normalization")
@@ -146,10 +144,7 @@ class AudioPreprocessor:
         return waveform, metadata
 
     def save_audio(
-        self,
-        waveform: np.ndarray,
-        output_path: str | Path,
-        sample_rate: Optional[int] = None
+        self, waveform: np.ndarray, output_path: str | Path, sample_rate: Optional[int] = None
     ) -> None:
         """Save processed audio to file."""
         output_path = Path(output_path)

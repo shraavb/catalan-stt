@@ -15,8 +15,8 @@ from transformers import (
     WhisperProcessor,
 )
 
+from ..data.loader import AudioSample
 from .config import TrainingConfig
-from ..data.loader import AudioSample, AudioDataset, create_data_collator
 
 logger = logging.getLogger(__name__)
 
@@ -40,9 +40,7 @@ class DataCollatorSpeechSeq2SeqWithPadding:
         labels_batch = self.processor.tokenizer.pad(label_features, return_tensors="pt")
 
         # Replace padding with -100 for loss computation
-        labels = labels_batch["input_ids"].masked_fill(
-            labels_batch.attention_mask.ne(1), -100
-        )
+        labels = labels_batch["input_ids"].masked_fill(labels_batch.attention_mask.ne(1), -100)
 
         # Remove decoder_start_token_id if present at beginning
         if (labels[:, 0] == self.decoder_start_token_id).all().cpu().item():
@@ -70,9 +68,7 @@ class WhisperTrainer:
             task=config.task,
         )
 
-        self.model = WhisperForConditionalGeneration.from_pretrained(
-            config.base_model
-        )
+        self.model = WhisperForConditionalGeneration.from_pretrained(config.base_model)
 
         # Configure model for fine-tuning
         self.model.generation_config.language = config.language
@@ -102,9 +98,7 @@ class WhisperTrainer:
 
             # Get input features
             input_features = self.processor(
-                audio,
-                sampling_rate=self.config.sample_rate,
-                return_tensors="pt"
+                audio, sampling_rate=self.config.sample_rate, return_tensors="pt"
             ).input_features[0]
 
             # Tokenize transcript
@@ -133,7 +127,9 @@ class WhisperTrainer:
                 logger.warning(f"Failed to process {sample.audio_path}: {e}")
 
         if skipped_long > 0:
-            logger.info(f"Skipped {skipped_long} samples with transcripts exceeding {max_label_length} tokens")
+            logger.info(
+                f"Skipped {skipped_long} samples with transcripts exceeding {max_label_length} tokens"
+            )
 
         # Create HuggingFace Dataset
         dataset = Dataset.from_list(processed)

@@ -1,16 +1,16 @@
 """Dataset loading utilities for Whisper fine-tuning."""
 
 import json
-import pandas as pd
-from pathlib import Path
-from dataclasses import dataclass
-from typing import Optional, Dict, Any, Iterator
-import torch
-from torch.utils.data import Dataset, DataLoader
-import librosa
-import numpy as np
-from transformers import WhisperProcessor
 import logging
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any, Dict, Optional
+
+import librosa
+import pandas as pd
+import torch
+from torch.utils.data import Dataset
+from transformers import WhisperProcessor
 
 logger = logging.getLogger(__name__)
 
@@ -18,6 +18,7 @@ logger = logging.getLogger(__name__)
 @dataclass
 class AudioSample:
     """Single audio sample with transcript."""
+
     audio_path: str
     transcript: str
     duration_seconds: float
@@ -59,16 +60,11 @@ class AudioDataset(Dataset):
 
         # Process audio for Whisper
         input_features = self.processor(
-            audio,
-            sampling_rate=self.sample_rate,
-            return_tensors="pt"
+            audio, sampling_rate=self.sample_rate, return_tensors="pt"
         ).input_features[0]
 
         # Process transcript
-        labels = self.processor.tokenizer(
-            sample.transcript,
-            return_tensors="pt"
-        ).input_ids[0]
+        labels = self.processor.tokenizer(sample.transcript, return_tensors="pt").input_ids[0]
 
         return {
             "input_features": input_features,
@@ -221,7 +217,7 @@ def create_data_collator(processor: WhisperProcessor):
 
         # Pad labels
         label_features = [item["labels"] for item in batch]
-        max_label_length = max(len(l) for l in label_features)
+        max_label_length = max(len(label) for label in label_features)
 
         padded_labels = []
         for labels in label_features:

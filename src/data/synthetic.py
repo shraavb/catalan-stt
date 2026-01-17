@@ -1,12 +1,12 @@
 """Generate synthetic audio data using ElevenLabs TTS."""
 
 import json
-import os
-from pathlib import Path
-from dataclasses import dataclass
-from typing import Optional, List
 import logging
+import os
 import time
+from dataclasses import dataclass
+from pathlib import Path
+from typing import List, Optional
 
 logger = logging.getLogger(__name__)
 
@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 @dataclass
 class SynthesisResult:
     """Result of TTS synthesis."""
+
     text: str
     audio_path: str
     voice_id: str
@@ -62,6 +63,7 @@ class SyntheticDataGenerator:
         # Try to import elevenlabs
         try:
             from elevenlabs import ElevenLabs
+
             self._client = ElevenLabs(api_key=self.api_key)
         except ImportError:
             raise ImportError("Please install elevenlabs: pip install elevenlabs")
@@ -78,6 +80,7 @@ class SyntheticDataGenerator:
         if output_filename is None:
             # Generate filename from text hash
             import hashlib
+
             text_hash = hashlib.md5(text.encode()).hexdigest()[:8]
             output_filename = f"synthetic_{text_hash}.mp3"
 
@@ -97,6 +100,7 @@ class SyntheticDataGenerator:
 
             # Get duration
             import librosa
+
             duration = librosa.get_duration(path=str(output_path))
 
             logger.info(f"Synthesized: '{text[:50]}...' -> {output_path}")
@@ -160,14 +164,16 @@ class SyntheticDataGenerator:
         manifest = []
         for result in results:
             if result.success:
-                manifest.append({
-                    "audio_path": result.audio_path,
-                    "transcript": result.text,
-                    "duration": result.duration_seconds,
-                    "language": "es",
-                    "synthetic": True,
-                    "voice_id": result.voice_id,
-                })
+                manifest.append(
+                    {
+                        "audio_path": result.audio_path,
+                        "transcript": result.text,
+                        "duration": result.duration_seconds,
+                        "language": "es",
+                        "synthetic": True,
+                        "voice_id": result.voice_id,
+                    }
+                )
 
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(manifest, f, ensure_ascii=False, indent=2)

@@ -21,17 +21,17 @@ from fastapi import FastAPI, File, Form, HTTPException, Query, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
+from ..evaluation.metrics import compute_cer, compute_wer
 from .models import (
-    TranscriptionRequest,
-    TranscriptionResponse,
+    ErrorResponse,
     EvaluationRequest,
     EvaluationResponse,
     HealthResponse,
-    ErrorResponse,
+    TranscriptionRequest,
+    TranscriptionResponse,
     WordTiming,
 )
-from .transcriber import get_transcriber, Transcriber
-from ..evaluation.metrics import compute_wer, compute_cer
+from .transcriber import Transcriber, get_transcriber
 
 logger = logging.getLogger(__name__)
 
@@ -67,7 +67,7 @@ def create_app(
     app = FastAPI(
         title="SpanishSlangSTT API",
         description="Speech-to-Text API optimized for regional Spanish slang and informal speech. "
-                    "Supports Spain, Mexico, Argentina, and Chile regional variants.",
+        "Supports Spain, Mexico, Argentina, and Chile regional variants.",
         version=VERSION,
         docs_url="/docs",
         redoc_url="/redoc",
@@ -161,7 +161,7 @@ def create_app(
         region: Optional[str] = Query(
             default=None,
             description="Region for transcription (spain, mexico, argentina, general). "
-                        "If not specified, uses general model.",
+            "If not specified, uses general model.",
         ),
     ):
         """Transcribe audio from URL or base64.
@@ -174,8 +174,7 @@ def create_app(
         # Validate region
         if region and region not in SUPPORTED_REGIONS:
             raise HTTPException(
-                status_code=400,
-                detail=f"Invalid region: {region}. Supported: {SUPPORTED_REGIONS}"
+                status_code=400, detail=f"Invalid region: {region}. Supported: {SUPPORTED_REGIONS}"
             )
 
         effective_region = region or "general"
@@ -238,8 +237,7 @@ def create_app(
         # Validate region
         if region and region not in SUPPORTED_REGIONS:
             raise HTTPException(
-                status_code=400,
-                detail=f"Invalid region: {region}. Supported: {SUPPORTED_REGIONS}"
+                status_code=400, detail=f"Invalid region: {region}. Supported: {SUPPORTED_REGIONS}"
             )
 
         effective_region = region or "general"
@@ -377,8 +375,7 @@ async def _get_audio_from_request(request) -> np.ndarray:
 
     else:
         raise HTTPException(
-            status_code=400,
-            detail="Either audio_url or audio_base64 must be provided"
+            status_code=400, detail="Either audio_url or audio_base64 must be provided"
         )
 
 

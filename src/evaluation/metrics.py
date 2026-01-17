@@ -1,8 +1,8 @@
 """Evaluation metrics for STT models."""
 
-from typing import List, Dict, Optional
-from dataclasses import dataclass
 import logging
+from dataclasses import dataclass
+from typing import Dict, List, Optional
 
 import jiwer
 import numpy as np
@@ -13,6 +13,7 @@ logger = logging.getLogger(__name__)
 @dataclass
 class TranscriptionResult:
     """Result of a single transcription."""
+
     reference: str
     hypothesis: str
     wer: float
@@ -24,6 +25,7 @@ class TranscriptionResult:
 @dataclass
 class EvaluationResults:
     """Aggregate evaluation results."""
+
     mean_wer: float
     mean_cer: float
     median_wer: float
@@ -43,6 +45,7 @@ def normalize_text(text: str) -> str:
 
     # Remove punctuation (keep letters, numbers, spaces)
     import re
+
     text = re.sub(r"[^\w\s]", "", text)
 
     # Normalize whitespace
@@ -127,14 +130,16 @@ def evaluate_model(
             wer = compute_wer(reference, hypothesis)
             cer = compute_cer(reference, hypothesis)
 
-            results.append(TranscriptionResult(
-                reference=reference,
-                hypothesis=hypothesis,
-                wer=wer,
-                cer=cer,
-                audio_path=audio_path,
-                duration_seconds=duration,
-            ))
+            results.append(
+                TranscriptionResult(
+                    reference=reference,
+                    hypothesis=hypothesis,
+                    wer=wer,
+                    cer=cer,
+                    audio_path=audio_path,
+                    duration_seconds=duration,
+                )
+            )
 
         except Exception as e:
             logger.warning(f"Failed to transcribe {audio_path}: {e}")
@@ -162,11 +167,7 @@ def evaluate_model(
     )
 
 
-def evaluate_batch(
-    references: List[str],
-    hypotheses: List[str],
-    normalize: bool = True
-) -> Dict:
+def evaluate_batch(references: List[str], hypotheses: List[str], normalize: bool = True) -> Dict:
     """Evaluate a batch of reference-hypothesis pairs.
 
     Args:
@@ -196,11 +197,7 @@ def evaluate_batch(
     }
 
 
-def detect_slang(
-    text: str,
-    slang_dict: Dict[str, Dict],
-    region: Optional[str] = None
-) -> List[str]:
+def detect_slang(text: str, slang_dict: Dict[str, Dict], region: Optional[str] = None) -> List[str]:
     """Detect slang terms in text.
 
     Args:

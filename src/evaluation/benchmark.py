@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Callable, Dict, List, Optional
 
-from .metrics import evaluate_model, EvaluationResults, format_results
+from .metrics import EvaluationResults, evaluate_model, format_results
 
 logger = logging.getLogger(__name__)
 
@@ -15,6 +15,7 @@ logger = logging.getLogger(__name__)
 @dataclass
 class BenchmarkResult:
     """Result from a single model benchmark."""
+
     model_name: str
     results: EvaluationResults
     timestamp: str
@@ -84,10 +85,7 @@ class Benchmark:
         ]
 
         # Sort by WER
-        sorted_results = sorted(
-            self.results.items(),
-            key=lambda x: x[1].results.mean_wer
-        )
+        sorted_results = sorted(self.results.items(), key=lambda x: x[1].results.mean_wer)
 
         for model_name, result in sorted_results:
             lines.append(
